@@ -1,0 +1,17 @@
+<component>
+    <previews>
+        <preview style_bg_color="0xF9F9F9"/>
+    </previews>
+    <styles>
+        <style name="slider_knob" bg_color="0x37c557" pad_all="0" opa="0"/>
+        <style name="slider_indicator" bg_color="0x37c557" radius="22"/>
+        <style name="indicator" bg_color="0xD3D1D1" radius="22" bg_opa="100%"/>
+    </styles>
+    <view extends="lv_slider" width="300" height="70" min_value="0" max_value="100" value="50">
+        <style name="indicator" />
+        <style name="slider_indicator" selector="indicator"/>
+        <style name="slider_knob" selector="knob"/>
+        <lv_label style_text_font="font_hour_32" bind_text="battery_value" align="right_mid" style_pad_right="15" style_text_color="0x474747"></lv_label>
+        <lv_image src="img_charging_no_stroke" align="left_mid" style_pad_left="35"></lv_image>
+    </view >
+</component>

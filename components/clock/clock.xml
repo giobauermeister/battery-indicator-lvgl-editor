@@ -1,0 +1,8 @@
+<component>
+   <styles>
+       <style name="main" text_font="font_hour_32"/>
+   </styles>
+   <view extends="lv_label" text="10:55">
+        <style name="main" />
+   </view>
+</component>

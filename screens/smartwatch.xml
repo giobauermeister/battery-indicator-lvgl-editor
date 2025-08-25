@@ -1,0 +1,28 @@
+<screen>
+    <styles>
+        <style name="slider_knob" bg_color="0x37c557" pad_all="10"/>
+        <style name="slider_indicator" bg_color="0x505050" />
+        <style name="slider_bg" bg_color="0x929292" />
+    </styles>
+    <view style_bg_color="0xF9F9F9" scrollable="false">
+        <top_bar ></top_bar>
+        <!-- <lv_label style_text_font="font_hour_32" bind_text="battery_value" align="center" x="4" y="-140"></lv_label> -->
+        <!-- <lv_slider align="center" bind_value="battery_value" min_value="0" max_value="100" width="300" height="18" x="1" y="-43">
+            <style name="slider_knob" selector="knob"/>
+            <style name="slider_indicator" selector="indicator"/>
+            <style name="slider_bg" selector="main"/>
+        </lv_slider> -->
+        <charge_slider bind_value="battery_value" align="center" x="0" y="-95"></charge_slider>
+        <!-- <lv_checkbox text="Low power mode" bind_checked="low_power_mode" align="center" style_text_font="font_hour_32" x="4" y="55">
+            <event_cb trigger="clicked" callback="check_low_power_click_cb"/>
+        </lv_checkbox>
+        <lv_checkbox text="Charging" bind_checked="charging" align="center" style_text_font="font_hour_32" x="-55" y="136"></lv_checkbox> -->
+        <button name="btn_low_power_toggle" subject="low_power_mode" text="LOW POWER MODE" enabled_color="0xfecc0b" align="center" x="0" y="21" >
+            <event_cb trigger="clicked" callback="btn_low_power_toggle_cb"/>
+        </button>
+
+        <button name="btn_charging_toggle" subject="charging" text="CHARGING" enabled_color="0x37c557" align="center" x="0" y="144" >
+            <event_cb trigger="clicked" callback="btn_charging_toggle_cb"/>
+        </button>
+    </view>
+</screen>

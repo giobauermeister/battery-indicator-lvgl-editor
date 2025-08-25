@@ -1,0 +1,21 @@
+<component>
+    <api>
+        <prop name="text" type="string"/>
+        <prop name="subject" type="subject"></prop>
+        <prop name="enabled_color" type="color"></prop>
+    </api>
+    <consts>
+        <bool name="low_power" value="false"/>
+    </consts>
+    <styles>
+        <style name="main" shadow_width="0" radius="51"/>
+        <style name="button_disabled" bg_color="0xd3d1d1" />
+    </styles>
+    <view extends="lv_button" width="300" height="90" style_bg_color="$enabled_color">
+        <style name="main"/>
+        <lv_label text="$text" style_text_font="inter_28" style_text_color="0x474747" align="center"></lv_label>
+
+        <bind_state_if_eq ref_value="0" subject="$subject" state="user_1"/>
+        <style name="button_disabled" selector="main|user_1"/>
+    </view>
+</component>

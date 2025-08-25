@@ -1,0 +1,30 @@
+<globals>
+    <api>
+        <!-- Add <enumdefs> here -->
+    </api>
+
+    <consts>
+        <!-- Add <px>, <int>, <color> etc here -->
+    </consts>
+
+    <styles>
+        <!-- Add <style> tags here -->
+    </styles>
+
+    <subjects>
+        <int name="battery_value" value="50"/>
+        <int name="low_power_mode" value="0"/>
+        <int name="charging" value="0"/>
+    </subjects>
+
+    <images>
+        <data name="img_charging" src_path="images/img_charging.png" color_format="rgb565a8"/>
+        <data name="img_charging_no_stroke" src_path="images/img_charging_no_stroke.png" color_format="rgb565a8"/>
+    </images>
+
+    <fonts>
+        <bin name="font_hour_32" size="32" bpp="4" as_file="false" range="0x20-0x7F" symbols="" src_path="fonts/Inter_28_Bold.ttf"/>
+        <bin name="inter_28" size="28" bpp="4" as_file="false" range="0x20-0x7F" symbols="" src_path="fonts/Inter_28_Bold.ttf"/>
+        <bin name="font_hour_25" size="25" bpp="4" as_file="false" range="0x20-0x7F" symbols="" src_path="fonts/Inter_28_Bold.ttf"/>
+    </fonts>
+</globals>
