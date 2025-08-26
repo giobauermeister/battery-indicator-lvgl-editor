@@ -13,5 +13,5 @@
         <style name="slider_knob" selector="knob"/>
         <lv_label style_text_font="font_hour_32" bind_text="battery_value" align="right_mid" style_pad_right="15" style_text_color="0x474747"></lv_label>
         <lv_image src="img_charging_no_stroke" align="left_mid" style_pad_left="35"></lv_image>
-    </view >
+    </view>
 </component>
