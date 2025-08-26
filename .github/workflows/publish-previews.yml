@@ -35,6 +35,7 @@ jobs:
         shell: bash
         run: |
           set -euxo pipefail
+          git fetch origin
           if git ls-remote --exit-code --heads origin lvgl-previews; then
             echo "Previews branch exists."
           else
@@ -42,17 +43,16 @@ jobs:
             git checkout --orphan lvgl-previews
             git reset --hard
             mkdir -p branches
-            # Keep Jekyll from ignoring folders/files you might add later
             touch .nojekyll
-            # Minimal index so the branch isn't empty
-            cat > index.html <<'EOF'
-            <!doctype html><meta charset="utf-8"><title>LVGL Previews</title>
-            <h1>LVGL Previews</h1><p>Runtime files will appear under /branches/&lt;branch&gt;/[subfolder]/</p>
-            EOF
+            # minimal index so the branch isn't empty
+            printf '%s\n' \
+              '<!doctype html><meta charset="utf-8"><title>LVGL Previews</title>' \
+              '<h1>LVGL Previews</h1><p>Runtime files will appear under /branches/&lt;branch&gt;/[subfolder]/</p>' \
+              > index.html
             git add -A
             git commit -m "Initialize lvgl-previews branch"
             git push origin lvgl-previews
-            git switch -  # back to previous branch
+            git checkout "${{ inputs.branch }}"
           fi
 
       - name: Download the LVGL CLI (v0.3.0)
