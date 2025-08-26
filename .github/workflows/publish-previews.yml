@@ -1,0 +1,100 @@
+name: Compile and publish LVGL runtime to GitHub Pages
+
+on:
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: Branch to compile
+        required: true
+        default: main
+      subfolder:
+        description: Project subfolder ('.' for repo root)
+        required: true
+        default: "."
+
+permissions:
+  contents: write # needed to push to lvgl-previews
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout (with submodules)
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.branch }}
+          submodules: recursive
+          fetch-depth: 0
+
+      - name: Configure Git
+        run: |
+          git config user.name "${{ github.actor }}"
+          git config user.email "${{ github.actor }}@users.noreply.github.com"
+
+      - name: Ensure 'lvgl-previews' branch exists (create if missing)
+        shell: bash
+        run: |
+          set -euxo pipefail
+          if git ls-remote --exit-code --heads origin lvgl-previews; then
+            echo "Previews branch exists."
+          else
+            echo "Creating orphan lvgl-previews branch."
+            git checkout --orphan lvgl-previews
+            git reset --hard
+            mkdir -p branches
+            # Keep Jekyll from ignoring folders/files you might add later
+            touch .nojekyll
+            # Minimal index so the branch isn't empty
+            cat > index.html <<'EOF'
+            <!doctype html><meta charset="utf-8"><title>LVGL Previews</title>
+            <h1>LVGL Previews</h1><p>Runtime files will appear under /branches/&lt;branch&gt;/[subfolder]/</p>
+            EOF
+            git add -A
+            git commit -m "Initialize lvgl-previews branch"
+            git push origin lvgl-previews
+            git switch -  # back to previous branch
+          fi
+
+      - name: Download the LVGL CLI (v0.3.0)
+        run: |
+          curl -sSLO https://github.com/lvgl/lvgl_editor/releases/download/v.0.3.0/LVGL_CLI-0.3.0-linux-mac.zip
+          unzip -q LVGL_CLI-0.3.0-linux-mac.zip
+          ./lved-cli.js -V
+
+      - name: Compile the preview runtime
+        run: |
+          ./lved-cli.js compile "${{ inputs.subfolder }}"
+
+      - name: Commit runtime to 'lvgl-previews' and push
+        shell: bash
+        run: |
+          set -euxo pipefail
+          BRANCH="${{ inputs.branch }}"
+          SUB="${{ inputs.subfolder }}"
+          DEST_BRANCH="lvgl-previews"
+
+          # Compute the destination folder (omit "/./" if subfolder == ".")
+          if [ "$SUB" = "." ]; then
+            DEST_DIR="$HOME/previews-worktree/branches/$BRANCH"
+          else
+            DEST_DIR="$HOME/previews-worktree/branches/$BRANCH/$SUB"
+          fi
+
+          # Prepare worktree
+          git worktree add -f "$HOME/previews-worktree" "$DEST_BRANCH"
+
+          # Copy runtime artifacts
+          mkdir -p "$DEST_DIR"
+          cp -a "${SUB%/}/runtime"/lved-runtime.* "$DEST_DIR/"
+
+          # (Optional) copy screenshots if you use UI tests
+          if compgen -G "${SUB%/}/runtime/screenshots/*" > /dev/null; then
+            mkdir -p "$DEST_DIR/screenshots"
+            cp -a "${SUB%/}/runtime/screenshots/." "$DEST_DIR/screenshots/"
+          fi
+
+          # Commit & push
+          cd "$HOME/previews-worktree"
+          git add -A
+          git commit -m "Publish runtime for $BRANCH:$SUB by ${{ github.actor }}" || echo "No changes to commit"
+          git push origin "$DEST_BRANCH"
