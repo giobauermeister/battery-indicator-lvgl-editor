@@ -17,7 +17,7 @@
         <style name="slider_indicator" bg_color="0x37c557" radius="1"/>
     </styles>
 
-    <view name="battery" width="75" height="39" scrollable="false">
+    <view name="battery" width="79" height="39" scrollable="false">
         <style name="container" />
 
         <lv_obj name="battery_tip" width="5" height="12" style_radius="0" style_border_width="0" scrollable="false" align="right_mid" style_pad_all="0" style_bg_opa="0">
@@ -26,9 +26,9 @@
             </lv_obj>
         </lv_obj>
 
-        <lv_obj name="battery_border" width="68" height="36" align="left_mid" scrollable="false">
+        <lv_obj name="battery_border" width="71" height="36" align="left_mid" scrollable="false">
             <style name="border" />
-            <lv_slider bind_value="battery_value" min_value="0" max_value="100" align="left_mid" width="56" height="24">
+            <lv_slider bind_value="battery_value" min_value="0" max_value="100" align="left_mid" width="59" height="24">
                 <style name="indicator" />
                 <style name="slider_indicator" selector="indicator"/>
                 <style name="hidden" selector="knob"/>
@@ -40,7 +40,7 @@
             </lv_slider>
         </lv_obj>
 
-        <lv_image src="img_charging" align="left_mid" style_pad_left="40">
+        <lv_image src="img_charging" align="left_mid" style_pad_left="45">
             <bind_flag_if_eq subject="charging" ref_value="0" flag="hidden"/>
         </lv_image>
     </view>
