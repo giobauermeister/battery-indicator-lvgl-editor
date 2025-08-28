@@ -3,7 +3,7 @@
         <preview style_bg_color="0xF9F9F9"/>
     </previews>
     <styles>
-        <style name="slider_knob" bg_color="0x37c557" pad_all="0" opa="0"/>
+        <style name="slider_knob" bg_color="0xFFFFFF" pad_left="-23" pad_right="-41" pad_ver="-19" opa="0"/>
         <style name="slider_indicator" bg_color="0x37c557" radius="22"/>
         <style name="indicator" bg_color="0xD3D1D1" radius="22" bg_opa="100%"/>
     </styles>
