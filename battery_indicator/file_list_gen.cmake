@@ -1,7 +1,11 @@
 list(
   APPEND
   PROJECT_SOURCES
+  ${CMAKE_CURRENT_LIST_DIR}/widgets/wd_battery/wd_battery.c
+  ${CMAKE_CURRENT_LIST_DIR}/widgets/wd_battery/wd_battery_xml_parser.c
+  ${CMAKE_CURRENT_LIST_DIR}/widgets/wd_battery/wd_battery_gen.c
   ${CMAKE_CURRENT_LIST_DIR}/components/battery_indicator/battery_gen.c
+  ${CMAKE_CURRENT_LIST_DIR}/components/battery_indicator_2/battery_indicator_2_gen.c
   ${CMAKE_CURRENT_LIST_DIR}/components/button/button_gen.c
   ${CMAKE_CURRENT_LIST_DIR}/components/charge_slider/charge_slider_gen.c
   ${CMAKE_CURRENT_LIST_DIR}/components/clock/clock_gen.c
@@ -13,5 +17,7 @@ list(
   ${CMAKE_CURRENT_LIST_DIR}/fonts/font_hour_32_data.c
   ${CMAKE_CURRENT_LIST_DIR}/fonts/inter_28_data.c
   ${CMAKE_CURRENT_LIST_DIR}/fonts/font_hour_25_data.c
+  ${CMAKE_CURRENT_LIST_DIR}/fonts/font_hour_30_data.c
   ${CMAKE_CURRENT_LIST_DIR}/images/img_charging_data.c
-  ${CMAKE_CURRENT_LIST_DIR}/images/img_charging_no_stroke_data.c)
+  ${CMAKE_CURRENT_LIST_DIR}/images/img_charging_no_stroke_data.c
+  ${CMAKE_CURRENT_LIST_DIR}/images/img_charging_small_data.c)

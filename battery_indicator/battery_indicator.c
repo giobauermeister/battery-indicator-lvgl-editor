@@ -35,7 +35,8 @@ void battery_indicator_init(const char * asset_path)
 {
     battery_indicator_init_gen(asset_path);
 
-    lv_screen_load(smartwatch_create());
+    lv_obj_t * main_screen = smartwatch_create();
+    lv_screen_load(main_screen);
 }
 
 void btn_low_power_toggle_cb(lv_event_t * e)

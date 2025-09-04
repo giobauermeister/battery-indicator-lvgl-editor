@@ -1,0 +1,74 @@
+<component>
+    <previews>
+        <preview width="100" height="100" style_bg_color="0x2f2f2f" />
+    </previews>
+
+    <api>
+    </api>
+
+    <styles>
+        <style name="container" border_width="0" bg_opa="0" pad_all="0"/>
+        <style name="text_indicator_container" border_width="0" bg_opa="0" pad_all="0" layout="flex" flex_flow="row" pad_column="2" pad_top="0"/>
+        <style name="text_indicator_container_no_charging" border_width="0" bg_opa="0" pad_all="0" layout="flex" flex_flow="row" pad_column="3"/>
+
+        <style name="battery_value_text_color_dark" text_color="0x505050"/>
+        <style name="battery_value_text_color_white" text_color="0xFFFFFF"/>
+        <style name="indicator_red" bg_color="0xFD3B2F"/>
+        <style name="indicator_yellow" bg_color="0xFECC0B"/>
+        <style name="tip_default" bg_color="0xadadad" radius="100" border_width="0"/>
+        <style name="tip_green" bg_color="0x37c557" radius="100" border_width="0"/>
+        <style name="tip_yellow" bg_color="0xFECC0B" radius="100" border_width="0"/>
+        <style name="hidden" opa="0"/>
+        <style name="battery_indicator" bg_color="0x37c557" radius="0"/>
+        <style name="battery_background" bg_color="0x999999" bg_opa="255"/>
+
+        <style name="battery_icon_low_power_color" image_recolor="0x505050" image_recolor_opa="255"/>
+        <style name="battery_icon_normal_color" image_recolor="0xffffff" image_recolor_opa="255"/>
+    </styles>
+
+    <view name="battery" width="79" height="36" scrollable="false">
+        <style name="container" />
+
+        <lv_obj name="battery_tip_container" width="5" height="12" style_radius="0" style_border_width="0" scrollable="false" align="right_mid" style_pad_all="0" style_bg_opa="0">
+            <lv_obj name="battery_tip" width="12" height="12" align="right_mid">
+                <style name="tip_default" />
+                <bind_state_if_lt ref_value="100" subject="battery_value" state="user_1"/>
+                <bind_state_if_eq ref_value="100" subject="battery_value" state="user_2"/>
+                <bind_state_if_eq ref_value="1" subject="low_power_mode" state="user_3"/>
+                <bind_state_if_eq ref_value="0" subject="low_power_mode" state="user_4"/>
+                <style name="tip_default" selector="main|user_1"/>
+                <style name="tip_green" selector="main|user_2|user_4"/>
+                <style name="tip_yellow" selector="main|user_2|user_3"/>
+            </lv_obj>
+        </lv_obj>
+
+        <lv_slider bind_value="battery_value" min_value="0" max_value="100" style_radius="9" width="71" height="36">
+            <style name="hidden" selector="knob"/>
+            <style name="battery_indicator" selector="indicator"/>
+            <style name="battery_background"  selector="main"/>
+
+            <bind_state_if_le ref_value="20" subject="battery_value" state="user_1"/>
+            <style name="indicator_red" selector="indicator|user_1"/>
+
+            <bind_state_if_eq ref_value="1" subject="low_power_mode" state="user_2"/>
+            <style name="indicator_yellow" selector="indicator|user_2"/>
+
+            <lv_obj name="text_indicator" width="content" height="content" scrollable="false" align="center">
+                <style name="text_indicator_container" />
+
+                <bind_style name="text_indicator_container_no_charging" subject="charging" ref_value="0"/>
+
+                <lv_label bind_text="battery_value" style_text_font="font_hour_30" style_text_letter_space="-1" style_text_align="left">
+                    <bind_style name="battery_value_text_color_dark" subject="low_power_mode" ref_value="1"/>
+                    <bind_style name="battery_value_text_color_white" subject="low_power_mode" ref_value="0"/>
+                </lv_label>
+
+                <lv_image src="img_charging_small" style_pad_top="13" >
+                    <bind_flag_if_eq subject="charging" ref_value="0" flag="hidden"/>
+                    <bind_style name="battery_icon_low_power_color" subject="low_power_mode" ref_value="1"/>
+                    <bind_style name="battery_icon_normal_color" subject="low_power_mode" ref_value="0"/>
+                </lv_image>
+            </lv_obj>
+        </lv_slider>
+    </view>
+</component>

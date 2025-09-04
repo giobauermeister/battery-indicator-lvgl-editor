@@ -8,6 +8,16 @@
    <view width="100%" height="60" scrollable="false" style_pad_left="90" style_pad_right="90">
         <style name="main" />
         <clock align="left_mid" style_text_color="0xEDEDED"></clock>
-        <battery align="right_mid"></battery>
+
+        <!-- Try here the 3 different battery indicators -->
+
+        <!-- Old iOS battery indicator, full XML component -->
+        <!-- <battery align="right_mid"></battery> -->
+
+        <!-- New iOS battery indicator, without the normal light state, full XML component -->
+        <!-- <battery_indicator_2 align="right_mid"></battery_indicator_2> -->
+
+        <!-- New iOS battery indicator with light state and fully functional as a widget (XML + custom C code) -->
+        <wd_battery bind_charging="charging" bind_low_power="low_power_mode" bind_value="battery_value" align="right_mid"></wd_battery>
    </view>
 </component>

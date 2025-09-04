@@ -43,8 +43,10 @@ lv_obj_t * charge_slider_create(lv_obj_t * parent)
 
     if (!style_inited) {
         lv_style_init(&slider_knob);
-        lv_style_set_bg_color(&slider_knob, lv_color_hex(0x37c557));
-        lv_style_set_pad_all(&slider_knob, 0);
+        lv_style_set_bg_color(&slider_knob, lv_color_hex(0xFFFFFF));
+        lv_style_set_pad_left(&slider_knob, -23);
+        lv_style_set_pad_right(&slider_knob, -41);
+        lv_style_set_pad_ver(&slider_knob, -19);
         lv_style_set_opa(&slider_knob, 0);
 
         lv_style_init(&slider_indicator);

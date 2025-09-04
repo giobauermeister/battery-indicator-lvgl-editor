@@ -62,8 +62,11 @@ lv_obj_t * top_bar_create(lv_obj_t * parent)
     lv_obj_set_style_text_color(clock_0, lv_color_hex(0xEDEDED), 0);
 
 
-    lv_obj_t * battery_0 = battery_create(lv_obj_0);
-    lv_obj_set_align(battery_0, LV_ALIGN_RIGHT_MID);
+    lv_obj_t * wd_battery_0 = wd_battery_create(lv_obj_0);
+    wd_battery_bind_charging(wd_battery_0, &charging);
+    wd_battery_bind_low_power(wd_battery_0, &low_power_mode);
+    wd_battery_bind_value(wd_battery_0, &battery_value);
+    lv_obj_set_align(wd_battery_0, LV_ALIGN_RIGHT_MID);
 
 
 

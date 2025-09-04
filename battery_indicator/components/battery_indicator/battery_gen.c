@@ -91,7 +91,7 @@ lv_obj_t * battery_create(lv_obj_t * parent)
 
     lv_obj_t * battery = lv_obj_create(parent);
     lv_obj_set_name(battery, "battery");
-    lv_obj_set_width(battery, 75);
+    lv_obj_set_width(battery, 79);
     lv_obj_set_height(battery, 39);
     lv_obj_set_flag(battery, LV_OBJ_FLAG_SCROLLABLE, false);
     lv_obj_add_style(battery, &container, 0);
@@ -117,7 +117,7 @@ lv_obj_t * battery_create(lv_obj_t * parent)
 
     lv_obj_t * battery_border = lv_obj_create(battery);
     lv_obj_set_name(battery_border, "battery_border");
-    lv_obj_set_width(battery_border, 68);
+    lv_obj_set_width(battery_border, 71);
     lv_obj_set_height(battery_border, 36);
     lv_obj_set_align(battery_border, LV_ALIGN_LEFT_MID);
     lv_obj_set_flag(battery_border, LV_OBJ_FLAG_SCROLLABLE, false);
@@ -128,7 +128,7 @@ lv_obj_t * battery_create(lv_obj_t * parent)
     lv_slider_set_min_value(lv_slider_0, 0);
     lv_slider_set_max_value(lv_slider_0, 100);
     lv_obj_set_align(lv_slider_0, LV_ALIGN_LEFT_MID);
-    lv_obj_set_width(lv_slider_0, 56);
+    lv_obj_set_width(lv_slider_0, 59);
     lv_obj_set_height(lv_slider_0, 24);
     lv_obj_add_style(lv_slider_0, &indicator, 0);
     lv_obj_add_style(lv_slider_0, &slider_indicator, LV_PART_INDICATOR);
@@ -143,7 +143,7 @@ lv_obj_t * battery_create(lv_obj_t * parent)
     lv_obj_t * lv_image_0 = lv_image_create(battery);
     lv_image_set_src(lv_image_0, img_charging);
     lv_obj_set_align(lv_image_0, LV_ALIGN_LEFT_MID);
-    lv_obj_set_style_pad_left(lv_image_0, 40, 0);
+    lv_obj_set_style_pad_left(lv_image_0, 45, 0);
     lv_obj_bind_flag_if_eq(lv_image_0, &charging, LV_OBJ_FLAG_HIDDEN, 0);
 
 

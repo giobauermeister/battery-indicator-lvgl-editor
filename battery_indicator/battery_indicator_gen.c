@@ -8,6 +8,7 @@
 #include "battery_indicator_gen.h"
 
 #if LV_USE_XML
+   #include "widgets/wd_battery/wd_battery_private_gen.h"
 #endif
 
 /*********************
@@ -51,6 +52,8 @@ lv_font_t * inter_28;
 extern lv_font_t inter_28_data;
 lv_font_t * font_hour_25;
 extern lv_font_t font_hour_25_data;
+lv_font_t * font_hour_30;
+extern lv_font_t font_hour_30_data;
 
 /*----------------
  * Images
@@ -59,6 +62,8 @@ const void * img_charging;
 extern const void * img_charging_data;
 const void * img_charging_no_stroke;
 extern const void * img_charging_no_stroke_data;
+const void * img_charging_small;
+extern const void * img_charging_small_data;
 
 /*----------------
  * Subjects
@@ -92,12 +97,15 @@ void battery_indicator_init_gen(const char * asset_path)
     inter_28 = &inter_28_data;
     /* get font 'font_hour_25' from a C array */
     font_hour_25 = &font_hour_25_data;
+    /* get font 'font_hour_30' from a C array */
+    font_hour_30 = &font_hour_30_data;
 
     /*----------------
      * Images
      *----------------*/
     img_charging = &img_charging_data;
     img_charging_no_stroke = &img_charging_no_stroke_data;
+    img_charging_small = &img_charging_small_data;
 
 
     /*----------------
@@ -114,11 +122,13 @@ void battery_indicator_init_gen(const char * asset_path)
 
 #if LV_USE_XML
     /*Register widgets*/
+    wd_battery_register();
 
     /* Register fonts */
     lv_xml_register_font(NULL, "font_hour_32", font_hour_32);
     lv_xml_register_font(NULL, "inter_28", inter_28);
     lv_xml_register_font(NULL, "font_hour_25", font_hour_25);
+    lv_xml_register_font(NULL, "font_hour_30", font_hour_30);
 
     /* Register subjects */
     lv_xml_register_subject(NULL, "battery_value", &battery_value);
@@ -137,6 +147,7 @@ void battery_indicator_init_gen(const char * asset_path)
     /* Register images */
     lv_xml_register_image(NULL, "img_charging", img_charging);
     lv_xml_register_image(NULL, "img_charging_no_stroke", img_charging_no_stroke);
+    lv_xml_register_image(NULL, "img_charging_small", img_charging_small);
 #endif
 
 #if LV_USE_XML == 0

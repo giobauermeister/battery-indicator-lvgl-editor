@@ -54,12 +54,14 @@ extern "C" {
 extern lv_font_t * font_hour_32;
 extern lv_font_t * inter_28;
 extern lv_font_t * font_hour_25;
+extern lv_font_t * font_hour_30;
 
 /*----------------
  * Images
  *----------------*/
 extern const void * img_charging;
 extern const void * img_charging_no_stroke;
+extern const void * img_charging_small;
 
 /*----------------
  * Subjects
@@ -93,7 +95,9 @@ void battery_indicator_init_gen(const char * asset_path);
  **********************/
 
 /*Include all the widget and components of this library*/
+#include "widgets/wd_battery/wd_battery_gen.h"
 #include "components/battery_indicator/battery_gen.h"
+#include "components/battery_indicator_2/battery_indicator_2_gen.h"
 #include "components/button/button_gen.h"
 #include "components/charge_slider/charge_slider_gen.h"
 #include "components/clock/clock_gen.h"

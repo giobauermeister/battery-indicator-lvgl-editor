@@ -1,0 +1,52 @@
+<widget>
+   <previews>
+       <preview width="100" height="100" style_bg_color="0x2f2f2f"/>
+   </previews>
+
+   <styles>
+       <style name="container" border_width="0" bg_opa="0" pad_all="0"/>
+       <style name="tip_default" bg_color="0x999999" border_width="0"/>
+       <style name="hidden" opa="0"/>
+        <style name="battery_indicator" bg_color="0xFFFFFF" radius="0"/>
+        <style name="battery_background" bg_color="0x999999" bg_opa="255"/>
+        <style name="text_indicator" border_width="0" bg_opa="0" pad_all="0" layout="flex" flex_flow="row" pad_column="2" pad_top="0"/>
+        <style name="battery_value_text_color_dark" text_color="0x505050"/>
+        <style name="battery_value_text_color_white" text_color="0xFFFFFF"/>
+   </styles>
+
+   <api>
+       <prop name="value" type="int" default="50" help="The value of the battery"></prop>
+       <prop name="low_power" type="bool" default="0" help="The low power state of the battery"></prop>
+       <prop name="charging" type="bool" default="0" help="The charging state of the battery"></prop>
+       <prop name="bind_value" type="subject"></prop>
+       <prop name="bind_low_power" type="subject"></prop>
+       <prop name="bind_charging" type="subject"></prop>
+   </api>
+
+   <view extends="lv_obj" name="battery" width="79" height="36" scrollable="false">
+        <style name="container" />
+        
+        <lv_obj name="battery_tip_container" width="5" height="12" style_radius="0" style_border_width="0" scrollable="false" align="right_mid" style_pad_all="0" style_bg_opa="0">
+            <lv_obj name="battery_tip" width="12" height="12" align="right_mid">
+                <style name="tip_default" />
+            </lv_obj>
+        </lv_obj>
+
+        <lv_slider name="slider_indicator" width="71" height="36" style_radius="9" min_value="0" max_value="100" value="50" clickable="false">
+            <style name="hidden" selector="knob"/>
+            <style name="battery_indicator" selector="indicator"/>
+            <style name="battery_background"  selector="main"/>
+
+            <lv_obj name="text_indicator_container" width="content" height="content" align="center">
+                <style name="text_indicator" />
+
+                <lv_label name="pct_text" text="100" style_text_font="font_hour_30" style_text_letter_space="-1" style_text_align="left">
+                    <style name="battery_value_text_color_dark" />
+                </lv_label>
+
+                <lv_image name="charging_icon" src="img_charging_small" style_pad_top="13">
+                </lv_image>
+            </lv_obj>
+        </lv_slider>
+   </view>
+</widget>
