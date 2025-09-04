@@ -3,8 +3,10 @@
 <!-- ![alt text](repo_assets/battery_indicator.gif)
 ![alt text](repo_assets/battery_indicator_widget.gif) -->
 
-<img src="repo_assets/battery_indicator.gif" width="40%"/>
-<img src="repo_assets/battery_indicator_widget.gif" width="40%"/>
+<p align="center">
+  <img src="repo_assets/battery_indicator.gif" width="40%"/>
+  <img src="repo_assets/battery_indicator_widget.gif" width="40%"/>
+</p>
 
 This project is a battery indicator component example to be used in LVGL's UI Editor.
 It includes 3 different battery indicator designs that explore XML components, data bindings and custom widgets (XML + C custom code).
