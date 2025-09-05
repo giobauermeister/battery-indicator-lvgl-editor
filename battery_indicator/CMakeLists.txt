@@ -43,27 +43,29 @@ if(DEFINED IDF_PATH)
 
   include_directories("${LVGL_DIR}" "${LVGL_PARENT}")
 else()
-
+  add_library(lib-ui ${PROJECT_SOURCES})
 endif()
 
 # You may use this check to add configuration when compiling for the Editor
 # preview, or for your target.
-if (LV_EDITOR_PREVIEW)
-  # things for the Preview
-  add_library(lib-ui ${PROJECT_SOURCES})
-else ()
-  # Create the UI sources as a library
-  add_library(lib-ui ${PROJECT_SOURCES})
-  # things for your target
-  # set your include directories here, don't forget LVGL!
-  set(LVGL_ROOT ${CMAKE_SOURCE_DIR}/lvgl)
-  get_filename_component(LVGL_PARENT ${LVGL_ROOT} DIRECTORY)
-  target_compile_definitions(lib-ui PUBLIC LV_LVGL_H_INCLUDE_SIMPLE)
-  target_include_directories(lib-ui PUBLIC
-    ${CMAKE_CURRENT_SOURCE_DIR}  # local headers like ui.h, generated files, etc.
-    ${LVGL_ROOT}                 # #include "src/..." works
-    ${LVGL_PARENT}               # #include "lvgl/src/..." works
-  )
+if (NOT (IDF_BUILD OR DEFINED ENV{IDF_PATH} OR DEFINED IDF_PATH))
+  if (LV_EDITOR_PREVIEW)
+    # things for the Preview
+    # add_library(lib-ui ${PROJECT_SOURCES})
+  else ()
+    # Create the UI sources as a library
+    # add_library(lib-ui ${PROJECT_SOURCES})
+    # things for your target
+    # set your include directories here, don't forget LVGL!
+    set(LVGL_ROOT ${CMAKE_SOURCE_DIR}/lvgl)
+    get_filename_component(LVGL_PARENT ${LVGL_ROOT} DIRECTORY)
+    target_compile_definitions(lib-ui PUBLIC LV_LVGL_H_INCLUDE_SIMPLE)
+    target_include_directories(lib-ui PUBLIC
+      ${CMAKE_CURRENT_SOURCE_DIR}  # local headers like ui.h, generated files, etc.
+      ${LVGL_ROOT}                 # #include "src/..." works
+      ${LVGL_PARENT}               # #include "lvgl/src/..." works
+    )
+  endif ()
 endif ()
 
 if (IS_TOP_LEVEL)
