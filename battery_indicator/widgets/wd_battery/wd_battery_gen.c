@@ -36,6 +36,8 @@ static void wd_battery_constructor(const lv_obj_class_t * class_p, lv_obj_t * ob
 static void wd_battery_destructor(const lv_obj_class_t * class_p, lv_obj_t * obj);
 static void wd_battery_event(const lv_obj_class_t * class_p, lv_event_t * e);
 
+
+
 /**********************
  *  STATIC VARIABLES
  **********************/
@@ -122,12 +124,13 @@ static lv_style_t battery_value_text_color_white;
 
         style_inited = true;
     }
+
     lv_obj_set_name(obj, "battery");
     lv_obj_set_width(obj, 79);
     lv_obj_set_height(obj, 36);
     lv_obj_set_flag(obj, LV_OBJ_FLAG_SCROLLABLE, false);
-    lv_obj_add_style(obj, &container, 0);
 
+    lv_obj_add_style(obj, &container, 0);
     lv_obj_t * battery_tip_container = lv_obj_create(obj);
     lv_obj_set_name(battery_tip_container, "battery_tip_container");
     lv_obj_set_width(battery_tip_container, 5);
@@ -139,7 +142,6 @@ static lv_style_t battery_value_text_color_white;
     lv_obj_set_style_pad_all(battery_tip_container, 0, 0);
     lv_obj_set_style_bg_opa(battery_tip_container, 0, 0);
     widget->battery_tip_container = battery_tip_container;
-
     lv_obj_t * battery_tip = lv_obj_create(battery_tip_container);
     lv_obj_set_name(battery_tip, "battery_tip");
     lv_obj_set_width(battery_tip, 12);
@@ -149,7 +151,6 @@ static lv_style_t battery_value_text_color_white;
     lv_obj_add_style(battery_tip, &tip_default, 0);
 
 
-
     lv_obj_t * slider_indicator = lv_slider_create(obj);
     lv_obj_set_name(slider_indicator, "slider_indicator");
     lv_obj_set_width(slider_indicator, 71);
@@ -157,12 +158,12 @@ static lv_style_t battery_value_text_color_white;
     lv_obj_set_style_radius(slider_indicator, 9, 0);
     lv_slider_set_min_value(slider_indicator, 0);
     lv_slider_set_max_value(slider_indicator, 100);
-    lv_slider_set_value(slider_indicator, 50, false);lv_obj_set_flag(slider_indicator, LV_OBJ_FLAG_CLICKABLE, false);
+    lv_slider_set_value(slider_indicator, 50, false);
+    lv_obj_set_flag(slider_indicator, LV_OBJ_FLAG_CLICKABLE, false);
     widget->slider_indicator = slider_indicator;
     lv_obj_add_style(slider_indicator, &hidden, LV_PART_KNOB);
     lv_obj_add_style(slider_indicator, &battery_indicator, LV_PART_INDICATOR);
     lv_obj_add_style(slider_indicator, &battery_background, LV_PART_MAIN);
-
     lv_obj_t * text_indicator_container = lv_obj_create(slider_indicator);
     lv_obj_set_name(text_indicator_container, "text_indicator_container");
     lv_obj_set_width(text_indicator_container, LV_SIZE_CONTENT);
@@ -170,7 +171,6 @@ static lv_style_t battery_value_text_color_white;
     lv_obj_set_align(text_indicator_container, LV_ALIGN_CENTER);
     widget->text_indicator_container = text_indicator_container;
     lv_obj_add_style(text_indicator_container, &text_indicator, 0);
-
     lv_obj_t * pct_text = lv_label_create(text_indicator_container);
     lv_obj_set_name(pct_text, "pct_text");
     lv_label_set_text(pct_text, "100");
@@ -179,7 +179,6 @@ static lv_style_t battery_value_text_color_white;
     lv_obj_set_style_text_align(pct_text, LV_TEXT_ALIGN_LEFT, 0);
     widget->pct_text = pct_text;
     lv_obj_add_style(pct_text, &battery_value_text_color_dark, 0);
-
 
     lv_obj_t * charging_icon = lv_image_create(text_indicator_container);
     lv_obj_set_name(charging_icon, "charging_icon");
@@ -215,3 +214,4 @@ static void wd_battery_event(const lv_obj_class_t * class_p, lv_event_t * e)
 
     wd_battery_event_hook(e);
 }
+

@@ -13,7 +13,7 @@ extern "C" {
 /*********************
  *      INCLUDES
  *********************/
-#include "lvgl/src/core/lv_obj_private.h"
+#include "lvgl_private.h"
 #include "wd_battery.h"
 
 /*********************

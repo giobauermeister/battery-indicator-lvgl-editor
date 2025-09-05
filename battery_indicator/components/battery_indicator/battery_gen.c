@@ -27,6 +27,8 @@
  *  STATIC PROTOTYPES
  **********************/
 
+
+
 /**********************
  *   GLOBAL FUNCTIONS
  **********************/
@@ -94,8 +96,8 @@ lv_obj_t * battery_create(lv_obj_t * parent)
     lv_obj_set_width(battery, 79);
     lv_obj_set_height(battery, 39);
     lv_obj_set_flag(battery, LV_OBJ_FLAG_SCROLLABLE, false);
-    lv_obj_add_style(battery, &container, 0);
 
+    lv_obj_add_style(battery, &container, 0);
     lv_obj_t * battery_tip = lv_obj_create(battery);
     lv_obj_set_name(battery_tip, "battery_tip");
     lv_obj_set_width(battery_tip, 5);
@@ -106,13 +108,11 @@ lv_obj_t * battery_create(lv_obj_t * parent)
     lv_obj_set_align(battery_tip, LV_ALIGN_RIGHT_MID);
     lv_obj_set_style_pad_all(battery_tip, 0, 0);
     lv_obj_set_style_bg_opa(battery_tip, 0, 0);
-
     lv_obj_t * lv_obj_0 = lv_obj_create(battery_tip);
     lv_obj_set_width(lv_obj_0, 12);
     lv_obj_set_height(lv_obj_0, 12);
     lv_obj_set_align(lv_obj_0, LV_ALIGN_RIGHT_MID);
     lv_obj_add_style(lv_obj_0, &tip, 0);
-
 
 
     lv_obj_t * battery_border = lv_obj_create(battery);
@@ -122,7 +122,6 @@ lv_obj_t * battery_create(lv_obj_t * parent)
     lv_obj_set_align(battery_border, LV_ALIGN_LEFT_MID);
     lv_obj_set_flag(battery_border, LV_OBJ_FLAG_SCROLLABLE, false);
     lv_obj_add_style(battery_border, &border, 0);
-
     lv_obj_t * lv_slider_0 = lv_slider_create(battery_border);
     lv_slider_bind_value(lv_slider_0, &battery_value);
     lv_slider_set_min_value(lv_slider_0, 0);
@@ -137,7 +136,6 @@ lv_obj_t * battery_create(lv_obj_t * parent)
     lv_obj_add_style(lv_slider_0, &indicator_red, LV_PART_INDICATOR | LV_STATE_USER_1);
     lv_obj_bind_state_if_eq(lv_slider_0, &low_power_mode, LV_STATE_USER_2, 1);
     lv_obj_add_style(lv_slider_0, &indicator_yellow, LV_PART_INDICATOR | LV_STATE_USER_2);
-
 
 
     lv_obj_t * lv_image_0 = lv_image_create(battery);
@@ -155,6 +153,9 @@ lv_obj_t * battery_create(lv_obj_t * parent)
     return battery;
 }
 
+
+
 /**********************
  *   STATIC FUNCTIONS
  **********************/
+

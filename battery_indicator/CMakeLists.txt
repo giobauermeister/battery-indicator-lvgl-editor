@@ -49,7 +49,8 @@ endif()
 # You may use this check to add configuration when compiling for the Editor
 # preview, or for your target.
 if (LV_EDITOR_PREVIEW)
-    # things for the Preview
+  # things for the Preview
+  add_library(lib-ui ${PROJECT_SOURCES})
 else ()
   # Create the UI sources as a library
   add_library(lib-ui ${PROJECT_SOURCES})

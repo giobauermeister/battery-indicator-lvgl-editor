@@ -27,6 +27,8 @@
  *  STATIC PROTOTYPES
  **********************/
 
+
+
 /**********************
  *   GLOBAL FUNCTIONS
  **********************/
@@ -130,8 +132,8 @@ lv_obj_t * battery_indicator_2_create(lv_obj_t * parent)
     lv_obj_set_width(battery, 79);
     lv_obj_set_height(battery, 36);
     lv_obj_set_flag(battery, LV_OBJ_FLAG_SCROLLABLE, false);
-    lv_obj_add_style(battery, &container, 0);
 
+    lv_obj_add_style(battery, &container, 0);
     lv_obj_t * battery_tip_container = lv_obj_create(battery);
     lv_obj_set_name(battery_tip_container, "battery_tip_container");
     lv_obj_set_width(battery_tip_container, 5);
@@ -142,7 +144,6 @@ lv_obj_t * battery_indicator_2_create(lv_obj_t * parent)
     lv_obj_set_align(battery_tip_container, LV_ALIGN_RIGHT_MID);
     lv_obj_set_style_pad_all(battery_tip_container, 0, 0);
     lv_obj_set_style_bg_opa(battery_tip_container, 0, 0);
-
     lv_obj_t * battery_tip = lv_obj_create(battery_tip_container);
     lv_obj_set_name(battery_tip, "battery_tip");
     lv_obj_set_width(battery_tip, 12);
@@ -156,7 +157,6 @@ lv_obj_t * battery_indicator_2_create(lv_obj_t * parent)
     lv_obj_add_style(battery_tip, &tip_default, LV_PART_MAIN | LV_STATE_USER_1);
     lv_obj_add_style(battery_tip, &tip_green, LV_PART_MAIN | LV_STATE_USER_2 | LV_STATE_USER_4);
     lv_obj_add_style(battery_tip, &tip_yellow, LV_PART_MAIN | LV_STATE_USER_2 | LV_STATE_USER_3);
-
 
 
     lv_obj_t * lv_slider_0 = lv_slider_create(battery);
@@ -173,7 +173,6 @@ lv_obj_t * battery_indicator_2_create(lv_obj_t * parent)
     lv_obj_add_style(lv_slider_0, &indicator_red, LV_PART_INDICATOR | LV_STATE_USER_1);
     lv_obj_bind_state_if_eq(lv_slider_0, &low_power_mode, LV_STATE_USER_2, 1);
     lv_obj_add_style(lv_slider_0, &indicator_yellow, LV_PART_INDICATOR | LV_STATE_USER_2);
-
     lv_obj_t * text_indicator = lv_obj_create(lv_slider_0);
     lv_obj_set_name(text_indicator, "text_indicator");
     lv_obj_set_width(text_indicator, LV_SIZE_CONTENT);
@@ -182,14 +181,13 @@ lv_obj_t * battery_indicator_2_create(lv_obj_t * parent)
     lv_obj_set_align(text_indicator, LV_ALIGN_CENTER);
     lv_obj_add_style(text_indicator, &text_indicator_container, 0);
     lv_obj_bind_style(text_indicator, &text_indicator_container_no_charging, 0, &charging, 0);
-
     lv_obj_t * lv_label_0 = lv_label_create(text_indicator);
-    lv_label_bind_text(lv_label_0, &battery_value, NULL);lv_obj_set_style_text_font(lv_label_0, font_hour_30, 0);
+    lv_label_bind_text(lv_label_0, &battery_value, NULL);
+    lv_obj_set_style_text_font(lv_label_0, font_hour_30, 0);
     lv_obj_set_style_text_letter_space(lv_label_0, -1, 0);
     lv_obj_set_style_text_align(lv_label_0, LV_TEXT_ALIGN_LEFT, 0);
     lv_obj_bind_style(lv_label_0, &battery_value_text_color_dark, 0, &low_power_mode, 1);
     lv_obj_bind_style(lv_label_0, &battery_value_text_color_white, 0, &low_power_mode, 0);
-
 
     lv_obj_t * lv_image_0 = lv_image_create(text_indicator);
     lv_image_set_src(lv_image_0, img_charging_small);
@@ -209,6 +207,9 @@ lv_obj_t * battery_indicator_2_create(lv_obj_t * parent)
     return battery;
 }
 
+
+
 /**********************
  *   STATIC FUNCTIONS
  **********************/
+

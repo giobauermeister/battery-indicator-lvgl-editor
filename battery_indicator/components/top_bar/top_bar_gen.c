@@ -27,6 +27,8 @@
  *  STATIC PROTOTYPES
  **********************/
 
+
+
 /**********************
  *   GLOBAL FUNCTIONS
  **********************/
@@ -55,12 +57,11 @@ lv_obj_t * top_bar_create(lv_obj_t * parent)
     lv_obj_set_flag(lv_obj_0, LV_OBJ_FLAG_SCROLLABLE, false);
     lv_obj_set_style_pad_left(lv_obj_0, 90, 0);
     lv_obj_set_style_pad_right(lv_obj_0, 90, 0);
-    lv_obj_add_style(lv_obj_0, &main, 0);
 
+    lv_obj_add_style(lv_obj_0, &main, 0);
     lv_obj_t * clock_0 = clock_create(lv_obj_0);
     lv_obj_set_align(clock_0, LV_ALIGN_LEFT_MID);
     lv_obj_set_style_text_color(clock_0, lv_color_hex(0xEDEDED), 0);
-
 
     lv_obj_t * wd_battery_0 = wd_battery_create(lv_obj_0);
     wd_battery_bind_charging(wd_battery_0, &charging);
@@ -77,6 +78,9 @@ lv_obj_t * top_bar_create(lv_obj_t * parent)
     return lv_obj_0;
 }
 
+
+
 /**********************
  *   STATIC FUNCTIONS
  **********************/
+

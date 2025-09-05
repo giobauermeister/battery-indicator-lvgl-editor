@@ -27,6 +27,8 @@
  *  STATIC PROTOTYPES
  **********************/
 
+
+
 /**********************
  *   GLOBAL FUNCTIONS
  **********************/
@@ -48,6 +50,7 @@ lv_obj_t * clock_create(lv_obj_t * parent)
 
     lv_obj_t * lv_label_0 = lv_label_create(parent);
     lv_label_set_text(lv_label_0, "10:55");
+
     lv_obj_add_style(lv_label_0, &main, 0);
 
 
@@ -58,6 +61,9 @@ lv_obj_t * clock_create(lv_obj_t * parent)
     return lv_label_0;
 }
 
+
+
 /**********************
  *   STATIC FUNCTIONS
  **********************/
+

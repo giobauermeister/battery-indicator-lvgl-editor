@@ -27,6 +27,8 @@
  *  STATIC PROTOTYPES
  **********************/
 
+
+
 /**********************
  *   GLOBAL FUNCTIONS
  **********************/
@@ -66,16 +68,17 @@ lv_obj_t * charge_slider_create(lv_obj_t * parent)
     lv_obj_set_height(lv_slider_0, 70);
     lv_slider_set_min_value(lv_slider_0, 0);
     lv_slider_set_max_value(lv_slider_0, 100);
-    lv_slider_set_value(lv_slider_0, 50, false);    lv_obj_add_style(lv_slider_0, &indicator, 0);
+    lv_slider_set_value(lv_slider_0, 50, false);
+
+    lv_obj_add_style(lv_slider_0, &indicator, 0);
     lv_obj_add_style(lv_slider_0, &slider_indicator, LV_PART_INDICATOR);
     lv_obj_add_style(lv_slider_0, &slider_knob, LV_PART_KNOB);
-
     lv_obj_t * lv_label_0 = lv_label_create(lv_slider_0);
     lv_obj_set_style_text_font(lv_label_0, font_hour_32, 0);
-    lv_label_bind_text(lv_label_0, &battery_value, NULL);lv_obj_set_align(lv_label_0, LV_ALIGN_RIGHT_MID);
+    lv_label_bind_text(lv_label_0, &battery_value, NULL);
+    lv_obj_set_align(lv_label_0, LV_ALIGN_RIGHT_MID);
     lv_obj_set_style_pad_right(lv_label_0, 15, 0);
     lv_obj_set_style_text_color(lv_label_0, lv_color_hex(0x474747), 0);
-
 
     lv_obj_t * lv_image_0 = lv_image_create(lv_slider_0);
     lv_image_set_src(lv_image_0, img_charging_no_stroke);
@@ -91,6 +94,9 @@ lv_obj_t * charge_slider_create(lv_obj_t * parent)
     return lv_slider_0;
 }
 
+
+
 /**********************
  *   STATIC FUNCTIONS
  **********************/
+

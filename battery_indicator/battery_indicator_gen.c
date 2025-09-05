@@ -8,8 +8,8 @@
 #include "battery_indicator_gen.h"
 
 #if LV_USE_XML
-   #include "widgets/wd_battery/wd_battery_private_gen.h"
-#endif
+#include "widgets/wd_battery/wd_battery_private_gen.h"
+#endif /* LV_USE_XML */
 
 /*********************
  *      DEFINES
@@ -152,11 +152,11 @@ void battery_indicator_init_gen(const char * asset_path)
 
 #if LV_USE_XML == 0
     /*--------------------
-    *  Permanent screens
-    *-------------------*/
+     *  Permanent screens
+     *-------------------*/
 
-    /*If XML is enabled it's assumed that the permanent screens are created
-     *manaully from XML using lv_xml_create()*/
+    /* If XML is enabled it's assumed that the permanent screens are created
+     *manaully from XML using lv_xml_create() */
 
 #endif
 }
@@ -165,13 +165,13 @@ void battery_indicator_init_gen(const char * asset_path)
 #if defined(LV_EDITOR_PREVIEW)
 void __attribute__((weak)) btn_low_power_toggle_cb(lv_event_t * e)
 {
-   LV_UNUSED(e);
-   LV_LOG("btn_low_power_toggle_cb was called\n");
+    LV_UNUSED(e);
+    LV_LOG("btn_low_power_toggle_cb was called\n");
 }
 void __attribute__((weak)) btn_charging_toggle_cb(lv_event_t * e)
 {
-   LV_UNUSED(e);
-   LV_LOG("btn_charging_toggle_cb was called\n");
+    LV_UNUSED(e);
+    LV_LOG("btn_charging_toggle_cb was called\n");
 }
 #endif
 

@@ -33,6 +33,8 @@ extern "C" {
 
 lv_obj_t * battery_indicator_2_create(lv_obj_t * parent);
 
+
+
 /**********************
  *      MACROS
  **********************/

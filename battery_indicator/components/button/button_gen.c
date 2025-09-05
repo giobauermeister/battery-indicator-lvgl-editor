@@ -27,6 +27,8 @@
  *  STATIC PROTOTYPES
  **********************/
 
+
+
 /**********************
  *   GLOBAL FUNCTIONS
  **********************/
@@ -55,8 +57,8 @@ lv_obj_t * button_create(lv_obj_t * parent, const char * text, lv_subject_t * su
     lv_obj_set_width(lv_button_0, 300);
     lv_obj_set_height(lv_button_0, 90);
     lv_obj_set_style_bg_color(lv_button_0, enabled_color, 0);
-    lv_obj_add_style(lv_button_0, &main, 0);
 
+    lv_obj_add_style(lv_button_0, &main, 0);
     lv_obj_t * lv_label_0 = lv_label_create(lv_button_0);
     lv_label_set_text(lv_label_0, text);
     lv_obj_set_style_text_font(lv_label_0, inter_28, 0);
@@ -74,6 +76,9 @@ lv_obj_t * button_create(lv_obj_t * parent, const char * text, lv_subject_t * su
     return lv_button_0;
 }
 
+
+
 /**********************
  *   STATIC FUNCTIONS
  **********************/
+
