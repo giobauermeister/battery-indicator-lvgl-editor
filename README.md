@@ -11,9 +11,9 @@
 This project is a battery indicator component example to be used in LVGL's UI Editor.
 It includes 3 different battery indicator designs that explore XML components, data bindings and custom widgets (XML + C custom code).
 
-To test each battery design, chose one of them in the `top_bar.xml` file inside `components/top_bar`:
+To test each battery design, uncomment the one you want to use in `top_bar.xml` file inside `components/top_bar`:
 ```
-<!-- Try here the 3 different battery indicators -->
+<!-- Uncomment the implementation you want to try. -->
 
 <!-- Old iOS battery indicator, full XML component -->
 <!-- <battery align="right_mid"></battery> -->
@@ -25,19 +25,19 @@ To test each battery design, chose one of them in the `top_bar.xml` file inside 
 <wd_battery bind_charging="charging" bind_low_power="low_power_mode" bind_value="battery_value" align="right_mid"></wd_battery>
 ```
 
-Download this repo and open the `battery_indicator` folder in the Editor.
+Download this repository and open the `battery_indicator` folder in the Editor.
 
-![alt text](repo_assets/battery_indicator_editor.png)
+![Smartwatch Screen Screenshot](repo_assets/battery_indicator_editor.png)
 
 You can also see it live in the online preview: [Battery Indicator Online Live Preview](https://viewer.lvgl.io/?repo=giobauermeister/battery-indicator-lvgl-editor/tree/main/battery_indicator)
 
 Figma design. Access [here](https://www.figma.com/design/HVvM9m0egZy0wYZDLKKPTA/Battery-Indicator).
 
-![alt text](repo_assets/battery_indicator_figma.png)
+![Figma Design Screenshot](repo_assets/battery_indicator_figma.png)
 
 Tested in a real hardware. Waveshare smartwatch: [https://www.waveshare.com/esp32-s3-touch-amoled-2.06.htm](https://www.waveshare.com/esp32-s3-touch-amoled-2.06.htm)
 
-![alt text](repo_assets/smartwatch.jpg)
+![Running on Real Smartwatch Photo](repo_assets/smartwatch.jpg)
 
 Please visit [https://lvgl.io/editor](https://lvgl.io/editor) for more information.
 

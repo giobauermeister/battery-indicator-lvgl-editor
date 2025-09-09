@@ -9,7 +9,7 @@
         <style name="main" />
         <clock align="left_mid" style_text_color="0xEDEDED"></clock>
 
-        <!-- Try here the 3 different battery indicators -->
+        <!-- Uncomment the implementation you want to try. -->
 
         <!-- Old iOS battery indicator, full XML component -->
         <!-- <battery align="right_mid"></battery> -->
