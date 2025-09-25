@@ -158,6 +158,8 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery.c.o: \
   /lved/resources/lvgl/src/core/../draw/../misc/lv_style_gen.h \
   /lved/resources/lvgl/src/core/../draw/../misc/lv_profiler.h \
   /lved/resources/lvgl/src/core/../draw/../misc/lv_matrix.h \
+  /lved/resources/lvgl/src/core/../draw/../misc/lv_event.h \
+  /lved/resources/lvgl/src/core/../draw/../misc/lv_array.h \
   /lved/resources/lvgl/src/core/../draw/lv_image_decoder.h \
   /lved/resources/lvgl/src/core/../draw/lv_draw_buf.h \
   /lved/resources/lvgl/src/core/../draw/../misc/lv_fs.h \
@@ -169,14 +171,8 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery.c.o: \
   /lved/resources/lvgl/src/core/../draw/sw/../../display/../misc/lv_types.h \
   /lved/resources/lvgl/src/core/../draw/sw/../../display/../misc/lv_timer.h \
   /lved/resources/lvgl/src/core/../draw/sw/../../display/../misc/lv_event.h \
-  /lved/resources/lvgl/src/core/../draw/sw/../../display/../misc/../lv_conf_internal.h \
-  /lved/resources/lvgl/src/core/../draw/sw/../../display/../misc/lv_array.h \
   /lved/resources/lvgl/src/core/../draw/sw/../../display/../misc/lv_color.h \
   /lved/resources/lvgl/src/core/../draw/sw/../../display/../misc/lv_area.h \
-  /lved/resources/lvgl/src/core/../draw/sw/../../osal/lv_os.h \
-  /lved/resources/lvgl/src/core/../draw/sw/../../osal/../lv_conf_internal.h \
-  /lved/resources/lvgl/src/core/../draw/sw/../../osal/../misc/lv_types.h \
-  /lved/resources/lvgl/src/core/../draw/sw/../../osal/lv_os_none.h \
   /lved/resources/lvgl/src/core/../draw/sw/../lv_draw_vector.h \
   /lved/resources/lvgl/src/core/../draw/sw/../../misc/lv_array.h \
   /lved/resources/lvgl/src/core/../draw/sw/../../misc/lv_matrix.h \
@@ -207,7 +203,11 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery.c.o: \
   /lved/resources/lvgl/src/core/../misc/lv_log.h \
   /lved/resources/lvgl/src/core/../misc/lv_style.h \
   /lved/resources/lvgl/src/core/../misc/lv_timer.h \
+  /lved/resources/lvgl/src/core/../osal/lv_os_private.h \
+  /lved/resources/lvgl/src/core/../osal/../lv_conf_internal.h \
   /lved/resources/lvgl/src/core/../osal/lv_os.h \
+  /lved/resources/lvgl/src/core/../osal/../misc/lv_types.h \
+  /lved/resources/lvgl/src/core/../osal/lv_os_none.h \
   /lved/resources/lvgl/src/core/../others/sysmon/lv_sysmon.h \
   /lved/resources/lvgl/src/core/../others/sysmon/../../misc/lv_timer.h \
   /lved/resources/lvgl/src/core/../others/sysmon/../../others/observer/lv_observer.h \
@@ -260,7 +260,7 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery.c.o: \
   /lved/resources/lvgl/src/core/../tick/lv_tick_private.h \
   /lved/resources/lvgl/src/core/../draw/lv_draw_buf_private.h \
   /lved/resources/lvgl/src/core/../draw/lv_draw_private.h \
-  /lved/resources/lvgl/src/core/../draw/../osal/lv_os.h \
+  /lved/resources/lvgl/src/core/../draw/../osal/lv_os_private.h \
   /lved/resources/lvgl/src/core/../draw/../misc/cache/lv_cache.h \
   /lved/resources/lvgl/src/core/../draw/../misc/cache/../lv_types.h \
   /lved/resources/lvgl/src/core/../draw/../misc/cache/lv_cache_entry.h \
@@ -268,7 +268,7 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery.c.o: \
   /lved/resources/lvgl/src/core/../draw/../misc/cache/class/lv_cache_lru_rb.h \
   /lved/resources/lvgl/src/core/../draw/../misc/cache/class/../lv_cache_private.h \
   /lved/resources/lvgl/src/core/../draw/../misc/cache/class/../../lv_types.h \
-  /lved/resources/lvgl/src/core/../draw/../misc/cache/class/../../../osal/lv_os.h \
+  /lved/resources/lvgl/src/core/../draw/../misc/cache/class/../../../osal/lv_os_private.h \
   /lved/resources/lvgl/src/core/../draw/../misc/cache/class/lv_cache_lru_ll.h \
   /lved/resources/lvgl/src/core/../draw/../misc/cache/class/lv_cache_sc_da.h \
   /lved/resources/lvgl/src/core/../draw/../misc/cache/instance/lv_cache_instance.h \
@@ -300,6 +300,7 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery.c.o: \
   /lved/resources/lvgl/src/indev/lv_indev_gesture.h \
   /lved/resources/lvgl/src/misc/lv_text_private.h \
   /lved/resources/lvgl/src/misc/lv_text.h \
+  /lved/resources/lvgl/src/misc/cache/lv_cache.h \
   /lved/resources/lvgl/src/misc/cache/lv_cache_entry_private.h \
   /lved/resources/lvgl/src/misc/cache/../lv_types.h \
   /lved/resources/lvgl/src/misc/cache/lv_cache_private.h \
@@ -338,6 +339,7 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery.c.o: \
   /lved/resources/lvgl/src/others/xml/lv_xml_utils.h \
   /lved/resources/lvgl/src/others/xml/../../lv_conf_internal.h \
   /lved/resources/lvgl/src/others/xml/../../misc/lv_color.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_load.h \
   /lved/resources/lvgl/src/others/xml/parsers/lv_xml_obj_parser.h \
   /lved/resources/lvgl/src/others/xml/parsers/../lv_xml.h \
   /lved/resources/lvgl/src/others/xml/lv_xml_parser.h \
@@ -371,14 +373,6 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery.c.o: \
   /lved/resources/lvgl/src/libs/barcode/../../misc/lv_types.h \
   /lved/resources/lvgl/src/libs/barcode/../../misc/lv_color.h \
   /lved/resources/lvgl/src/libs/barcode/../../widgets/canvas/lv_canvas.h \
-  /lved/resources/lvgl/src/libs/gif/lv_gif_private.h \
-  /lved/resources/lvgl/src/libs/gif/../../widgets/image/lv_image_private.h \
-  /lved/resources/lvgl/src/libs/gif/lv_gif.h \
-  /lved/resources/lvgl/src/libs/gif/../../lv_conf_internal.h \
-  /lved/resources/lvgl/src/libs/gif/../../misc/lv_types.h \
-  /lved/resources/lvgl/src/libs/gif/../../draw/lv_draw_buf.h \
-  /lved/resources/lvgl/src/libs/gif/../../widgets/image/lv_image.h \
-  /lved/resources/lvgl/src/libs/gif/../../core/lv_obj_class.h \
   /lved/resources/lvgl/src/draw/lv_draw_triangle_private.h \
   /lved/resources/lvgl/src/draw/lv_draw_triangle.h \
   /lved/resources/lvgl/src/draw/lv_draw_private.h \
@@ -639,7 +633,7 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery.c.o: \
   /lved/resources/lvgl/src/misc/lv_iter.h \
   /lved/resources/lvgl/src/misc/lv_circle_buf.h \
   /lved/resources/lvgl/src/misc/lv_tree.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache.h \
+  /lved/resources/lvgl/src/osal/lv_os.h \
   /lved/resources/lvgl/src/tick/lv_tick.h \
   /lved/resources/lvgl/src/font/lv_font.h \
   /lved/resources/lvgl/src/font/lv_binfont_loader.h \
@@ -694,6 +688,11 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery.c.o: \
   /lved/resources/lvgl/src/libs/gltf/gltf_data/../../../lv_conf_internal.h \
   /lved/resources/lvgl/src/libs/gltf/gltf_view/lv_gltf.h \
   /lved/resources/lvgl/src/libs/gltf/gltf_view/../../../lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/gif/lv_gif.h \
+  /lved/resources/lvgl/src/libs/gif/../../lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/gif/../../misc/lv_types.h \
+  /lved/resources/lvgl/src/libs/gstreamer/lv_gstreamer.h \
+  /lved/resources/lvgl/src/libs/gstreamer/../../lv_conf_internal.h \
   /lved/resources/lvgl/src/libs/tjpgd/lv_tjpgd.h \
   /lved/resources/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.h \
   /lved/resources/lvgl/src/libs/libjpeg_turbo/../../lv_conf_internal.h \
@@ -726,6 +725,9 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery.c.o: \
   /lved/resources/lvgl/src/drivers/display/fb/../../../display/lv_display.h \
   /lved/resources/lvgl/src/drivers/display/tft_espi/lv_tft_espi.h \
   /lved/resources/lvgl/src/drivers/display/tft_espi/../../../display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/lovyan_gfx/lv_lovyan_gfx.h \
+  /lved/resources/lvgl/src/drivers/display/lovyan_gfx/../../../display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/lovyan_gfx/../../../indev/lv_indev.h \
   /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
   /lved/resources/lvgl/src/drivers/display/lcd/../../../display/lv_display.h \
   /lved/resources/lvgl/src/drivers/display/ili9341/lv_ili9341.h \
@@ -757,10 +759,12 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery.c.o: \
   /lved/resources/lvgl/src/drivers/windows/../../display/lv_display.h \
   /lved/resources/lvgl/src/drivers/windows/../../indev/lv_indev.h \
   /lved/resources/lvgl/src/drivers/windows/lv_windows_display.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_glfw_window.h \
-  /lved/resources/lvgl/src/drivers/glfw/../../lv_conf_internal.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_opengles_texture.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_window.h \
+  /lved/resources/lvgl/src/drivers/opengles/../../lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_texture.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_glfw.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_egl.h \
   /lved/resources/lvgl/src/drivers/qnx/lv_qnx.h \
   /lved/resources/lvgl/src/drivers/qnx/../../display/lv_display.h \
   /lved/resources/lvgl/src/drivers/qnx/../../indev/lv_indev.h \
@@ -778,11 +782,18 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery.c.o: \
   /lved/resources/lvgl/src/lv_api_map_v9_2.h \
   /lved/resources/lvgl/src/lv_api_map_v9_3.h \
   /lved/project/battery_indicator_gen.h \
+  /lved/project/widgets/wd_battery_v2/wd_battery_v2_gen.h \
   /lved/project/components/battery_indicator/battery_gen.h \
   /lved/project/components/battery_indicator_2/battery_indicator_2_gen.h \
+  /lved/project/components/battery_indicator_v2/battery_indicator_v2_gen.h \
   /lved/project/components/button/button_gen.h \
   /lved/project/components/charge_slider/charge_slider_gen.h \
   /lved/project/components/clock/clock_gen.h \
+  /lved/project/components/settings_item/settings_item_gen.h \
+  /lved/project/components/settings_menu_line/settings_menu_line_gen.h \
+  /lved/project/components/settings_panel/settings_panel_gen.h \
+  /lved/project/components/toggle_switch/toggle_switch_gen.h \
   /lved/project/components/top_bar/top_bar_gen.h \
-  /lved/project/screens/smartwatch_gen.h /lved/project/ui.h \
-  /lved/project/battery_indicator.h
+  /lved/project/screens/smartwatch/smartwatch_gen.h \
+  /lved/project/screens/smartwatch_v2/smartwatch_v2_gen.h \
+  /lved/project/ui.h /lved/project/battery_indicator.h

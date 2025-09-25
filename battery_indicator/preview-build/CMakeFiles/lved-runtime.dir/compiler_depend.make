@@ -222,6 +222,7 @@ CMakeFiles/lved-runtime.dir/src/runtime.c.o: /lved/resources/src/runtime.c \
   /lved/resources/lvgl/src/misc/lv_profiler.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_matrix.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
   /lved/resources/lvgl/src/draw/lv_image_decoder.h \
   /lved/resources/lvgl/src/draw/lv_draw_buf.h \
   /lved/resources/lvgl/src/misc/lv_fs.h \
@@ -253,6 +254,7 @@ CMakeFiles/lved-runtime.dir/src/runtime.c.o: /lved/resources/src/runtime.c \
   /lved/resources/lvgl/src/others/xml/lv_xml_utils.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_load.h \
   /emsdk/upstream/emscripten/cache/sysroot/include/emscripten.h \
   /emsdk/upstream/emscripten/cache/sysroot/include/emscripten/emscripten.h \
   /emsdk/upstream/emscripten/cache/sysroot/include/emscripten/em_asm.h \
@@ -286,23 +288,8 @@ CMakeFiles/lved-runtime.dir/src/runtime.c.o: /lved/resources/src/runtime.c \
   /lved/resources/lvgl/src/misc/lv_iter.h \
   /lved/resources/lvgl/src/misc/lv_circle_buf.h \
   /lved/resources/lvgl/src/misc/lv_tree.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache_entry.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_class.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_lru_rb.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache_private.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
   /lved/resources/lvgl/src/osal/lv_os.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/osal/lv_os_none.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_lru_ll.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_sc_da.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_cache_instance.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_image_header_cache.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_image_cache.h \
   /lved/resources/lvgl/src/tick/lv_tick.h \
   /lved/resources/lvgl/src/core/lv_obj.h \
   /lved/resources/lvgl/src/core/lv_group.h \
@@ -485,9 +472,8 @@ CMakeFiles/lved-runtime.dir/src/runtime.c.o: /lved/resources/src/runtime.c \
   /lved/resources/lvgl/src/libs/gif/lv_gif.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
-  /lved/resources/lvgl/src/widgets/image/lv_image.h \
-  /lved/resources/lvgl/src/core/lv_obj_class.h \
+  /lved/resources/lvgl/src/libs/gstreamer/lv_gstreamer.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/libs/qrcode/lv_qrcode.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_color.h \
@@ -546,6 +532,9 @@ CMakeFiles/lved-runtime.dir/src/runtime.c.o: /lved/resources/src/runtime.c \
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/drivers/display/tft_espi/lv_tft_espi.h \
   /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/lovyan_gfx/lv_lovyan_gfx.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
   /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/drivers/display/ili9341/lv_ili9341.h \
@@ -581,10 +570,12 @@ CMakeFiles/lved-runtime.dir/src/runtime.c.o: /lved/resources/src/runtime.c \
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/indev/lv_indev.h \
   /lved/resources/lvgl/src/drivers/windows/lv_windows_display.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_glfw_window.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_window.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_opengles_texture.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_texture.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_glfw.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_egl.h \
   /lved/resources/lvgl/src/drivers/qnx/lv_qnx.h \
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/indev/lv_indev.h \
@@ -605,13 +596,20 @@ CMakeFiles/lved-runtime.dir/src/runtime.c.o: /lved/resources/src/runtime.c \
   /lved/project/battery_indicator.h \
   /lved/project/battery_indicator_gen.h \
   /lved/project/widgets/wd_battery/wd_battery_gen.h \
+  /lved/project/widgets/wd_battery_v2/wd_battery_v2_gen.h \
   /lved/project/components/battery_indicator/battery_gen.h \
   /lved/project/components/battery_indicator_2/battery_indicator_2_gen.h \
+  /lved/project/components/battery_indicator_v2/battery_indicator_v2_gen.h \
   /lved/project/components/button/button_gen.h \
   /lved/project/components/charge_slider/charge_slider_gen.h \
   /lved/project/components/clock/clock_gen.h \
+  /lved/project/components/settings_item/settings_item_gen.h \
+  /lved/project/components/settings_menu_line/settings_menu_line_gen.h \
+  /lved/project/components/settings_panel/settings_panel_gen.h \
+  /lved/project/components/toggle_switch/toggle_switch_gen.h \
   /lved/project/components/top_bar/top_bar_gen.h \
-  /lved/project/screens/smartwatch_gen.h \
+  /lved/project/screens/smartwatch/smartwatch_gen.h \
+  /lved/project/screens/smartwatch_v2/smartwatch_v2_gen.h \
   /emsdk/upstream/emscripten/cache/sysroot/include/dirent.h \
   /emsdk/upstream/emscripten/cache/sysroot/include/bits/dirent.h \
   /emsdk/upstream/emscripten/cache/sysroot/include/emscripten/html5.h \
@@ -633,7 +631,6 @@ CMakeFiles/lved-runtime.dir/src/runtime.c.o: /lved/resources/src/runtime.c \
   /lved/resources/lvgl/src/misc/lv_area.h \
   /lved/resources/lvgl/src/misc/lv_color.h \
   /lved/resources/lvgl/src/display/lv_display.h \
-  /lved/resources/lvgl/src/osal/lv_os.h \
   /lved/resources/lvgl/src/draw/lv_draw_vector.h \
   /lved/resources/lvgl/src/draw/lv_draw_triangle.h \
   /lved/resources/lvgl/src/draw/lv_draw_label.h \
@@ -655,7 +652,11 @@ CMakeFiles/lved-runtime.dir/src/runtime.c.o: /lved/resources/src/runtime.c \
   /lved/resources/lvgl/src/misc/lv_log.h \
   /lved/resources/lvgl/src/misc/lv_style.h \
   /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/osal/lv_os_private.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/osal/lv_os.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/osal/lv_os_none.h \
   /lved/resources/lvgl/src/others/sysmon/lv_sysmon.h \
   /lved/resources/lvgl/src/stdlib/builtin/lv_tlsf.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
@@ -669,8 +670,21 @@ CMakeFiles/lved-runtime.dir/src/runtime.c.o: /lved/resources/src/runtime.c \
   /lved/resources/lvgl/src/draw/lv_draw_buf_private.h \
   /lved/resources/lvgl/src/draw/lv_draw_buf.h \
   /lved/resources/lvgl/src/draw/lv_draw_private.h \
-  /lved/resources/lvgl/src/osal/lv_os.h \
+  /lved/resources/lvgl/src/osal/lv_os_private.h \
   /lved/resources/lvgl/src/misc/cache/lv_cache.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/cache/lv_cache_entry.h \
+  /lved/resources/lvgl/src/misc/cache/class/lv_cache_class.h \
+  /lved/resources/lvgl/src/misc/cache/class/lv_cache_lru_rb.h \
+  /lved/resources/lvgl/src/misc/cache/lv_cache_private.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/osal/lv_os_private.h \
+  /lved/resources/lvgl/src/misc/cache/class/lv_cache_lru_ll.h \
+  /lved/resources/lvgl/src/misc/cache/class/lv_cache_sc_da.h \
+  /lved/resources/lvgl/src/misc/cache/instance/lv_cache_instance.h \
+  /lved/resources/lvgl/src/misc/cache/instance/lv_image_header_cache.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/cache/instance/lv_image_cache.h \
   /lved/resources/lvgl/src/draw/sw/lv_draw_sw_private.h \
   /lved/resources/lvgl/src/draw/lv_draw_private.h \
   /lved/resources/lvgl/src/draw/sw/lv_draw_sw_mask_private.h \
@@ -695,6 +709,7 @@ CMakeFiles/lved-runtime.dir/src/runtime.c.o: /lved/resources/src/runtime.c \
   /lved/resources/lvgl/src/indev/lv_indev_gesture.h \
   /lved/resources/lvgl/src/misc/lv_text_private.h \
   /lved/resources/lvgl/src/misc/lv_text.h \
+  /lved/resources/lvgl/src/misc/cache/lv_cache.h \
   /lved/resources/lvgl/src/misc/cache/lv_cache_entry_private.h \
   /lved/resources/lvgl/src/misc/lv_types.h \
   /lved/resources/lvgl/src/misc/cache/lv_cache_private.h \
@@ -740,9 +755,6 @@ CMakeFiles/lved-runtime.dir/src/runtime.c.o: /lved/resources/src/runtime.c \
   /lved/resources/lvgl/src/libs/barcode/lv_barcode_private.h \
   /lved/resources/lvgl/src/widgets/canvas/lv_canvas_private.h \
   /lved/resources/lvgl/src/libs/barcode/lv_barcode.h \
-  /lved/resources/lvgl/src/libs/gif/lv_gif_private.h \
-  /lved/resources/lvgl/src/widgets/image/lv_image_private.h \
-  /lved/resources/lvgl/src/libs/gif/lv_gif.h \
   /lved/resources/lvgl/src/draw/lv_draw_triangle_private.h \
   /lved/resources/lvgl/src/draw/lv_draw_triangle.h \
   /lved/resources/lvgl/src/draw/lv_draw_private.h \
@@ -909,8 +921,6 @@ CMakeFiles/lved-runtime.dir/src/runtime.c.o: /lved/resources/src/runtime.c \
   /lved/resources/lvgl/src/osal/lv_os_private.h
 
 
-/lved/resources/lvgl/src/osal/lv_os_private.h:
-
 /lved/resources/lvgl/src/widgets/lottie/lv_lottie_private.h:
 
 /lved/resources/lvgl/src/libs/ffmpeg/lv_ffmpeg_private.h:
@@ -955,10 +965,6 @@ CMakeFiles/lved-runtime.dir/src/runtime.c.o: /lved/resources/src/runtime.c \
 
 /lved/resources/lvgl/src/misc/lv_area_private.h:
 
-/lved/resources/lvgl/src/core/lv_obj_event_private.h:
-
-/lved/resources/lvgl/src/core/lv_obj_class_private.h:
-
 /lved/resources/lvgl/src/core/lv_obj_draw_private.h:
 
 /lved/resources/lvgl/src/core/lv_refr_private.h:
@@ -972,8 +978,6 @@ CMakeFiles/lved-runtime.dir/src/runtime.c.o: /lved/resources/src/runtime.c \
 /lved/resources/lvgl/src/draw/lv_draw_mask_private.h:
 
 /lved/resources/lvgl/src/draw/lv_draw_rect_private.h:
-
-/lved/resources/lvgl/src/draw/lv_draw_triangle_private.h:
 
 /lved/resources/lvgl/src/libs/qrcode/lv_qrcode_private.h:
 
@@ -999,6 +1003,12 @@ CMakeFiles/lved-runtime.dir/src/runtime.c.o: /lved/resources/src/runtime.c \
 
 /lved/resources/lvgl/src/others/sysmon/lv_sysmon_private.h:
 
+/lved/resources/lvgl/src/misc/cache/lv_cache_private.h:
+
+/lved/resources/lvgl/src/misc/cache/class/lv_cache_class.h:
+
+/lved/resources/lvgl/src/misc/cache/lv_cache.h:
+
 /lved/resources/lvgl/src/draw/lv_draw_buf_private.h:
 
 /lved/resources/lvgl/src/misc/lv_anim_private.h:
@@ -1013,6 +1023,10 @@ CMakeFiles/lved-runtime.dir/src/runtime.c.o: /lved/resources/src/runtime.c \
 
 /lved/resources/lvgl/src/stdlib/builtin/lv_tlsf.h:
 
+/lved/resources/lvgl/src/osal/lv_os_none.h:
+
+/lved/resources/lvgl/src/osal/lv_os_private.h:
+
 /lved/resources/lvgl/src/draw/sw/blend/lv_draw_sw_blend.h:
 
 /lved/resources/lvgl/src/others/xml/lv_xml_base_types.h:
@@ -1023,13 +1037,31 @@ CMakeFiles/lved-runtime.dir/src/runtime.c.o: /lved/resources/src/runtime.c \
 
 /emsdk/upstream/emscripten/cache/sysroot/include/sched.h:
 
+/lved/resources/lvgl/src/misc/cache/instance/lv_image_header_cache.h:
+
+/emsdk/upstream/emscripten/cache/sysroot/include/emscripten/html5.h:
+
 /emsdk/upstream/emscripten/cache/sysroot/include/bits/dirent.h:
 
 /emsdk/upstream/emscripten/cache/sysroot/include/dirent.h:
 
+/lved/project/components/toggle_switch/toggle_switch_gen.h:
+
+/lved/resources/lvgl/src/core/lv_obj_event_private.h:
+
+/lved/project/components/settings_panel/settings_panel_gen.h:
+
+/lved/project/components/settings_menu_line/settings_menu_line_gen.h:
+
+/lved/project/components/settings_item/settings_item_gen.h:
+
 /lved/resources/lvgl/src/stdlib/lv_mem_private.h:
 
 /lved/project/components/button/button_gen.h:
+
+/lved/project/components/battery_indicator_v2/battery_indicator_v2_gen.h:
+
+/lved/project/widgets/wd_battery_v2/wd_battery_v2_gen.h:
 
 /lved/project/widgets/wd_battery/wd_battery_gen.h:
 
@@ -1047,9 +1079,17 @@ CMakeFiles/lved-runtime.dir/src/runtime.c.o: /lved/resources/src/runtime.c \
 
 /lved/resources/lvgl/src/drivers/wayland/lv_wayland.h:
 
-/lved/resources/lvgl/src/drivers/glfw/lv_opengles_texture.h:
+/lved/resources/lvgl/src/drivers/opengles/lv_opengles_egl.h:
 
-/lved/resources/lvgl/src/drivers/glfw/lv_glfw_window.h:
+/lved/resources/lvgl/src/core/lv_obj_class_private.h:
+
+/lved/resources/lvgl/src/drivers/opengles/lv_opengles_glfw.h:
+
+/lved/resources/lvgl/src/drivers/opengles/lv_opengles_driver.h:
+
+/lved/project/screens/smartwatch_v2/smartwatch_v2_gen.h:
+
+/lved/resources/lvgl/src/drivers/opengles/lv_opengles_window.h:
 
 /lved/resources/lvgl/src/drivers/evdev/lv_evdev.h:
 
@@ -1073,6 +1113,8 @@ CMakeFiles/lved-runtime.dir/src/runtime.c.o: /lved/resources/src/runtime.c \
 
 /lved/resources/lvgl/src/drivers/display/st7735/lv_st7735.h:
 
+/lved/project/screens/smartwatch/smartwatch_gen.h:
+
 /lved/resources/lvgl/src/drivers/display/ili9341/lv_ili9341.h:
 
 /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h:
@@ -1092,6 +1134,10 @@ CMakeFiles/lved-runtime.dir/src/runtime.c.o: /lved/resources/src/runtime.c \
 /lved/resources/lvgl/src/draw/lv_draw_image_private.h:
 
 /lved/resources/lvgl/src/drivers/sdl/lv_sdl_window.h:
+
+/lved/resources/lvgl/src/misc/cache/lv_cache_entry.h:
+
+/lved/resources/lvgl/src/drivers/lv_drivers.h:
 
 /lved/resources/lvgl/src/themes/simple/lv_theme_simple.h:
 
@@ -1119,13 +1165,7 @@ CMakeFiles/lved-runtime.dir/src/runtime.c.o: /lved/resources/src/runtime.c \
 
 /lved/resources/lvgl/src/libs/qrcode/lv_qrcode.h:
 
-/lved/resources/lvgl/src/libs/libpng/lv_libpng.h:
-
-/lved/resources/lvgl/src/libs/lodepng/lv_lodepng.h:
-
-/lved/resources/lvgl/src/libs/fsdrv/lv_fsdrv.h:
-
-/lved/resources/lvgl/src/libs/rle/lv_rle.h:
+/lved/resources/lvgl/src/libs/gstreamer/lv_gstreamer.h:
 
 /lved/resources/lvgl/src/draw/lv_draw_label_private.h:
 
@@ -1169,10 +1209,6 @@ CMakeFiles/lved-runtime.dir/src/runtime.c.o: /lved/resources/src/runtime.c \
 
 /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_keycode.h:
 
-/lved/resources/lvgl/src/libs/bmp/lv_bmp.h:
-
-/emsdk/upstream/lib/clang/21/include/__stddef_header_macro.h:
-
 /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_events.h:
 
 /emsdk/upstream/emscripten/cache/sysroot/include/time.h:
@@ -1182,6 +1218,8 @@ CMakeFiles/lved-runtime.dir/src/runtime.c.o: /lved/resources/src/runtime.c \
 /lved/resources/lvgl/src/widgets/arclabel/lv_arclabel.h:
 
 /lved/project/components/clock/clock_gen.h:
+
+/lved/resources/lvgl/src/drivers/opengles/lv_opengles_texture.h:
 
 /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_cpuinfo.h:
 
@@ -1197,9 +1235,11 @@ CMakeFiles/lved-runtime.dir/src/runtime.c.o: /lved/resources/src/runtime.c \
 
 /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_assert.h:
 
-/lved/resources/lvgl/src/drivers/lv_drivers.h:
+/lved/resources/lvgl/src/misc/cache/instance/lv_image_cache.h:
 
-/lved/resources/lvgl/src/misc/cache/lv_cache_entry.h:
+/emsdk/upstream/emscripten/cache/sysroot/include/bits/posix.h:
+
+/emsdk/upstream/emscripten/cache/sysroot/include/ctype.h:
 
 /lved/resources/lvgl/src/draw/sw/lv_draw_sw_mask.h:
 
@@ -1212,10 +1252,6 @@ CMakeFiles/lved-runtime.dir/src/runtime.c.o: /lved/resources/src/runtime.c \
 /lved/resources/lvgl/src/drivers/sdl/lv_sdl_mousewheel.h:
 
 /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/begin_code.h:
-
-/lved/resources/lvgl/src/libs/gif/lv_gif.h:
-
-/lved/resources/lvgl/src/widgets/keyboard/lv_keyboard.h:
 
 /lved/resources/lvgl/src/widgets/switch/lv_switch.h:
 
@@ -1237,6 +1273,10 @@ CMakeFiles/lved-runtime.dir/src/runtime.c.o: /lved/resources/src/runtime.c \
 
 /emsdk/upstream/lib/clang/21/include/__stdarg_va_arg.h:
 
+/lved/resources/lvgl/src/misc/cache/class/lv_cache_lru_rb.h:
+
+/emsdk/upstream/lib/clang/21/include/__stdarg_va_list.h:
+
 /emsdk/upstream/lib/clang/21/include/__stdarg___gnuc_va_list.h:
 
 /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_hints.h:
@@ -1246,12 +1286,6 @@ CMakeFiles/lved-runtime.dir/src/runtime.c.o: /lved/resources/src/runtime.c \
 /lved/resources/lvgl/src/draw/lv_draw_triangle.h:
 
 /emsdk/upstream/emscripten/cache/sysroot/include/errno.h:
-
-/lved/resources/lvgl/src/draw/sw/lv_draw_sw.h:
-
-/lved/resources/lvgl/src/libs/bin_decoder/lv_bin_decoder.h:
-
-/emsdk/upstream/emscripten/cache/sysroot/include/bits/errno.h:
 
 /emsdk/upstream/emscripten/cache/sysroot/include/features.h:
 
@@ -1304,8 +1338,6 @@ CMakeFiles/lved-runtime.dir/src/runtime.c.o: /lved/resources/src/runtime.c \
 /lved/resources/lvgl/src/lv_api_map_v8.h:
 
 /lved/resources/lvgl/src/misc/lv_style.h:
-
-/lved/resources/lvgl/src/misc/cache/class/lv_cache_class.h:
 
 /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_config_emscripten.h:
 
@@ -1375,6 +1407,14 @@ CMakeFiles/lved-runtime.dir/src/runtime.c.o: /lved/resources/src/runtime.c \
 
 /emsdk/upstream/emscripten/cache/sysroot/include/math.h:
 
+/lved/resources/lvgl/src/libs/rle/lv_rle.h:
+
+/lved/resources/lvgl/src/misc/cache/class/lv_cache_sc_da.h:
+
+/emsdk/upstream/emscripten/cache/sysroot/include/emscripten.h:
+
+/emsdk/upstream/emscripten/cache/sysroot/include/compat/stdlib.h:
+
 /lved/resources/lvgl/src/display/lv_display_private.h:
 
 /emsdk/upstream/emscripten/cache/sysroot/include/emscripten/html5_webgl.h:
@@ -1386,10 +1426,6 @@ CMakeFiles/lved-runtime.dir/src/runtime.c.o: /lved/resources/src/runtime.c \
 /emsdk/upstream/lib/clang/21/include/__stdarg_header_macro.h:
 
 /lved/resources/lvgl/src/misc/lv_grad.h:
-
-/lved/resources/lvgl/src/libs/gltf/gltf_view/lv_gltf.h:
-
-/lved/resources/lvgl/src/misc/cache/instance/lv_cache_instance.h:
 
 /lved/resources/lvgl/src/draw/lv_image_decoder_private.h:
 
@@ -1467,27 +1503,19 @@ CMakeFiles/lved-runtime.dir/src/runtime.c.o: /lved/resources/src/runtime.c \
 
 /lved/resources/lvgl/src/widgets/label/lv_label.h:
 
-/lved/project/screens/smartwatch_gen.h:
-
 /emsdk/upstream/emscripten/cache/sysroot/include/stdio.h:
-
-/lved/resources/lvgl/src/widgets/slider/lv_slider_private.h:
-
-/lved/resources/lvgl/src/libs/gltf/gltf_data/lv_gltf_model.h:
-
-/lved/resources/lvgl/src/widgets/lottie/lv_lottie.h:
 
 /lved/resources/lvgl/src/misc/lv_profiler_builtin.h:
 
 /emsdk/upstream/emscripten/cache/sysroot/include/string.h:
-
-/lved/resources/lvgl/src/libs/gif/lv_gif_private.h:
 
 /lved/resources/lvgl/src/libs/barcode/lv_barcode_private.h:
 
 /lved/resources/lvgl/src/lv_init.h:
 
 /emsdk/upstream/emscripten/cache/sysroot/include/strings.h:
+
+/lved/resources/lvgl/src/libs/lodepng/lv_lodepng.h:
 
 /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_log.h:
 
@@ -1513,6 +1541,12 @@ CMakeFiles/lved-runtime.dir/src/runtime.c.o: /lved/resources/src/runtime.c \
 
 /lved/resources/lvgl/src/widgets/roller/lv_roller.h:
 
+/lved/resources/lvgl/src/widgets/slider/lv_slider_private.h:
+
+/lved/resources/lvgl/src/widgets/lottie/lv_lottie.h:
+
+/lved/resources/lvgl/src/libs/gltf/gltf_data/lv_gltf_model.h:
+
 /lved/resources/lvgl/src/others/xml/lv_xml.h:
 
 /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_rwops.h:
@@ -1526,12 +1560,6 @@ CMakeFiles/lved-runtime.dir/src/runtime.c.o: /lved/resources/src/runtime.c \
 /emsdk/upstream/emscripten/cache/sysroot/include/emscripten/em_macros.h:
 
 /emsdk/upstream/emscripten/cache/sysroot/include/compat/stdarg.h:
-
-/emsdk/upstream/emscripten/cache/sysroot/include/bits/posix.h:
-
-/emsdk/upstream/emscripten/cache/sysroot/include/ctype.h:
-
-/lved/resources/lvgl/src/misc/cache/instance/lv_image_cache.h:
 
 /emsdk/upstream/lib/clang/21/include/stdint.h:
 
@@ -1595,8 +1623,6 @@ CMakeFiles/lved-runtime.dir/src/runtime.c.o: /lved/resources/src/runtime.c \
 
 /lved/resources/lvgl/src/widgets/bar/lv_bar_private.h:
 
-/lved/resources/lvgl/src/drivers/glfw/lv_opengles_driver.h:
-
 /lved/resources/lvgl/src/core/lv_obj_style_gen.h:
 
 /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_system.h:
@@ -1613,7 +1639,9 @@ CMakeFiles/lved-runtime.dir/src/runtime.c.o: /lved/resources/src/runtime.c \
 
 /lved/resources/lvgl/src/draw/lv_draw.h:
 
-/lved/resources/lvgl/src/misc/cache/lv_cache_private.h:
+/lved/resources/lvgl/src/misc/cache/instance/lv_cache_instance.h:
+
+/lved/resources/lvgl/src/libs/gltf/gltf_view/lv_gltf.h:
 
 /lved/resources/lvgl/src/widgets/scale/lv_scale_private.h:
 
@@ -1659,6 +1687,10 @@ CMakeFiles/lved-runtime.dir/src/runtime.c.o: /lved/resources/src/runtime.c \
 
 /lved/resources/lvgl/src/others/xml/lv_xml_component.h:
 
+/lved/resources/lvgl/src/draw/lv_draw_triangle_private.h:
+
+/lved/resources/lvgl/src/others/xml/lv_xml_load.h:
+
 /lved/resources/lvgl/src/widgets/switch/lv_switch_private.h:
 
 /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix_private.h:
@@ -1674,6 +1706,8 @@ CMakeFiles/lved-runtime.dir/src/runtime.c.o: /lved/resources/src/runtime.c \
 /lved/resources/lvgl/lv_version.h:
 
 /lved/resources/lvgl/src/misc/lv_async.h:
+
+/lved/resources/lvgl/src/drivers/display/lovyan_gfx/lv_lovyan_gfx.h:
 
 /lved/resources/lvgl/src/misc/lv_utils.h:
 
@@ -1697,28 +1731,6 @@ CMakeFiles/lved-runtime.dir/src/runtime.c.o: /lved/resources/src/runtime.c \
 
 /lved/resources/lvgl/src/misc/lv_tree.h:
 
-/lved/resources/lvgl/src/misc/cache/lv_cache.h:
-
-/lved/project/battery_indicator.h:
-
-/lved/resources/lvgl/src/widgets/textarea/lv_textarea.h:
-
-/emsdk/upstream/lib/clang/21/include/__stdarg_va_list.h:
-
-/lved/resources/lvgl/src/misc/cache/class/lv_cache_lru_rb.h:
-
-/lved/resources/lvgl/src/osal/lv_os_none.h:
-
-/emsdk/upstream/emscripten/cache/sysroot/include/emscripten.h:
-
-/emsdk/upstream/emscripten/cache/sysroot/include/compat/stdlib.h:
-
-/lved/resources/lvgl/src/misc/cache/class/lv_cache_sc_da.h:
-
-/emsdk/upstream/emscripten/cache/sysroot/include/emscripten/html5.h:
-
-/lved/resources/lvgl/src/misc/cache/instance/lv_image_header_cache.h:
-
 /lved/resources/lvgl/src/others/ime/lv_ime_pinyin_private.h:
 
 /lved/resources/lvgl/src/draw/sw/lv_draw_sw_mask_private.h:
@@ -1736,6 +1748,8 @@ CMakeFiles/lved-runtime.dir/src/runtime.c.o: /lved/resources/src/runtime.c \
 /lved/resources/lvgl/src/widgets/button/lv_button.h:
 
 /lved/resources/lvgl/src/widgets/chart/lv_chart.h:
+
+/lved/resources/lvgl/src/libs/libpng/lv_libpng.h:
 
 /lved/resources/lvgl/src/widgets/roller/lv_roller_private.h:
 
@@ -1764,6 +1778,10 @@ CMakeFiles/lved-runtime.dir/src/runtime.c.o: /lved/resources/src/runtime.c \
 /lved/resources/lvgl/src/tick/lv_tick_private.h:
 
 /lved/resources/lvgl/src/widgets/spinbox/lv_spinbox.h:
+
+/lved/project/battery_indicator.h:
+
+/lved/resources/lvgl/src/widgets/textarea/lv_textarea.h:
 
 /lved/resources/lvgl/src/widgets/spinner/lv_spinner.h:
 
@@ -1804,3 +1822,19 @@ CMakeFiles/lved-runtime.dir/src/runtime.c.o: /lved/resources/src/runtime.c \
 /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_mutex.h:
 
 /lved/resources/lvgl/src/others/test/lv_test_indev_gesture.h:
+
+/lved/resources/lvgl/src/draw/sw/lv_draw_sw.h:
+
+/emsdk/upstream/emscripten/cache/sysroot/include/bits/errno.h:
+
+/lved/resources/lvgl/src/libs/bin_decoder/lv_bin_decoder.h:
+
+/emsdk/upstream/lib/clang/21/include/__stddef_header_macro.h:
+
+/lved/resources/lvgl/src/libs/bmp/lv_bmp.h:
+
+/lved/resources/lvgl/src/libs/fsdrv/lv_fsdrv.h:
+
+/lved/resources/lvgl/src/widgets/keyboard/lv_keyboard.h:
+
+/lved/resources/lvgl/src/libs/gif/lv_gif.h:

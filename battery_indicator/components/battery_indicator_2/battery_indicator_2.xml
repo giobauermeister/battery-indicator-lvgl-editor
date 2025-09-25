@@ -58,7 +58,7 @@
 
                 <bind_style name="text_indicator_container_no_charging" subject="charging" ref_value="0"/>
 
-                <lv_label bind_text="battery_value" style_text_font="font_hour_30" style_text_letter_space="-1" style_text_align="left">
+                <lv_label bind_text="battery_value" style_text_font="font_inter_semibold_30" style_text_letter_space="-1" style_text_align="left">
                     <bind_style name="battery_value_text_color_dark" subject="low_power_mode" ref_value="1"/>
                     <bind_style name="battery_value_text_color_white" subject="low_power_mode" ref_value="0"/>
                 </lv_label>

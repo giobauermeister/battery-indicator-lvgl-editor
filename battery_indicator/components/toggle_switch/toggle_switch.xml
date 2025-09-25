@@ -1,0 +1,17 @@
+<component>
+	<previews>
+		<preview width="150" height="100" style_bg_color="0x505050" />
+	</previews>
+
+	<styles>
+		<style name="style_knob_base" pad_all="-5" />
+		<style name="style_off" bg_color="0xC5C5C7" />
+		<style name="style_on" bg_color="0x35C75A" />
+	</styles>
+
+	<view extends="lv_switch" width="115" height="60">
+		<style name="style_on" selector="indicator|checked" />
+		<style name="style_off" selector="main" />
+		<style name="style_knob_base" selector="knob" />
+	</view>
+</component>

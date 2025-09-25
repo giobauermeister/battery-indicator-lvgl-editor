@@ -1,0 +1,13 @@
+<component>
+	<previews>
+		<preview width="350" height="50" style_bg_color="0xffffff" />
+	</previews>
+
+	<styles>
+		<style name="style_main" border_width="1" border_color="0xCDCDCD" border_side="bottom" radius="0" />
+	</styles>
+
+	<view extends="lv_obj" width="275" height="1" scrollable="false">
+		<style name="style_main" />
+	</view>
+</component>

@@ -12,6 +12,7 @@ extern "C" {
 /*********************
  *      INCLUDES
  *********************/
+
 #ifdef LV_LVGL_H_INCLUDE_SIMPLE
     #include "lvgl.h"
 #else
@@ -30,10 +31,7 @@ extern "C" {
  * GLOBAL PROTOTYPES
  **********************/
 
-
 lv_obj_t * battery_create(lv_obj_t * parent);
-
-
 
 /**********************
  *      MACROS

@@ -1,9 +1,9 @@
 /**
- * @file smartwatch_gen.h
+ * @file settings_menu_line_gen.h
  */
 
-#ifndef SMARTWATCH_H
-#define SMARTWATCH_H
+#ifndef SETTINGS_MENU_LINE_H
+#define SETTINGS_MENU_LINE_H
 
 #ifdef __cplusplus
 extern "C" {
@@ -12,6 +12,7 @@ extern "C" {
 /*********************
  *      INCLUDES
  *********************/
+
 #ifdef LV_LVGL_H_INCLUDE_SIMPLE
     #include "lvgl.h"
 #else
@@ -30,12 +31,7 @@ extern "C" {
  * GLOBAL PROTOTYPES
  **********************/
 
-
-
-
-lv_obj_t * smartwatch_create(void);
-
-
+lv_obj_t * settings_menu_line_create(lv_obj_t * parent);
 
 /**********************
  *      MACROS
@@ -45,4 +41,4 @@ lv_obj_t * smartwatch_create(void);
 } /*extern "C"*/
 #endif
 
-#endif /*SMARTWATCH_H*/
+#endif /*SETTINGS_MENU_LINE_H*/

@@ -140,23 +140,8 @@ project/CMakeFiles/lib-ui.dir/components/button/button_gen.c.o: \
   /lved/resources/lvgl/src/misc/lv_iter.h \
   /lved/resources/lvgl/src/misc/lv_circle_buf.h \
   /lved/resources/lvgl/src/misc/lv_tree.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache.h \
-  /lved/resources/lvgl/src/misc/cache/../lv_types.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache_entry.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_class.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_lru_rb.h \
-  /lved/resources/lvgl/src/misc/cache/class/../lv_cache_private.h \
-  /lved/resources/lvgl/src/misc/cache/class/../../lv_types.h \
-  /lved/resources/lvgl/src/misc/cache/class/../../../osal/lv_os.h \
-  /lved/resources/lvgl/src/misc/cache/class/../../../osal/../lv_conf_internal.h \
-  /lved/resources/lvgl/src/misc/cache/class/../../../osal/../misc/lv_types.h \
-  /lved/resources/lvgl/src/misc/cache/class/../../../osal/lv_os_none.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_lru_ll.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_sc_da.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_cache_instance.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_image_header_cache.h \
-  /lved/resources/lvgl/src/misc/cache/instance/../../lv_types.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_image_cache.h \
+  /lved/resources/lvgl/src/osal/lv_os.h \
+  /lved/resources/lvgl/src/osal/../misc/lv_types.h \
   /lved/resources/lvgl/src/tick/lv_tick.h \
   /lved/resources/lvgl/src/core/lv_obj.h \
   /lved/resources/lvgl/src/core/../lv_conf_internal.h \
@@ -211,6 +196,7 @@ project/CMakeFiles/lib-ui.dir/components/button/button_gen.c.o: \
   /lved/resources/lvgl/src/core/../draw/../misc/lv_profiler.h \
   /lved/resources/lvgl/src/core/../draw/../misc/../lv_conf_internal.h \
   /lved/resources/lvgl/src/core/../draw/../misc/lv_matrix.h \
+  /lved/resources/lvgl/src/core/../draw/../misc/lv_event.h \
   /lved/resources/lvgl/src/core/../draw/lv_image_decoder.h \
   /lved/resources/lvgl/src/core/../draw/lv_draw_buf.h \
   /lved/resources/lvgl/src/core/../draw/../misc/lv_fs.h \
@@ -390,6 +376,7 @@ project/CMakeFiles/lib-ui.dir/components/button/button_gen.c.o: \
   /lved/resources/lvgl/src/others/xml/lv_xml_utils.h \
   /lved/resources/lvgl/src/others/xml/../../lv_conf_internal.h \
   /lved/resources/lvgl/src/others/xml/../../misc/lv_color.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_load.h \
   /lved/resources/lvgl/src/others/test/lv_test.h \
   /lved/resources/lvgl/src/others/test/../../lv_conf_internal.h \
   /lved/resources/lvgl/src/others/test/lv_test_indev.h \
@@ -424,9 +411,8 @@ project/CMakeFiles/lib-ui.dir/components/button/button_gen.c.o: \
   /lved/resources/lvgl/src/libs/gif/lv_gif.h \
   /lved/resources/lvgl/src/libs/gif/../../lv_conf_internal.h \
   /lved/resources/lvgl/src/libs/gif/../../misc/lv_types.h \
-  /lved/resources/lvgl/src/libs/gif/../../draw/lv_draw_buf.h \
-  /lved/resources/lvgl/src/libs/gif/../../widgets/image/lv_image.h \
-  /lved/resources/lvgl/src/libs/gif/../../core/lv_obj_class.h \
+  /lved/resources/lvgl/src/libs/gstreamer/lv_gstreamer.h \
+  /lved/resources/lvgl/src/libs/gstreamer/../../lv_conf_internal.h \
   /lved/resources/lvgl/src/libs/qrcode/lv_qrcode.h \
   /lved/resources/lvgl/src/libs/qrcode/../../lv_conf_internal.h \
   /lved/resources/lvgl/src/libs/qrcode/../../misc/lv_color.h \
@@ -485,6 +471,9 @@ project/CMakeFiles/lib-ui.dir/components/button/button_gen.c.o: \
   /lved/resources/lvgl/src/drivers/display/fb/../../../display/lv_display.h \
   /lved/resources/lvgl/src/drivers/display/tft_espi/lv_tft_espi.h \
   /lved/resources/lvgl/src/drivers/display/tft_espi/../../../display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/lovyan_gfx/lv_lovyan_gfx.h \
+  /lved/resources/lvgl/src/drivers/display/lovyan_gfx/../../../display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/lovyan_gfx/../../../indev/lv_indev.h \
   /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
   /lved/resources/lvgl/src/drivers/display/lcd/../../../display/lv_display.h \
   /lved/resources/lvgl/src/drivers/display/ili9341/lv_ili9341.h \
@@ -520,10 +509,12 @@ project/CMakeFiles/lib-ui.dir/components/button/button_gen.c.o: \
   /lved/resources/lvgl/src/drivers/windows/../../display/lv_display.h \
   /lved/resources/lvgl/src/drivers/windows/../../indev/lv_indev.h \
   /lved/resources/lvgl/src/drivers/windows/lv_windows_display.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_glfw_window.h \
-  /lved/resources/lvgl/src/drivers/glfw/../../lv_conf_internal.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_opengles_texture.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_window.h \
+  /lved/resources/lvgl/src/drivers/opengles/../../lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_texture.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_glfw.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_egl.h \
   /lved/resources/lvgl/src/drivers/qnx/lv_qnx.h \
   /lved/resources/lvgl/src/drivers/qnx/../../display/lv_display.h \
   /lved/resources/lvgl/src/drivers/qnx/../../indev/lv_indev.h \
@@ -543,9 +534,16 @@ project/CMakeFiles/lib-ui.dir/components/button/button_gen.c.o: \
   /lved/project/battery_indicator.h \
   /lved/project/battery_indicator_gen.h \
   /lved/project/widgets/wd_battery/wd_battery_gen.h \
+  /lved/project/widgets/wd_battery_v2/wd_battery_v2_gen.h \
   /lved/project/components/battery_indicator/battery_gen.h \
   /lved/project/components/battery_indicator_2/battery_indicator_2_gen.h \
+  /lved/project/components/battery_indicator_v2/battery_indicator_v2_gen.h \
   /lved/project/components/charge_slider/charge_slider_gen.h \
   /lved/project/components/clock/clock_gen.h \
+  /lved/project/components/settings_item/settings_item_gen.h \
+  /lved/project/components/settings_menu_line/settings_menu_line_gen.h \
+  /lved/project/components/settings_panel/settings_panel_gen.h \
+  /lved/project/components/toggle_switch/toggle_switch_gen.h \
   /lved/project/components/top_bar/top_bar_gen.h \
-  /lved/project/screens/smartwatch_gen.h
+  /lved/project/screens/smartwatch/smartwatch_gen.h \
+  /lved/project/screens/smartwatch_v2/smartwatch_v2_gen.h

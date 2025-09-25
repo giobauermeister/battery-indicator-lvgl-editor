@@ -6,14 +6,13 @@
 /*********************
  *      INCLUDES
  *********************/
+
 #include "battery_indicator_2_gen.h"
 #include "ui.h"
 
 /*********************
  *      DEFINES
  *********************/
-
-
 
 /**********************
  *      TYPEDEFS
@@ -26,8 +25,6 @@
 /***********************
  *  STATIC PROTOTYPES
  **********************/
-
-
 
 /**********************
  *   GLOBAL FUNCTIONS
@@ -157,8 +154,7 @@ lv_obj_t * battery_indicator_2_create(lv_obj_t * parent)
     lv_obj_add_style(battery_tip, &tip_default, LV_PART_MAIN | LV_STATE_USER_1);
     lv_obj_add_style(battery_tip, &tip_green, LV_PART_MAIN | LV_STATE_USER_2 | LV_STATE_USER_4);
     lv_obj_add_style(battery_tip, &tip_yellow, LV_PART_MAIN | LV_STATE_USER_2 | LV_STATE_USER_3);
-
-
+    
     lv_obj_t * lv_slider_0 = lv_slider_create(battery);
     lv_slider_bind_value(lv_slider_0, &battery_value);
     lv_slider_set_min_value(lv_slider_0, 0);
@@ -183,12 +179,12 @@ lv_obj_t * battery_indicator_2_create(lv_obj_t * parent)
     lv_obj_bind_style(text_indicator, &text_indicator_container_no_charging, 0, &charging, 0);
     lv_obj_t * lv_label_0 = lv_label_create(text_indicator);
     lv_label_bind_text(lv_label_0, &battery_value, NULL);
-    lv_obj_set_style_text_font(lv_label_0, font_hour_30, 0);
+    lv_obj_set_style_text_font(lv_label_0, font_inter_semibold_30, 0);
     lv_obj_set_style_text_letter_space(lv_label_0, -1, 0);
     lv_obj_set_style_text_align(lv_label_0, LV_TEXT_ALIGN_LEFT, 0);
     lv_obj_bind_style(lv_label_0, &battery_value_text_color_dark, 0, &low_power_mode, 1);
     lv_obj_bind_style(lv_label_0, &battery_value_text_color_white, 0, &low_power_mode, 0);
-
+    
     lv_obj_t * lv_image_0 = lv_image_create(text_indicator);
     lv_image_set_src(lv_image_0, img_charging_small);
     lv_obj_set_style_pad_top(lv_image_0, 13, 0);
@@ -196,18 +192,12 @@ lv_obj_t * battery_indicator_2_create(lv_obj_t * parent)
     lv_obj_bind_style(lv_image_0, &battery_icon_low_power_color, 0, &low_power_mode, 1);
     lv_obj_bind_style(lv_image_0, &battery_icon_normal_color, 0, &low_power_mode, 0);
 
-
-
-
-
     LV_TRACE_OBJ_CREATE("finished");
 
     lv_obj_set_name(battery, "battery_indicator_2_#");
 
     return battery;
 }
-
-
 
 /**********************
  *   STATIC FUNCTIONS

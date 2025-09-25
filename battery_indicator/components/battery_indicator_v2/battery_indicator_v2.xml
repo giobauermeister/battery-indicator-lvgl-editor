@@ -1,0 +1,91 @@
+<component>
+	<previews>
+		<preview width="100" height="100" style_bg_color="0x505050" />
+	</previews>
+
+	<styles>
+		<style name="container" border_width="0" bg_opa="0" pad_all="0" />
+		<style
+			name="style_border"
+			border_color="0xadadad"
+			border_opa="255"
+			border_width="3"
+			radius="14"
+			bg_opa="0"
+			pad_all="0"
+			margin_right="10"
+			pad_left="3"
+		/>
+		<style name="indicator" radius="8" bg_opa="0" />
+		<style name="indicator_red" bg_color="0xFD3B2F" />
+		<style name="indicator_yellow" bg_color="0xFECC0B" />
+		<style name="tip" bg_color="0xadadad" radius="100" border_width="0" />
+		<style name="hidden" opa="0" />
+		<style name="slider_indicator" bg_color="0x37c557" radius="8" />
+		<style
+			name="style_battery_indicator_container_mask"
+			width="71"
+			height="38"
+			bitmap_mask_src="img_battery_mask_v2"
+			border_width="0"
+			bg_opa="0"
+			pad_all="0"
+		/>
+		<style name="style_no_mask" width="71" height="38" border_width="0" bg_opa="0" pad_all="0" />
+	</styles>
+
+	<view name="battery" width="78" height="38" scrollable="false">
+		<style name="container" />
+
+		<lv_obj name="battery_mask" scrollable="false" align="left_mid" style_pad_all="0">
+			<bind_style name="style_no_mask" subject="charging" ref_value="0" selector="main" />
+			<bind_style
+				name="style_battery_indicator_container_mask"
+				subject="charging"
+				ref_value="1"
+				selector="main"
+			/>
+
+			<lv_obj name="battery_border" width="71" height="38" align="left_mid" scrollable="false">
+				<style name="style_border" />
+				<lv_slider
+					bind_value="battery_value"
+					min_value="0"
+					max_value="100"
+					align="left_mid"
+					width="59"
+					height="26"
+				>
+					<style name="indicator" />
+					<style name="slider_indicator" selector="indicator" />
+					<style name="hidden" selector="knob" />
+					<bind_state_if_le ref_value="20" subject="battery_value" state="user_1" />
+					<style name="indicator_red" selector="indicator|user_1" />
+
+					<bind_state_if_eq ref_value="1" subject="low_power_mode" state="user_2" />
+					<style name="indicator_yellow" selector="indicator|user_2" />
+				</lv_slider>
+			</lv_obj>
+		</lv_obj>
+
+		<lv_obj
+			name="battery_tip"
+			width="4"
+			height="12"
+			style_radius="0"
+			style_border_width="0"
+			scrollable="false"
+			align="right_mid"
+			style_pad_all="0"
+			style_bg_opa="0"
+		>
+			<lv_obj width="12" height="12" align="right_mid">
+				<style name="tip" />
+			</lv_obj>
+		</lv_obj>
+
+		<lv_image src="img_thunder_v2" align="left_mid" style_pad_left="48">
+			<bind_flag_if_eq subject="charging" ref_value="0" flag="hidden" />
+		</lv_image>
+	</view>
+</component>

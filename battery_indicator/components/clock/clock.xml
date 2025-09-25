@@ -1,8 +1,12 @@
 <component>
-   <styles>
-       <style name="main" text_font="font_hour_32"/>
-   </styles>
-   <view extends="lv_label" text="10:55">
-        <style name="main" />
-   </view>
+	<styles>
+		<style name="style_main" text_font="font_hour_32" />
+		<style name="style_light" text_color="0xFFFFFF" />
+		<style name="style_dark" text_color="0x000000" />
+	</styles>
+	<view extends="lv_label" text="10:55">
+		<style name="style_main" />
+		<bind_style name="style_light" subject="battery_theme" ref_value="0" />
+		<bind_style name="style_dark" subject="battery_theme" ref_value="1" />
+	</view>
 </component>

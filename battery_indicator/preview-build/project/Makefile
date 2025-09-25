@@ -229,6 +229,30 @@ components/battery_indicator_2/battery_indicator_2_gen.c.s:
 	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/components/battery_indicator_2/battery_indicator_2_gen.c.s
 .PHONY : components/battery_indicator_2/battery_indicator_2_gen.c.s
 
+components/battery_indicator_v2/battery_indicator_v2_gen.o: components/battery_indicator_v2/battery_indicator_v2_gen.c.o
+.PHONY : components/battery_indicator_v2/battery_indicator_v2_gen.o
+
+# target to build an object file
+components/battery_indicator_v2/battery_indicator_v2_gen.c.o:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/components/battery_indicator_v2/battery_indicator_v2_gen.c.o
+.PHONY : components/battery_indicator_v2/battery_indicator_v2_gen.c.o
+
+components/battery_indicator_v2/battery_indicator_v2_gen.i: components/battery_indicator_v2/battery_indicator_v2_gen.c.i
+.PHONY : components/battery_indicator_v2/battery_indicator_v2_gen.i
+
+# target to preprocess a source file
+components/battery_indicator_v2/battery_indicator_v2_gen.c.i:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/components/battery_indicator_v2/battery_indicator_v2_gen.c.i
+.PHONY : components/battery_indicator_v2/battery_indicator_v2_gen.c.i
+
+components/battery_indicator_v2/battery_indicator_v2_gen.s: components/battery_indicator_v2/battery_indicator_v2_gen.c.s
+.PHONY : components/battery_indicator_v2/battery_indicator_v2_gen.s
+
+# target to generate assembly for a file
+components/battery_indicator_v2/battery_indicator_v2_gen.c.s:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/components/battery_indicator_v2/battery_indicator_v2_gen.c.s
+.PHONY : components/battery_indicator_v2/battery_indicator_v2_gen.c.s
+
 components/button/button_gen.o: components/button/button_gen.c.o
 .PHONY : components/button/button_gen.o
 
@@ -301,6 +325,102 @@ components/clock/clock_gen.c.s:
 	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/components/clock/clock_gen.c.s
 .PHONY : components/clock/clock_gen.c.s
 
+components/settings_item/settings_item_gen.o: components/settings_item/settings_item_gen.c.o
+.PHONY : components/settings_item/settings_item_gen.o
+
+# target to build an object file
+components/settings_item/settings_item_gen.c.o:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/components/settings_item/settings_item_gen.c.o
+.PHONY : components/settings_item/settings_item_gen.c.o
+
+components/settings_item/settings_item_gen.i: components/settings_item/settings_item_gen.c.i
+.PHONY : components/settings_item/settings_item_gen.i
+
+# target to preprocess a source file
+components/settings_item/settings_item_gen.c.i:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/components/settings_item/settings_item_gen.c.i
+.PHONY : components/settings_item/settings_item_gen.c.i
+
+components/settings_item/settings_item_gen.s: components/settings_item/settings_item_gen.c.s
+.PHONY : components/settings_item/settings_item_gen.s
+
+# target to generate assembly for a file
+components/settings_item/settings_item_gen.c.s:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/components/settings_item/settings_item_gen.c.s
+.PHONY : components/settings_item/settings_item_gen.c.s
+
+components/settings_menu_line/settings_menu_line_gen.o: components/settings_menu_line/settings_menu_line_gen.c.o
+.PHONY : components/settings_menu_line/settings_menu_line_gen.o
+
+# target to build an object file
+components/settings_menu_line/settings_menu_line_gen.c.o:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/components/settings_menu_line/settings_menu_line_gen.c.o
+.PHONY : components/settings_menu_line/settings_menu_line_gen.c.o
+
+components/settings_menu_line/settings_menu_line_gen.i: components/settings_menu_line/settings_menu_line_gen.c.i
+.PHONY : components/settings_menu_line/settings_menu_line_gen.i
+
+# target to preprocess a source file
+components/settings_menu_line/settings_menu_line_gen.c.i:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/components/settings_menu_line/settings_menu_line_gen.c.i
+.PHONY : components/settings_menu_line/settings_menu_line_gen.c.i
+
+components/settings_menu_line/settings_menu_line_gen.s: components/settings_menu_line/settings_menu_line_gen.c.s
+.PHONY : components/settings_menu_line/settings_menu_line_gen.s
+
+# target to generate assembly for a file
+components/settings_menu_line/settings_menu_line_gen.c.s:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/components/settings_menu_line/settings_menu_line_gen.c.s
+.PHONY : components/settings_menu_line/settings_menu_line_gen.c.s
+
+components/settings_panel/settings_panel_gen.o: components/settings_panel/settings_panel_gen.c.o
+.PHONY : components/settings_panel/settings_panel_gen.o
+
+# target to build an object file
+components/settings_panel/settings_panel_gen.c.o:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/components/settings_panel/settings_panel_gen.c.o
+.PHONY : components/settings_panel/settings_panel_gen.c.o
+
+components/settings_panel/settings_panel_gen.i: components/settings_panel/settings_panel_gen.c.i
+.PHONY : components/settings_panel/settings_panel_gen.i
+
+# target to preprocess a source file
+components/settings_panel/settings_panel_gen.c.i:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/components/settings_panel/settings_panel_gen.c.i
+.PHONY : components/settings_panel/settings_panel_gen.c.i
+
+components/settings_panel/settings_panel_gen.s: components/settings_panel/settings_panel_gen.c.s
+.PHONY : components/settings_panel/settings_panel_gen.s
+
+# target to generate assembly for a file
+components/settings_panel/settings_panel_gen.c.s:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/components/settings_panel/settings_panel_gen.c.s
+.PHONY : components/settings_panel/settings_panel_gen.c.s
+
+components/toggle_switch/toggle_switch_gen.o: components/toggle_switch/toggle_switch_gen.c.o
+.PHONY : components/toggle_switch/toggle_switch_gen.o
+
+# target to build an object file
+components/toggle_switch/toggle_switch_gen.c.o:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/components/toggle_switch/toggle_switch_gen.c.o
+.PHONY : components/toggle_switch/toggle_switch_gen.c.o
+
+components/toggle_switch/toggle_switch_gen.i: components/toggle_switch/toggle_switch_gen.c.i
+.PHONY : components/toggle_switch/toggle_switch_gen.i
+
+# target to preprocess a source file
+components/toggle_switch/toggle_switch_gen.c.i:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/components/toggle_switch/toggle_switch_gen.c.i
+.PHONY : components/toggle_switch/toggle_switch_gen.c.i
+
+components/toggle_switch/toggle_switch_gen.s: components/toggle_switch/toggle_switch_gen.c.s
+.PHONY : components/toggle_switch/toggle_switch_gen.s
+
+# target to generate assembly for a file
+components/toggle_switch/toggle_switch_gen.c.s:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/components/toggle_switch/toggle_switch_gen.c.s
+.PHONY : components/toggle_switch/toggle_switch_gen.c.s
+
 components/top_bar/top_bar_gen.o: components/top_bar/top_bar_gen.c.o
 .PHONY : components/top_bar/top_bar_gen.o
 
@@ -349,30 +469,6 @@ fonts/font_hour_25_data.c.s:
 	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/fonts/font_hour_25_data.c.s
 .PHONY : fonts/font_hour_25_data.c.s
 
-fonts/font_hour_30_data.o: fonts/font_hour_30_data.c.o
-.PHONY : fonts/font_hour_30_data.o
-
-# target to build an object file
-fonts/font_hour_30_data.c.o:
-	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/fonts/font_hour_30_data.c.o
-.PHONY : fonts/font_hour_30_data.c.o
-
-fonts/font_hour_30_data.i: fonts/font_hour_30_data.c.i
-.PHONY : fonts/font_hour_30_data.i
-
-# target to preprocess a source file
-fonts/font_hour_30_data.c.i:
-	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/fonts/font_hour_30_data.c.i
-.PHONY : fonts/font_hour_30_data.c.i
-
-fonts/font_hour_30_data.s: fonts/font_hour_30_data.c.s
-.PHONY : fonts/font_hour_30_data.s
-
-# target to generate assembly for a file
-fonts/font_hour_30_data.c.s:
-	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/fonts/font_hour_30_data.c.s
-.PHONY : fonts/font_hour_30_data.c.s
-
 fonts/font_hour_32_data.o: fonts/font_hour_32_data.c.o
 .PHONY : fonts/font_hour_32_data.o
 
@@ -397,6 +493,54 @@ fonts/font_hour_32_data.c.s:
 	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/fonts/font_hour_32_data.c.s
 .PHONY : fonts/font_hour_32_data.c.s
 
+fonts/font_inter_semibold_25_data.o: fonts/font_inter_semibold_25_data.c.o
+.PHONY : fonts/font_inter_semibold_25_data.o
+
+# target to build an object file
+fonts/font_inter_semibold_25_data.c.o:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/fonts/font_inter_semibold_25_data.c.o
+.PHONY : fonts/font_inter_semibold_25_data.c.o
+
+fonts/font_inter_semibold_25_data.i: fonts/font_inter_semibold_25_data.c.i
+.PHONY : fonts/font_inter_semibold_25_data.i
+
+# target to preprocess a source file
+fonts/font_inter_semibold_25_data.c.i:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/fonts/font_inter_semibold_25_data.c.i
+.PHONY : fonts/font_inter_semibold_25_data.c.i
+
+fonts/font_inter_semibold_25_data.s: fonts/font_inter_semibold_25_data.c.s
+.PHONY : fonts/font_inter_semibold_25_data.s
+
+# target to generate assembly for a file
+fonts/font_inter_semibold_25_data.c.s:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/fonts/font_inter_semibold_25_data.c.s
+.PHONY : fonts/font_inter_semibold_25_data.c.s
+
+fonts/font_inter_semibold_30_data.o: fonts/font_inter_semibold_30_data.c.o
+.PHONY : fonts/font_inter_semibold_30_data.o
+
+# target to build an object file
+fonts/font_inter_semibold_30_data.c.o:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/fonts/font_inter_semibold_30_data.c.o
+.PHONY : fonts/font_inter_semibold_30_data.c.o
+
+fonts/font_inter_semibold_30_data.i: fonts/font_inter_semibold_30_data.c.i
+.PHONY : fonts/font_inter_semibold_30_data.i
+
+# target to preprocess a source file
+fonts/font_inter_semibold_30_data.c.i:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/fonts/font_inter_semibold_30_data.c.i
+.PHONY : fonts/font_inter_semibold_30_data.c.i
+
+fonts/font_inter_semibold_30_data.s: fonts/font_inter_semibold_30_data.c.s
+.PHONY : fonts/font_inter_semibold_30_data.s
+
+# target to generate assembly for a file
+fonts/font_inter_semibold_30_data.c.s:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/fonts/font_inter_semibold_30_data.c.s
+.PHONY : fonts/font_inter_semibold_30_data.c.s
+
 fonts/inter_28_data.o: fonts/inter_28_data.c.o
 .PHONY : fonts/inter_28_data.o
 
@@ -420,6 +564,78 @@ fonts/inter_28_data.s: fonts/inter_28_data.c.s
 fonts/inter_28_data.c.s:
 	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/fonts/inter_28_data.c.s
 .PHONY : fonts/inter_28_data.c.s
+
+images/img_background_data.o: images/img_background_data.c.o
+.PHONY : images/img_background_data.o
+
+# target to build an object file
+images/img_background_data.c.o:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/images/img_background_data.c.o
+.PHONY : images/img_background_data.c.o
+
+images/img_background_data.i: images/img_background_data.c.i
+.PHONY : images/img_background_data.i
+
+# target to preprocess a source file
+images/img_background_data.c.i:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/images/img_background_data.c.i
+.PHONY : images/img_background_data.c.i
+
+images/img_background_data.s: images/img_background_data.c.s
+.PHONY : images/img_background_data.s
+
+# target to generate assembly for a file
+images/img_background_data.c.s:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/images/img_background_data.c.s
+.PHONY : images/img_background_data.c.s
+
+images/img_background_light_data.o: images/img_background_light_data.c.o
+.PHONY : images/img_background_light_data.o
+
+# target to build an object file
+images/img_background_light_data.c.o:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/images/img_background_light_data.c.o
+.PHONY : images/img_background_light_data.c.o
+
+images/img_background_light_data.i: images/img_background_light_data.c.i
+.PHONY : images/img_background_light_data.i
+
+# target to preprocess a source file
+images/img_background_light_data.c.i:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/images/img_background_light_data.c.i
+.PHONY : images/img_background_light_data.c.i
+
+images/img_background_light_data.s: images/img_background_light_data.c.s
+.PHONY : images/img_background_light_data.s
+
+# target to generate assembly for a file
+images/img_background_light_data.c.s:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/images/img_background_light_data.c.s
+.PHONY : images/img_background_light_data.c.s
+
+images/img_battery_mask_v2_data.o: images/img_battery_mask_v2_data.c.o
+.PHONY : images/img_battery_mask_v2_data.o
+
+# target to build an object file
+images/img_battery_mask_v2_data.c.o:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/images/img_battery_mask_v2_data.c.o
+.PHONY : images/img_battery_mask_v2_data.c.o
+
+images/img_battery_mask_v2_data.i: images/img_battery_mask_v2_data.c.i
+.PHONY : images/img_battery_mask_v2_data.i
+
+# target to preprocess a source file
+images/img_battery_mask_v2_data.c.i:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/images/img_battery_mask_v2_data.c.i
+.PHONY : images/img_battery_mask_v2_data.c.i
+
+images/img_battery_mask_v2_data.s: images/img_battery_mask_v2_data.c.s
+.PHONY : images/img_battery_mask_v2_data.s
+
+# target to generate assembly for a file
+images/img_battery_mask_v2_data.c.s:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/images/img_battery_mask_v2_data.c.s
+.PHONY : images/img_battery_mask_v2_data.c.s
 
 images/img_charging_data.o: images/img_charging_data.c.o
 .PHONY : images/img_charging_data.o
@@ -493,29 +709,125 @@ images/img_charging_small_data.c.s:
 	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/images/img_charging_small_data.c.s
 .PHONY : images/img_charging_small_data.c.s
 
-screens/smartwatch_gen.o: screens/smartwatch_gen.c.o
-.PHONY : screens/smartwatch_gen.o
+images/img_thunder_small_v2_data.o: images/img_thunder_small_v2_data.c.o
+.PHONY : images/img_thunder_small_v2_data.o
 
 # target to build an object file
-screens/smartwatch_gen.c.o:
-	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/screens/smartwatch_gen.c.o
-.PHONY : screens/smartwatch_gen.c.o
+images/img_thunder_small_v2_data.c.o:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/images/img_thunder_small_v2_data.c.o
+.PHONY : images/img_thunder_small_v2_data.c.o
 
-screens/smartwatch_gen.i: screens/smartwatch_gen.c.i
-.PHONY : screens/smartwatch_gen.i
+images/img_thunder_small_v2_data.i: images/img_thunder_small_v2_data.c.i
+.PHONY : images/img_thunder_small_v2_data.i
 
 # target to preprocess a source file
-screens/smartwatch_gen.c.i:
-	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/screens/smartwatch_gen.c.i
-.PHONY : screens/smartwatch_gen.c.i
+images/img_thunder_small_v2_data.c.i:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/images/img_thunder_small_v2_data.c.i
+.PHONY : images/img_thunder_small_v2_data.c.i
 
-screens/smartwatch_gen.s: screens/smartwatch_gen.c.s
-.PHONY : screens/smartwatch_gen.s
+images/img_thunder_small_v2_data.s: images/img_thunder_small_v2_data.c.s
+.PHONY : images/img_thunder_small_v2_data.s
 
 # target to generate assembly for a file
-screens/smartwatch_gen.c.s:
-	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/screens/smartwatch_gen.c.s
-.PHONY : screens/smartwatch_gen.c.s
+images/img_thunder_small_v2_data.c.s:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/images/img_thunder_small_v2_data.c.s
+.PHONY : images/img_thunder_small_v2_data.c.s
+
+images/img_thunder_transparent_data.o: images/img_thunder_transparent_data.c.o
+.PHONY : images/img_thunder_transparent_data.o
+
+# target to build an object file
+images/img_thunder_transparent_data.c.o:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/images/img_thunder_transparent_data.c.o
+.PHONY : images/img_thunder_transparent_data.c.o
+
+images/img_thunder_transparent_data.i: images/img_thunder_transparent_data.c.i
+.PHONY : images/img_thunder_transparent_data.i
+
+# target to preprocess a source file
+images/img_thunder_transparent_data.c.i:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/images/img_thunder_transparent_data.c.i
+.PHONY : images/img_thunder_transparent_data.c.i
+
+images/img_thunder_transparent_data.s: images/img_thunder_transparent_data.c.s
+.PHONY : images/img_thunder_transparent_data.s
+
+# target to generate assembly for a file
+images/img_thunder_transparent_data.c.s:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/images/img_thunder_transparent_data.c.s
+.PHONY : images/img_thunder_transparent_data.c.s
+
+images/img_thunder_v2_data.o: images/img_thunder_v2_data.c.o
+.PHONY : images/img_thunder_v2_data.o
+
+# target to build an object file
+images/img_thunder_v2_data.c.o:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/images/img_thunder_v2_data.c.o
+.PHONY : images/img_thunder_v2_data.c.o
+
+images/img_thunder_v2_data.i: images/img_thunder_v2_data.c.i
+.PHONY : images/img_thunder_v2_data.i
+
+# target to preprocess a source file
+images/img_thunder_v2_data.c.i:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/images/img_thunder_v2_data.c.i
+.PHONY : images/img_thunder_v2_data.c.i
+
+images/img_thunder_v2_data.s: images/img_thunder_v2_data.c.s
+.PHONY : images/img_thunder_v2_data.s
+
+# target to generate assembly for a file
+images/img_thunder_v2_data.c.s:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/images/img_thunder_v2_data.c.s
+.PHONY : images/img_thunder_v2_data.c.s
+
+screens/smartwatch/smartwatch_gen.o: screens/smartwatch/smartwatch_gen.c.o
+.PHONY : screens/smartwatch/smartwatch_gen.o
+
+# target to build an object file
+screens/smartwatch/smartwatch_gen.c.o:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/screens/smartwatch/smartwatch_gen.c.o
+.PHONY : screens/smartwatch/smartwatch_gen.c.o
+
+screens/smartwatch/smartwatch_gen.i: screens/smartwatch/smartwatch_gen.c.i
+.PHONY : screens/smartwatch/smartwatch_gen.i
+
+# target to preprocess a source file
+screens/smartwatch/smartwatch_gen.c.i:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/screens/smartwatch/smartwatch_gen.c.i
+.PHONY : screens/smartwatch/smartwatch_gen.c.i
+
+screens/smartwatch/smartwatch_gen.s: screens/smartwatch/smartwatch_gen.c.s
+.PHONY : screens/smartwatch/smartwatch_gen.s
+
+# target to generate assembly for a file
+screens/smartwatch/smartwatch_gen.c.s:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/screens/smartwatch/smartwatch_gen.c.s
+.PHONY : screens/smartwatch/smartwatch_gen.c.s
+
+screens/smartwatch_v2/smartwatch_v2_gen.o: screens/smartwatch_v2/smartwatch_v2_gen.c.o
+.PHONY : screens/smartwatch_v2/smartwatch_v2_gen.o
+
+# target to build an object file
+screens/smartwatch_v2/smartwatch_v2_gen.c.o:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/screens/smartwatch_v2/smartwatch_v2_gen.c.o
+.PHONY : screens/smartwatch_v2/smartwatch_v2_gen.c.o
+
+screens/smartwatch_v2/smartwatch_v2_gen.i: screens/smartwatch_v2/smartwatch_v2_gen.c.i
+.PHONY : screens/smartwatch_v2/smartwatch_v2_gen.i
+
+# target to preprocess a source file
+screens/smartwatch_v2/smartwatch_v2_gen.c.i:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/screens/smartwatch_v2/smartwatch_v2_gen.c.i
+.PHONY : screens/smartwatch_v2/smartwatch_v2_gen.c.i
+
+screens/smartwatch_v2/smartwatch_v2_gen.s: screens/smartwatch_v2/smartwatch_v2_gen.c.s
+.PHONY : screens/smartwatch_v2/smartwatch_v2_gen.s
+
+# target to generate assembly for a file
+screens/smartwatch_v2/smartwatch_v2_gen.c.s:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/screens/smartwatch_v2/smartwatch_v2_gen.c.s
+.PHONY : screens/smartwatch_v2/smartwatch_v2_gen.c.s
 
 ui.o: ui.c.o
 .PHONY : ui.o
@@ -613,6 +925,78 @@ widgets/wd_battery/wd_battery_xml_parser.c.s:
 	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_xml_parser.c.s
 .PHONY : widgets/wd_battery/wd_battery_xml_parser.c.s
 
+widgets/wd_battery_v2/wd_battery_v2.o: widgets/wd_battery_v2/wd_battery_v2.c.o
+.PHONY : widgets/wd_battery_v2/wd_battery_v2.o
+
+# target to build an object file
+widgets/wd_battery_v2/wd_battery_v2.c.o:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/widgets/wd_battery_v2/wd_battery_v2.c.o
+.PHONY : widgets/wd_battery_v2/wd_battery_v2.c.o
+
+widgets/wd_battery_v2/wd_battery_v2.i: widgets/wd_battery_v2/wd_battery_v2.c.i
+.PHONY : widgets/wd_battery_v2/wd_battery_v2.i
+
+# target to preprocess a source file
+widgets/wd_battery_v2/wd_battery_v2.c.i:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/widgets/wd_battery_v2/wd_battery_v2.c.i
+.PHONY : widgets/wd_battery_v2/wd_battery_v2.c.i
+
+widgets/wd_battery_v2/wd_battery_v2.s: widgets/wd_battery_v2/wd_battery_v2.c.s
+.PHONY : widgets/wd_battery_v2/wd_battery_v2.s
+
+# target to generate assembly for a file
+widgets/wd_battery_v2/wd_battery_v2.c.s:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/widgets/wd_battery_v2/wd_battery_v2.c.s
+.PHONY : widgets/wd_battery_v2/wd_battery_v2.c.s
+
+widgets/wd_battery_v2/wd_battery_v2_gen.o: widgets/wd_battery_v2/wd_battery_v2_gen.c.o
+.PHONY : widgets/wd_battery_v2/wd_battery_v2_gen.o
+
+# target to build an object file
+widgets/wd_battery_v2/wd_battery_v2_gen.c.o:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/widgets/wd_battery_v2/wd_battery_v2_gen.c.o
+.PHONY : widgets/wd_battery_v2/wd_battery_v2_gen.c.o
+
+widgets/wd_battery_v2/wd_battery_v2_gen.i: widgets/wd_battery_v2/wd_battery_v2_gen.c.i
+.PHONY : widgets/wd_battery_v2/wd_battery_v2_gen.i
+
+# target to preprocess a source file
+widgets/wd_battery_v2/wd_battery_v2_gen.c.i:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/widgets/wd_battery_v2/wd_battery_v2_gen.c.i
+.PHONY : widgets/wd_battery_v2/wd_battery_v2_gen.c.i
+
+widgets/wd_battery_v2/wd_battery_v2_gen.s: widgets/wd_battery_v2/wd_battery_v2_gen.c.s
+.PHONY : widgets/wd_battery_v2/wd_battery_v2_gen.s
+
+# target to generate assembly for a file
+widgets/wd_battery_v2/wd_battery_v2_gen.c.s:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/widgets/wd_battery_v2/wd_battery_v2_gen.c.s
+.PHONY : widgets/wd_battery_v2/wd_battery_v2_gen.c.s
+
+widgets/wd_battery_v2/wd_battery_v2_xml_parser.o: widgets/wd_battery_v2/wd_battery_v2_xml_parser.c.o
+.PHONY : widgets/wd_battery_v2/wd_battery_v2_xml_parser.o
+
+# target to build an object file
+widgets/wd_battery_v2/wd_battery_v2_xml_parser.c.o:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/widgets/wd_battery_v2/wd_battery_v2_xml_parser.c.o
+.PHONY : widgets/wd_battery_v2/wd_battery_v2_xml_parser.c.o
+
+widgets/wd_battery_v2/wd_battery_v2_xml_parser.i: widgets/wd_battery_v2/wd_battery_v2_xml_parser.c.i
+.PHONY : widgets/wd_battery_v2/wd_battery_v2_xml_parser.i
+
+# target to preprocess a source file
+widgets/wd_battery_v2/wd_battery_v2_xml_parser.c.i:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/widgets/wd_battery_v2/wd_battery_v2_xml_parser.c.i
+.PHONY : widgets/wd_battery_v2/wd_battery_v2_xml_parser.c.i
+
+widgets/wd_battery_v2/wd_battery_v2_xml_parser.s: widgets/wd_battery_v2/wd_battery_v2_xml_parser.c.s
+.PHONY : widgets/wd_battery_v2/wd_battery_v2_xml_parser.s
+
+# target to generate assembly for a file
+widgets/wd_battery_v2/wd_battery_v2_xml_parser.c.s:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/widgets/wd_battery_v2/wd_battery_v2_xml_parser.c.s
+.PHONY : widgets/wd_battery_v2/wd_battery_v2_xml_parser.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -634,6 +1018,9 @@ help:
 	@echo "... components/battery_indicator_2/battery_indicator_2_gen.o"
 	@echo "... components/battery_indicator_2/battery_indicator_2_gen.i"
 	@echo "... components/battery_indicator_2/battery_indicator_2_gen.s"
+	@echo "... components/battery_indicator_v2/battery_indicator_v2_gen.o"
+	@echo "... components/battery_indicator_v2/battery_indicator_v2_gen.i"
+	@echo "... components/battery_indicator_v2/battery_indicator_v2_gen.s"
 	@echo "... components/button/button_gen.o"
 	@echo "... components/button/button_gen.i"
 	@echo "... components/button/button_gen.s"
@@ -643,21 +1030,45 @@ help:
 	@echo "... components/clock/clock_gen.o"
 	@echo "... components/clock/clock_gen.i"
 	@echo "... components/clock/clock_gen.s"
+	@echo "... components/settings_item/settings_item_gen.o"
+	@echo "... components/settings_item/settings_item_gen.i"
+	@echo "... components/settings_item/settings_item_gen.s"
+	@echo "... components/settings_menu_line/settings_menu_line_gen.o"
+	@echo "... components/settings_menu_line/settings_menu_line_gen.i"
+	@echo "... components/settings_menu_line/settings_menu_line_gen.s"
+	@echo "... components/settings_panel/settings_panel_gen.o"
+	@echo "... components/settings_panel/settings_panel_gen.i"
+	@echo "... components/settings_panel/settings_panel_gen.s"
+	@echo "... components/toggle_switch/toggle_switch_gen.o"
+	@echo "... components/toggle_switch/toggle_switch_gen.i"
+	@echo "... components/toggle_switch/toggle_switch_gen.s"
 	@echo "... components/top_bar/top_bar_gen.o"
 	@echo "... components/top_bar/top_bar_gen.i"
 	@echo "... components/top_bar/top_bar_gen.s"
 	@echo "... fonts/font_hour_25_data.o"
 	@echo "... fonts/font_hour_25_data.i"
 	@echo "... fonts/font_hour_25_data.s"
-	@echo "... fonts/font_hour_30_data.o"
-	@echo "... fonts/font_hour_30_data.i"
-	@echo "... fonts/font_hour_30_data.s"
 	@echo "... fonts/font_hour_32_data.o"
 	@echo "... fonts/font_hour_32_data.i"
 	@echo "... fonts/font_hour_32_data.s"
+	@echo "... fonts/font_inter_semibold_25_data.o"
+	@echo "... fonts/font_inter_semibold_25_data.i"
+	@echo "... fonts/font_inter_semibold_25_data.s"
+	@echo "... fonts/font_inter_semibold_30_data.o"
+	@echo "... fonts/font_inter_semibold_30_data.i"
+	@echo "... fonts/font_inter_semibold_30_data.s"
 	@echo "... fonts/inter_28_data.o"
 	@echo "... fonts/inter_28_data.i"
 	@echo "... fonts/inter_28_data.s"
+	@echo "... images/img_background_data.o"
+	@echo "... images/img_background_data.i"
+	@echo "... images/img_background_data.s"
+	@echo "... images/img_background_light_data.o"
+	@echo "... images/img_background_light_data.i"
+	@echo "... images/img_background_light_data.s"
+	@echo "... images/img_battery_mask_v2_data.o"
+	@echo "... images/img_battery_mask_v2_data.i"
+	@echo "... images/img_battery_mask_v2_data.s"
 	@echo "... images/img_charging_data.o"
 	@echo "... images/img_charging_data.i"
 	@echo "... images/img_charging_data.s"
@@ -667,9 +1078,21 @@ help:
 	@echo "... images/img_charging_small_data.o"
 	@echo "... images/img_charging_small_data.i"
 	@echo "... images/img_charging_small_data.s"
-	@echo "... screens/smartwatch_gen.o"
-	@echo "... screens/smartwatch_gen.i"
-	@echo "... screens/smartwatch_gen.s"
+	@echo "... images/img_thunder_small_v2_data.o"
+	@echo "... images/img_thunder_small_v2_data.i"
+	@echo "... images/img_thunder_small_v2_data.s"
+	@echo "... images/img_thunder_transparent_data.o"
+	@echo "... images/img_thunder_transparent_data.i"
+	@echo "... images/img_thunder_transparent_data.s"
+	@echo "... images/img_thunder_v2_data.o"
+	@echo "... images/img_thunder_v2_data.i"
+	@echo "... images/img_thunder_v2_data.s"
+	@echo "... screens/smartwatch/smartwatch_gen.o"
+	@echo "... screens/smartwatch/smartwatch_gen.i"
+	@echo "... screens/smartwatch/smartwatch_gen.s"
+	@echo "... screens/smartwatch_v2/smartwatch_v2_gen.o"
+	@echo "... screens/smartwatch_v2/smartwatch_v2_gen.i"
+	@echo "... screens/smartwatch_v2/smartwatch_v2_gen.s"
 	@echo "... ui.o"
 	@echo "... ui.i"
 	@echo "... ui.s"
@@ -682,6 +1105,15 @@ help:
 	@echo "... widgets/wd_battery/wd_battery_xml_parser.o"
 	@echo "... widgets/wd_battery/wd_battery_xml_parser.i"
 	@echo "... widgets/wd_battery/wd_battery_xml_parser.s"
+	@echo "... widgets/wd_battery_v2/wd_battery_v2.o"
+	@echo "... widgets/wd_battery_v2/wd_battery_v2.i"
+	@echo "... widgets/wd_battery_v2/wd_battery_v2.s"
+	@echo "... widgets/wd_battery_v2/wd_battery_v2_gen.o"
+	@echo "... widgets/wd_battery_v2/wd_battery_v2_gen.i"
+	@echo "... widgets/wd_battery_v2/wd_battery_v2_gen.s"
+	@echo "... widgets/wd_battery_v2/wd_battery_v2_xml_parser.o"
+	@echo "... widgets/wd_battery_v2/wd_battery_v2_xml_parser.i"
+	@echo "... widgets/wd_battery_v2/wd_battery_v2_xml_parser.s"
 .PHONY : help
 
 

@@ -1,9 +1,9 @@
-<project name="battery_indicator">
-    <targets>
-        <target name="waveshare_watch">
-            <display width="410" height="502" radius="140" color_format="rgb565" />
-            <memory name="ext_ram" size="2M" />
-            <memory name="int_flash" size="512K" />
-        </target>
-    </targets>
+<project>
+	<targets>
+		<target name="waveshare_watch">
+			<display width="410" height="502" radius="120" color_format="rgb565" />
+			<memory name="ext_ram" size="2M" />
+			<memory name="int_flash" size="512K" />
+		</target>
+	</targets>
 </project>

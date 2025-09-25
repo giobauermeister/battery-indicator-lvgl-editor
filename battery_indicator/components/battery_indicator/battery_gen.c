@@ -6,14 +6,13 @@
 /*********************
  *      INCLUDES
  *********************/
+
 #include "battery_gen.h"
 #include "ui.h"
 
 /*********************
  *      DEFINES
  *********************/
-
-
 
 /**********************
  *      TYPEDEFS
@@ -26,8 +25,6 @@
 /***********************
  *  STATIC PROTOTYPES
  **********************/
-
-
 
 /**********************
  *   GLOBAL FUNCTIONS
@@ -113,8 +110,7 @@ lv_obj_t * battery_create(lv_obj_t * parent)
     lv_obj_set_height(lv_obj_0, 12);
     lv_obj_set_align(lv_obj_0, LV_ALIGN_RIGHT_MID);
     lv_obj_add_style(lv_obj_0, &tip, 0);
-
-
+    
     lv_obj_t * battery_border = lv_obj_create(battery);
     lv_obj_set_name(battery_border, "battery_border");
     lv_obj_set_width(battery_border, 71);
@@ -136,15 +132,12 @@ lv_obj_t * battery_create(lv_obj_t * parent)
     lv_obj_add_style(lv_slider_0, &indicator_red, LV_PART_INDICATOR | LV_STATE_USER_1);
     lv_obj_bind_state_if_eq(lv_slider_0, &low_power_mode, LV_STATE_USER_2, 1);
     lv_obj_add_style(lv_slider_0, &indicator_yellow, LV_PART_INDICATOR | LV_STATE_USER_2);
-
-
+    
     lv_obj_t * lv_image_0 = lv_image_create(battery);
     lv_image_set_src(lv_image_0, img_charging);
     lv_obj_set_align(lv_image_0, LV_ALIGN_LEFT_MID);
     lv_obj_set_style_pad_left(lv_image_0, 45, 0);
     lv_obj_bind_flag_if_eq(lv_image_0, &charging, LV_OBJ_FLAG_HIDDEN, 0);
-
-
 
     LV_TRACE_OBJ_CREATE("finished");
 
@@ -152,8 +145,6 @@ lv_obj_t * battery_create(lv_obj_t * parent)
 
     return battery;
 }
-
-
 
 /**********************
  *   STATIC FUNCTIONS

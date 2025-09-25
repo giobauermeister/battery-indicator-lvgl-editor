@@ -6,14 +6,13 @@
 /*********************
  *      INCLUDES
  *********************/
+
 #include "charge_slider_gen.h"
 #include "ui.h"
 
 /*********************
  *      DEFINES
  *********************/
-
-
 
 /**********************
  *      TYPEDEFS
@@ -26,8 +25,6 @@
 /***********************
  *  STATIC PROTOTYPES
  **********************/
-
-
 
 /**********************
  *   GLOBAL FUNCTIONS
@@ -79,13 +76,11 @@ lv_obj_t * charge_slider_create(lv_obj_t * parent)
     lv_obj_set_align(lv_label_0, LV_ALIGN_RIGHT_MID);
     lv_obj_set_style_pad_right(lv_label_0, 15, 0);
     lv_obj_set_style_text_color(lv_label_0, lv_color_hex(0x474747), 0);
-
+    
     lv_obj_t * lv_image_0 = lv_image_create(lv_slider_0);
     lv_image_set_src(lv_image_0, img_charging_no_stroke);
     lv_obj_set_align(lv_image_0, LV_ALIGN_LEFT_MID);
     lv_obj_set_style_pad_left(lv_image_0, 35, 0);
-
-
 
     LV_TRACE_OBJ_CREATE("finished");
 
@@ -93,8 +88,6 @@ lv_obj_t * charge_slider_create(lv_obj_t * parent)
 
     return lv_slider_0;
 }
-
-
 
 /**********************
  *   STATIC FUNCTIONS

@@ -1,23 +1,56 @@
 <component>
-    <previews>
-        <preview width="410" height="502" style_radius="140"/>
-    </previews>
-    <styles>
-        <style name="main" border_width="0" bg_color="0x505050" radius="0" pad_all="0"/>
-    </styles>
-   <view width="100%" height="60" scrollable="false" style_pad_left="90" style_pad_right="90">
-        <style name="main" />
-        <clock align="left_mid" style_text_color="0xEDEDED"></clock>
+	<previews>
+		<preview width="410" height="502" style_radius="140" />
+	</previews>
 
-        <!-- Try here the 3 different battery indicators -->
+	<styles>
+		<style name="style_main" border_width="0" bg_color="0x505050" radius="0" pad_all="0" />
+	</styles>
+	<view width="100%" height="60" scrollable="false" style_pad_left="90" style_pad_right="90">
+		<style name="style_main" />
+		<clock align="left_mid" />
 
-        <!-- Old iOS battery indicator, full XML component -->
-        <!-- <battery align="right_mid"></battery> -->
+		<!-- Try here the 3 different battery indicators -->
 
-        <!-- New iOS battery indicator, without the normal light state, full XML component -->
-        <!-- <battery_indicator_2 align="right_mid"></battery_indicator_2> -->
+		<!-- Old iOS battery indicator, full XML component -->
+		<!-- <battery align="right_mid"></battery> -->
 
-        <!-- New iOS battery indicator with light state and fully functional as a widget (XML + custom C code) -->
-        <wd_battery bind_charging="charging" bind_low_power="low_power_mode" bind_value="battery_value" align="right_mid"></wd_battery>
-   </view>
+		<!-- New iOS battery indicator, without the normal light state, full XML component -->
+		<!-- <battery_indicator_2 align="right_mid"></battery_indicator_2> -->
+
+		<!-- New iOS battery indicator with light state and fully functional as a widget (XML + custom C code) -->
+		<!-- <wd_battery
+			bind_charging="charging"
+			bind_low_power="low_power_mode"
+			bind_value="battery_value"
+			align="right_mid"
+		/> -->
+
+		<!-- <wd_battery_v2
+			align="right_mid"
+			value="10"
+			low_power="false"
+			show_percentage="true"
+			charging="false"
+			low_threshold="20"
+			theme="dark"
+		/> -->
+
+		<wd_battery_v2
+			low_threshold="20"
+			align="right_mid"
+			bind_value="battery_value"
+			bind_charging="charging"
+			bind_low_power="low_power_mode"
+			bind_show_percentage="show_percentage"
+			bind_theme="battery_theme"
+		/>
+
+		<!-- bind_value="battery_value"
+			bind_charging="charging"
+			bind_low_power="low_power_mode"
+			bind_show_percentage="show_percentage" -->
+
+		<!-- <battery_indicator_v2 align="right_mid" /> -->
+	</view>
 </component>

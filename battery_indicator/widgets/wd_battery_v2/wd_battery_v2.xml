@@ -1,0 +1,199 @@
+<widget>
+	<previews>
+		<preview width="100" height="100" style_bg_color="0x2f2f2f" />
+	</previews>
+
+	<consts>
+		<int name="battery_width" value="72" help="width of the battery" />
+		<int name="battery_height" value="38" help="height of the battery" />
+
+		<int name="battery_indicator_width" value="60" help="width of the battery" />
+		<int name="battery_indicator_height" value="26" help="width of the battery" />
+
+		<color name="battery_light_theme_grey" value="0x808080" help="grey color for battery light theme" />
+		<color name="battery_light_theme_indicator" value="0xFFFFFF" help="indicator color for battery light theme" />
+
+		<color name="battery_dark_theme_grey" value="0xB2B2B2" help="grey color for battery dark theme" />
+		<color name="battery_dark_theme_indicator" value="0x000000" help="indicator color for battery dark theme" />
+
+		<color name="battery_color_green" value="0x37c557" help="green (charging) color for the battery" />
+		<color name="battery_color_red" value="0xFD3B2F" help="red (low battery) color for the battery" />
+		<color name="battery_color_yellow" value="0xFECC0B" help="yellow (low power mode) color for the battery" />
+
+		<color
+			name="battery_dark_theme_pct_text_color"
+			value="0xFFFFFF"
+			help="color of the percentage text when in dark theme"
+		/>
+		<color
+			name="battery_light_theme_pct_text_color"
+			value="0x000000"
+			help="color of the percentage text when in light theme"
+		/>
+	</consts>
+
+	<styles>
+		<style name="style_battery_container" border_width="0" bg_opa="0" pad_all="0" />
+		<style name="tip_default" bg_color="#battery_light_theme_grey" border_width="0" />
+		<style name="hidden" opa="0" />
+		<style
+			name="style_a_border"
+			radius="14"
+			border_width="3"
+			border_color="#battery_light_theme_grey"
+			bg_opa="0"
+			pad_all="0"
+		/>
+		<style name="style_a_indicator" radius="8" bg_opa="0" />
+		<style name="style_a_slider_indicator" bg_color="#battery_color_green" radius="8" />
+		<style name="style_a_battery_outline" border_width="0" bg_opa="0" pad_all="0" />
+		<style name="style_a_mask_base" border_width="0" bg_opa="0" pad_all="0" />
+		<style name="style_a_with_mask" bitmap_mask_src="img_battery_mask_v2" />
+		<style name="style_a_no_mask" bitmap_mask_src="NULL" />
+
+		<!-- Styles for B mode (percetage mode) -->
+		<style name="style_b_battery_indicator" bg_color="0xFFFFFF" radius="0" />
+		<style name="style_b_battery_background" bg_color="0x999999" bg_opa="255" />
+		<style
+			name="style_b_text_indicator"
+			border_width="0"
+			bg_opa="0"
+			pad_all="0"
+			layout="flex"
+			flex_flow="row"
+			pad_column="2"
+			pad_top="0"
+		/>
+		<style name="style_b_battery_value_text_color_dark" text_color="0x505050" />
+	</styles>
+
+	<api>
+		<prop name="value" type="int" default="50" help="The value of the battery" />
+		<prop name="low_power" type="bool" default="0" help="The low power state of the battery" />
+		<prop name="charging" type="bool" default="0" help="The charging state of the battery" />
+		<prop name="show_percentage" type="bool" default="1" help="1: pill with number, 0: outline only" />
+		<prop name="theme" type="int" default="0" help="0: light theme, 1: dark theme" />
+		<prop name="low_threshold" type="int" default="20" help="threshold red style (when not charging)" />
+
+		<prop name="bind_value" type="subject" />
+		<prop name="bind_low_power" type="subject" />
+		<prop name="bind_charging" type="subject" />
+		<prop name="bind_show_percentage" type="subject" />
+		<prop name="bind_theme" type="subject" />
+	</api>
+
+	<view extends="lv_obj" name="battery" width="79" height="38" scrollable="false">
+		<style name="style_battery_container" />
+
+		<!-- Battery tip, common for both styles -->
+		<lv_obj
+			name="battery_tip_container"
+			width="4"
+			height="12"
+			style_radius="0"
+			style_border_width="0"
+			scrollable="false"
+			align="right_mid"
+			style_pad_all="0"
+			style_bg_opa="0"
+		>
+			<lv_obj name="battery_tip" width="12" height="12" align="right_mid">
+				<style name="tip_default" />
+			</lv_obj>
+		</lv_obj>
+
+		<!-- ===== MODE A: OUTLINE (no percentage) ===== -->
+
+		<lv_obj
+			name="battery_mode_outline"
+			width="#battery_width"
+			height="#battery_height"
+			align="left_mid"
+			scrollable="false"
+		>
+			<style name="style_a_battery_outline" />
+			<bind_flag_if_eq subject="show_percentage" ref_value="1" flag="hidden" />
+
+			<lv_obj
+				name="mask_container"
+				width="#battery_width"
+				height="#battery_height"
+				align="left_mid"
+				scrollable="false"
+			>
+				<style name="style_a_mask_base" />
+				<bind_style name="style_a_no_mask" subject="charging" ref_value="0" selector="main" />
+				<bind_style name="style_a_with_mask" subject="charging" ref_value="1" selector="main" />
+
+				<lv_obj
+					name="battery_border"
+					width="#battery_width"
+					height="#battery_height"
+					align="left_mid"
+					scrollable="false"
+				>
+					<style name="style_a_border" />
+					<lv_slider
+						name="battery_slider_a_mode"
+						width="#battery_indicator_width"
+						height="#battery_indicator_height"
+						min_value="0"
+						max_value="100"
+						align="left_mid"
+						x="3"
+						scrollable="false"
+						bind_value="battery_value"
+					>
+						<style name="style_a_indicator" />
+						<style name="style_a_slider_indicator" selector="indicator" />
+						<style name="hidden" selector="knob" />
+					</lv_slider>
+				</lv_obj>
+			</lv_obj>
+
+			<lv_image name="img_thunder_charging" src="img_thunder_v2" align="center">
+				<bind_flag_if_eq subject="charging" ref_value="0" flag="hidden" />
+			</lv_image>
+		</lv_obj>
+
+		<!-- ===== MODE B: PILL WITH PERCENTAGE ===== -->
+
+		<lv_slider
+			name="battery_slider_b_mode"
+			width="#battery_width"
+			height="#battery_height"
+			style_radius="14"
+			min_value="0"
+			max_value="100"
+			align="left_mid"
+			scrollable="false"
+			bind_value="battery_value"
+		>
+			<!-- Only visible when show_percentage == 1 -->
+			<bind_flag_if_eq subject="show_percentage" ref_value="0" flag="hidden" />
+
+			<style name="hidden" selector="knob" />
+			<style name="style_b_battery_indicator" selector="indicator" />
+			<style name="style_b_battery_background" selector="main" />
+
+			<!-- Overlay for % text and a small charging icon -->
+			<lv_obj name="text_indicator_container" width="content" height="content" align="center">
+				<style name="style_b_text_indicator" />
+				<lv_label
+					name="pct_text"
+					text="100"
+					style_text_font="font_inter_semibold_30"
+					style_text_letter_space="-1"
+					style_text_align="left"
+				>
+					<style name="style_b_battery_value_text_color_dark" />
+				</lv_label>
+
+				<!-- Thunder image for charging -->
+				<lv_image name="img_thunder_charging_small" src="img_thunder_small_v2" style_pad_top="13">
+					<bind_flag_if_eq subject="charging" ref_value="0" flag="hidden" />
+				</lv_image>
+			</lv_obj>
+		</lv_slider>
+	</view>
+</widget>

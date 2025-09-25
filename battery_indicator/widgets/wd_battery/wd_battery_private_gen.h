@@ -13,6 +13,7 @@ extern "C" {
 /*********************
  *      INCLUDES
  *********************/
+
 #include "lvgl_private.h"
 #include "wd_battery.h"
 
@@ -23,7 +24,6 @@ extern "C" {
 /**********************
  *      TYPEDEFS
  **********************/
-
 typedef struct {
     lv_obj_t obj;  /* Base widget to extend */
     int32_t value;

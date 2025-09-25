@@ -144,23 +144,8 @@ project/CMakeFiles/lib-ui.dir/battery_indicator.c.o: /lved/project/battery_indic
   /lved/resources/lvgl/src/misc/lv_iter.h \
   /lved/resources/lvgl/src/misc/lv_circle_buf.h \
   /lved/resources/lvgl/src/misc/lv_tree.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache_entry.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_class.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_lru_rb.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache_private.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
   /lved/resources/lvgl/src/osal/lv_os.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/osal/lv_os_none.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_lru_ll.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_sc_da.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_cache_instance.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_image_header_cache.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_image_cache.h \
   /lved/resources/lvgl/src/tick/lv_tick.h \
   /lved/resources/lvgl/src/core/lv_obj.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
@@ -215,6 +200,7 @@ project/CMakeFiles/lib-ui.dir/battery_indicator.c.o: /lved/project/battery_indic
   /lved/resources/lvgl/src/misc/lv_profiler.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_matrix.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
   /lved/resources/lvgl/src/draw/lv_image_decoder.h \
   /lved/resources/lvgl/src/draw/lv_draw_buf.h \
   /lved/resources/lvgl/src/misc/lv_fs.h \
@@ -394,6 +380,7 @@ project/CMakeFiles/lib-ui.dir/battery_indicator.c.o: /lved/project/battery_indic
   /lved/resources/lvgl/src/others/xml/lv_xml_utils.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_load.h \
   /lved/resources/lvgl/src/others/test/lv_test.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/others/test/lv_test_indev.h \
@@ -428,9 +415,8 @@ project/CMakeFiles/lib-ui.dir/battery_indicator.c.o: /lved/project/battery_indic
   /lved/resources/lvgl/src/libs/gif/lv_gif.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
-  /lved/resources/lvgl/src/widgets/image/lv_image.h \
-  /lved/resources/lvgl/src/core/lv_obj_class.h \
+  /lved/resources/lvgl/src/libs/gstreamer/lv_gstreamer.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/libs/qrcode/lv_qrcode.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_color.h \
@@ -489,6 +475,9 @@ project/CMakeFiles/lib-ui.dir/battery_indicator.c.o: /lved/project/battery_indic
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/drivers/display/tft_espi/lv_tft_espi.h \
   /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/lovyan_gfx/lv_lovyan_gfx.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
   /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/drivers/display/ili9341/lv_ili9341.h \
@@ -524,10 +513,12 @@ project/CMakeFiles/lib-ui.dir/battery_indicator.c.o: /lved/project/battery_indic
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/indev/lv_indev.h \
   /lved/resources/lvgl/src/drivers/windows/lv_windows_display.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_glfw_window.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_window.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_opengles_texture.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_texture.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_glfw.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_egl.h \
   /lved/resources/lvgl/src/drivers/qnx/lv_qnx.h \
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/indev/lv_indev.h \
@@ -545,13 +536,20 @@ project/CMakeFiles/lib-ui.dir/battery_indicator.c.o: /lved/project/battery_indic
   /lved/resources/lvgl/src/lv_api_map_v9_2.h \
   /lved/resources/lvgl/src/lv_api_map_v9_3.h \
   /lved/project/widgets/wd_battery/wd_battery_gen.h \
+  /lved/project/widgets/wd_battery_v2/wd_battery_v2_gen.h \
   /lved/project/components/battery_indicator/battery_gen.h \
   /lved/project/components/battery_indicator_2/battery_indicator_2_gen.h \
+  /lved/project/components/battery_indicator_v2/battery_indicator_v2_gen.h \
   /lved/project/components/button/button_gen.h \
   /lved/project/components/charge_slider/charge_slider_gen.h \
   /lved/project/components/clock/clock_gen.h \
+  /lved/project/components/settings_item/settings_item_gen.h \
+  /lved/project/components/settings_menu_line/settings_menu_line_gen.h \
+  /lved/project/components/settings_panel/settings_panel_gen.h \
+  /lved/project/components/toggle_switch/toggle_switch_gen.h \
   /lved/project/components/top_bar/top_bar_gen.h \
-  /lved/project/screens/smartwatch_gen.h
+  /lved/project/screens/smartwatch/smartwatch_gen.h \
+  /lved/project/screens/smartwatch_v2/smartwatch_v2_gen.h
 
 project/CMakeFiles/lib-ui.dir/battery_indicator_gen.c.o: /lved/project/battery_indicator_gen.c \
   /lved/project/battery_indicator_gen.h \
@@ -695,23 +693,8 @@ project/CMakeFiles/lib-ui.dir/battery_indicator_gen.c.o: /lved/project/battery_i
   /lved/resources/lvgl/src/misc/lv_iter.h \
   /lved/resources/lvgl/src/misc/lv_circle_buf.h \
   /lved/resources/lvgl/src/misc/lv_tree.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache_entry.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_class.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_lru_rb.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache_private.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
   /lved/resources/lvgl/src/osal/lv_os.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/osal/lv_os_none.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_lru_ll.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_sc_da.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_cache_instance.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_image_header_cache.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_image_cache.h \
   /lved/resources/lvgl/src/tick/lv_tick.h \
   /lved/resources/lvgl/src/core/lv_obj.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
@@ -766,6 +749,7 @@ project/CMakeFiles/lib-ui.dir/battery_indicator_gen.c.o: /lved/project/battery_i
   /lved/resources/lvgl/src/misc/lv_profiler.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_matrix.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
   /lved/resources/lvgl/src/draw/lv_image_decoder.h \
   /lved/resources/lvgl/src/draw/lv_draw_buf.h \
   /lved/resources/lvgl/src/misc/lv_fs.h \
@@ -945,6 +929,7 @@ project/CMakeFiles/lib-ui.dir/battery_indicator_gen.c.o: /lved/project/battery_i
   /lved/resources/lvgl/src/others/xml/lv_xml_utils.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_load.h \
   /lved/resources/lvgl/src/others/test/lv_test.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/others/test/lv_test_indev.h \
@@ -979,9 +964,8 @@ project/CMakeFiles/lib-ui.dir/battery_indicator_gen.c.o: /lved/project/battery_i
   /lved/resources/lvgl/src/libs/gif/lv_gif.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
-  /lved/resources/lvgl/src/widgets/image/lv_image.h \
-  /lved/resources/lvgl/src/core/lv_obj_class.h \
+  /lved/resources/lvgl/src/libs/gstreamer/lv_gstreamer.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/libs/qrcode/lv_qrcode.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_color.h \
@@ -1040,6 +1024,9 @@ project/CMakeFiles/lib-ui.dir/battery_indicator_gen.c.o: /lved/project/battery_i
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/drivers/display/tft_espi/lv_tft_espi.h \
   /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/lovyan_gfx/lv_lovyan_gfx.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
   /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/drivers/display/ili9341/lv_ili9341.h \
@@ -1075,10 +1062,12 @@ project/CMakeFiles/lib-ui.dir/battery_indicator_gen.c.o: /lved/project/battery_i
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/indev/lv_indev.h \
   /lved/resources/lvgl/src/drivers/windows/lv_windows_display.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_glfw_window.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_window.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_opengles_texture.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_texture.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_glfw.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_egl.h \
   /lved/resources/lvgl/src/drivers/qnx/lv_qnx.h \
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/indev/lv_indev.h \
@@ -1096,13 +1085,20 @@ project/CMakeFiles/lib-ui.dir/battery_indicator_gen.c.o: /lved/project/battery_i
   /lved/resources/lvgl/src/lv_api_map_v9_2.h \
   /lved/resources/lvgl/src/lv_api_map_v9_3.h \
   /lved/project/widgets/wd_battery/wd_battery_gen.h \
+  /lved/project/widgets/wd_battery_v2/wd_battery_v2_gen.h \
   /lved/project/components/battery_indicator/battery_gen.h \
   /lved/project/components/battery_indicator_2/battery_indicator_2_gen.h \
+  /lved/project/components/battery_indicator_v2/battery_indicator_v2_gen.h \
   /lved/project/components/button/button_gen.h \
   /lved/project/components/charge_slider/charge_slider_gen.h \
   /lved/project/components/clock/clock_gen.h \
+  /lved/project/components/settings_item/settings_item_gen.h \
+  /lved/project/components/settings_menu_line/settings_menu_line_gen.h \
+  /lved/project/components/settings_panel/settings_panel_gen.h \
+  /lved/project/components/toggle_switch/toggle_switch_gen.h \
   /lved/project/components/top_bar/top_bar_gen.h \
-  /lved/project/screens/smartwatch_gen.h \
+  /lved/project/screens/smartwatch/smartwatch_gen.h \
+  /lved/project/screens/smartwatch_v2/smartwatch_v2_gen.h \
   /lved/project/widgets/wd_battery/wd_battery_private_gen.h \
   /lved/resources/lvgl/lvgl_private.h \
   /lved/resources/lvgl/src/core/lv_global.h \
@@ -1111,7 +1107,6 @@ project/CMakeFiles/lib-ui.dir/battery_indicator_gen.c.o: /lved/project/battery_i
   /lved/resources/lvgl/src/misc/lv_area.h \
   /lved/resources/lvgl/src/misc/lv_color.h \
   /lved/resources/lvgl/src/display/lv_display.h \
-  /lved/resources/lvgl/src/osal/lv_os.h \
   /lved/resources/lvgl/src/draw/lv_draw_vector.h \
   /lved/resources/lvgl/src/draw/lv_draw_triangle.h \
   /lved/resources/lvgl/src/draw/lv_draw_label.h \
@@ -1130,7 +1125,11 @@ project/CMakeFiles/lib-ui.dir/battery_indicator_gen.c.o: /lved/project/battery_i
   /lved/resources/lvgl/src/misc/lv_ll.h \
   /lved/resources/lvgl/src/misc/lv_log.h \
   /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/osal/lv_os_private.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/osal/lv_os.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/osal/lv_os_none.h \
   /lved/resources/lvgl/src/others/sysmon/lv_sysmon.h \
   /lved/resources/lvgl/src/stdlib/builtin/lv_tlsf.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
@@ -1143,8 +1142,21 @@ project/CMakeFiles/lib-ui.dir/battery_indicator_gen.c.o: /lved/project/battery_i
   /lved/resources/lvgl/src/tick/lv_tick_private.h \
   /lved/resources/lvgl/src/draw/lv_draw_buf_private.h \
   /lved/resources/lvgl/src/draw/lv_draw_private.h \
-  /lved/resources/lvgl/src/osal/lv_os.h \
+  /lved/resources/lvgl/src/osal/lv_os_private.h \
   /lved/resources/lvgl/src/misc/cache/lv_cache.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/cache/lv_cache_entry.h \
+  /lved/resources/lvgl/src/misc/cache/class/lv_cache_class.h \
+  /lved/resources/lvgl/src/misc/cache/class/lv_cache_lru_rb.h \
+  /lved/resources/lvgl/src/misc/cache/lv_cache_private.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/osal/lv_os_private.h \
+  /lved/resources/lvgl/src/misc/cache/class/lv_cache_lru_ll.h \
+  /lved/resources/lvgl/src/misc/cache/class/lv_cache_sc_da.h \
+  /lved/resources/lvgl/src/misc/cache/instance/lv_cache_instance.h \
+  /lved/resources/lvgl/src/misc/cache/instance/lv_image_header_cache.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/cache/instance/lv_image_cache.h \
   /lved/resources/lvgl/src/draw/sw/lv_draw_sw_private.h \
   /lved/resources/lvgl/src/draw/lv_draw_private.h \
   /lved/resources/lvgl/src/draw/sw/lv_draw_sw_mask_private.h \
@@ -1165,7 +1177,9 @@ project/CMakeFiles/lib-ui.dir/battery_indicator_gen.c.o: /lved/project/battery_i
   /lved/resources/lvgl/src/indev/lv_indev_scroll.h \
   /lved/resources/lvgl/src/misc/lv_text_private.h \
   /lved/resources/lvgl/src/misc/lv_text.h \
+  /lved/resources/lvgl/src/misc/cache/lv_cache.h \
   /lved/resources/lvgl/src/misc/cache/lv_cache_entry_private.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
   /lved/resources/lvgl/src/misc/cache/lv_cache_private.h \
   /lved/resources/lvgl/src/layouts/lv_layout_private.h \
   /lved/resources/lvgl/src/stdlib/lv_mem_private.h \
@@ -1194,8 +1208,6 @@ project/CMakeFiles/lib-ui.dir/battery_indicator_gen.c.o: /lved/project/battery_i
   /lved/resources/lvgl/src/widgets/image/lv_image.h \
   /lved/resources/lvgl/src/libs/barcode/lv_barcode_private.h \
   /lved/resources/lvgl/src/widgets/canvas/lv_canvas_private.h \
-  /lved/resources/lvgl/src/libs/gif/lv_gif_private.h \
-  /lved/resources/lvgl/src/widgets/image/lv_image_private.h \
   /lved/resources/lvgl/src/draw/lv_draw_triangle_private.h \
   /lved/resources/lvgl/src/draw/lv_draw_triangle.h \
   /lved/resources/lvgl/src/draw/lv_draw_private.h \
@@ -1316,7 +1328,9 @@ project/CMakeFiles/lib-ui.dir/battery_indicator_gen.c.o: /lved/project/battery_i
   /lved/resources/lvgl/src/widgets/lottie/lv_lottie_private.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/osal/lv_os_private.h \
-  /lved/project/widgets/wd_battery/wd_battery.h
+  /lved/project/widgets/wd_battery/wd_battery.h \
+  /lved/project/widgets/wd_battery_v2/wd_battery_v2_private_gen.h \
+  /lved/project/widgets/wd_battery_v2/wd_battery_v2.h
 
 project/CMakeFiles/lib-ui.dir/components/battery_indicator/battery_gen.c.o: /lved/project/components/battery_indicator/battery_gen.c \
   /lved/project/components/battery_indicator/battery_gen.h \
@@ -1460,23 +1474,8 @@ project/CMakeFiles/lib-ui.dir/components/battery_indicator/battery_gen.c.o: /lve
   /lved/resources/lvgl/src/misc/lv_iter.h \
   /lved/resources/lvgl/src/misc/lv_circle_buf.h \
   /lved/resources/lvgl/src/misc/lv_tree.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache_entry.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_class.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_lru_rb.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache_private.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
   /lved/resources/lvgl/src/osal/lv_os.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/osal/lv_os_none.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_lru_ll.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_sc_da.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_cache_instance.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_image_header_cache.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_image_cache.h \
   /lved/resources/lvgl/src/tick/lv_tick.h \
   /lved/resources/lvgl/src/core/lv_obj.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
@@ -1531,6 +1530,7 @@ project/CMakeFiles/lib-ui.dir/components/battery_indicator/battery_gen.c.o: /lve
   /lved/resources/lvgl/src/misc/lv_profiler.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_matrix.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
   /lved/resources/lvgl/src/draw/lv_image_decoder.h \
   /lved/resources/lvgl/src/draw/lv_draw_buf.h \
   /lved/resources/lvgl/src/misc/lv_fs.h \
@@ -1710,6 +1710,7 @@ project/CMakeFiles/lib-ui.dir/components/battery_indicator/battery_gen.c.o: /lve
   /lved/resources/lvgl/src/others/xml/lv_xml_utils.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_load.h \
   /lved/resources/lvgl/src/others/test/lv_test.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/others/test/lv_test_indev.h \
@@ -1744,9 +1745,8 @@ project/CMakeFiles/lib-ui.dir/components/battery_indicator/battery_gen.c.o: /lve
   /lved/resources/lvgl/src/libs/gif/lv_gif.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
-  /lved/resources/lvgl/src/widgets/image/lv_image.h \
-  /lved/resources/lvgl/src/core/lv_obj_class.h \
+  /lved/resources/lvgl/src/libs/gstreamer/lv_gstreamer.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/libs/qrcode/lv_qrcode.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_color.h \
@@ -1805,6 +1805,9 @@ project/CMakeFiles/lib-ui.dir/components/battery_indicator/battery_gen.c.o: /lve
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/drivers/display/tft_espi/lv_tft_espi.h \
   /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/lovyan_gfx/lv_lovyan_gfx.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
   /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/drivers/display/ili9341/lv_ili9341.h \
@@ -1840,10 +1843,12 @@ project/CMakeFiles/lib-ui.dir/components/battery_indicator/battery_gen.c.o: /lve
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/indev/lv_indev.h \
   /lved/resources/lvgl/src/drivers/windows/lv_windows_display.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_glfw_window.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_window.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_opengles_texture.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_texture.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_glfw.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_egl.h \
   /lved/resources/lvgl/src/drivers/qnx/lv_qnx.h \
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/indev/lv_indev.h \
@@ -1864,12 +1869,19 @@ project/CMakeFiles/lib-ui.dir/components/battery_indicator/battery_gen.c.o: /lve
   /lved/project/battery_indicator.h \
   /lved/project/battery_indicator_gen.h \
   /lved/project/widgets/wd_battery/wd_battery_gen.h \
+  /lved/project/widgets/wd_battery_v2/wd_battery_v2_gen.h \
   /lved/project/components/battery_indicator_2/battery_indicator_2_gen.h \
+  /lved/project/components/battery_indicator_v2/battery_indicator_v2_gen.h \
   /lved/project/components/button/button_gen.h \
   /lved/project/components/charge_slider/charge_slider_gen.h \
   /lved/project/components/clock/clock_gen.h \
+  /lved/project/components/settings_item/settings_item_gen.h \
+  /lved/project/components/settings_menu_line/settings_menu_line_gen.h \
+  /lved/project/components/settings_panel/settings_panel_gen.h \
+  /lved/project/components/toggle_switch/toggle_switch_gen.h \
   /lved/project/components/top_bar/top_bar_gen.h \
-  /lved/project/screens/smartwatch_gen.h
+  /lved/project/screens/smartwatch/smartwatch_gen.h \
+  /lved/project/screens/smartwatch_v2/smartwatch_v2_gen.h
 
 project/CMakeFiles/lib-ui.dir/components/battery_indicator_2/battery_indicator_2_gen.c.o: /lved/project/components/battery_indicator_2/battery_indicator_2_gen.c \
   /lved/project/components/battery_indicator_2/battery_indicator_2_gen.h \
@@ -2013,23 +2025,8 @@ project/CMakeFiles/lib-ui.dir/components/battery_indicator_2/battery_indicator_2
   /lved/resources/lvgl/src/misc/lv_iter.h \
   /lved/resources/lvgl/src/misc/lv_circle_buf.h \
   /lved/resources/lvgl/src/misc/lv_tree.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache_entry.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_class.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_lru_rb.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache_private.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
   /lved/resources/lvgl/src/osal/lv_os.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/osal/lv_os_none.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_lru_ll.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_sc_da.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_cache_instance.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_image_header_cache.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_image_cache.h \
   /lved/resources/lvgl/src/tick/lv_tick.h \
   /lved/resources/lvgl/src/core/lv_obj.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
@@ -2084,6 +2081,7 @@ project/CMakeFiles/lib-ui.dir/components/battery_indicator_2/battery_indicator_2
   /lved/resources/lvgl/src/misc/lv_profiler.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_matrix.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
   /lved/resources/lvgl/src/draw/lv_image_decoder.h \
   /lved/resources/lvgl/src/draw/lv_draw_buf.h \
   /lved/resources/lvgl/src/misc/lv_fs.h \
@@ -2263,6 +2261,7 @@ project/CMakeFiles/lib-ui.dir/components/battery_indicator_2/battery_indicator_2
   /lved/resources/lvgl/src/others/xml/lv_xml_utils.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_load.h \
   /lved/resources/lvgl/src/others/test/lv_test.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/others/test/lv_test_indev.h \
@@ -2297,9 +2296,8 @@ project/CMakeFiles/lib-ui.dir/components/battery_indicator_2/battery_indicator_2
   /lved/resources/lvgl/src/libs/gif/lv_gif.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
-  /lved/resources/lvgl/src/widgets/image/lv_image.h \
-  /lved/resources/lvgl/src/core/lv_obj_class.h \
+  /lved/resources/lvgl/src/libs/gstreamer/lv_gstreamer.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/libs/qrcode/lv_qrcode.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_color.h \
@@ -2358,6 +2356,9 @@ project/CMakeFiles/lib-ui.dir/components/battery_indicator_2/battery_indicator_2
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/drivers/display/tft_espi/lv_tft_espi.h \
   /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/lovyan_gfx/lv_lovyan_gfx.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
   /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/drivers/display/ili9341/lv_ili9341.h \
@@ -2393,10 +2394,12 @@ project/CMakeFiles/lib-ui.dir/components/battery_indicator_2/battery_indicator_2
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/indev/lv_indev.h \
   /lved/resources/lvgl/src/drivers/windows/lv_windows_display.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_glfw_window.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_window.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_opengles_texture.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_texture.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_glfw.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_egl.h \
   /lved/resources/lvgl/src/drivers/qnx/lv_qnx.h \
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/indev/lv_indev.h \
@@ -2417,12 +2420,570 @@ project/CMakeFiles/lib-ui.dir/components/battery_indicator_2/battery_indicator_2
   /lved/project/battery_indicator.h \
   /lved/project/battery_indicator_gen.h \
   /lved/project/widgets/wd_battery/wd_battery_gen.h \
+  /lved/project/widgets/wd_battery_v2/wd_battery_v2_gen.h \
   /lved/project/components/battery_indicator/battery_gen.h \
+  /lved/project/components/battery_indicator_v2/battery_indicator_v2_gen.h \
   /lved/project/components/button/button_gen.h \
   /lved/project/components/charge_slider/charge_slider_gen.h \
   /lved/project/components/clock/clock_gen.h \
+  /lved/project/components/settings_item/settings_item_gen.h \
+  /lved/project/components/settings_menu_line/settings_menu_line_gen.h \
+  /lved/project/components/settings_panel/settings_panel_gen.h \
+  /lved/project/components/toggle_switch/toggle_switch_gen.h \
   /lved/project/components/top_bar/top_bar_gen.h \
-  /lved/project/screens/smartwatch_gen.h
+  /lved/project/screens/smartwatch/smartwatch_gen.h \
+  /lved/project/screens/smartwatch_v2/smartwatch_v2_gen.h
+
+project/CMakeFiles/lib-ui.dir/components/battery_indicator_v2/battery_indicator_v2_gen.c.o: /lved/project/components/battery_indicator_v2/battery_indicator_v2_gen.c \
+  /lved/project/components/battery_indicator_v2/battery_indicator_v2_gen.h \
+  /lved/resources/lvgl/lvgl.h \
+  /lved/resources/lvgl/lv_version.h \
+  /lved/resources/lvgl/src/lv_init.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/lv_conf_kconfig.h \
+  /lved/resources/conf/lv_conf.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /emsdk/upstream/lib/clang/21/include/stdint.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdint.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/bits/stdint.h \
+  /emsdk/upstream/lib/clang/21/include/stddef.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stddef.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_header_macro.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_ptrdiff_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_size_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_wchar_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_null.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_max_align_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_offsetof.h \
+  /emsdk/upstream/lib/clang/21/include/stdbool.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdbool.h \
+  /emsdk/upstream/lib/clang/21/include/inttypes.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/inttypes.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/features.h \
+  /emsdk/upstream/lib/clang/21/include/limits.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/limits.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/bits/limits.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/stdarg.h \
+  /emsdk/upstream/lib/clang/21/include/stdarg.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdarg.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_header_macro.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg___gnuc_va_list.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_va_list.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_va_arg.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg___va_copy.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_va_copy.h \
+  /lved/resources/lvgl/src/stdlib/lv_mem.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/stdlib/lv_string.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/stdlib/lv_sprintf.h \
+  /lved/resources/lvgl/src/misc/lv_log.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/tick/lv_tick.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_ll.h \
+  /lved/resources/lvgl/src/misc/lv_math.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/misc/lv_async.h \
+  /lved/resources/lvgl/src/misc/lv_anim_timeline.h \
+  /lved/resources/lvgl/src/misc/lv_anim.h \
+  /lved/resources/lvgl/src/misc/lv_profiler_builtin.h \
+  /lved/resources/lvgl/src/misc/lv_rb.h \
+  /lved/resources/lvgl/src/misc/lv_assert.h \
+  /lved/resources/lvgl/src/stdlib/lv_mem.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_main.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_stdinc.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_config.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_platform.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/begin_code.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/close_code.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_config_emscripten.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/sys/types.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/endian.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/sys/select.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdio.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/wasi/api.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/stdlib.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdlib.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/alloca.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/string.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/string.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/strings.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/wchar.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/ctype.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/math.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/math.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_assert.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_atomic.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_audio.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_error.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_endian.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_mutex.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_thread.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_rwops.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_clipboard.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_cpuinfo.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_events.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_video.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_pixels.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_rect.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_surface.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_blendmode.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_keyboard.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_keycode.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_scancode.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_mouse.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_joystick.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_guid.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_gamecontroller.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_sensor.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_quit.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_gesture.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_touch.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_filesystem.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_haptic.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_hidapi.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_hints.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_loadso.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_log.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_messagebox.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_metal.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_power.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_render.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_shape.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_system.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_timer.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_version.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_locale.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_misc.h \
+  /lved/resources/lvgl/src/misc/lv_utils.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_math.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_assert.h \
+  /lved/resources/lvgl/src/misc/lv_palette.h \
+  /lved/resources/lvgl/src/misc/lv_color_op.h \
+  /lved/resources/lvgl/src/stdlib/lv_string.h \
+  /lved/resources/lvgl/src/draw/lv_image_dsc.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_iter.h \
+  /lved/resources/lvgl/src/misc/lv_circle_buf.h \
+  /lved/resources/lvgl/src/misc/lv_tree.h \
+  /lved/resources/lvgl/src/osal/lv_os.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/tick/lv_tick.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_style.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/font/lv_symbol_def.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_anim.h \
+  /lved/resources/lvgl/src/misc/lv_text.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/stdlib/lv_sprintf.h \
+  /lved/resources/lvgl/src/misc/lv_assert.h \
+  /lved/resources/lvgl/src/misc/lv_bidi.h \
+  /lved/resources/lvgl/src/misc/lv_grad.h \
+  /lved/resources/lvgl/src/layouts/lv_layout.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/layouts/flex/lv_flex.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/layouts/grid/lv_grid.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_style_gen.h \
+  /lved/resources/lvgl/src/core/lv_obj_tree.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/core/lv_obj_pos.h \
+  /lved/resources/lvgl/src/core/lv_obj_scroll.h \
+  /lved/resources/lvgl/src/core/lv_obj_style.h \
+  /lved/resources/lvgl/src/core/lv_obj_style_gen.h \
+  /lved/resources/lvgl/src/core/lv_obj_style.h \
+  /lved/resources/lvgl/src/core/lv_obj_draw.h \
+  /lved/resources/lvgl/src/draw/lv_draw_rect.h \
+  /lved/resources/lvgl/src/draw/lv_draw.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_style.h \
+  /lved/resources/lvgl/src/misc/lv_text.h \
+  /lved/resources/lvgl/src/misc/lv_profiler.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_matrix.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/draw/lv_image_decoder.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/misc/lv_fs.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/draw/lv_draw_label.h \
+  /lved/resources/lvgl/src/misc/lv_bidi.h \
+  /lved/resources/lvgl/src/draw/lv_draw_image.h \
+  /lved/resources/lvgl/src/draw/lv_draw_line.h \
+  /lved/resources/lvgl/src/draw/lv_draw_arc.h \
+  /lved/resources/lvgl/src/draw/lv_draw_triangle.h \
+  /lved/resources/lvgl/src/core/lv_obj_class.h \
+  /lved/resources/lvgl/src/core/lv_obj_property.h \
+  /lved/resources/lvgl/src/core/lv_obj_event.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/core/lv_group.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_ll.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/core/lv_group.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/indev/lv_indev_gesture.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/core/lv_refr.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/font/lv_binfont_loader.h \
+  /lved/resources/lvgl/src/font/lv_font_fmt_txt.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/animimage/lv_animimage.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/misc/lv_fs.h \
+  /lved/resources/lvgl/src/draw/lv_draw.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/arc/lv_arc.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/arclabel/lv_arclabel.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/bar/lv_bar.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/misc/lv_anim.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/font/lv_symbol_def.h \
+  /lved/resources/lvgl/src/misc/lv_text.h \
+  /lved/resources/lvgl/src/draw/lv_draw.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/button/lv_button.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar.h \
+  /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar_header_arrow.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar_chinese.h \
+  /lved/resources/lvgl/src/widgets/canvas/lv_canvas.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/draw/lv_draw_image.h \
+  /lved/resources/lvgl/src/widgets/chart/lv_chart.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/checkbox/lv_checkbox.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/dropdown/lv_dropdown.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/widgets/imagebutton/lv_imagebutton.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/keyboard/lv_keyboard.h \
+  /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/led/lv_led.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/line/lv_line.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/list/lv_list.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/lottie/lv_lottie.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/menu/lv_menu.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/msgbox/lv_msgbox.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/roller/lv_roller.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/scale/lv_scale.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/line/lv_line.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/slider/lv_slider.h \
+  /lved/resources/lvgl/src/widgets/bar/lv_bar.h \
+  /lved/resources/lvgl/src/widgets/span/lv_span.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/spinbox/lv_spinbox.h \
+  /lved/resources/lvgl/src/widgets/textarea/lv_textarea.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/spinner/lv_spinner.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/switch/lv_switch.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/table/lv_table.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/tabview/lv_tabview.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/textarea/lv_textarea.h \
+  /lved/resources/lvgl/src/widgets/tileview/lv_tileview.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/win/lv_win.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/3dtexture/lv_3dtexture.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/others/snapshot/lv_snapshot.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/sysmon/lv_sysmon.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/monkey/lv_monkey.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/others/gridnav/lv_gridnav.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/fragment/lv_fragment.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/imgfont/lv_imgfont.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/ime/lv_ime_pinyin.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/file_explorer/lv_file_explorer.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/font_manager/lv_font_manager.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/others/translation/lv_translation.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_test.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_translation.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_component.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_widget.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_utils.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_load.h \
+  /lved/resources/lvgl/src/others/test/lv_test.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/others/test/lv_test_indev.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/others/test/lv_test_display.h \
+  /lved/resources/lvgl/src/others/test/lv_test_helpers.h \
+  /lved/resources/lvgl/src/stdlib/lv_mem.h \
+  /lved/resources/lvgl/src/others/test/lv_test_screenshot_compare.h \
+  /lved/resources/lvgl/src/others/test/lv_test_indev_gesture.h \
+  /lved/resources/lvgl/src/libs/barcode/lv_barcode.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/widgets/canvas/lv_canvas.h \
+  /lved/resources/lvgl/src/libs/bin_decoder/lv_bin_decoder.h \
+  /lved/resources/lvgl/src/draw/lv_image_decoder.h \
+  /lved/resources/lvgl/src/libs/bmp/lv_bmp.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/rle/lv_rle.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/fsdrv/lv_fsdrv.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/lodepng/lv_lodepng.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/libpng/lv_libpng.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/gltf/gltf_data/lv_gltf_model.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/gltf/gltf_view/lv_gltf.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/gif/lv_gif.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/libs/gstreamer/lv_gstreamer.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/qrcode/lv_qrcode.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/canvas/lv_canvas.h \
+  /lved/resources/lvgl/src/libs/tjpgd/lv_tjpgd.h \
+  /lved/resources/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/freetype/lv_freetype.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/rlottie/lv_rlottie.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/ffmpeg/lv_ffmpeg.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/svg/lv_svg.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/svg/lv_svg_render.h \
+  /lved/resources/lvgl/src/layouts/lv_layout.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/draw/lv_draw_vector.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/misc/lv_matrix.h \
+  /lved/resources/lvgl/src/draw/lv_draw_image.h \
+  /lved/resources/lvgl/src/draw/sw/lv_draw_sw_utils.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/draw/eve/lv_draw_eve_target.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/themes/default/lv_theme_default.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/themes/mono/lv_theme_mono.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/themes/simple/lv_theme_simple.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/lv_drivers.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_window.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_mouse.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_mousewheel.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_keyboard.h \
+  /lved/resources/lvgl/src/drivers/x11/lv_x11.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/draw/lv_image_dsc.h \
+  /lved/resources/lvgl/src/drivers/display/drm/lv_linux_drm.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/fb/lv_linux_fbdev.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/tft_espi/lv_tft_espi.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/lovyan_gfx/lv_lovyan_gfx.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/ili9341/lv_ili9341.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/st7735/lv_st7735.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/st7789/lv_st7789.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/st7796/lv_st7796.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/st_ltdc/lv_st_ltdc.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/display/ft81x/lv_ft81x.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/draw/eve/lv_draw_eve_display.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/draw/eve/lv_draw_eve_display_defines.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_entry.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_fbdev.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_touchscreen.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_lcd.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_libuv.h \
+  /lved/resources/lvgl/src/drivers/evdev/lv_evdev.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/libinput/lv_libinput.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/windows/lv_windows_input.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/windows/lv_windows_display.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_window.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_texture.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_glfw.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_egl.h \
+  /lved/resources/lvgl/src/drivers/qnx/lv_qnx.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/wayland/lv_wayland.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/uefi/lv_uefi_context.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/uefi/lv_uefi_indev.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/uefi/lv_uefi_display.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/lv_api_map_v8.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_0.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_1.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_2.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_3.h \
+  /lved/project/ui.h \
+  /lved/project/battery_indicator.h \
+  /lved/project/battery_indicator_gen.h \
+  /lved/project/widgets/wd_battery/wd_battery_gen.h \
+  /lved/project/widgets/wd_battery_v2/wd_battery_v2_gen.h \
+  /lved/project/components/battery_indicator/battery_gen.h \
+  /lved/project/components/battery_indicator_2/battery_indicator_2_gen.h \
+  /lved/project/components/button/button_gen.h \
+  /lved/project/components/charge_slider/charge_slider_gen.h \
+  /lved/project/components/clock/clock_gen.h \
+  /lved/project/components/settings_item/settings_item_gen.h \
+  /lved/project/components/settings_menu_line/settings_menu_line_gen.h \
+  /lved/project/components/settings_panel/settings_panel_gen.h \
+  /lved/project/components/toggle_switch/toggle_switch_gen.h \
+  /lved/project/components/top_bar/top_bar_gen.h \
+  /lved/project/screens/smartwatch/smartwatch_gen.h \
+  /lved/project/screens/smartwatch_v2/smartwatch_v2_gen.h
 
 project/CMakeFiles/lib-ui.dir/components/button/button_gen.c.o: /lved/project/components/button/button_gen.c \
   /lved/project/components/button/button_gen.h \
@@ -2566,23 +3127,8 @@ project/CMakeFiles/lib-ui.dir/components/button/button_gen.c.o: /lved/project/co
   /lved/resources/lvgl/src/misc/lv_iter.h \
   /lved/resources/lvgl/src/misc/lv_circle_buf.h \
   /lved/resources/lvgl/src/misc/lv_tree.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache_entry.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_class.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_lru_rb.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache_private.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
   /lved/resources/lvgl/src/osal/lv_os.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/osal/lv_os_none.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_lru_ll.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_sc_da.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_cache_instance.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_image_header_cache.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_image_cache.h \
   /lved/resources/lvgl/src/tick/lv_tick.h \
   /lved/resources/lvgl/src/core/lv_obj.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
@@ -2637,6 +3183,7 @@ project/CMakeFiles/lib-ui.dir/components/button/button_gen.c.o: /lved/project/co
   /lved/resources/lvgl/src/misc/lv_profiler.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_matrix.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
   /lved/resources/lvgl/src/draw/lv_image_decoder.h \
   /lved/resources/lvgl/src/draw/lv_draw_buf.h \
   /lved/resources/lvgl/src/misc/lv_fs.h \
@@ -2816,6 +3363,7 @@ project/CMakeFiles/lib-ui.dir/components/button/button_gen.c.o: /lved/project/co
   /lved/resources/lvgl/src/others/xml/lv_xml_utils.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_load.h \
   /lved/resources/lvgl/src/others/test/lv_test.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/others/test/lv_test_indev.h \
@@ -2850,9 +3398,8 @@ project/CMakeFiles/lib-ui.dir/components/button/button_gen.c.o: /lved/project/co
   /lved/resources/lvgl/src/libs/gif/lv_gif.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
-  /lved/resources/lvgl/src/widgets/image/lv_image.h \
-  /lved/resources/lvgl/src/core/lv_obj_class.h \
+  /lved/resources/lvgl/src/libs/gstreamer/lv_gstreamer.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/libs/qrcode/lv_qrcode.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_color.h \
@@ -2911,6 +3458,9 @@ project/CMakeFiles/lib-ui.dir/components/button/button_gen.c.o: /lved/project/co
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/drivers/display/tft_espi/lv_tft_espi.h \
   /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/lovyan_gfx/lv_lovyan_gfx.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
   /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/drivers/display/ili9341/lv_ili9341.h \
@@ -2946,10 +3496,12 @@ project/CMakeFiles/lib-ui.dir/components/button/button_gen.c.o: /lved/project/co
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/indev/lv_indev.h \
   /lved/resources/lvgl/src/drivers/windows/lv_windows_display.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_glfw_window.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_window.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_opengles_texture.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_texture.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_glfw.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_egl.h \
   /lved/resources/lvgl/src/drivers/qnx/lv_qnx.h \
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/indev/lv_indev.h \
@@ -2970,12 +3522,19 @@ project/CMakeFiles/lib-ui.dir/components/button/button_gen.c.o: /lved/project/co
   /lved/project/battery_indicator.h \
   /lved/project/battery_indicator_gen.h \
   /lved/project/widgets/wd_battery/wd_battery_gen.h \
+  /lved/project/widgets/wd_battery_v2/wd_battery_v2_gen.h \
   /lved/project/components/battery_indicator/battery_gen.h \
   /lved/project/components/battery_indicator_2/battery_indicator_2_gen.h \
+  /lved/project/components/battery_indicator_v2/battery_indicator_v2_gen.h \
   /lved/project/components/charge_slider/charge_slider_gen.h \
   /lved/project/components/clock/clock_gen.h \
+  /lved/project/components/settings_item/settings_item_gen.h \
+  /lved/project/components/settings_menu_line/settings_menu_line_gen.h \
+  /lved/project/components/settings_panel/settings_panel_gen.h \
+  /lved/project/components/toggle_switch/toggle_switch_gen.h \
   /lved/project/components/top_bar/top_bar_gen.h \
-  /lved/project/screens/smartwatch_gen.h
+  /lved/project/screens/smartwatch/smartwatch_gen.h \
+  /lved/project/screens/smartwatch_v2/smartwatch_v2_gen.h
 
 project/CMakeFiles/lib-ui.dir/components/charge_slider/charge_slider_gen.c.o: /lved/project/components/charge_slider/charge_slider_gen.c \
   /lved/project/components/charge_slider/charge_slider_gen.h \
@@ -3119,23 +3678,8 @@ project/CMakeFiles/lib-ui.dir/components/charge_slider/charge_slider_gen.c.o: /l
   /lved/resources/lvgl/src/misc/lv_iter.h \
   /lved/resources/lvgl/src/misc/lv_circle_buf.h \
   /lved/resources/lvgl/src/misc/lv_tree.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache_entry.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_class.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_lru_rb.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache_private.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
   /lved/resources/lvgl/src/osal/lv_os.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/osal/lv_os_none.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_lru_ll.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_sc_da.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_cache_instance.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_image_header_cache.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_image_cache.h \
   /lved/resources/lvgl/src/tick/lv_tick.h \
   /lved/resources/lvgl/src/core/lv_obj.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
@@ -3190,6 +3734,7 @@ project/CMakeFiles/lib-ui.dir/components/charge_slider/charge_slider_gen.c.o: /l
   /lved/resources/lvgl/src/misc/lv_profiler.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_matrix.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
   /lved/resources/lvgl/src/draw/lv_image_decoder.h \
   /lved/resources/lvgl/src/draw/lv_draw_buf.h \
   /lved/resources/lvgl/src/misc/lv_fs.h \
@@ -3369,6 +3914,7 @@ project/CMakeFiles/lib-ui.dir/components/charge_slider/charge_slider_gen.c.o: /l
   /lved/resources/lvgl/src/others/xml/lv_xml_utils.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_load.h \
   /lved/resources/lvgl/src/others/test/lv_test.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/others/test/lv_test_indev.h \
@@ -3403,9 +3949,8 @@ project/CMakeFiles/lib-ui.dir/components/charge_slider/charge_slider_gen.c.o: /l
   /lved/resources/lvgl/src/libs/gif/lv_gif.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
-  /lved/resources/lvgl/src/widgets/image/lv_image.h \
-  /lved/resources/lvgl/src/core/lv_obj_class.h \
+  /lved/resources/lvgl/src/libs/gstreamer/lv_gstreamer.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/libs/qrcode/lv_qrcode.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_color.h \
@@ -3464,6 +4009,9 @@ project/CMakeFiles/lib-ui.dir/components/charge_slider/charge_slider_gen.c.o: /l
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/drivers/display/tft_espi/lv_tft_espi.h \
   /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/lovyan_gfx/lv_lovyan_gfx.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
   /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/drivers/display/ili9341/lv_ili9341.h \
@@ -3499,10 +4047,12 @@ project/CMakeFiles/lib-ui.dir/components/charge_slider/charge_slider_gen.c.o: /l
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/indev/lv_indev.h \
   /lved/resources/lvgl/src/drivers/windows/lv_windows_display.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_glfw_window.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_window.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_opengles_texture.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_texture.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_glfw.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_egl.h \
   /lved/resources/lvgl/src/drivers/qnx/lv_qnx.h \
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/indev/lv_indev.h \
@@ -3523,12 +4073,19 @@ project/CMakeFiles/lib-ui.dir/components/charge_slider/charge_slider_gen.c.o: /l
   /lved/project/battery_indicator.h \
   /lved/project/battery_indicator_gen.h \
   /lved/project/widgets/wd_battery/wd_battery_gen.h \
+  /lved/project/widgets/wd_battery_v2/wd_battery_v2_gen.h \
   /lved/project/components/battery_indicator/battery_gen.h \
   /lved/project/components/battery_indicator_2/battery_indicator_2_gen.h \
+  /lved/project/components/battery_indicator_v2/battery_indicator_v2_gen.h \
   /lved/project/components/button/button_gen.h \
   /lved/project/components/clock/clock_gen.h \
+  /lved/project/components/settings_item/settings_item_gen.h \
+  /lved/project/components/settings_menu_line/settings_menu_line_gen.h \
+  /lved/project/components/settings_panel/settings_panel_gen.h \
+  /lved/project/components/toggle_switch/toggle_switch_gen.h \
   /lved/project/components/top_bar/top_bar_gen.h \
-  /lved/project/screens/smartwatch_gen.h
+  /lved/project/screens/smartwatch/smartwatch_gen.h \
+  /lved/project/screens/smartwatch_v2/smartwatch_v2_gen.h
 
 project/CMakeFiles/lib-ui.dir/components/clock/clock_gen.c.o: /lved/project/components/clock/clock_gen.c \
   /lved/project/components/clock/clock_gen.h \
@@ -3672,23 +4229,8 @@ project/CMakeFiles/lib-ui.dir/components/clock/clock_gen.c.o: /lved/project/comp
   /lved/resources/lvgl/src/misc/lv_iter.h \
   /lved/resources/lvgl/src/misc/lv_circle_buf.h \
   /lved/resources/lvgl/src/misc/lv_tree.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache_entry.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_class.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_lru_rb.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache_private.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
   /lved/resources/lvgl/src/osal/lv_os.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/osal/lv_os_none.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_lru_ll.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_sc_da.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_cache_instance.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_image_header_cache.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_image_cache.h \
   /lved/resources/lvgl/src/tick/lv_tick.h \
   /lved/resources/lvgl/src/core/lv_obj.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
@@ -3743,6 +4285,7 @@ project/CMakeFiles/lib-ui.dir/components/clock/clock_gen.c.o: /lved/project/comp
   /lved/resources/lvgl/src/misc/lv_profiler.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_matrix.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
   /lved/resources/lvgl/src/draw/lv_image_decoder.h \
   /lved/resources/lvgl/src/draw/lv_draw_buf.h \
   /lved/resources/lvgl/src/misc/lv_fs.h \
@@ -3922,6 +4465,7 @@ project/CMakeFiles/lib-ui.dir/components/clock/clock_gen.c.o: /lved/project/comp
   /lved/resources/lvgl/src/others/xml/lv_xml_utils.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_load.h \
   /lved/resources/lvgl/src/others/test/lv_test.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/others/test/lv_test_indev.h \
@@ -3956,9 +4500,8 @@ project/CMakeFiles/lib-ui.dir/components/clock/clock_gen.c.o: /lved/project/comp
   /lved/resources/lvgl/src/libs/gif/lv_gif.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
-  /lved/resources/lvgl/src/widgets/image/lv_image.h \
-  /lved/resources/lvgl/src/core/lv_obj_class.h \
+  /lved/resources/lvgl/src/libs/gstreamer/lv_gstreamer.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/libs/qrcode/lv_qrcode.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_color.h \
@@ -4017,6 +4560,9 @@ project/CMakeFiles/lib-ui.dir/components/clock/clock_gen.c.o: /lved/project/comp
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/drivers/display/tft_espi/lv_tft_espi.h \
   /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/lovyan_gfx/lv_lovyan_gfx.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
   /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/drivers/display/ili9341/lv_ili9341.h \
@@ -4052,10 +4598,12 @@ project/CMakeFiles/lib-ui.dir/components/clock/clock_gen.c.o: /lved/project/comp
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/indev/lv_indev.h \
   /lved/resources/lvgl/src/drivers/windows/lv_windows_display.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_glfw_window.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_window.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_opengles_texture.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_texture.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_glfw.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_egl.h \
   /lved/resources/lvgl/src/drivers/qnx/lv_qnx.h \
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/indev/lv_indev.h \
@@ -4076,12 +4624,2223 @@ project/CMakeFiles/lib-ui.dir/components/clock/clock_gen.c.o: /lved/project/comp
   /lved/project/battery_indicator.h \
   /lved/project/battery_indicator_gen.h \
   /lved/project/widgets/wd_battery/wd_battery_gen.h \
+  /lved/project/widgets/wd_battery_v2/wd_battery_v2_gen.h \
   /lved/project/components/battery_indicator/battery_gen.h \
   /lved/project/components/battery_indicator_2/battery_indicator_2_gen.h \
+  /lved/project/components/battery_indicator_v2/battery_indicator_v2_gen.h \
   /lved/project/components/button/button_gen.h \
   /lved/project/components/charge_slider/charge_slider_gen.h \
+  /lved/project/components/settings_item/settings_item_gen.h \
+  /lved/project/components/settings_menu_line/settings_menu_line_gen.h \
+  /lved/project/components/settings_panel/settings_panel_gen.h \
+  /lved/project/components/toggle_switch/toggle_switch_gen.h \
   /lved/project/components/top_bar/top_bar_gen.h \
-  /lved/project/screens/smartwatch_gen.h
+  /lved/project/screens/smartwatch/smartwatch_gen.h \
+  /lved/project/screens/smartwatch_v2/smartwatch_v2_gen.h
+
+project/CMakeFiles/lib-ui.dir/components/settings_item/settings_item_gen.c.o: /lved/project/components/settings_item/settings_item_gen.c \
+  /lved/project/components/settings_item/settings_item_gen.h \
+  /lved/resources/lvgl/lvgl.h \
+  /lved/resources/lvgl/lv_version.h \
+  /lved/resources/lvgl/src/lv_init.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/lv_conf_kconfig.h \
+  /lved/resources/conf/lv_conf.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /emsdk/upstream/lib/clang/21/include/stdint.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdint.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/bits/stdint.h \
+  /emsdk/upstream/lib/clang/21/include/stddef.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stddef.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_header_macro.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_ptrdiff_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_size_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_wchar_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_null.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_max_align_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_offsetof.h \
+  /emsdk/upstream/lib/clang/21/include/stdbool.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdbool.h \
+  /emsdk/upstream/lib/clang/21/include/inttypes.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/inttypes.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/features.h \
+  /emsdk/upstream/lib/clang/21/include/limits.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/limits.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/bits/limits.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/stdarg.h \
+  /emsdk/upstream/lib/clang/21/include/stdarg.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdarg.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_header_macro.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg___gnuc_va_list.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_va_list.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_va_arg.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg___va_copy.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_va_copy.h \
+  /lved/resources/lvgl/src/stdlib/lv_mem.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/stdlib/lv_string.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/stdlib/lv_sprintf.h \
+  /lved/resources/lvgl/src/misc/lv_log.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/tick/lv_tick.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_ll.h \
+  /lved/resources/lvgl/src/misc/lv_math.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/misc/lv_async.h \
+  /lved/resources/lvgl/src/misc/lv_anim_timeline.h \
+  /lved/resources/lvgl/src/misc/lv_anim.h \
+  /lved/resources/lvgl/src/misc/lv_profiler_builtin.h \
+  /lved/resources/lvgl/src/misc/lv_rb.h \
+  /lved/resources/lvgl/src/misc/lv_assert.h \
+  /lved/resources/lvgl/src/stdlib/lv_mem.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_main.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_stdinc.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_config.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_platform.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/begin_code.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/close_code.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_config_emscripten.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/sys/types.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/endian.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/sys/select.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdio.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/wasi/api.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/stdlib.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdlib.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/alloca.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/string.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/string.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/strings.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/wchar.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/ctype.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/math.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/math.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_assert.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_atomic.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_audio.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_error.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_endian.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_mutex.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_thread.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_rwops.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_clipboard.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_cpuinfo.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_events.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_video.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_pixels.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_rect.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_surface.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_blendmode.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_keyboard.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_keycode.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_scancode.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_mouse.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_joystick.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_guid.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_gamecontroller.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_sensor.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_quit.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_gesture.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_touch.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_filesystem.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_haptic.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_hidapi.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_hints.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_loadso.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_log.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_messagebox.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_metal.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_power.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_render.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_shape.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_system.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_timer.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_version.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_locale.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_misc.h \
+  /lved/resources/lvgl/src/misc/lv_utils.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_math.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_assert.h \
+  /lved/resources/lvgl/src/misc/lv_palette.h \
+  /lved/resources/lvgl/src/misc/lv_color_op.h \
+  /lved/resources/lvgl/src/stdlib/lv_string.h \
+  /lved/resources/lvgl/src/draw/lv_image_dsc.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_iter.h \
+  /lved/resources/lvgl/src/misc/lv_circle_buf.h \
+  /lved/resources/lvgl/src/misc/lv_tree.h \
+  /lved/resources/lvgl/src/osal/lv_os.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/tick/lv_tick.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_style.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/font/lv_symbol_def.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_anim.h \
+  /lved/resources/lvgl/src/misc/lv_text.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/stdlib/lv_sprintf.h \
+  /lved/resources/lvgl/src/misc/lv_assert.h \
+  /lved/resources/lvgl/src/misc/lv_bidi.h \
+  /lved/resources/lvgl/src/misc/lv_grad.h \
+  /lved/resources/lvgl/src/layouts/lv_layout.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/layouts/flex/lv_flex.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/layouts/grid/lv_grid.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_style_gen.h \
+  /lved/resources/lvgl/src/core/lv_obj_tree.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/core/lv_obj_pos.h \
+  /lved/resources/lvgl/src/core/lv_obj_scroll.h \
+  /lved/resources/lvgl/src/core/lv_obj_style.h \
+  /lved/resources/lvgl/src/core/lv_obj_style_gen.h \
+  /lved/resources/lvgl/src/core/lv_obj_style.h \
+  /lved/resources/lvgl/src/core/lv_obj_draw.h \
+  /lved/resources/lvgl/src/draw/lv_draw_rect.h \
+  /lved/resources/lvgl/src/draw/lv_draw.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_style.h \
+  /lved/resources/lvgl/src/misc/lv_text.h \
+  /lved/resources/lvgl/src/misc/lv_profiler.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_matrix.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/draw/lv_image_decoder.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/misc/lv_fs.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/draw/lv_draw_label.h \
+  /lved/resources/lvgl/src/misc/lv_bidi.h \
+  /lved/resources/lvgl/src/draw/lv_draw_image.h \
+  /lved/resources/lvgl/src/draw/lv_draw_line.h \
+  /lved/resources/lvgl/src/draw/lv_draw_arc.h \
+  /lved/resources/lvgl/src/draw/lv_draw_triangle.h \
+  /lved/resources/lvgl/src/core/lv_obj_class.h \
+  /lved/resources/lvgl/src/core/lv_obj_property.h \
+  /lved/resources/lvgl/src/core/lv_obj_event.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/core/lv_group.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_ll.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/core/lv_group.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/indev/lv_indev_gesture.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/core/lv_refr.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/font/lv_binfont_loader.h \
+  /lved/resources/lvgl/src/font/lv_font_fmt_txt.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/animimage/lv_animimage.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/misc/lv_fs.h \
+  /lved/resources/lvgl/src/draw/lv_draw.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/arc/lv_arc.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/arclabel/lv_arclabel.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/bar/lv_bar.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/misc/lv_anim.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/font/lv_symbol_def.h \
+  /lved/resources/lvgl/src/misc/lv_text.h \
+  /lved/resources/lvgl/src/draw/lv_draw.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/button/lv_button.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar.h \
+  /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar_header_arrow.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar_chinese.h \
+  /lved/resources/lvgl/src/widgets/canvas/lv_canvas.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/draw/lv_draw_image.h \
+  /lved/resources/lvgl/src/widgets/chart/lv_chart.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/checkbox/lv_checkbox.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/dropdown/lv_dropdown.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/widgets/imagebutton/lv_imagebutton.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/keyboard/lv_keyboard.h \
+  /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/led/lv_led.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/line/lv_line.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/list/lv_list.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/lottie/lv_lottie.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/menu/lv_menu.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/msgbox/lv_msgbox.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/roller/lv_roller.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/scale/lv_scale.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/line/lv_line.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/slider/lv_slider.h \
+  /lved/resources/lvgl/src/widgets/bar/lv_bar.h \
+  /lved/resources/lvgl/src/widgets/span/lv_span.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/spinbox/lv_spinbox.h \
+  /lved/resources/lvgl/src/widgets/textarea/lv_textarea.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/spinner/lv_spinner.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/switch/lv_switch.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/table/lv_table.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/tabview/lv_tabview.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/textarea/lv_textarea.h \
+  /lved/resources/lvgl/src/widgets/tileview/lv_tileview.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/win/lv_win.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/3dtexture/lv_3dtexture.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/others/snapshot/lv_snapshot.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/sysmon/lv_sysmon.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/monkey/lv_monkey.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/others/gridnav/lv_gridnav.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/fragment/lv_fragment.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/imgfont/lv_imgfont.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/ime/lv_ime_pinyin.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/file_explorer/lv_file_explorer.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/font_manager/lv_font_manager.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/others/translation/lv_translation.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_test.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_translation.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_component.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_widget.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_utils.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_load.h \
+  /lved/resources/lvgl/src/others/test/lv_test.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/others/test/lv_test_indev.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/others/test/lv_test_display.h \
+  /lved/resources/lvgl/src/others/test/lv_test_helpers.h \
+  /lved/resources/lvgl/src/stdlib/lv_mem.h \
+  /lved/resources/lvgl/src/others/test/lv_test_screenshot_compare.h \
+  /lved/resources/lvgl/src/others/test/lv_test_indev_gesture.h \
+  /lved/resources/lvgl/src/libs/barcode/lv_barcode.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/widgets/canvas/lv_canvas.h \
+  /lved/resources/lvgl/src/libs/bin_decoder/lv_bin_decoder.h \
+  /lved/resources/lvgl/src/draw/lv_image_decoder.h \
+  /lved/resources/lvgl/src/libs/bmp/lv_bmp.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/rle/lv_rle.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/fsdrv/lv_fsdrv.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/lodepng/lv_lodepng.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/libpng/lv_libpng.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/gltf/gltf_data/lv_gltf_model.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/gltf/gltf_view/lv_gltf.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/gif/lv_gif.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/libs/gstreamer/lv_gstreamer.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/qrcode/lv_qrcode.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/canvas/lv_canvas.h \
+  /lved/resources/lvgl/src/libs/tjpgd/lv_tjpgd.h \
+  /lved/resources/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/freetype/lv_freetype.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/rlottie/lv_rlottie.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/ffmpeg/lv_ffmpeg.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/svg/lv_svg.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/svg/lv_svg_render.h \
+  /lved/resources/lvgl/src/layouts/lv_layout.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/draw/lv_draw_vector.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/misc/lv_matrix.h \
+  /lved/resources/lvgl/src/draw/lv_draw_image.h \
+  /lved/resources/lvgl/src/draw/sw/lv_draw_sw_utils.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/draw/eve/lv_draw_eve_target.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/themes/default/lv_theme_default.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/themes/mono/lv_theme_mono.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/themes/simple/lv_theme_simple.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/lv_drivers.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_window.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_mouse.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_mousewheel.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_keyboard.h \
+  /lved/resources/lvgl/src/drivers/x11/lv_x11.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/draw/lv_image_dsc.h \
+  /lved/resources/lvgl/src/drivers/display/drm/lv_linux_drm.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/fb/lv_linux_fbdev.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/tft_espi/lv_tft_espi.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/lovyan_gfx/lv_lovyan_gfx.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/ili9341/lv_ili9341.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/st7735/lv_st7735.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/st7789/lv_st7789.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/st7796/lv_st7796.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/st_ltdc/lv_st_ltdc.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/display/ft81x/lv_ft81x.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/draw/eve/lv_draw_eve_display.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/draw/eve/lv_draw_eve_display_defines.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_entry.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_fbdev.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_touchscreen.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_lcd.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_libuv.h \
+  /lved/resources/lvgl/src/drivers/evdev/lv_evdev.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/libinput/lv_libinput.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/windows/lv_windows_input.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/windows/lv_windows_display.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_window.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_texture.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_glfw.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_egl.h \
+  /lved/resources/lvgl/src/drivers/qnx/lv_qnx.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/wayland/lv_wayland.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/uefi/lv_uefi_context.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/uefi/lv_uefi_indev.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/uefi/lv_uefi_display.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/lv_api_map_v8.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_0.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_1.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_2.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_3.h \
+  /lved/project/ui.h \
+  /lved/project/battery_indicator.h \
+  /lved/project/battery_indicator_gen.h \
+  /lved/project/widgets/wd_battery/wd_battery_gen.h \
+  /lved/project/widgets/wd_battery_v2/wd_battery_v2_gen.h \
+  /lved/project/components/battery_indicator/battery_gen.h \
+  /lved/project/components/battery_indicator_2/battery_indicator_2_gen.h \
+  /lved/project/components/battery_indicator_v2/battery_indicator_v2_gen.h \
+  /lved/project/components/button/button_gen.h \
+  /lved/project/components/charge_slider/charge_slider_gen.h \
+  /lved/project/components/clock/clock_gen.h \
+  /lved/project/components/settings_menu_line/settings_menu_line_gen.h \
+  /lved/project/components/settings_panel/settings_panel_gen.h \
+  /lved/project/components/toggle_switch/toggle_switch_gen.h \
+  /lved/project/components/top_bar/top_bar_gen.h \
+  /lved/project/screens/smartwatch/smartwatch_gen.h \
+  /lved/project/screens/smartwatch_v2/smartwatch_v2_gen.h
+
+project/CMakeFiles/lib-ui.dir/components/settings_menu_line/settings_menu_line_gen.c.o: /lved/project/components/settings_menu_line/settings_menu_line_gen.c \
+  /lved/project/components/settings_menu_line/settings_menu_line_gen.h \
+  /lved/resources/lvgl/lvgl.h \
+  /lved/resources/lvgl/lv_version.h \
+  /lved/resources/lvgl/src/lv_init.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/lv_conf_kconfig.h \
+  /lved/resources/conf/lv_conf.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /emsdk/upstream/lib/clang/21/include/stdint.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdint.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/bits/stdint.h \
+  /emsdk/upstream/lib/clang/21/include/stddef.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stddef.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_header_macro.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_ptrdiff_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_size_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_wchar_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_null.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_max_align_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_offsetof.h \
+  /emsdk/upstream/lib/clang/21/include/stdbool.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdbool.h \
+  /emsdk/upstream/lib/clang/21/include/inttypes.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/inttypes.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/features.h \
+  /emsdk/upstream/lib/clang/21/include/limits.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/limits.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/bits/limits.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/stdarg.h \
+  /emsdk/upstream/lib/clang/21/include/stdarg.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdarg.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_header_macro.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg___gnuc_va_list.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_va_list.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_va_arg.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg___va_copy.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_va_copy.h \
+  /lved/resources/lvgl/src/stdlib/lv_mem.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/stdlib/lv_string.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/stdlib/lv_sprintf.h \
+  /lved/resources/lvgl/src/misc/lv_log.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/tick/lv_tick.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_ll.h \
+  /lved/resources/lvgl/src/misc/lv_math.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/misc/lv_async.h \
+  /lved/resources/lvgl/src/misc/lv_anim_timeline.h \
+  /lved/resources/lvgl/src/misc/lv_anim.h \
+  /lved/resources/lvgl/src/misc/lv_profiler_builtin.h \
+  /lved/resources/lvgl/src/misc/lv_rb.h \
+  /lved/resources/lvgl/src/misc/lv_assert.h \
+  /lved/resources/lvgl/src/stdlib/lv_mem.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_main.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_stdinc.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_config.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_platform.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/begin_code.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/close_code.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_config_emscripten.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/sys/types.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/endian.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/sys/select.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdio.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/wasi/api.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/stdlib.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdlib.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/alloca.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/string.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/string.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/strings.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/wchar.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/ctype.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/math.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/math.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_assert.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_atomic.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_audio.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_error.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_endian.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_mutex.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_thread.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_rwops.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_clipboard.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_cpuinfo.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_events.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_video.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_pixels.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_rect.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_surface.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_blendmode.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_keyboard.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_keycode.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_scancode.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_mouse.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_joystick.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_guid.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_gamecontroller.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_sensor.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_quit.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_gesture.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_touch.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_filesystem.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_haptic.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_hidapi.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_hints.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_loadso.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_log.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_messagebox.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_metal.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_power.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_render.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_shape.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_system.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_timer.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_version.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_locale.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_misc.h \
+  /lved/resources/lvgl/src/misc/lv_utils.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_math.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_assert.h \
+  /lved/resources/lvgl/src/misc/lv_palette.h \
+  /lved/resources/lvgl/src/misc/lv_color_op.h \
+  /lved/resources/lvgl/src/stdlib/lv_string.h \
+  /lved/resources/lvgl/src/draw/lv_image_dsc.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_iter.h \
+  /lved/resources/lvgl/src/misc/lv_circle_buf.h \
+  /lved/resources/lvgl/src/misc/lv_tree.h \
+  /lved/resources/lvgl/src/osal/lv_os.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/tick/lv_tick.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_style.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/font/lv_symbol_def.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_anim.h \
+  /lved/resources/lvgl/src/misc/lv_text.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/stdlib/lv_sprintf.h \
+  /lved/resources/lvgl/src/misc/lv_assert.h \
+  /lved/resources/lvgl/src/misc/lv_bidi.h \
+  /lved/resources/lvgl/src/misc/lv_grad.h \
+  /lved/resources/lvgl/src/layouts/lv_layout.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/layouts/flex/lv_flex.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/layouts/grid/lv_grid.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_style_gen.h \
+  /lved/resources/lvgl/src/core/lv_obj_tree.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/core/lv_obj_pos.h \
+  /lved/resources/lvgl/src/core/lv_obj_scroll.h \
+  /lved/resources/lvgl/src/core/lv_obj_style.h \
+  /lved/resources/lvgl/src/core/lv_obj_style_gen.h \
+  /lved/resources/lvgl/src/core/lv_obj_style.h \
+  /lved/resources/lvgl/src/core/lv_obj_draw.h \
+  /lved/resources/lvgl/src/draw/lv_draw_rect.h \
+  /lved/resources/lvgl/src/draw/lv_draw.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_style.h \
+  /lved/resources/lvgl/src/misc/lv_text.h \
+  /lved/resources/lvgl/src/misc/lv_profiler.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_matrix.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/draw/lv_image_decoder.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/misc/lv_fs.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/draw/lv_draw_label.h \
+  /lved/resources/lvgl/src/misc/lv_bidi.h \
+  /lved/resources/lvgl/src/draw/lv_draw_image.h \
+  /lved/resources/lvgl/src/draw/lv_draw_line.h \
+  /lved/resources/lvgl/src/draw/lv_draw_arc.h \
+  /lved/resources/lvgl/src/draw/lv_draw_triangle.h \
+  /lved/resources/lvgl/src/core/lv_obj_class.h \
+  /lved/resources/lvgl/src/core/lv_obj_property.h \
+  /lved/resources/lvgl/src/core/lv_obj_event.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/core/lv_group.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_ll.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/core/lv_group.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/indev/lv_indev_gesture.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/core/lv_refr.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/font/lv_binfont_loader.h \
+  /lved/resources/lvgl/src/font/lv_font_fmt_txt.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/animimage/lv_animimage.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/misc/lv_fs.h \
+  /lved/resources/lvgl/src/draw/lv_draw.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/arc/lv_arc.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/arclabel/lv_arclabel.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/bar/lv_bar.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/misc/lv_anim.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/font/lv_symbol_def.h \
+  /lved/resources/lvgl/src/misc/lv_text.h \
+  /lved/resources/lvgl/src/draw/lv_draw.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/button/lv_button.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar.h \
+  /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar_header_arrow.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar_chinese.h \
+  /lved/resources/lvgl/src/widgets/canvas/lv_canvas.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/draw/lv_draw_image.h \
+  /lved/resources/lvgl/src/widgets/chart/lv_chart.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/checkbox/lv_checkbox.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/dropdown/lv_dropdown.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/widgets/imagebutton/lv_imagebutton.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/keyboard/lv_keyboard.h \
+  /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/led/lv_led.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/line/lv_line.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/list/lv_list.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/lottie/lv_lottie.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/menu/lv_menu.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/msgbox/lv_msgbox.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/roller/lv_roller.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/scale/lv_scale.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/line/lv_line.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/slider/lv_slider.h \
+  /lved/resources/lvgl/src/widgets/bar/lv_bar.h \
+  /lved/resources/lvgl/src/widgets/span/lv_span.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/spinbox/lv_spinbox.h \
+  /lved/resources/lvgl/src/widgets/textarea/lv_textarea.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/spinner/lv_spinner.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/switch/lv_switch.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/table/lv_table.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/tabview/lv_tabview.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/textarea/lv_textarea.h \
+  /lved/resources/lvgl/src/widgets/tileview/lv_tileview.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/win/lv_win.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/3dtexture/lv_3dtexture.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/others/snapshot/lv_snapshot.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/sysmon/lv_sysmon.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/monkey/lv_monkey.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/others/gridnav/lv_gridnav.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/fragment/lv_fragment.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/imgfont/lv_imgfont.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/ime/lv_ime_pinyin.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/file_explorer/lv_file_explorer.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/font_manager/lv_font_manager.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/others/translation/lv_translation.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_test.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_translation.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_component.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_widget.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_utils.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_load.h \
+  /lved/resources/lvgl/src/others/test/lv_test.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/others/test/lv_test_indev.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/others/test/lv_test_display.h \
+  /lved/resources/lvgl/src/others/test/lv_test_helpers.h \
+  /lved/resources/lvgl/src/stdlib/lv_mem.h \
+  /lved/resources/lvgl/src/others/test/lv_test_screenshot_compare.h \
+  /lved/resources/lvgl/src/others/test/lv_test_indev_gesture.h \
+  /lved/resources/lvgl/src/libs/barcode/lv_barcode.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/widgets/canvas/lv_canvas.h \
+  /lved/resources/lvgl/src/libs/bin_decoder/lv_bin_decoder.h \
+  /lved/resources/lvgl/src/draw/lv_image_decoder.h \
+  /lved/resources/lvgl/src/libs/bmp/lv_bmp.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/rle/lv_rle.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/fsdrv/lv_fsdrv.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/lodepng/lv_lodepng.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/libpng/lv_libpng.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/gltf/gltf_data/lv_gltf_model.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/gltf/gltf_view/lv_gltf.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/gif/lv_gif.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/libs/gstreamer/lv_gstreamer.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/qrcode/lv_qrcode.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/canvas/lv_canvas.h \
+  /lved/resources/lvgl/src/libs/tjpgd/lv_tjpgd.h \
+  /lved/resources/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/freetype/lv_freetype.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/rlottie/lv_rlottie.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/ffmpeg/lv_ffmpeg.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/svg/lv_svg.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/svg/lv_svg_render.h \
+  /lved/resources/lvgl/src/layouts/lv_layout.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/draw/lv_draw_vector.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/misc/lv_matrix.h \
+  /lved/resources/lvgl/src/draw/lv_draw_image.h \
+  /lved/resources/lvgl/src/draw/sw/lv_draw_sw_utils.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/draw/eve/lv_draw_eve_target.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/themes/default/lv_theme_default.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/themes/mono/lv_theme_mono.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/themes/simple/lv_theme_simple.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/lv_drivers.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_window.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_mouse.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_mousewheel.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_keyboard.h \
+  /lved/resources/lvgl/src/drivers/x11/lv_x11.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/draw/lv_image_dsc.h \
+  /lved/resources/lvgl/src/drivers/display/drm/lv_linux_drm.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/fb/lv_linux_fbdev.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/tft_espi/lv_tft_espi.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/lovyan_gfx/lv_lovyan_gfx.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/ili9341/lv_ili9341.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/st7735/lv_st7735.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/st7789/lv_st7789.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/st7796/lv_st7796.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/st_ltdc/lv_st_ltdc.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/display/ft81x/lv_ft81x.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/draw/eve/lv_draw_eve_display.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/draw/eve/lv_draw_eve_display_defines.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_entry.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_fbdev.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_touchscreen.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_lcd.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_libuv.h \
+  /lved/resources/lvgl/src/drivers/evdev/lv_evdev.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/libinput/lv_libinput.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/windows/lv_windows_input.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/windows/lv_windows_display.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_window.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_texture.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_glfw.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_egl.h \
+  /lved/resources/lvgl/src/drivers/qnx/lv_qnx.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/wayland/lv_wayland.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/uefi/lv_uefi_context.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/uefi/lv_uefi_indev.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/uefi/lv_uefi_display.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/lv_api_map_v8.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_0.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_1.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_2.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_3.h \
+  /lved/project/ui.h \
+  /lved/project/battery_indicator.h \
+  /lved/project/battery_indicator_gen.h \
+  /lved/project/widgets/wd_battery/wd_battery_gen.h \
+  /lved/project/widgets/wd_battery_v2/wd_battery_v2_gen.h \
+  /lved/project/components/battery_indicator/battery_gen.h \
+  /lved/project/components/battery_indicator_2/battery_indicator_2_gen.h \
+  /lved/project/components/battery_indicator_v2/battery_indicator_v2_gen.h \
+  /lved/project/components/button/button_gen.h \
+  /lved/project/components/charge_slider/charge_slider_gen.h \
+  /lved/project/components/clock/clock_gen.h \
+  /lved/project/components/settings_item/settings_item_gen.h \
+  /lved/project/components/settings_panel/settings_panel_gen.h \
+  /lved/project/components/toggle_switch/toggle_switch_gen.h \
+  /lved/project/components/top_bar/top_bar_gen.h \
+  /lved/project/screens/smartwatch/smartwatch_gen.h \
+  /lved/project/screens/smartwatch_v2/smartwatch_v2_gen.h
+
+project/CMakeFiles/lib-ui.dir/components/settings_panel/settings_panel_gen.c.o: /lved/project/components/settings_panel/settings_panel_gen.c \
+  /lved/project/components/settings_panel/settings_panel_gen.h \
+  /lved/resources/lvgl/lvgl.h \
+  /lved/resources/lvgl/lv_version.h \
+  /lved/resources/lvgl/src/lv_init.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/lv_conf_kconfig.h \
+  /lved/resources/conf/lv_conf.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /emsdk/upstream/lib/clang/21/include/stdint.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdint.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/bits/stdint.h \
+  /emsdk/upstream/lib/clang/21/include/stddef.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stddef.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_header_macro.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_ptrdiff_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_size_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_wchar_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_null.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_max_align_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_offsetof.h \
+  /emsdk/upstream/lib/clang/21/include/stdbool.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdbool.h \
+  /emsdk/upstream/lib/clang/21/include/inttypes.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/inttypes.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/features.h \
+  /emsdk/upstream/lib/clang/21/include/limits.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/limits.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/bits/limits.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/stdarg.h \
+  /emsdk/upstream/lib/clang/21/include/stdarg.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdarg.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_header_macro.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg___gnuc_va_list.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_va_list.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_va_arg.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg___va_copy.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_va_copy.h \
+  /lved/resources/lvgl/src/stdlib/lv_mem.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/stdlib/lv_string.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/stdlib/lv_sprintf.h \
+  /lved/resources/lvgl/src/misc/lv_log.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/tick/lv_tick.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_ll.h \
+  /lved/resources/lvgl/src/misc/lv_math.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/misc/lv_async.h \
+  /lved/resources/lvgl/src/misc/lv_anim_timeline.h \
+  /lved/resources/lvgl/src/misc/lv_anim.h \
+  /lved/resources/lvgl/src/misc/lv_profiler_builtin.h \
+  /lved/resources/lvgl/src/misc/lv_rb.h \
+  /lved/resources/lvgl/src/misc/lv_assert.h \
+  /lved/resources/lvgl/src/stdlib/lv_mem.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_main.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_stdinc.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_config.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_platform.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/begin_code.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/close_code.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_config_emscripten.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/sys/types.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/endian.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/sys/select.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdio.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/wasi/api.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/stdlib.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdlib.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/alloca.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/string.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/string.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/strings.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/wchar.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/ctype.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/math.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/math.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_assert.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_atomic.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_audio.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_error.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_endian.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_mutex.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_thread.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_rwops.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_clipboard.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_cpuinfo.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_events.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_video.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_pixels.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_rect.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_surface.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_blendmode.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_keyboard.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_keycode.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_scancode.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_mouse.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_joystick.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_guid.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_gamecontroller.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_sensor.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_quit.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_gesture.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_touch.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_filesystem.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_haptic.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_hidapi.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_hints.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_loadso.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_log.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_messagebox.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_metal.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_power.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_render.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_shape.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_system.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_timer.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_version.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_locale.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_misc.h \
+  /lved/resources/lvgl/src/misc/lv_utils.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_math.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_assert.h \
+  /lved/resources/lvgl/src/misc/lv_palette.h \
+  /lved/resources/lvgl/src/misc/lv_color_op.h \
+  /lved/resources/lvgl/src/stdlib/lv_string.h \
+  /lved/resources/lvgl/src/draw/lv_image_dsc.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_iter.h \
+  /lved/resources/lvgl/src/misc/lv_circle_buf.h \
+  /lved/resources/lvgl/src/misc/lv_tree.h \
+  /lved/resources/lvgl/src/osal/lv_os.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/tick/lv_tick.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_style.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/font/lv_symbol_def.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_anim.h \
+  /lved/resources/lvgl/src/misc/lv_text.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/stdlib/lv_sprintf.h \
+  /lved/resources/lvgl/src/misc/lv_assert.h \
+  /lved/resources/lvgl/src/misc/lv_bidi.h \
+  /lved/resources/lvgl/src/misc/lv_grad.h \
+  /lved/resources/lvgl/src/layouts/lv_layout.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/layouts/flex/lv_flex.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/layouts/grid/lv_grid.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_style_gen.h \
+  /lved/resources/lvgl/src/core/lv_obj_tree.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/core/lv_obj_pos.h \
+  /lved/resources/lvgl/src/core/lv_obj_scroll.h \
+  /lved/resources/lvgl/src/core/lv_obj_style.h \
+  /lved/resources/lvgl/src/core/lv_obj_style_gen.h \
+  /lved/resources/lvgl/src/core/lv_obj_style.h \
+  /lved/resources/lvgl/src/core/lv_obj_draw.h \
+  /lved/resources/lvgl/src/draw/lv_draw_rect.h \
+  /lved/resources/lvgl/src/draw/lv_draw.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_style.h \
+  /lved/resources/lvgl/src/misc/lv_text.h \
+  /lved/resources/lvgl/src/misc/lv_profiler.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_matrix.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/draw/lv_image_decoder.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/misc/lv_fs.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/draw/lv_draw_label.h \
+  /lved/resources/lvgl/src/misc/lv_bidi.h \
+  /lved/resources/lvgl/src/draw/lv_draw_image.h \
+  /lved/resources/lvgl/src/draw/lv_draw_line.h \
+  /lved/resources/lvgl/src/draw/lv_draw_arc.h \
+  /lved/resources/lvgl/src/draw/lv_draw_triangle.h \
+  /lved/resources/lvgl/src/core/lv_obj_class.h \
+  /lved/resources/lvgl/src/core/lv_obj_property.h \
+  /lved/resources/lvgl/src/core/lv_obj_event.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/core/lv_group.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_ll.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/core/lv_group.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/indev/lv_indev_gesture.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/core/lv_refr.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/font/lv_binfont_loader.h \
+  /lved/resources/lvgl/src/font/lv_font_fmt_txt.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/animimage/lv_animimage.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/misc/lv_fs.h \
+  /lved/resources/lvgl/src/draw/lv_draw.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/arc/lv_arc.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/arclabel/lv_arclabel.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/bar/lv_bar.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/misc/lv_anim.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/font/lv_symbol_def.h \
+  /lved/resources/lvgl/src/misc/lv_text.h \
+  /lved/resources/lvgl/src/draw/lv_draw.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/button/lv_button.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar.h \
+  /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar_header_arrow.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar_chinese.h \
+  /lved/resources/lvgl/src/widgets/canvas/lv_canvas.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/draw/lv_draw_image.h \
+  /lved/resources/lvgl/src/widgets/chart/lv_chart.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/checkbox/lv_checkbox.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/dropdown/lv_dropdown.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/widgets/imagebutton/lv_imagebutton.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/keyboard/lv_keyboard.h \
+  /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/led/lv_led.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/line/lv_line.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/list/lv_list.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/lottie/lv_lottie.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/menu/lv_menu.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/msgbox/lv_msgbox.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/roller/lv_roller.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/scale/lv_scale.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/line/lv_line.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/slider/lv_slider.h \
+  /lved/resources/lvgl/src/widgets/bar/lv_bar.h \
+  /lved/resources/lvgl/src/widgets/span/lv_span.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/spinbox/lv_spinbox.h \
+  /lved/resources/lvgl/src/widgets/textarea/lv_textarea.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/spinner/lv_spinner.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/switch/lv_switch.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/table/lv_table.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/tabview/lv_tabview.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/textarea/lv_textarea.h \
+  /lved/resources/lvgl/src/widgets/tileview/lv_tileview.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/win/lv_win.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/3dtexture/lv_3dtexture.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/others/snapshot/lv_snapshot.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/sysmon/lv_sysmon.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/monkey/lv_monkey.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/others/gridnav/lv_gridnav.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/fragment/lv_fragment.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/imgfont/lv_imgfont.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/ime/lv_ime_pinyin.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/file_explorer/lv_file_explorer.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/font_manager/lv_font_manager.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/others/translation/lv_translation.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_test.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_translation.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_component.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_widget.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_utils.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_load.h \
+  /lved/resources/lvgl/src/others/test/lv_test.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/others/test/lv_test_indev.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/others/test/lv_test_display.h \
+  /lved/resources/lvgl/src/others/test/lv_test_helpers.h \
+  /lved/resources/lvgl/src/stdlib/lv_mem.h \
+  /lved/resources/lvgl/src/others/test/lv_test_screenshot_compare.h \
+  /lved/resources/lvgl/src/others/test/lv_test_indev_gesture.h \
+  /lved/resources/lvgl/src/libs/barcode/lv_barcode.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/widgets/canvas/lv_canvas.h \
+  /lved/resources/lvgl/src/libs/bin_decoder/lv_bin_decoder.h \
+  /lved/resources/lvgl/src/draw/lv_image_decoder.h \
+  /lved/resources/lvgl/src/libs/bmp/lv_bmp.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/rle/lv_rle.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/fsdrv/lv_fsdrv.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/lodepng/lv_lodepng.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/libpng/lv_libpng.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/gltf/gltf_data/lv_gltf_model.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/gltf/gltf_view/lv_gltf.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/gif/lv_gif.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/libs/gstreamer/lv_gstreamer.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/qrcode/lv_qrcode.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/canvas/lv_canvas.h \
+  /lved/resources/lvgl/src/libs/tjpgd/lv_tjpgd.h \
+  /lved/resources/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/freetype/lv_freetype.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/rlottie/lv_rlottie.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/ffmpeg/lv_ffmpeg.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/svg/lv_svg.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/svg/lv_svg_render.h \
+  /lved/resources/lvgl/src/layouts/lv_layout.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/draw/lv_draw_vector.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/misc/lv_matrix.h \
+  /lved/resources/lvgl/src/draw/lv_draw_image.h \
+  /lved/resources/lvgl/src/draw/sw/lv_draw_sw_utils.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/draw/eve/lv_draw_eve_target.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/themes/default/lv_theme_default.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/themes/mono/lv_theme_mono.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/themes/simple/lv_theme_simple.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/lv_drivers.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_window.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_mouse.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_mousewheel.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_keyboard.h \
+  /lved/resources/lvgl/src/drivers/x11/lv_x11.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/draw/lv_image_dsc.h \
+  /lved/resources/lvgl/src/drivers/display/drm/lv_linux_drm.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/fb/lv_linux_fbdev.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/tft_espi/lv_tft_espi.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/lovyan_gfx/lv_lovyan_gfx.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/ili9341/lv_ili9341.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/st7735/lv_st7735.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/st7789/lv_st7789.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/st7796/lv_st7796.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/st_ltdc/lv_st_ltdc.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/display/ft81x/lv_ft81x.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/draw/eve/lv_draw_eve_display.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/draw/eve/lv_draw_eve_display_defines.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_entry.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_fbdev.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_touchscreen.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_lcd.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_libuv.h \
+  /lved/resources/lvgl/src/drivers/evdev/lv_evdev.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/libinput/lv_libinput.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/windows/lv_windows_input.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/windows/lv_windows_display.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_window.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_texture.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_glfw.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_egl.h \
+  /lved/resources/lvgl/src/drivers/qnx/lv_qnx.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/wayland/lv_wayland.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/uefi/lv_uefi_context.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/uefi/lv_uefi_indev.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/uefi/lv_uefi_display.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/lv_api_map_v8.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_0.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_1.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_2.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_3.h \
+  /lved/project/ui.h \
+  /lved/project/battery_indicator.h \
+  /lved/project/battery_indicator_gen.h \
+  /lved/project/widgets/wd_battery/wd_battery_gen.h \
+  /lved/project/widgets/wd_battery_v2/wd_battery_v2_gen.h \
+  /lved/project/components/battery_indicator/battery_gen.h \
+  /lved/project/components/battery_indicator_2/battery_indicator_2_gen.h \
+  /lved/project/components/battery_indicator_v2/battery_indicator_v2_gen.h \
+  /lved/project/components/button/button_gen.h \
+  /lved/project/components/charge_slider/charge_slider_gen.h \
+  /lved/project/components/clock/clock_gen.h \
+  /lved/project/components/settings_item/settings_item_gen.h \
+  /lved/project/components/settings_menu_line/settings_menu_line_gen.h \
+  /lved/project/components/toggle_switch/toggle_switch_gen.h \
+  /lved/project/components/top_bar/top_bar_gen.h \
+  /lved/project/screens/smartwatch/smartwatch_gen.h \
+  /lved/project/screens/smartwatch_v2/smartwatch_v2_gen.h
+
+project/CMakeFiles/lib-ui.dir/components/toggle_switch/toggle_switch_gen.c.o: /lved/project/components/toggle_switch/toggle_switch_gen.c \
+  /lved/project/components/toggle_switch/toggle_switch_gen.h \
+  /lved/resources/lvgl/lvgl.h \
+  /lved/resources/lvgl/lv_version.h \
+  /lved/resources/lvgl/src/lv_init.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/lv_conf_kconfig.h \
+  /lved/resources/conf/lv_conf.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /emsdk/upstream/lib/clang/21/include/stdint.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdint.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/bits/stdint.h \
+  /emsdk/upstream/lib/clang/21/include/stddef.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stddef.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_header_macro.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_ptrdiff_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_size_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_wchar_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_null.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_max_align_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_offsetof.h \
+  /emsdk/upstream/lib/clang/21/include/stdbool.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdbool.h \
+  /emsdk/upstream/lib/clang/21/include/inttypes.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/inttypes.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/features.h \
+  /emsdk/upstream/lib/clang/21/include/limits.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/limits.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/bits/limits.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/stdarg.h \
+  /emsdk/upstream/lib/clang/21/include/stdarg.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdarg.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_header_macro.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg___gnuc_va_list.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_va_list.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_va_arg.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg___va_copy.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_va_copy.h \
+  /lved/resources/lvgl/src/stdlib/lv_mem.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/stdlib/lv_string.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/stdlib/lv_sprintf.h \
+  /lved/resources/lvgl/src/misc/lv_log.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/tick/lv_tick.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_ll.h \
+  /lved/resources/lvgl/src/misc/lv_math.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/misc/lv_async.h \
+  /lved/resources/lvgl/src/misc/lv_anim_timeline.h \
+  /lved/resources/lvgl/src/misc/lv_anim.h \
+  /lved/resources/lvgl/src/misc/lv_profiler_builtin.h \
+  /lved/resources/lvgl/src/misc/lv_rb.h \
+  /lved/resources/lvgl/src/misc/lv_assert.h \
+  /lved/resources/lvgl/src/stdlib/lv_mem.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_main.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_stdinc.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_config.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_platform.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/begin_code.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/close_code.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_config_emscripten.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/sys/types.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/endian.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/sys/select.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdio.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/wasi/api.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/stdlib.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdlib.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/alloca.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/string.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/string.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/strings.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/wchar.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/ctype.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/math.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/math.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_assert.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_atomic.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_audio.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_error.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_endian.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_mutex.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_thread.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_rwops.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_clipboard.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_cpuinfo.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_events.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_video.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_pixels.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_rect.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_surface.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_blendmode.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_keyboard.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_keycode.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_scancode.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_mouse.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_joystick.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_guid.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_gamecontroller.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_sensor.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_quit.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_gesture.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_touch.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_filesystem.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_haptic.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_hidapi.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_hints.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_loadso.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_log.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_messagebox.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_metal.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_power.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_render.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_shape.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_system.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_timer.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_version.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_locale.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_misc.h \
+  /lved/resources/lvgl/src/misc/lv_utils.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_math.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_assert.h \
+  /lved/resources/lvgl/src/misc/lv_palette.h \
+  /lved/resources/lvgl/src/misc/lv_color_op.h \
+  /lved/resources/lvgl/src/stdlib/lv_string.h \
+  /lved/resources/lvgl/src/draw/lv_image_dsc.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_iter.h \
+  /lved/resources/lvgl/src/misc/lv_circle_buf.h \
+  /lved/resources/lvgl/src/misc/lv_tree.h \
+  /lved/resources/lvgl/src/osal/lv_os.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/tick/lv_tick.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_style.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/font/lv_symbol_def.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_anim.h \
+  /lved/resources/lvgl/src/misc/lv_text.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/stdlib/lv_sprintf.h \
+  /lved/resources/lvgl/src/misc/lv_assert.h \
+  /lved/resources/lvgl/src/misc/lv_bidi.h \
+  /lved/resources/lvgl/src/misc/lv_grad.h \
+  /lved/resources/lvgl/src/layouts/lv_layout.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/layouts/flex/lv_flex.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/layouts/grid/lv_grid.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_style_gen.h \
+  /lved/resources/lvgl/src/core/lv_obj_tree.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/core/lv_obj_pos.h \
+  /lved/resources/lvgl/src/core/lv_obj_scroll.h \
+  /lved/resources/lvgl/src/core/lv_obj_style.h \
+  /lved/resources/lvgl/src/core/lv_obj_style_gen.h \
+  /lved/resources/lvgl/src/core/lv_obj_style.h \
+  /lved/resources/lvgl/src/core/lv_obj_draw.h \
+  /lved/resources/lvgl/src/draw/lv_draw_rect.h \
+  /lved/resources/lvgl/src/draw/lv_draw.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_style.h \
+  /lved/resources/lvgl/src/misc/lv_text.h \
+  /lved/resources/lvgl/src/misc/lv_profiler.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_matrix.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/draw/lv_image_decoder.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/misc/lv_fs.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/draw/lv_draw_label.h \
+  /lved/resources/lvgl/src/misc/lv_bidi.h \
+  /lved/resources/lvgl/src/draw/lv_draw_image.h \
+  /lved/resources/lvgl/src/draw/lv_draw_line.h \
+  /lved/resources/lvgl/src/draw/lv_draw_arc.h \
+  /lved/resources/lvgl/src/draw/lv_draw_triangle.h \
+  /lved/resources/lvgl/src/core/lv_obj_class.h \
+  /lved/resources/lvgl/src/core/lv_obj_property.h \
+  /lved/resources/lvgl/src/core/lv_obj_event.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/core/lv_group.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_ll.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/core/lv_group.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/indev/lv_indev_gesture.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/core/lv_refr.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/font/lv_binfont_loader.h \
+  /lved/resources/lvgl/src/font/lv_font_fmt_txt.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/animimage/lv_animimage.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/misc/lv_fs.h \
+  /lved/resources/lvgl/src/draw/lv_draw.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/arc/lv_arc.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/arclabel/lv_arclabel.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/bar/lv_bar.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/misc/lv_anim.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/font/lv_symbol_def.h \
+  /lved/resources/lvgl/src/misc/lv_text.h \
+  /lved/resources/lvgl/src/draw/lv_draw.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/button/lv_button.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar.h \
+  /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar_header_arrow.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar_chinese.h \
+  /lved/resources/lvgl/src/widgets/canvas/lv_canvas.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/draw/lv_draw_image.h \
+  /lved/resources/lvgl/src/widgets/chart/lv_chart.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/checkbox/lv_checkbox.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/dropdown/lv_dropdown.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/widgets/imagebutton/lv_imagebutton.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/keyboard/lv_keyboard.h \
+  /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/led/lv_led.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/line/lv_line.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/list/lv_list.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/lottie/lv_lottie.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/menu/lv_menu.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/msgbox/lv_msgbox.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/roller/lv_roller.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/scale/lv_scale.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/line/lv_line.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/slider/lv_slider.h \
+  /lved/resources/lvgl/src/widgets/bar/lv_bar.h \
+  /lved/resources/lvgl/src/widgets/span/lv_span.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/spinbox/lv_spinbox.h \
+  /lved/resources/lvgl/src/widgets/textarea/lv_textarea.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/spinner/lv_spinner.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/switch/lv_switch.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/table/lv_table.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/tabview/lv_tabview.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/textarea/lv_textarea.h \
+  /lved/resources/lvgl/src/widgets/tileview/lv_tileview.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/win/lv_win.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/3dtexture/lv_3dtexture.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/others/snapshot/lv_snapshot.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/sysmon/lv_sysmon.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/monkey/lv_monkey.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/others/gridnav/lv_gridnav.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/fragment/lv_fragment.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/imgfont/lv_imgfont.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/ime/lv_ime_pinyin.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/file_explorer/lv_file_explorer.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/font_manager/lv_font_manager.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/others/translation/lv_translation.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_test.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_translation.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_component.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_widget.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_utils.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_load.h \
+  /lved/resources/lvgl/src/others/test/lv_test.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/others/test/lv_test_indev.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/others/test/lv_test_display.h \
+  /lved/resources/lvgl/src/others/test/lv_test_helpers.h \
+  /lved/resources/lvgl/src/stdlib/lv_mem.h \
+  /lved/resources/lvgl/src/others/test/lv_test_screenshot_compare.h \
+  /lved/resources/lvgl/src/others/test/lv_test_indev_gesture.h \
+  /lved/resources/lvgl/src/libs/barcode/lv_barcode.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/widgets/canvas/lv_canvas.h \
+  /lved/resources/lvgl/src/libs/bin_decoder/lv_bin_decoder.h \
+  /lved/resources/lvgl/src/draw/lv_image_decoder.h \
+  /lved/resources/lvgl/src/libs/bmp/lv_bmp.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/rle/lv_rle.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/fsdrv/lv_fsdrv.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/lodepng/lv_lodepng.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/libpng/lv_libpng.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/gltf/gltf_data/lv_gltf_model.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/gltf/gltf_view/lv_gltf.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/gif/lv_gif.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/libs/gstreamer/lv_gstreamer.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/qrcode/lv_qrcode.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/canvas/lv_canvas.h \
+  /lved/resources/lvgl/src/libs/tjpgd/lv_tjpgd.h \
+  /lved/resources/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/freetype/lv_freetype.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/rlottie/lv_rlottie.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/ffmpeg/lv_ffmpeg.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/svg/lv_svg.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/svg/lv_svg_render.h \
+  /lved/resources/lvgl/src/layouts/lv_layout.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/draw/lv_draw_vector.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/misc/lv_matrix.h \
+  /lved/resources/lvgl/src/draw/lv_draw_image.h \
+  /lved/resources/lvgl/src/draw/sw/lv_draw_sw_utils.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/draw/eve/lv_draw_eve_target.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/themes/default/lv_theme_default.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/themes/mono/lv_theme_mono.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/themes/simple/lv_theme_simple.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/lv_drivers.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_window.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_mouse.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_mousewheel.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_keyboard.h \
+  /lved/resources/lvgl/src/drivers/x11/lv_x11.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/draw/lv_image_dsc.h \
+  /lved/resources/lvgl/src/drivers/display/drm/lv_linux_drm.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/fb/lv_linux_fbdev.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/tft_espi/lv_tft_espi.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/lovyan_gfx/lv_lovyan_gfx.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/ili9341/lv_ili9341.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/st7735/lv_st7735.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/st7789/lv_st7789.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/st7796/lv_st7796.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/st_ltdc/lv_st_ltdc.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/display/ft81x/lv_ft81x.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/draw/eve/lv_draw_eve_display.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/draw/eve/lv_draw_eve_display_defines.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_entry.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_fbdev.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_touchscreen.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_lcd.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_libuv.h \
+  /lved/resources/lvgl/src/drivers/evdev/lv_evdev.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/libinput/lv_libinput.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/windows/lv_windows_input.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/windows/lv_windows_display.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_window.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_texture.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_glfw.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_egl.h \
+  /lved/resources/lvgl/src/drivers/qnx/lv_qnx.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/wayland/lv_wayland.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/uefi/lv_uefi_context.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/uefi/lv_uefi_indev.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/uefi/lv_uefi_display.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/lv_api_map_v8.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_0.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_1.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_2.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_3.h \
+  /lved/project/ui.h \
+  /lved/project/battery_indicator.h \
+  /lved/project/battery_indicator_gen.h \
+  /lved/project/widgets/wd_battery/wd_battery_gen.h \
+  /lved/project/widgets/wd_battery_v2/wd_battery_v2_gen.h \
+  /lved/project/components/battery_indicator/battery_gen.h \
+  /lved/project/components/battery_indicator_2/battery_indicator_2_gen.h \
+  /lved/project/components/battery_indicator_v2/battery_indicator_v2_gen.h \
+  /lved/project/components/button/button_gen.h \
+  /lved/project/components/charge_slider/charge_slider_gen.h \
+  /lved/project/components/clock/clock_gen.h \
+  /lved/project/components/settings_item/settings_item_gen.h \
+  /lved/project/components/settings_menu_line/settings_menu_line_gen.h \
+  /lved/project/components/settings_panel/settings_panel_gen.h \
+  /lved/project/components/top_bar/top_bar_gen.h \
+  /lved/project/screens/smartwatch/smartwatch_gen.h \
+  /lved/project/screens/smartwatch_v2/smartwatch_v2_gen.h
 
 project/CMakeFiles/lib-ui.dir/components/top_bar/top_bar_gen.c.o: /lved/project/components/top_bar/top_bar_gen.c \
   /lved/project/components/top_bar/top_bar_gen.h \
@@ -4225,23 +6984,8 @@ project/CMakeFiles/lib-ui.dir/components/top_bar/top_bar_gen.c.o: /lved/project/
   /lved/resources/lvgl/src/misc/lv_iter.h \
   /lved/resources/lvgl/src/misc/lv_circle_buf.h \
   /lved/resources/lvgl/src/misc/lv_tree.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache_entry.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_class.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_lru_rb.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache_private.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
   /lved/resources/lvgl/src/osal/lv_os.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/osal/lv_os_none.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_lru_ll.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_sc_da.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_cache_instance.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_image_header_cache.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_image_cache.h \
   /lved/resources/lvgl/src/tick/lv_tick.h \
   /lved/resources/lvgl/src/core/lv_obj.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
@@ -4296,6 +7040,7 @@ project/CMakeFiles/lib-ui.dir/components/top_bar/top_bar_gen.c.o: /lved/project/
   /lved/resources/lvgl/src/misc/lv_profiler.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_matrix.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
   /lved/resources/lvgl/src/draw/lv_image_decoder.h \
   /lved/resources/lvgl/src/draw/lv_draw_buf.h \
   /lved/resources/lvgl/src/misc/lv_fs.h \
@@ -4475,6 +7220,7 @@ project/CMakeFiles/lib-ui.dir/components/top_bar/top_bar_gen.c.o: /lved/project/
   /lved/resources/lvgl/src/others/xml/lv_xml_utils.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_load.h \
   /lved/resources/lvgl/src/others/test/lv_test.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/others/test/lv_test_indev.h \
@@ -4509,9 +7255,8 @@ project/CMakeFiles/lib-ui.dir/components/top_bar/top_bar_gen.c.o: /lved/project/
   /lved/resources/lvgl/src/libs/gif/lv_gif.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
-  /lved/resources/lvgl/src/widgets/image/lv_image.h \
-  /lved/resources/lvgl/src/core/lv_obj_class.h \
+  /lved/resources/lvgl/src/libs/gstreamer/lv_gstreamer.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/libs/qrcode/lv_qrcode.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_color.h \
@@ -4570,6 +7315,9 @@ project/CMakeFiles/lib-ui.dir/components/top_bar/top_bar_gen.c.o: /lved/project/
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/drivers/display/tft_espi/lv_tft_espi.h \
   /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/lovyan_gfx/lv_lovyan_gfx.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
   /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/drivers/display/ili9341/lv_ili9341.h \
@@ -4605,10 +7353,12 @@ project/CMakeFiles/lib-ui.dir/components/top_bar/top_bar_gen.c.o: /lved/project/
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/indev/lv_indev.h \
   /lved/resources/lvgl/src/drivers/windows/lv_windows_display.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_glfw_window.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_window.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_opengles_texture.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_texture.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_glfw.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_egl.h \
   /lved/resources/lvgl/src/drivers/qnx/lv_qnx.h \
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/indev/lv_indev.h \
@@ -4629,12 +7379,19 @@ project/CMakeFiles/lib-ui.dir/components/top_bar/top_bar_gen.c.o: /lved/project/
   /lved/project/battery_indicator.h \
   /lved/project/battery_indicator_gen.h \
   /lved/project/widgets/wd_battery/wd_battery_gen.h \
+  /lved/project/widgets/wd_battery_v2/wd_battery_v2_gen.h \
   /lved/project/components/battery_indicator/battery_gen.h \
   /lved/project/components/battery_indicator_2/battery_indicator_2_gen.h \
+  /lved/project/components/battery_indicator_v2/battery_indicator_v2_gen.h \
   /lved/project/components/button/button_gen.h \
   /lved/project/components/charge_slider/charge_slider_gen.h \
   /lved/project/components/clock/clock_gen.h \
-  /lved/project/screens/smartwatch_gen.h
+  /lved/project/components/settings_item/settings_item_gen.h \
+  /lved/project/components/settings_menu_line/settings_menu_line_gen.h \
+  /lved/project/components/settings_panel/settings_panel_gen.h \
+  /lved/project/components/toggle_switch/toggle_switch_gen.h \
+  /lved/project/screens/smartwatch/smartwatch_gen.h \
+  /lved/project/screens/smartwatch_v2/smartwatch_v2_gen.h
 
 project/CMakeFiles/lib-ui.dir/fonts/font_hour_25_data.c.o: /lved/project/fonts/font_hour_25_data.c \
   /lved/resources/lvgl/lvgl.h \
@@ -4777,23 +7534,8 @@ project/CMakeFiles/lib-ui.dir/fonts/font_hour_25_data.c.o: /lved/project/fonts/f
   /lved/resources/lvgl/src/misc/lv_iter.h \
   /lved/resources/lvgl/src/misc/lv_circle_buf.h \
   /lved/resources/lvgl/src/misc/lv_tree.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache_entry.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_class.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_lru_rb.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache_private.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
   /lved/resources/lvgl/src/osal/lv_os.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/osal/lv_os_none.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_lru_ll.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_sc_da.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_cache_instance.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_image_header_cache.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_image_cache.h \
   /lved/resources/lvgl/src/tick/lv_tick.h \
   /lved/resources/lvgl/src/core/lv_obj.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
@@ -4848,6 +7590,7 @@ project/CMakeFiles/lib-ui.dir/fonts/font_hour_25_data.c.o: /lved/project/fonts/f
   /lved/resources/lvgl/src/misc/lv_profiler.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_matrix.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
   /lved/resources/lvgl/src/draw/lv_image_decoder.h \
   /lved/resources/lvgl/src/draw/lv_draw_buf.h \
   /lved/resources/lvgl/src/misc/lv_fs.h \
@@ -5027,6 +7770,7 @@ project/CMakeFiles/lib-ui.dir/fonts/font_hour_25_data.c.o: /lved/project/fonts/f
   /lved/resources/lvgl/src/others/xml/lv_xml_utils.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_load.h \
   /lved/resources/lvgl/src/others/test/lv_test.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/others/test/lv_test_indev.h \
@@ -5061,9 +7805,8 @@ project/CMakeFiles/lib-ui.dir/fonts/font_hour_25_data.c.o: /lved/project/fonts/f
   /lved/resources/lvgl/src/libs/gif/lv_gif.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
-  /lved/resources/lvgl/src/widgets/image/lv_image.h \
-  /lved/resources/lvgl/src/core/lv_obj_class.h \
+  /lved/resources/lvgl/src/libs/gstreamer/lv_gstreamer.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/libs/qrcode/lv_qrcode.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_color.h \
@@ -5122,6 +7865,9 @@ project/CMakeFiles/lib-ui.dir/fonts/font_hour_25_data.c.o: /lved/project/fonts/f
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/drivers/display/tft_espi/lv_tft_espi.h \
   /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/lovyan_gfx/lv_lovyan_gfx.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
   /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/drivers/display/ili9341/lv_ili9341.h \
@@ -5157,552 +7903,12 @@ project/CMakeFiles/lib-ui.dir/fonts/font_hour_25_data.c.o: /lved/project/fonts/f
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/indev/lv_indev.h \
   /lved/resources/lvgl/src/drivers/windows/lv_windows_display.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_glfw_window.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_opengles_texture.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_opengles_driver.h \
-  /lved/resources/lvgl/src/drivers/qnx/lv_qnx.h \
-  /lved/resources/lvgl/src/display/lv_display.h \
-  /lved/resources/lvgl/src/indev/lv_indev.h \
-  /lved/resources/lvgl/src/drivers/wayland/lv_wayland.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/drivers/uefi/lv_uefi_context.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/drivers/uefi/lv_uefi_indev.h \
-  /lved/resources/lvgl/src/indev/lv_indev.h \
-  /lved/resources/lvgl/src/drivers/uefi/lv_uefi_display.h \
-  /lved/resources/lvgl/src/display/lv_display.h \
-  /lved/resources/lvgl/src/lv_api_map_v8.h \
-  /lved/resources/lvgl/src/lv_api_map_v9_0.h \
-  /lved/resources/lvgl/src/lv_api_map_v9_1.h \
-  /lved/resources/lvgl/src/lv_api_map_v9_2.h \
-  /lved/resources/lvgl/src/lv_api_map_v9_3.h
-
-project/CMakeFiles/lib-ui.dir/fonts/font_hour_30_data.c.o: /lved/project/fonts/font_hour_30_data.c \
-  /lved/resources/lvgl/lvgl.h \
-  /lved/resources/lvgl/lv_version.h \
-  /lved/resources/lvgl/src/lv_init.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/lv_conf_kconfig.h \
-  /lved/resources/conf/lv_conf.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /emsdk/upstream/lib/clang/21/include/stdint.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/stdint.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/bits/stdint.h \
-  /emsdk/upstream/lib/clang/21/include/stddef.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/stddef.h \
-  /emsdk/upstream/lib/clang/21/include/__stddef_header_macro.h \
-  /emsdk/upstream/lib/clang/21/include/__stddef_ptrdiff_t.h \
-  /emsdk/upstream/lib/clang/21/include/__stddef_size_t.h \
-  /emsdk/upstream/lib/clang/21/include/__stddef_wchar_t.h \
-  /emsdk/upstream/lib/clang/21/include/__stddef_null.h \
-  /emsdk/upstream/lib/clang/21/include/__stddef_max_align_t.h \
-  /emsdk/upstream/lib/clang/21/include/__stddef_offsetof.h \
-  /emsdk/upstream/lib/clang/21/include/stdbool.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/stdbool.h \
-  /emsdk/upstream/lib/clang/21/include/inttypes.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/inttypes.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/features.h \
-  /emsdk/upstream/lib/clang/21/include/limits.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/limits.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/bits/limits.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/compat/stdarg.h \
-  /emsdk/upstream/lib/clang/21/include/stdarg.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/stdarg.h \
-  /emsdk/upstream/lib/clang/21/include/__stdarg_header_macro.h \
-  /emsdk/upstream/lib/clang/21/include/__stdarg___gnuc_va_list.h \
-  /emsdk/upstream/lib/clang/21/include/__stdarg_va_list.h \
-  /emsdk/upstream/lib/clang/21/include/__stdarg_va_arg.h \
-  /emsdk/upstream/lib/clang/21/include/__stdarg___va_copy.h \
-  /emsdk/upstream/lib/clang/21/include/__stdarg_va_copy.h \
-  /lved/resources/lvgl/src/stdlib/lv_mem.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/stdlib/lv_string.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/stdlib/lv_sprintf.h \
-  /lved/resources/lvgl/src/misc/lv_log.h \
-  /lved/resources/lvgl/src/misc/lv_timer.h \
-  /lved/resources/lvgl/src/tick/lv_tick.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/misc/lv_ll.h \
-  /lved/resources/lvgl/src/misc/lv_math.h \
-  /lved/resources/lvgl/src/misc/lv_array.h \
-  /lved/resources/lvgl/src/misc/lv_async.h \
-  /lved/resources/lvgl/src/misc/lv_anim_timeline.h \
-  /lved/resources/lvgl/src/misc/lv_anim.h \
-  /lved/resources/lvgl/src/misc/lv_profiler_builtin.h \
-  /lved/resources/lvgl/src/misc/lv_rb.h \
-  /lved/resources/lvgl/src/misc/lv_assert.h \
-  /lved/resources/lvgl/src/stdlib/lv_mem.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_main.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_stdinc.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_config.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_platform.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/begin_code.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/close_code.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_config_emscripten.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/sys/types.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/endian.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/sys/select.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/stdio.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/wasi/api.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/compat/stdlib.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/stdlib.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/alloca.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/compat/string.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/string.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/strings.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/wchar.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/ctype.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/compat/math.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/math.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_assert.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_atomic.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_audio.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_error.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_endian.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_mutex.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_thread.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_rwops.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_clipboard.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_cpuinfo.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_events.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_video.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_pixels.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_rect.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_surface.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_blendmode.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_keyboard.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_keycode.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_scancode.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_mouse.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_joystick.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_guid.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_gamecontroller.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_sensor.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_quit.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_gesture.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_touch.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_filesystem.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_haptic.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_hidapi.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_hints.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_loadso.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_log.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_messagebox.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_metal.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_power.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_render.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_shape.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_system.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_timer.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_version.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_locale.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_misc.h \
-  /lved/resources/lvgl/src/misc/lv_utils.h \
-  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/misc/lv_area.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/misc/lv_math.h \
-  /lved/resources/lvgl/src/misc/lv_color.h \
-  /lved/resources/lvgl/src/misc/lv_assert.h \
-  /lved/resources/lvgl/src/misc/lv_palette.h \
-  /lved/resources/lvgl/src/misc/lv_color_op.h \
-  /lved/resources/lvgl/src/stdlib/lv_string.h \
-  /lved/resources/lvgl/src/draw/lv_image_dsc.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/misc/lv_iter.h \
-  /lved/resources/lvgl/src/misc/lv_circle_buf.h \
-  /lved/resources/lvgl/src/misc/lv_tree.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache_entry.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_class.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_lru_rb.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache_private.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/osal/lv_os.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/osal/lv_os_none.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_lru_ll.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_sc_da.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_cache_instance.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_image_header_cache.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_image_cache.h \
-  /lved/resources/lvgl/src/tick/lv_tick.h \
-  /lved/resources/lvgl/src/core/lv_obj.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/misc/lv_style.h \
-  /lved/resources/lvgl/src/font/lv_font.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/font/lv_symbol_def.h \
-  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
-  /lved/resources/lvgl/src/misc/lv_area.h \
-  /lved/resources/lvgl/src/misc/lv_color.h \
-  /lved/resources/lvgl/src/misc/lv_area.h \
-  /lved/resources/lvgl/src/misc/lv_anim.h \
-  /lved/resources/lvgl/src/misc/lv_text.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/stdlib/lv_sprintf.h \
-  /lved/resources/lvgl/src/misc/lv_assert.h \
-  /lved/resources/lvgl/src/misc/lv_bidi.h \
-  /lved/resources/lvgl/src/misc/lv_grad.h \
-  /lved/resources/lvgl/src/layouts/lv_layout.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/layouts/flex/lv_flex.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/misc/lv_area.h \
-  /lved/resources/lvgl/src/layouts/grid/lv_grid.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/misc/lv_area.h \
-  /lved/resources/lvgl/src/misc/lv_style_gen.h \
-  /lved/resources/lvgl/src/core/lv_obj_tree.h \
-  /lved/resources/lvgl/src/display/lv_display.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/misc/lv_timer.h \
-  /lved/resources/lvgl/src/misc/lv_event.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/misc/lv_array.h \
-  /lved/resources/lvgl/src/misc/lv_color.h \
-  /lved/resources/lvgl/src/misc/lv_area.h \
-  /lved/resources/lvgl/src/core/lv_obj_pos.h \
-  /lved/resources/lvgl/src/core/lv_obj_scroll.h \
-  /lved/resources/lvgl/src/core/lv_obj_style.h \
-  /lved/resources/lvgl/src/core/lv_obj_style_gen.h \
-  /lved/resources/lvgl/src/core/lv_obj_style.h \
-  /lved/resources/lvgl/src/core/lv_obj_draw.h \
-  /lved/resources/lvgl/src/draw/lv_draw_rect.h \
-  /lved/resources/lvgl/src/draw/lv_draw.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/misc/lv_style.h \
-  /lved/resources/lvgl/src/misc/lv_text.h \
-  /lved/resources/lvgl/src/misc/lv_profiler.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/misc/lv_matrix.h \
-  /lved/resources/lvgl/src/draw/lv_image_decoder.h \
-  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
-  /lved/resources/lvgl/src/misc/lv_fs.h \
-  /lved/resources/lvgl/src/misc/lv_area.h \
-  /lved/resources/lvgl/src/misc/lv_color.h \
-  /lved/resources/lvgl/src/draw/lv_draw_label.h \
-  /lved/resources/lvgl/src/misc/lv_bidi.h \
-  /lved/resources/lvgl/src/draw/lv_draw_image.h \
-  /lved/resources/lvgl/src/draw/lv_draw_line.h \
-  /lved/resources/lvgl/src/draw/lv_draw_arc.h \
-  /lved/resources/lvgl/src/draw/lv_draw_triangle.h \
-  /lved/resources/lvgl/src/core/lv_obj_class.h \
-  /lved/resources/lvgl/src/core/lv_obj_property.h \
-  /lved/resources/lvgl/src/core/lv_obj_event.h \
-  /lved/resources/lvgl/src/misc/lv_event.h \
-  /lved/resources/lvgl/src/indev/lv_indev.h \
-  /lved/resources/lvgl/src/core/lv_group.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/misc/lv_ll.h \
-  /lved/resources/lvgl/src/misc/lv_area.h \
-  /lved/resources/lvgl/src/misc/lv_timer.h \
-  /lved/resources/lvgl/src/misc/lv_event.h \
-  /lved/resources/lvgl/src/core/lv_group.h \
-  /lved/resources/lvgl/src/indev/lv_indev.h \
-  /lved/resources/lvgl/src/indev/lv_indev_gesture.h \
-  /lved/resources/lvgl/src/core/lv_obj.h \
-  /lved/resources/lvgl/src/core/lv_refr.h \
-  /lved/resources/lvgl/src/display/lv_display.h \
-  /lved/resources/lvgl/src/font/lv_font.h \
-  /lved/resources/lvgl/src/font/lv_binfont_loader.h \
-  /lved/resources/lvgl/src/font/lv_font_fmt_txt.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/widgets/animimage/lv_animimage.h \
-  /lved/resources/lvgl/src/widgets/image/lv_image.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/core/lv_obj.h \
-  /lved/resources/lvgl/src/misc/lv_fs.h \
-  /lved/resources/lvgl/src/draw/lv_draw.h \
-  /lved/resources/lvgl/src/others/observer/lv_observer.h \
-  /lved/resources/lvgl/src/core/lv_obj.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/widgets/arc/lv_arc.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/core/lv_obj.h \
-  /lved/resources/lvgl/src/others/observer/lv_observer.h \
-  /lved/resources/lvgl/src/widgets/arclabel/lv_arclabel.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/widgets/bar/lv_bar.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/core/lv_obj.h \
-  /lved/resources/lvgl/src/misc/lv_anim.h \
-  /lved/resources/lvgl/src/widgets/label/lv_label.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/core/lv_obj.h \
-  /lved/resources/lvgl/src/font/lv_font.h \
-  /lved/resources/lvgl/src/font/lv_symbol_def.h \
-  /lved/resources/lvgl/src/misc/lv_text.h \
-  /lved/resources/lvgl/src/draw/lv_draw.h \
-  /lved/resources/lvgl/src/others/observer/lv_observer.h \
-  /lved/resources/lvgl/src/others/observer/lv_observer.h \
-  /lved/resources/lvgl/src/widgets/button/lv_button.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/core/lv_obj.h \
-  /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/core/lv_obj.h \
-  /lved/resources/lvgl/src/widgets/calendar/lv_calendar.h \
-  /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
-  /lved/resources/lvgl/src/widgets/calendar/lv_calendar_header_arrow.h \
-  /lved/resources/lvgl/src/core/lv_obj.h \
-  /lved/resources/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.h \
-  /lved/resources/lvgl/src/widgets/calendar/lv_calendar_chinese.h \
-  /lved/resources/lvgl/src/widgets/canvas/lv_canvas.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/widgets/image/lv_image.h \
-  /lved/resources/lvgl/src/draw/lv_draw_image.h \
-  /lved/resources/lvgl/src/widgets/chart/lv_chart.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/core/lv_obj.h \
-  /lved/resources/lvgl/src/widgets/checkbox/lv_checkbox.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/core/lv_obj.h \
-  /lved/resources/lvgl/src/widgets/dropdown/lv_dropdown.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/widgets/label/lv_label.h \
-  /lved/resources/lvgl/src/widgets/image/lv_image.h \
-  /lved/resources/lvgl/src/widgets/imagebutton/lv_imagebutton.h \
-  /lved/resources/lvgl/src/core/lv_obj.h \
-  /lved/resources/lvgl/src/widgets/keyboard/lv_keyboard.h \
-  /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
-  /lved/resources/lvgl/src/widgets/label/lv_label.h \
-  /lved/resources/lvgl/src/widgets/led/lv_led.h \
-  /lved/resources/lvgl/src/core/lv_obj.h \
-  /lved/resources/lvgl/src/widgets/line/lv_line.h \
-  /lved/resources/lvgl/src/core/lv_obj.h \
-  /lved/resources/lvgl/src/widgets/list/lv_list.h \
-  /lved/resources/lvgl/src/core/lv_obj.h \
-  /lved/resources/lvgl/src/widgets/lottie/lv_lottie.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/widgets/menu/lv_menu.h \
-  /lved/resources/lvgl/src/core/lv_obj.h \
-  /lved/resources/lvgl/src/widgets/msgbox/lv_msgbox.h \
-  /lved/resources/lvgl/src/core/lv_obj.h \
-  /lved/resources/lvgl/src/widgets/roller/lv_roller.h \
-  /lved/resources/lvgl/src/core/lv_obj.h \
-  /lved/resources/lvgl/src/widgets/label/lv_label.h \
-  /lved/resources/lvgl/src/widgets/scale/lv_scale.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/core/lv_obj.h \
-  /lved/resources/lvgl/src/widgets/line/lv_line.h \
-  /lved/resources/lvgl/src/widgets/image/lv_image.h \
-  /lved/resources/lvgl/src/others/observer/lv_observer.h \
-  /lved/resources/lvgl/src/widgets/slider/lv_slider.h \
-  /lved/resources/lvgl/src/widgets/bar/lv_bar.h \
-  /lved/resources/lvgl/src/widgets/span/lv_span.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/core/lv_obj.h \
-  /lved/resources/lvgl/src/others/observer/lv_observer.h \
-  /lved/resources/lvgl/src/widgets/spinbox/lv_spinbox.h \
-  /lved/resources/lvgl/src/widgets/textarea/lv_textarea.h \
-  /lved/resources/lvgl/src/widgets/label/lv_label.h \
-  /lved/resources/lvgl/src/widgets/spinner/lv_spinner.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/widgets/switch/lv_switch.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/core/lv_obj.h \
-  /lved/resources/lvgl/src/widgets/table/lv_table.h \
-  /lved/resources/lvgl/src/widgets/label/lv_label.h \
-  /lved/resources/lvgl/src/widgets/tabview/lv_tabview.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/core/lv_obj.h \
-  /lved/resources/lvgl/src/widgets/textarea/lv_textarea.h \
-  /lved/resources/lvgl/src/widgets/tileview/lv_tileview.h \
-  /lved/resources/lvgl/src/core/lv_obj.h \
-  /lved/resources/lvgl/src/widgets/win/lv_win.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/core/lv_obj.h \
-  /lved/resources/lvgl/src/widgets/3dtexture/lv_3dtexture.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/others/snapshot/lv_snapshot.h \
-  /lved/resources/lvgl/src/core/lv_obj.h \
-  /lved/resources/lvgl/src/others/sysmon/lv_sysmon.h \
-  /lved/resources/lvgl/src/misc/lv_timer.h \
-  /lved/resources/lvgl/src/others/observer/lv_observer.h \
-  /lved/resources/lvgl/src/others/monkey/lv_monkey.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/indev/lv_indev.h \
-  /lved/resources/lvgl/src/others/gridnav/lv_gridnav.h \
-  /lved/resources/lvgl/src/core/lv_obj.h \
-  /lved/resources/lvgl/src/others/fragment/lv_fragment.h \
-  /lved/resources/lvgl/src/core/lv_obj.h \
-  /lved/resources/lvgl/src/others/imgfont/lv_imgfont.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/font/lv_font.h \
-  /lved/resources/lvgl/src/others/observer/lv_observer.h \
-  /lved/resources/lvgl/src/others/ime/lv_ime_pinyin.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/core/lv_obj.h \
-  /lved/resources/lvgl/src/others/file_explorer/lv_file_explorer.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/core/lv_obj.h \
-  /lved/resources/lvgl/src/others/font_manager/lv_font_manager.h \
-  /lved/resources/lvgl/src/font/lv_font.h \
-  /lved/resources/lvgl/src/others/translation/lv_translation.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/misc/lv_array.h \
-  /lved/resources/lvgl/src/others/xml/lv_xml.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/misc/lv_event.h \
-  /lved/resources/lvgl/src/others/observer/lv_observer.h \
-  /lved/resources/lvgl/src/others/xml/lv_xml_test.h \
-  /lved/resources/lvgl/src/others/xml/lv_xml_translation.h \
-  /lved/resources/lvgl/src/others/xml/lv_xml_component.h \
-  /lved/resources/lvgl/src/others/xml/lv_xml_widget.h \
-  /lved/resources/lvgl/src/others/xml/lv_xml_utils.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/misc/lv_color.h \
-  /lved/resources/lvgl/src/others/test/lv_test.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/others/test/lv_test_indev.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/indev/lv_indev.h \
-  /lved/resources/lvgl/src/others/test/lv_test_display.h \
-  /lved/resources/lvgl/src/others/test/lv_test_helpers.h \
-  /lved/resources/lvgl/src/stdlib/lv_mem.h \
-  /lved/resources/lvgl/src/others/test/lv_test_screenshot_compare.h \
-  /lved/resources/lvgl/src/others/test/lv_test_indev_gesture.h \
-  /lved/resources/lvgl/src/libs/barcode/lv_barcode.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/misc/lv_color.h \
-  /lved/resources/lvgl/src/widgets/canvas/lv_canvas.h \
-  /lved/resources/lvgl/src/libs/bin_decoder/lv_bin_decoder.h \
-  /lved/resources/lvgl/src/draw/lv_image_decoder.h \
-  /lved/resources/lvgl/src/libs/bmp/lv_bmp.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/libs/rle/lv_rle.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/libs/fsdrv/lv_fsdrv.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/libs/lodepng/lv_lodepng.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/libs/libpng/lv_libpng.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/libs/gltf/gltf_data/lv_gltf_model.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/libs/gltf/gltf_view/lv_gltf.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/libs/gif/lv_gif.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
-  /lved/resources/lvgl/src/widgets/image/lv_image.h \
-  /lved/resources/lvgl/src/core/lv_obj_class.h \
-  /lved/resources/lvgl/src/libs/qrcode/lv_qrcode.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/misc/lv_color.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/widgets/canvas/lv_canvas.h \
-  /lved/resources/lvgl/src/libs/tjpgd/lv_tjpgd.h \
-  /lved/resources/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/libs/freetype/lv_freetype.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/libs/rlottie/lv_rlottie.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/libs/ffmpeg/lv_ffmpeg.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/libs/svg/lv_svg.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/libs/svg/lv_svg_render.h \
-  /lved/resources/lvgl/src/layouts/lv_layout.h \
-  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
-  /lved/resources/lvgl/src/draw/lv_draw_vector.h \
-  /lved/resources/lvgl/src/misc/lv_array.h \
-  /lved/resources/lvgl/src/misc/lv_matrix.h \
-  /lved/resources/lvgl/src/draw/lv_draw_image.h \
-  /lved/resources/lvgl/src/draw/sw/lv_draw_sw_utils.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/misc/lv_area.h \
-  /lved/resources/lvgl/src/misc/lv_color.h \
-  /lved/resources/lvgl/src/display/lv_display.h \
-  /lved/resources/lvgl/src/draw/eve/lv_draw_eve_target.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/themes/lv_theme.h \
-  /lved/resources/lvgl/src/core/lv_obj.h \
-  /lved/resources/lvgl/src/themes/default/lv_theme_default.h \
-  /lved/resources/lvgl/src/themes/lv_theme.h \
-  /lved/resources/lvgl/src/themes/mono/lv_theme_mono.h \
-  /lved/resources/lvgl/src/themes/lv_theme.h \
-  /lved/resources/lvgl/src/themes/simple/lv_theme_simple.h \
-  /lved/resources/lvgl/src/themes/lv_theme.h \
-  /lved/resources/lvgl/src/display/lv_display.h \
-  /lved/resources/lvgl/src/drivers/lv_drivers.h \
-  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_window.h \
-  /lved/resources/lvgl/src/display/lv_display.h \
-  /lved/resources/lvgl/src/indev/lv_indev.h \
-  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_mouse.h \
-  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_mousewheel.h \
-  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_keyboard.h \
-  /lved/resources/lvgl/src/drivers/x11/lv_x11.h \
-  /lved/resources/lvgl/src/display/lv_display.h \
-  /lved/resources/lvgl/src/indev/lv_indev.h \
-  /lved/resources/lvgl/src/draw/lv_image_dsc.h \
-  /lved/resources/lvgl/src/drivers/display/drm/lv_linux_drm.h \
-  /lved/resources/lvgl/src/display/lv_display.h \
-  /lved/resources/lvgl/src/drivers/display/fb/lv_linux_fbdev.h \
-  /lved/resources/lvgl/src/display/lv_display.h \
-  /lved/resources/lvgl/src/drivers/display/tft_espi/lv_tft_espi.h \
-  /lved/resources/lvgl/src/display/lv_display.h \
-  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
-  /lved/resources/lvgl/src/display/lv_display.h \
-  /lved/resources/lvgl/src/drivers/display/ili9341/lv_ili9341.h \
-  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
-  /lved/resources/lvgl/src/drivers/display/st7735/lv_st7735.h \
-  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
-  /lved/resources/lvgl/src/drivers/display/st7789/lv_st7789.h \
-  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
-  /lved/resources/lvgl/src/drivers/display/st7796/lv_st7796.h \
-  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
-  /lved/resources/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.h \
-  /lved/resources/lvgl/src/display/lv_display.h \
-  /lved/resources/lvgl/src/drivers/display/st_ltdc/lv_st_ltdc.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/drivers/display/ft81x/lv_ft81x.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/drivers/draw/eve/lv_draw_eve_display.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/drivers/draw/eve/lv_draw_eve_display_defines.h \
-  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_entry.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/display/lv_display.h \
-  /lved/resources/lvgl/src/indev/lv_indev.h \
-  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_fbdev.h \
-  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_touchscreen.h \
-  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_lcd.h \
-  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_libuv.h \
-  /lved/resources/lvgl/src/drivers/evdev/lv_evdev.h \
-  /lved/resources/lvgl/src/indev/lv_indev.h \
-  /lved/resources/lvgl/src/drivers/libinput/lv_libinput.h \
-  /lved/resources/lvgl/src/indev/lv_indev.h \
-  /lved/resources/lvgl/src/drivers/windows/lv_windows_input.h \
-  /lved/resources/lvgl/src/display/lv_display.h \
-  /lved/resources/lvgl/src/indev/lv_indev.h \
-  /lved/resources/lvgl/src/drivers/windows/lv_windows_display.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_glfw_window.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_opengles_texture.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_window.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_texture.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_glfw.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_egl.h \
   /lved/resources/lvgl/src/drivers/qnx/lv_qnx.h \
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/indev/lv_indev.h \
@@ -5861,23 +8067,8 @@ project/CMakeFiles/lib-ui.dir/fonts/font_hour_32_data.c.o: /lved/project/fonts/f
   /lved/resources/lvgl/src/misc/lv_iter.h \
   /lved/resources/lvgl/src/misc/lv_circle_buf.h \
   /lved/resources/lvgl/src/misc/lv_tree.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache_entry.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_class.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_lru_rb.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache_private.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
   /lved/resources/lvgl/src/osal/lv_os.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/osal/lv_os_none.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_lru_ll.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_sc_da.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_cache_instance.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_image_header_cache.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_image_cache.h \
   /lved/resources/lvgl/src/tick/lv_tick.h \
   /lved/resources/lvgl/src/core/lv_obj.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
@@ -5932,6 +8123,7 @@ project/CMakeFiles/lib-ui.dir/fonts/font_hour_32_data.c.o: /lved/project/fonts/f
   /lved/resources/lvgl/src/misc/lv_profiler.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_matrix.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
   /lved/resources/lvgl/src/draw/lv_image_decoder.h \
   /lved/resources/lvgl/src/draw/lv_draw_buf.h \
   /lved/resources/lvgl/src/misc/lv_fs.h \
@@ -6111,6 +8303,7 @@ project/CMakeFiles/lib-ui.dir/fonts/font_hour_32_data.c.o: /lved/project/fonts/f
   /lved/resources/lvgl/src/others/xml/lv_xml_utils.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_load.h \
   /lved/resources/lvgl/src/others/test/lv_test.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/others/test/lv_test_indev.h \
@@ -6145,9 +8338,8 @@ project/CMakeFiles/lib-ui.dir/fonts/font_hour_32_data.c.o: /lved/project/fonts/f
   /lved/resources/lvgl/src/libs/gif/lv_gif.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
-  /lved/resources/lvgl/src/widgets/image/lv_image.h \
-  /lved/resources/lvgl/src/core/lv_obj_class.h \
+  /lved/resources/lvgl/src/libs/gstreamer/lv_gstreamer.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/libs/qrcode/lv_qrcode.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_color.h \
@@ -6206,6 +8398,9 @@ project/CMakeFiles/lib-ui.dir/fonts/font_hour_32_data.c.o: /lved/project/fonts/f
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/drivers/display/tft_espi/lv_tft_espi.h \
   /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/lovyan_gfx/lv_lovyan_gfx.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
   /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/drivers/display/ili9341/lv_ili9341.h \
@@ -6241,10 +8436,1078 @@ project/CMakeFiles/lib-ui.dir/fonts/font_hour_32_data.c.o: /lved/project/fonts/f
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/indev/lv_indev.h \
   /lved/resources/lvgl/src/drivers/windows/lv_windows_display.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_glfw_window.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_window.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_opengles_texture.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_texture.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_glfw.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_egl.h \
+  /lved/resources/lvgl/src/drivers/qnx/lv_qnx.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/wayland/lv_wayland.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/uefi/lv_uefi_context.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/uefi/lv_uefi_indev.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/uefi/lv_uefi_display.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/lv_api_map_v8.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_0.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_1.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_2.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_3.h
+
+project/CMakeFiles/lib-ui.dir/fonts/font_inter_semibold_25_data.c.o: /lved/project/fonts/font_inter_semibold_25_data.c \
+  /lved/resources/lvgl/lvgl.h \
+  /lved/resources/lvgl/lv_version.h \
+  /lved/resources/lvgl/src/lv_init.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/lv_conf_kconfig.h \
+  /lved/resources/conf/lv_conf.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /emsdk/upstream/lib/clang/21/include/stdint.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdint.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/bits/stdint.h \
+  /emsdk/upstream/lib/clang/21/include/stddef.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stddef.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_header_macro.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_ptrdiff_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_size_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_wchar_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_null.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_max_align_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_offsetof.h \
+  /emsdk/upstream/lib/clang/21/include/stdbool.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdbool.h \
+  /emsdk/upstream/lib/clang/21/include/inttypes.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/inttypes.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/features.h \
+  /emsdk/upstream/lib/clang/21/include/limits.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/limits.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/bits/limits.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/stdarg.h \
+  /emsdk/upstream/lib/clang/21/include/stdarg.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdarg.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_header_macro.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg___gnuc_va_list.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_va_list.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_va_arg.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg___va_copy.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_va_copy.h \
+  /lved/resources/lvgl/src/stdlib/lv_mem.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/stdlib/lv_string.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/stdlib/lv_sprintf.h \
+  /lved/resources/lvgl/src/misc/lv_log.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/tick/lv_tick.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_ll.h \
+  /lved/resources/lvgl/src/misc/lv_math.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/misc/lv_async.h \
+  /lved/resources/lvgl/src/misc/lv_anim_timeline.h \
+  /lved/resources/lvgl/src/misc/lv_anim.h \
+  /lved/resources/lvgl/src/misc/lv_profiler_builtin.h \
+  /lved/resources/lvgl/src/misc/lv_rb.h \
+  /lved/resources/lvgl/src/misc/lv_assert.h \
+  /lved/resources/lvgl/src/stdlib/lv_mem.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_main.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_stdinc.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_config.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_platform.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/begin_code.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/close_code.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_config_emscripten.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/sys/types.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/endian.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/sys/select.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdio.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/wasi/api.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/stdlib.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdlib.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/alloca.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/string.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/string.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/strings.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/wchar.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/ctype.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/math.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/math.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_assert.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_atomic.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_audio.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_error.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_endian.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_mutex.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_thread.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_rwops.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_clipboard.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_cpuinfo.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_events.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_video.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_pixels.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_rect.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_surface.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_blendmode.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_keyboard.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_keycode.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_scancode.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_mouse.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_joystick.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_guid.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_gamecontroller.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_sensor.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_quit.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_gesture.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_touch.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_filesystem.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_haptic.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_hidapi.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_hints.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_loadso.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_log.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_messagebox.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_metal.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_power.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_render.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_shape.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_system.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_timer.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_version.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_locale.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_misc.h \
+  /lved/resources/lvgl/src/misc/lv_utils.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_math.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_assert.h \
+  /lved/resources/lvgl/src/misc/lv_palette.h \
+  /lved/resources/lvgl/src/misc/lv_color_op.h \
+  /lved/resources/lvgl/src/stdlib/lv_string.h \
+  /lved/resources/lvgl/src/draw/lv_image_dsc.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_iter.h \
+  /lved/resources/lvgl/src/misc/lv_circle_buf.h \
+  /lved/resources/lvgl/src/misc/lv_tree.h \
+  /lved/resources/lvgl/src/osal/lv_os.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/tick/lv_tick.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_style.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/font/lv_symbol_def.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_anim.h \
+  /lved/resources/lvgl/src/misc/lv_text.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/stdlib/lv_sprintf.h \
+  /lved/resources/lvgl/src/misc/lv_assert.h \
+  /lved/resources/lvgl/src/misc/lv_bidi.h \
+  /lved/resources/lvgl/src/misc/lv_grad.h \
+  /lved/resources/lvgl/src/layouts/lv_layout.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/layouts/flex/lv_flex.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/layouts/grid/lv_grid.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_style_gen.h \
+  /lved/resources/lvgl/src/core/lv_obj_tree.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/core/lv_obj_pos.h \
+  /lved/resources/lvgl/src/core/lv_obj_scroll.h \
+  /lved/resources/lvgl/src/core/lv_obj_style.h \
+  /lved/resources/lvgl/src/core/lv_obj_style_gen.h \
+  /lved/resources/lvgl/src/core/lv_obj_style.h \
+  /lved/resources/lvgl/src/core/lv_obj_draw.h \
+  /lved/resources/lvgl/src/draw/lv_draw_rect.h \
+  /lved/resources/lvgl/src/draw/lv_draw.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_style.h \
+  /lved/resources/lvgl/src/misc/lv_text.h \
+  /lved/resources/lvgl/src/misc/lv_profiler.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_matrix.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/draw/lv_image_decoder.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/misc/lv_fs.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/draw/lv_draw_label.h \
+  /lved/resources/lvgl/src/misc/lv_bidi.h \
+  /lved/resources/lvgl/src/draw/lv_draw_image.h \
+  /lved/resources/lvgl/src/draw/lv_draw_line.h \
+  /lved/resources/lvgl/src/draw/lv_draw_arc.h \
+  /lved/resources/lvgl/src/draw/lv_draw_triangle.h \
+  /lved/resources/lvgl/src/core/lv_obj_class.h \
+  /lved/resources/lvgl/src/core/lv_obj_property.h \
+  /lved/resources/lvgl/src/core/lv_obj_event.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/core/lv_group.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_ll.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/core/lv_group.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/indev/lv_indev_gesture.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/core/lv_refr.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/font/lv_binfont_loader.h \
+  /lved/resources/lvgl/src/font/lv_font_fmt_txt.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/animimage/lv_animimage.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/misc/lv_fs.h \
+  /lved/resources/lvgl/src/draw/lv_draw.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/arc/lv_arc.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/arclabel/lv_arclabel.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/bar/lv_bar.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/misc/lv_anim.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/font/lv_symbol_def.h \
+  /lved/resources/lvgl/src/misc/lv_text.h \
+  /lved/resources/lvgl/src/draw/lv_draw.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/button/lv_button.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar.h \
+  /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar_header_arrow.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar_chinese.h \
+  /lved/resources/lvgl/src/widgets/canvas/lv_canvas.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/draw/lv_draw_image.h \
+  /lved/resources/lvgl/src/widgets/chart/lv_chart.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/checkbox/lv_checkbox.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/dropdown/lv_dropdown.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/widgets/imagebutton/lv_imagebutton.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/keyboard/lv_keyboard.h \
+  /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/led/lv_led.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/line/lv_line.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/list/lv_list.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/lottie/lv_lottie.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/menu/lv_menu.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/msgbox/lv_msgbox.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/roller/lv_roller.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/scale/lv_scale.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/line/lv_line.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/slider/lv_slider.h \
+  /lved/resources/lvgl/src/widgets/bar/lv_bar.h \
+  /lved/resources/lvgl/src/widgets/span/lv_span.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/spinbox/lv_spinbox.h \
+  /lved/resources/lvgl/src/widgets/textarea/lv_textarea.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/spinner/lv_spinner.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/switch/lv_switch.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/table/lv_table.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/tabview/lv_tabview.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/textarea/lv_textarea.h \
+  /lved/resources/lvgl/src/widgets/tileview/lv_tileview.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/win/lv_win.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/3dtexture/lv_3dtexture.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/others/snapshot/lv_snapshot.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/sysmon/lv_sysmon.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/monkey/lv_monkey.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/others/gridnav/lv_gridnav.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/fragment/lv_fragment.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/imgfont/lv_imgfont.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/ime/lv_ime_pinyin.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/file_explorer/lv_file_explorer.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/font_manager/lv_font_manager.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/others/translation/lv_translation.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_test.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_translation.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_component.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_widget.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_utils.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_load.h \
+  /lved/resources/lvgl/src/others/test/lv_test.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/others/test/lv_test_indev.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/others/test/lv_test_display.h \
+  /lved/resources/lvgl/src/others/test/lv_test_helpers.h \
+  /lved/resources/lvgl/src/stdlib/lv_mem.h \
+  /lved/resources/lvgl/src/others/test/lv_test_screenshot_compare.h \
+  /lved/resources/lvgl/src/others/test/lv_test_indev_gesture.h \
+  /lved/resources/lvgl/src/libs/barcode/lv_barcode.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/widgets/canvas/lv_canvas.h \
+  /lved/resources/lvgl/src/libs/bin_decoder/lv_bin_decoder.h \
+  /lved/resources/lvgl/src/draw/lv_image_decoder.h \
+  /lved/resources/lvgl/src/libs/bmp/lv_bmp.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/rle/lv_rle.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/fsdrv/lv_fsdrv.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/lodepng/lv_lodepng.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/libpng/lv_libpng.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/gltf/gltf_data/lv_gltf_model.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/gltf/gltf_view/lv_gltf.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/gif/lv_gif.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/libs/gstreamer/lv_gstreamer.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/qrcode/lv_qrcode.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/canvas/lv_canvas.h \
+  /lved/resources/lvgl/src/libs/tjpgd/lv_tjpgd.h \
+  /lved/resources/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/freetype/lv_freetype.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/rlottie/lv_rlottie.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/ffmpeg/lv_ffmpeg.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/svg/lv_svg.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/svg/lv_svg_render.h \
+  /lved/resources/lvgl/src/layouts/lv_layout.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/draw/lv_draw_vector.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/misc/lv_matrix.h \
+  /lved/resources/lvgl/src/draw/lv_draw_image.h \
+  /lved/resources/lvgl/src/draw/sw/lv_draw_sw_utils.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/draw/eve/lv_draw_eve_target.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/themes/default/lv_theme_default.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/themes/mono/lv_theme_mono.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/themes/simple/lv_theme_simple.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/lv_drivers.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_window.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_mouse.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_mousewheel.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_keyboard.h \
+  /lved/resources/lvgl/src/drivers/x11/lv_x11.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/draw/lv_image_dsc.h \
+  /lved/resources/lvgl/src/drivers/display/drm/lv_linux_drm.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/fb/lv_linux_fbdev.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/tft_espi/lv_tft_espi.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/lovyan_gfx/lv_lovyan_gfx.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/ili9341/lv_ili9341.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/st7735/lv_st7735.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/st7789/lv_st7789.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/st7796/lv_st7796.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/st_ltdc/lv_st_ltdc.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/display/ft81x/lv_ft81x.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/draw/eve/lv_draw_eve_display.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/draw/eve/lv_draw_eve_display_defines.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_entry.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_fbdev.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_touchscreen.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_lcd.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_libuv.h \
+  /lved/resources/lvgl/src/drivers/evdev/lv_evdev.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/libinput/lv_libinput.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/windows/lv_windows_input.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/windows/lv_windows_display.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_window.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_texture.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_glfw.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_egl.h \
+  /lved/resources/lvgl/src/drivers/qnx/lv_qnx.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/wayland/lv_wayland.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/uefi/lv_uefi_context.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/uefi/lv_uefi_indev.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/uefi/lv_uefi_display.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/lv_api_map_v8.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_0.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_1.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_2.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_3.h
+
+project/CMakeFiles/lib-ui.dir/fonts/font_inter_semibold_30_data.c.o: /lved/project/fonts/font_inter_semibold_30_data.c \
+  /lved/resources/lvgl/lvgl.h \
+  /lved/resources/lvgl/lv_version.h \
+  /lved/resources/lvgl/src/lv_init.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/lv_conf_kconfig.h \
+  /lved/resources/conf/lv_conf.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /emsdk/upstream/lib/clang/21/include/stdint.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdint.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/bits/stdint.h \
+  /emsdk/upstream/lib/clang/21/include/stddef.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stddef.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_header_macro.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_ptrdiff_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_size_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_wchar_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_null.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_max_align_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_offsetof.h \
+  /emsdk/upstream/lib/clang/21/include/stdbool.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdbool.h \
+  /emsdk/upstream/lib/clang/21/include/inttypes.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/inttypes.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/features.h \
+  /emsdk/upstream/lib/clang/21/include/limits.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/limits.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/bits/limits.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/stdarg.h \
+  /emsdk/upstream/lib/clang/21/include/stdarg.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdarg.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_header_macro.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg___gnuc_va_list.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_va_list.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_va_arg.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg___va_copy.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_va_copy.h \
+  /lved/resources/lvgl/src/stdlib/lv_mem.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/stdlib/lv_string.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/stdlib/lv_sprintf.h \
+  /lved/resources/lvgl/src/misc/lv_log.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/tick/lv_tick.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_ll.h \
+  /lved/resources/lvgl/src/misc/lv_math.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/misc/lv_async.h \
+  /lved/resources/lvgl/src/misc/lv_anim_timeline.h \
+  /lved/resources/lvgl/src/misc/lv_anim.h \
+  /lved/resources/lvgl/src/misc/lv_profiler_builtin.h \
+  /lved/resources/lvgl/src/misc/lv_rb.h \
+  /lved/resources/lvgl/src/misc/lv_assert.h \
+  /lved/resources/lvgl/src/stdlib/lv_mem.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_main.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_stdinc.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_config.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_platform.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/begin_code.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/close_code.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_config_emscripten.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/sys/types.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/endian.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/sys/select.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdio.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/wasi/api.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/stdlib.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdlib.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/alloca.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/string.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/string.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/strings.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/wchar.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/ctype.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/math.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/math.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_assert.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_atomic.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_audio.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_error.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_endian.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_mutex.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_thread.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_rwops.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_clipboard.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_cpuinfo.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_events.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_video.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_pixels.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_rect.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_surface.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_blendmode.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_keyboard.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_keycode.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_scancode.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_mouse.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_joystick.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_guid.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_gamecontroller.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_sensor.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_quit.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_gesture.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_touch.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_filesystem.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_haptic.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_hidapi.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_hints.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_loadso.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_log.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_messagebox.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_metal.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_power.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_render.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_shape.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_system.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_timer.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_version.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_locale.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_misc.h \
+  /lved/resources/lvgl/src/misc/lv_utils.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_math.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_assert.h \
+  /lved/resources/lvgl/src/misc/lv_palette.h \
+  /lved/resources/lvgl/src/misc/lv_color_op.h \
+  /lved/resources/lvgl/src/stdlib/lv_string.h \
+  /lved/resources/lvgl/src/draw/lv_image_dsc.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_iter.h \
+  /lved/resources/lvgl/src/misc/lv_circle_buf.h \
+  /lved/resources/lvgl/src/misc/lv_tree.h \
+  /lved/resources/lvgl/src/osal/lv_os.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/tick/lv_tick.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_style.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/font/lv_symbol_def.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_anim.h \
+  /lved/resources/lvgl/src/misc/lv_text.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/stdlib/lv_sprintf.h \
+  /lved/resources/lvgl/src/misc/lv_assert.h \
+  /lved/resources/lvgl/src/misc/lv_bidi.h \
+  /lved/resources/lvgl/src/misc/lv_grad.h \
+  /lved/resources/lvgl/src/layouts/lv_layout.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/layouts/flex/lv_flex.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/layouts/grid/lv_grid.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_style_gen.h \
+  /lved/resources/lvgl/src/core/lv_obj_tree.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/core/lv_obj_pos.h \
+  /lved/resources/lvgl/src/core/lv_obj_scroll.h \
+  /lved/resources/lvgl/src/core/lv_obj_style.h \
+  /lved/resources/lvgl/src/core/lv_obj_style_gen.h \
+  /lved/resources/lvgl/src/core/lv_obj_style.h \
+  /lved/resources/lvgl/src/core/lv_obj_draw.h \
+  /lved/resources/lvgl/src/draw/lv_draw_rect.h \
+  /lved/resources/lvgl/src/draw/lv_draw.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_style.h \
+  /lved/resources/lvgl/src/misc/lv_text.h \
+  /lved/resources/lvgl/src/misc/lv_profiler.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_matrix.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/draw/lv_image_decoder.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/misc/lv_fs.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/draw/lv_draw_label.h \
+  /lved/resources/lvgl/src/misc/lv_bidi.h \
+  /lved/resources/lvgl/src/draw/lv_draw_image.h \
+  /lved/resources/lvgl/src/draw/lv_draw_line.h \
+  /lved/resources/lvgl/src/draw/lv_draw_arc.h \
+  /lved/resources/lvgl/src/draw/lv_draw_triangle.h \
+  /lved/resources/lvgl/src/core/lv_obj_class.h \
+  /lved/resources/lvgl/src/core/lv_obj_property.h \
+  /lved/resources/lvgl/src/core/lv_obj_event.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/core/lv_group.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_ll.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/core/lv_group.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/indev/lv_indev_gesture.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/core/lv_refr.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/font/lv_binfont_loader.h \
+  /lved/resources/lvgl/src/font/lv_font_fmt_txt.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/animimage/lv_animimage.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/misc/lv_fs.h \
+  /lved/resources/lvgl/src/draw/lv_draw.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/arc/lv_arc.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/arclabel/lv_arclabel.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/bar/lv_bar.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/misc/lv_anim.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/font/lv_symbol_def.h \
+  /lved/resources/lvgl/src/misc/lv_text.h \
+  /lved/resources/lvgl/src/draw/lv_draw.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/button/lv_button.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar.h \
+  /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar_header_arrow.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar_chinese.h \
+  /lved/resources/lvgl/src/widgets/canvas/lv_canvas.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/draw/lv_draw_image.h \
+  /lved/resources/lvgl/src/widgets/chart/lv_chart.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/checkbox/lv_checkbox.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/dropdown/lv_dropdown.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/widgets/imagebutton/lv_imagebutton.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/keyboard/lv_keyboard.h \
+  /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/led/lv_led.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/line/lv_line.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/list/lv_list.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/lottie/lv_lottie.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/menu/lv_menu.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/msgbox/lv_msgbox.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/roller/lv_roller.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/scale/lv_scale.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/line/lv_line.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/slider/lv_slider.h \
+  /lved/resources/lvgl/src/widgets/bar/lv_bar.h \
+  /lved/resources/lvgl/src/widgets/span/lv_span.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/spinbox/lv_spinbox.h \
+  /lved/resources/lvgl/src/widgets/textarea/lv_textarea.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/spinner/lv_spinner.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/switch/lv_switch.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/table/lv_table.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/tabview/lv_tabview.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/textarea/lv_textarea.h \
+  /lved/resources/lvgl/src/widgets/tileview/lv_tileview.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/win/lv_win.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/3dtexture/lv_3dtexture.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/others/snapshot/lv_snapshot.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/sysmon/lv_sysmon.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/monkey/lv_monkey.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/others/gridnav/lv_gridnav.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/fragment/lv_fragment.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/imgfont/lv_imgfont.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/ime/lv_ime_pinyin.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/file_explorer/lv_file_explorer.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/font_manager/lv_font_manager.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/others/translation/lv_translation.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_test.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_translation.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_component.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_widget.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_utils.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_load.h \
+  /lved/resources/lvgl/src/others/test/lv_test.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/others/test/lv_test_indev.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/others/test/lv_test_display.h \
+  /lved/resources/lvgl/src/others/test/lv_test_helpers.h \
+  /lved/resources/lvgl/src/stdlib/lv_mem.h \
+  /lved/resources/lvgl/src/others/test/lv_test_screenshot_compare.h \
+  /lved/resources/lvgl/src/others/test/lv_test_indev_gesture.h \
+  /lved/resources/lvgl/src/libs/barcode/lv_barcode.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/widgets/canvas/lv_canvas.h \
+  /lved/resources/lvgl/src/libs/bin_decoder/lv_bin_decoder.h \
+  /lved/resources/lvgl/src/draw/lv_image_decoder.h \
+  /lved/resources/lvgl/src/libs/bmp/lv_bmp.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/rle/lv_rle.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/fsdrv/lv_fsdrv.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/lodepng/lv_lodepng.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/libpng/lv_libpng.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/gltf/gltf_data/lv_gltf_model.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/gltf/gltf_view/lv_gltf.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/gif/lv_gif.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/libs/gstreamer/lv_gstreamer.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/qrcode/lv_qrcode.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/canvas/lv_canvas.h \
+  /lved/resources/lvgl/src/libs/tjpgd/lv_tjpgd.h \
+  /lved/resources/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/freetype/lv_freetype.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/rlottie/lv_rlottie.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/ffmpeg/lv_ffmpeg.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/svg/lv_svg.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/svg/lv_svg_render.h \
+  /lved/resources/lvgl/src/layouts/lv_layout.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/draw/lv_draw_vector.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/misc/lv_matrix.h \
+  /lved/resources/lvgl/src/draw/lv_draw_image.h \
+  /lved/resources/lvgl/src/draw/sw/lv_draw_sw_utils.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/draw/eve/lv_draw_eve_target.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/themes/default/lv_theme_default.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/themes/mono/lv_theme_mono.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/themes/simple/lv_theme_simple.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/lv_drivers.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_window.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_mouse.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_mousewheel.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_keyboard.h \
+  /lved/resources/lvgl/src/drivers/x11/lv_x11.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/draw/lv_image_dsc.h \
+  /lved/resources/lvgl/src/drivers/display/drm/lv_linux_drm.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/fb/lv_linux_fbdev.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/tft_espi/lv_tft_espi.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/lovyan_gfx/lv_lovyan_gfx.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/ili9341/lv_ili9341.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/st7735/lv_st7735.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/st7789/lv_st7789.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/st7796/lv_st7796.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/st_ltdc/lv_st_ltdc.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/display/ft81x/lv_ft81x.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/draw/eve/lv_draw_eve_display.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/draw/eve/lv_draw_eve_display_defines.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_entry.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_fbdev.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_touchscreen.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_lcd.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_libuv.h \
+  /lved/resources/lvgl/src/drivers/evdev/lv_evdev.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/libinput/lv_libinput.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/windows/lv_windows_input.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/windows/lv_windows_display.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_window.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_texture.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_glfw.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_egl.h \
   /lved/resources/lvgl/src/drivers/qnx/lv_qnx.h \
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/indev/lv_indev.h \
@@ -6403,23 +9666,8 @@ project/CMakeFiles/lib-ui.dir/fonts/inter_28_data.c.o: /lved/project/fonts/inter
   /lved/resources/lvgl/src/misc/lv_iter.h \
   /lved/resources/lvgl/src/misc/lv_circle_buf.h \
   /lved/resources/lvgl/src/misc/lv_tree.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache_entry.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_class.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_lru_rb.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache_private.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
   /lved/resources/lvgl/src/osal/lv_os.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/osal/lv_os_none.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_lru_ll.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_sc_da.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_cache_instance.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_image_header_cache.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_image_cache.h \
   /lved/resources/lvgl/src/tick/lv_tick.h \
   /lved/resources/lvgl/src/core/lv_obj.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
@@ -6474,6 +9722,7 @@ project/CMakeFiles/lib-ui.dir/fonts/inter_28_data.c.o: /lved/project/fonts/inter
   /lved/resources/lvgl/src/misc/lv_profiler.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_matrix.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
   /lved/resources/lvgl/src/draw/lv_image_decoder.h \
   /lved/resources/lvgl/src/draw/lv_draw_buf.h \
   /lved/resources/lvgl/src/misc/lv_fs.h \
@@ -6653,6 +9902,7 @@ project/CMakeFiles/lib-ui.dir/fonts/inter_28_data.c.o: /lved/project/fonts/inter
   /lved/resources/lvgl/src/others/xml/lv_xml_utils.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_load.h \
   /lved/resources/lvgl/src/others/test/lv_test.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/others/test/lv_test_indev.h \
@@ -6687,9 +9937,8 @@ project/CMakeFiles/lib-ui.dir/fonts/inter_28_data.c.o: /lved/project/fonts/inter
   /lved/resources/lvgl/src/libs/gif/lv_gif.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
-  /lved/resources/lvgl/src/widgets/image/lv_image.h \
-  /lved/resources/lvgl/src/core/lv_obj_class.h \
+  /lved/resources/lvgl/src/libs/gstreamer/lv_gstreamer.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/libs/qrcode/lv_qrcode.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_color.h \
@@ -6748,6 +9997,9 @@ project/CMakeFiles/lib-ui.dir/fonts/inter_28_data.c.o: /lved/project/fonts/inter
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/drivers/display/tft_espi/lv_tft_espi.h \
   /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/lovyan_gfx/lv_lovyan_gfx.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
   /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/drivers/display/ili9341/lv_ili9341.h \
@@ -6783,10 +10035,1611 @@ project/CMakeFiles/lib-ui.dir/fonts/inter_28_data.c.o: /lved/project/fonts/inter
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/indev/lv_indev.h \
   /lved/resources/lvgl/src/drivers/windows/lv_windows_display.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_glfw_window.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_window.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_opengles_texture.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_texture.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_glfw.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_egl.h \
+  /lved/resources/lvgl/src/drivers/qnx/lv_qnx.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/wayland/lv_wayland.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/uefi/lv_uefi_context.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/uefi/lv_uefi_indev.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/uefi/lv_uefi_display.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/lv_api_map_v8.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_0.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_1.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_2.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_3.h
+
+project/CMakeFiles/lib-ui.dir/images/img_background_data.c.o: /lved/project/images/img_background_data.c \
+  /lved/resources/lvgl/lvgl.h \
+  /lved/resources/lvgl/lv_version.h \
+  /lved/resources/lvgl/src/lv_init.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/lv_conf_kconfig.h \
+  /lved/resources/conf/lv_conf.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /emsdk/upstream/lib/clang/21/include/stdint.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdint.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/bits/stdint.h \
+  /emsdk/upstream/lib/clang/21/include/stddef.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stddef.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_header_macro.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_ptrdiff_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_size_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_wchar_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_null.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_max_align_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_offsetof.h \
+  /emsdk/upstream/lib/clang/21/include/stdbool.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdbool.h \
+  /emsdk/upstream/lib/clang/21/include/inttypes.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/inttypes.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/features.h \
+  /emsdk/upstream/lib/clang/21/include/limits.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/limits.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/bits/limits.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/stdarg.h \
+  /emsdk/upstream/lib/clang/21/include/stdarg.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdarg.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_header_macro.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg___gnuc_va_list.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_va_list.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_va_arg.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg___va_copy.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_va_copy.h \
+  /lved/resources/lvgl/src/stdlib/lv_mem.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/stdlib/lv_string.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/stdlib/lv_sprintf.h \
+  /lved/resources/lvgl/src/misc/lv_log.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/tick/lv_tick.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_ll.h \
+  /lved/resources/lvgl/src/misc/lv_math.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/misc/lv_async.h \
+  /lved/resources/lvgl/src/misc/lv_anim_timeline.h \
+  /lved/resources/lvgl/src/misc/lv_anim.h \
+  /lved/resources/lvgl/src/misc/lv_profiler_builtin.h \
+  /lved/resources/lvgl/src/misc/lv_rb.h \
+  /lved/resources/lvgl/src/misc/lv_assert.h \
+  /lved/resources/lvgl/src/stdlib/lv_mem.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_main.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_stdinc.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_config.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_platform.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/begin_code.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/close_code.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_config_emscripten.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/sys/types.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/endian.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/sys/select.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdio.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/wasi/api.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/stdlib.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdlib.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/alloca.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/string.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/string.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/strings.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/wchar.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/ctype.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/math.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/math.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_assert.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_atomic.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_audio.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_error.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_endian.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_mutex.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_thread.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_rwops.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_clipboard.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_cpuinfo.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_events.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_video.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_pixels.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_rect.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_surface.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_blendmode.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_keyboard.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_keycode.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_scancode.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_mouse.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_joystick.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_guid.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_gamecontroller.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_sensor.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_quit.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_gesture.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_touch.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_filesystem.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_haptic.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_hidapi.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_hints.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_loadso.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_log.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_messagebox.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_metal.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_power.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_render.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_shape.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_system.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_timer.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_version.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_locale.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_misc.h \
+  /lved/resources/lvgl/src/misc/lv_utils.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_math.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_assert.h \
+  /lved/resources/lvgl/src/misc/lv_palette.h \
+  /lved/resources/lvgl/src/misc/lv_color_op.h \
+  /lved/resources/lvgl/src/stdlib/lv_string.h \
+  /lved/resources/lvgl/src/draw/lv_image_dsc.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_iter.h \
+  /lved/resources/lvgl/src/misc/lv_circle_buf.h \
+  /lved/resources/lvgl/src/misc/lv_tree.h \
+  /lved/resources/lvgl/src/osal/lv_os.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/tick/lv_tick.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_style.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/font/lv_symbol_def.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_anim.h \
+  /lved/resources/lvgl/src/misc/lv_text.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/stdlib/lv_sprintf.h \
+  /lved/resources/lvgl/src/misc/lv_assert.h \
+  /lved/resources/lvgl/src/misc/lv_bidi.h \
+  /lved/resources/lvgl/src/misc/lv_grad.h \
+  /lved/resources/lvgl/src/layouts/lv_layout.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/layouts/flex/lv_flex.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/layouts/grid/lv_grid.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_style_gen.h \
+  /lved/resources/lvgl/src/core/lv_obj_tree.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/core/lv_obj_pos.h \
+  /lved/resources/lvgl/src/core/lv_obj_scroll.h \
+  /lved/resources/lvgl/src/core/lv_obj_style.h \
+  /lved/resources/lvgl/src/core/lv_obj_style_gen.h \
+  /lved/resources/lvgl/src/core/lv_obj_style.h \
+  /lved/resources/lvgl/src/core/lv_obj_draw.h \
+  /lved/resources/lvgl/src/draw/lv_draw_rect.h \
+  /lved/resources/lvgl/src/draw/lv_draw.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_style.h \
+  /lved/resources/lvgl/src/misc/lv_text.h \
+  /lved/resources/lvgl/src/misc/lv_profiler.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_matrix.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/draw/lv_image_decoder.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/misc/lv_fs.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/draw/lv_draw_label.h \
+  /lved/resources/lvgl/src/misc/lv_bidi.h \
+  /lved/resources/lvgl/src/draw/lv_draw_image.h \
+  /lved/resources/lvgl/src/draw/lv_draw_line.h \
+  /lved/resources/lvgl/src/draw/lv_draw_arc.h \
+  /lved/resources/lvgl/src/draw/lv_draw_triangle.h \
+  /lved/resources/lvgl/src/core/lv_obj_class.h \
+  /lved/resources/lvgl/src/core/lv_obj_property.h \
+  /lved/resources/lvgl/src/core/lv_obj_event.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/core/lv_group.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_ll.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/core/lv_group.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/indev/lv_indev_gesture.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/core/lv_refr.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/font/lv_binfont_loader.h \
+  /lved/resources/lvgl/src/font/lv_font_fmt_txt.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/animimage/lv_animimage.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/misc/lv_fs.h \
+  /lved/resources/lvgl/src/draw/lv_draw.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/arc/lv_arc.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/arclabel/lv_arclabel.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/bar/lv_bar.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/misc/lv_anim.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/font/lv_symbol_def.h \
+  /lved/resources/lvgl/src/misc/lv_text.h \
+  /lved/resources/lvgl/src/draw/lv_draw.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/button/lv_button.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar.h \
+  /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar_header_arrow.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar_chinese.h \
+  /lved/resources/lvgl/src/widgets/canvas/lv_canvas.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/draw/lv_draw_image.h \
+  /lved/resources/lvgl/src/widgets/chart/lv_chart.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/checkbox/lv_checkbox.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/dropdown/lv_dropdown.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/widgets/imagebutton/lv_imagebutton.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/keyboard/lv_keyboard.h \
+  /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/led/lv_led.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/line/lv_line.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/list/lv_list.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/lottie/lv_lottie.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/menu/lv_menu.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/msgbox/lv_msgbox.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/roller/lv_roller.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/scale/lv_scale.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/line/lv_line.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/slider/lv_slider.h \
+  /lved/resources/lvgl/src/widgets/bar/lv_bar.h \
+  /lved/resources/lvgl/src/widgets/span/lv_span.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/spinbox/lv_spinbox.h \
+  /lved/resources/lvgl/src/widgets/textarea/lv_textarea.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/spinner/lv_spinner.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/switch/lv_switch.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/table/lv_table.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/tabview/lv_tabview.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/textarea/lv_textarea.h \
+  /lved/resources/lvgl/src/widgets/tileview/lv_tileview.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/win/lv_win.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/3dtexture/lv_3dtexture.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/others/snapshot/lv_snapshot.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/sysmon/lv_sysmon.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/monkey/lv_monkey.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/others/gridnav/lv_gridnav.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/fragment/lv_fragment.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/imgfont/lv_imgfont.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/ime/lv_ime_pinyin.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/file_explorer/lv_file_explorer.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/font_manager/lv_font_manager.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/others/translation/lv_translation.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_test.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_translation.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_component.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_widget.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_utils.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_load.h \
+  /lved/resources/lvgl/src/others/test/lv_test.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/others/test/lv_test_indev.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/others/test/lv_test_display.h \
+  /lved/resources/lvgl/src/others/test/lv_test_helpers.h \
+  /lved/resources/lvgl/src/stdlib/lv_mem.h \
+  /lved/resources/lvgl/src/others/test/lv_test_screenshot_compare.h \
+  /lved/resources/lvgl/src/others/test/lv_test_indev_gesture.h \
+  /lved/resources/lvgl/src/libs/barcode/lv_barcode.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/widgets/canvas/lv_canvas.h \
+  /lved/resources/lvgl/src/libs/bin_decoder/lv_bin_decoder.h \
+  /lved/resources/lvgl/src/draw/lv_image_decoder.h \
+  /lved/resources/lvgl/src/libs/bmp/lv_bmp.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/rle/lv_rle.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/fsdrv/lv_fsdrv.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/lodepng/lv_lodepng.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/libpng/lv_libpng.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/gltf/gltf_data/lv_gltf_model.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/gltf/gltf_view/lv_gltf.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/gif/lv_gif.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/libs/gstreamer/lv_gstreamer.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/qrcode/lv_qrcode.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/canvas/lv_canvas.h \
+  /lved/resources/lvgl/src/libs/tjpgd/lv_tjpgd.h \
+  /lved/resources/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/freetype/lv_freetype.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/rlottie/lv_rlottie.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/ffmpeg/lv_ffmpeg.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/svg/lv_svg.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/svg/lv_svg_render.h \
+  /lved/resources/lvgl/src/layouts/lv_layout.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/draw/lv_draw_vector.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/misc/lv_matrix.h \
+  /lved/resources/lvgl/src/draw/lv_draw_image.h \
+  /lved/resources/lvgl/src/draw/sw/lv_draw_sw_utils.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/draw/eve/lv_draw_eve_target.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/themes/default/lv_theme_default.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/themes/mono/lv_theme_mono.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/themes/simple/lv_theme_simple.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/lv_drivers.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_window.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_mouse.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_mousewheel.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_keyboard.h \
+  /lved/resources/lvgl/src/drivers/x11/lv_x11.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/draw/lv_image_dsc.h \
+  /lved/resources/lvgl/src/drivers/display/drm/lv_linux_drm.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/fb/lv_linux_fbdev.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/tft_espi/lv_tft_espi.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/lovyan_gfx/lv_lovyan_gfx.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/ili9341/lv_ili9341.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/st7735/lv_st7735.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/st7789/lv_st7789.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/st7796/lv_st7796.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/st_ltdc/lv_st_ltdc.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/display/ft81x/lv_ft81x.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/draw/eve/lv_draw_eve_display.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/draw/eve/lv_draw_eve_display_defines.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_entry.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_fbdev.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_touchscreen.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_lcd.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_libuv.h \
+  /lved/resources/lvgl/src/drivers/evdev/lv_evdev.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/libinput/lv_libinput.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/windows/lv_windows_input.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/windows/lv_windows_display.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_window.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_texture.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_glfw.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_egl.h \
+  /lved/resources/lvgl/src/drivers/qnx/lv_qnx.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/wayland/lv_wayland.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/uefi/lv_uefi_context.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/uefi/lv_uefi_indev.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/uefi/lv_uefi_display.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/lv_api_map_v8.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_0.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_1.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_2.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_3.h
+
+project/CMakeFiles/lib-ui.dir/images/img_background_light_data.c.o: /lved/project/images/img_background_light_data.c \
+  /lved/resources/lvgl/lvgl.h \
+  /lved/resources/lvgl/lv_version.h \
+  /lved/resources/lvgl/src/lv_init.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/lv_conf_kconfig.h \
+  /lved/resources/conf/lv_conf.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /emsdk/upstream/lib/clang/21/include/stdint.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdint.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/bits/stdint.h \
+  /emsdk/upstream/lib/clang/21/include/stddef.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stddef.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_header_macro.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_ptrdiff_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_size_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_wchar_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_null.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_max_align_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_offsetof.h \
+  /emsdk/upstream/lib/clang/21/include/stdbool.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdbool.h \
+  /emsdk/upstream/lib/clang/21/include/inttypes.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/inttypes.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/features.h \
+  /emsdk/upstream/lib/clang/21/include/limits.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/limits.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/bits/limits.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/stdarg.h \
+  /emsdk/upstream/lib/clang/21/include/stdarg.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdarg.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_header_macro.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg___gnuc_va_list.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_va_list.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_va_arg.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg___va_copy.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_va_copy.h \
+  /lved/resources/lvgl/src/stdlib/lv_mem.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/stdlib/lv_string.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/stdlib/lv_sprintf.h \
+  /lved/resources/lvgl/src/misc/lv_log.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/tick/lv_tick.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_ll.h \
+  /lved/resources/lvgl/src/misc/lv_math.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/misc/lv_async.h \
+  /lved/resources/lvgl/src/misc/lv_anim_timeline.h \
+  /lved/resources/lvgl/src/misc/lv_anim.h \
+  /lved/resources/lvgl/src/misc/lv_profiler_builtin.h \
+  /lved/resources/lvgl/src/misc/lv_rb.h \
+  /lved/resources/lvgl/src/misc/lv_assert.h \
+  /lved/resources/lvgl/src/stdlib/lv_mem.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_main.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_stdinc.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_config.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_platform.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/begin_code.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/close_code.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_config_emscripten.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/sys/types.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/endian.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/sys/select.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdio.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/wasi/api.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/stdlib.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdlib.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/alloca.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/string.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/string.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/strings.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/wchar.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/ctype.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/math.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/math.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_assert.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_atomic.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_audio.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_error.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_endian.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_mutex.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_thread.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_rwops.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_clipboard.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_cpuinfo.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_events.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_video.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_pixels.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_rect.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_surface.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_blendmode.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_keyboard.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_keycode.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_scancode.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_mouse.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_joystick.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_guid.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_gamecontroller.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_sensor.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_quit.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_gesture.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_touch.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_filesystem.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_haptic.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_hidapi.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_hints.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_loadso.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_log.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_messagebox.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_metal.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_power.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_render.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_shape.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_system.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_timer.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_version.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_locale.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_misc.h \
+  /lved/resources/lvgl/src/misc/lv_utils.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_math.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_assert.h \
+  /lved/resources/lvgl/src/misc/lv_palette.h \
+  /lved/resources/lvgl/src/misc/lv_color_op.h \
+  /lved/resources/lvgl/src/stdlib/lv_string.h \
+  /lved/resources/lvgl/src/draw/lv_image_dsc.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_iter.h \
+  /lved/resources/lvgl/src/misc/lv_circle_buf.h \
+  /lved/resources/lvgl/src/misc/lv_tree.h \
+  /lved/resources/lvgl/src/osal/lv_os.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/tick/lv_tick.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_style.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/font/lv_symbol_def.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_anim.h \
+  /lved/resources/lvgl/src/misc/lv_text.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/stdlib/lv_sprintf.h \
+  /lved/resources/lvgl/src/misc/lv_assert.h \
+  /lved/resources/lvgl/src/misc/lv_bidi.h \
+  /lved/resources/lvgl/src/misc/lv_grad.h \
+  /lved/resources/lvgl/src/layouts/lv_layout.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/layouts/flex/lv_flex.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/layouts/grid/lv_grid.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_style_gen.h \
+  /lved/resources/lvgl/src/core/lv_obj_tree.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/core/lv_obj_pos.h \
+  /lved/resources/lvgl/src/core/lv_obj_scroll.h \
+  /lved/resources/lvgl/src/core/lv_obj_style.h \
+  /lved/resources/lvgl/src/core/lv_obj_style_gen.h \
+  /lved/resources/lvgl/src/core/lv_obj_style.h \
+  /lved/resources/lvgl/src/core/lv_obj_draw.h \
+  /lved/resources/lvgl/src/draw/lv_draw_rect.h \
+  /lved/resources/lvgl/src/draw/lv_draw.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_style.h \
+  /lved/resources/lvgl/src/misc/lv_text.h \
+  /lved/resources/lvgl/src/misc/lv_profiler.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_matrix.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/draw/lv_image_decoder.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/misc/lv_fs.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/draw/lv_draw_label.h \
+  /lved/resources/lvgl/src/misc/lv_bidi.h \
+  /lved/resources/lvgl/src/draw/lv_draw_image.h \
+  /lved/resources/lvgl/src/draw/lv_draw_line.h \
+  /lved/resources/lvgl/src/draw/lv_draw_arc.h \
+  /lved/resources/lvgl/src/draw/lv_draw_triangle.h \
+  /lved/resources/lvgl/src/core/lv_obj_class.h \
+  /lved/resources/lvgl/src/core/lv_obj_property.h \
+  /lved/resources/lvgl/src/core/lv_obj_event.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/core/lv_group.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_ll.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/core/lv_group.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/indev/lv_indev_gesture.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/core/lv_refr.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/font/lv_binfont_loader.h \
+  /lved/resources/lvgl/src/font/lv_font_fmt_txt.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/animimage/lv_animimage.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/misc/lv_fs.h \
+  /lved/resources/lvgl/src/draw/lv_draw.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/arc/lv_arc.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/arclabel/lv_arclabel.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/bar/lv_bar.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/misc/lv_anim.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/font/lv_symbol_def.h \
+  /lved/resources/lvgl/src/misc/lv_text.h \
+  /lved/resources/lvgl/src/draw/lv_draw.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/button/lv_button.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar.h \
+  /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar_header_arrow.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar_chinese.h \
+  /lved/resources/lvgl/src/widgets/canvas/lv_canvas.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/draw/lv_draw_image.h \
+  /lved/resources/lvgl/src/widgets/chart/lv_chart.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/checkbox/lv_checkbox.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/dropdown/lv_dropdown.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/widgets/imagebutton/lv_imagebutton.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/keyboard/lv_keyboard.h \
+  /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/led/lv_led.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/line/lv_line.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/list/lv_list.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/lottie/lv_lottie.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/menu/lv_menu.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/msgbox/lv_msgbox.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/roller/lv_roller.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/scale/lv_scale.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/line/lv_line.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/slider/lv_slider.h \
+  /lved/resources/lvgl/src/widgets/bar/lv_bar.h \
+  /lved/resources/lvgl/src/widgets/span/lv_span.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/spinbox/lv_spinbox.h \
+  /lved/resources/lvgl/src/widgets/textarea/lv_textarea.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/spinner/lv_spinner.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/switch/lv_switch.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/table/lv_table.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/tabview/lv_tabview.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/textarea/lv_textarea.h \
+  /lved/resources/lvgl/src/widgets/tileview/lv_tileview.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/win/lv_win.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/3dtexture/lv_3dtexture.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/others/snapshot/lv_snapshot.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/sysmon/lv_sysmon.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/monkey/lv_monkey.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/others/gridnav/lv_gridnav.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/fragment/lv_fragment.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/imgfont/lv_imgfont.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/ime/lv_ime_pinyin.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/file_explorer/lv_file_explorer.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/font_manager/lv_font_manager.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/others/translation/lv_translation.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_test.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_translation.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_component.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_widget.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_utils.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_load.h \
+  /lved/resources/lvgl/src/others/test/lv_test.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/others/test/lv_test_indev.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/others/test/lv_test_display.h \
+  /lved/resources/lvgl/src/others/test/lv_test_helpers.h \
+  /lved/resources/lvgl/src/stdlib/lv_mem.h \
+  /lved/resources/lvgl/src/others/test/lv_test_screenshot_compare.h \
+  /lved/resources/lvgl/src/others/test/lv_test_indev_gesture.h \
+  /lved/resources/lvgl/src/libs/barcode/lv_barcode.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/widgets/canvas/lv_canvas.h \
+  /lved/resources/lvgl/src/libs/bin_decoder/lv_bin_decoder.h \
+  /lved/resources/lvgl/src/draw/lv_image_decoder.h \
+  /lved/resources/lvgl/src/libs/bmp/lv_bmp.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/rle/lv_rle.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/fsdrv/lv_fsdrv.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/lodepng/lv_lodepng.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/libpng/lv_libpng.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/gltf/gltf_data/lv_gltf_model.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/gltf/gltf_view/lv_gltf.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/gif/lv_gif.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/libs/gstreamer/lv_gstreamer.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/qrcode/lv_qrcode.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/canvas/lv_canvas.h \
+  /lved/resources/lvgl/src/libs/tjpgd/lv_tjpgd.h \
+  /lved/resources/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/freetype/lv_freetype.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/rlottie/lv_rlottie.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/ffmpeg/lv_ffmpeg.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/svg/lv_svg.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/svg/lv_svg_render.h \
+  /lved/resources/lvgl/src/layouts/lv_layout.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/draw/lv_draw_vector.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/misc/lv_matrix.h \
+  /lved/resources/lvgl/src/draw/lv_draw_image.h \
+  /lved/resources/lvgl/src/draw/sw/lv_draw_sw_utils.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/draw/eve/lv_draw_eve_target.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/themes/default/lv_theme_default.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/themes/mono/lv_theme_mono.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/themes/simple/lv_theme_simple.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/lv_drivers.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_window.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_mouse.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_mousewheel.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_keyboard.h \
+  /lved/resources/lvgl/src/drivers/x11/lv_x11.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/draw/lv_image_dsc.h \
+  /lved/resources/lvgl/src/drivers/display/drm/lv_linux_drm.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/fb/lv_linux_fbdev.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/tft_espi/lv_tft_espi.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/lovyan_gfx/lv_lovyan_gfx.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/ili9341/lv_ili9341.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/st7735/lv_st7735.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/st7789/lv_st7789.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/st7796/lv_st7796.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/st_ltdc/lv_st_ltdc.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/display/ft81x/lv_ft81x.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/draw/eve/lv_draw_eve_display.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/draw/eve/lv_draw_eve_display_defines.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_entry.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_fbdev.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_touchscreen.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_lcd.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_libuv.h \
+  /lved/resources/lvgl/src/drivers/evdev/lv_evdev.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/libinput/lv_libinput.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/windows/lv_windows_input.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/windows/lv_windows_display.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_window.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_texture.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_glfw.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_egl.h \
+  /lved/resources/lvgl/src/drivers/qnx/lv_qnx.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/wayland/lv_wayland.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/uefi/lv_uefi_context.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/uefi/lv_uefi_indev.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/uefi/lv_uefi_display.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/lv_api_map_v8.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_0.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_1.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_2.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_3.h
+
+project/CMakeFiles/lib-ui.dir/images/img_battery_mask_v2_data.c.o: /lved/project/images/img_battery_mask_v2_data.c \
+  /lved/resources/lvgl/lvgl.h \
+  /lved/resources/lvgl/lv_version.h \
+  /lved/resources/lvgl/src/lv_init.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/lv_conf_kconfig.h \
+  /lved/resources/conf/lv_conf.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /emsdk/upstream/lib/clang/21/include/stdint.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdint.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/bits/stdint.h \
+  /emsdk/upstream/lib/clang/21/include/stddef.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stddef.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_header_macro.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_ptrdiff_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_size_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_wchar_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_null.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_max_align_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_offsetof.h \
+  /emsdk/upstream/lib/clang/21/include/stdbool.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdbool.h \
+  /emsdk/upstream/lib/clang/21/include/inttypes.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/inttypes.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/features.h \
+  /emsdk/upstream/lib/clang/21/include/limits.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/limits.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/bits/limits.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/stdarg.h \
+  /emsdk/upstream/lib/clang/21/include/stdarg.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdarg.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_header_macro.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg___gnuc_va_list.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_va_list.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_va_arg.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg___va_copy.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_va_copy.h \
+  /lved/resources/lvgl/src/stdlib/lv_mem.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/stdlib/lv_string.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/stdlib/lv_sprintf.h \
+  /lved/resources/lvgl/src/misc/lv_log.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/tick/lv_tick.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_ll.h \
+  /lved/resources/lvgl/src/misc/lv_math.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/misc/lv_async.h \
+  /lved/resources/lvgl/src/misc/lv_anim_timeline.h \
+  /lved/resources/lvgl/src/misc/lv_anim.h \
+  /lved/resources/lvgl/src/misc/lv_profiler_builtin.h \
+  /lved/resources/lvgl/src/misc/lv_rb.h \
+  /lved/resources/lvgl/src/misc/lv_assert.h \
+  /lved/resources/lvgl/src/stdlib/lv_mem.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_main.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_stdinc.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_config.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_platform.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/begin_code.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/close_code.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_config_emscripten.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/sys/types.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/endian.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/sys/select.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdio.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/wasi/api.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/stdlib.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdlib.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/alloca.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/string.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/string.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/strings.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/wchar.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/ctype.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/math.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/math.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_assert.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_atomic.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_audio.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_error.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_endian.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_mutex.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_thread.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_rwops.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_clipboard.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_cpuinfo.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_events.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_video.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_pixels.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_rect.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_surface.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_blendmode.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_keyboard.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_keycode.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_scancode.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_mouse.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_joystick.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_guid.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_gamecontroller.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_sensor.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_quit.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_gesture.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_touch.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_filesystem.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_haptic.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_hidapi.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_hints.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_loadso.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_log.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_messagebox.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_metal.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_power.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_render.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_shape.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_system.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_timer.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_version.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_locale.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_misc.h \
+  /lved/resources/lvgl/src/misc/lv_utils.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_math.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_assert.h \
+  /lved/resources/lvgl/src/misc/lv_palette.h \
+  /lved/resources/lvgl/src/misc/lv_color_op.h \
+  /lved/resources/lvgl/src/stdlib/lv_string.h \
+  /lved/resources/lvgl/src/draw/lv_image_dsc.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_iter.h \
+  /lved/resources/lvgl/src/misc/lv_circle_buf.h \
+  /lved/resources/lvgl/src/misc/lv_tree.h \
+  /lved/resources/lvgl/src/osal/lv_os.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/tick/lv_tick.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_style.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/font/lv_symbol_def.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_anim.h \
+  /lved/resources/lvgl/src/misc/lv_text.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/stdlib/lv_sprintf.h \
+  /lved/resources/lvgl/src/misc/lv_assert.h \
+  /lved/resources/lvgl/src/misc/lv_bidi.h \
+  /lved/resources/lvgl/src/misc/lv_grad.h \
+  /lved/resources/lvgl/src/layouts/lv_layout.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/layouts/flex/lv_flex.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/layouts/grid/lv_grid.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_style_gen.h \
+  /lved/resources/lvgl/src/core/lv_obj_tree.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/core/lv_obj_pos.h \
+  /lved/resources/lvgl/src/core/lv_obj_scroll.h \
+  /lved/resources/lvgl/src/core/lv_obj_style.h \
+  /lved/resources/lvgl/src/core/lv_obj_style_gen.h \
+  /lved/resources/lvgl/src/core/lv_obj_style.h \
+  /lved/resources/lvgl/src/core/lv_obj_draw.h \
+  /lved/resources/lvgl/src/draw/lv_draw_rect.h \
+  /lved/resources/lvgl/src/draw/lv_draw.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_style.h \
+  /lved/resources/lvgl/src/misc/lv_text.h \
+  /lved/resources/lvgl/src/misc/lv_profiler.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_matrix.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/draw/lv_image_decoder.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/misc/lv_fs.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/draw/lv_draw_label.h \
+  /lved/resources/lvgl/src/misc/lv_bidi.h \
+  /lved/resources/lvgl/src/draw/lv_draw_image.h \
+  /lved/resources/lvgl/src/draw/lv_draw_line.h \
+  /lved/resources/lvgl/src/draw/lv_draw_arc.h \
+  /lved/resources/lvgl/src/draw/lv_draw_triangle.h \
+  /lved/resources/lvgl/src/core/lv_obj_class.h \
+  /lved/resources/lvgl/src/core/lv_obj_property.h \
+  /lved/resources/lvgl/src/core/lv_obj_event.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/core/lv_group.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_ll.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/core/lv_group.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/indev/lv_indev_gesture.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/core/lv_refr.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/font/lv_binfont_loader.h \
+  /lved/resources/lvgl/src/font/lv_font_fmt_txt.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/animimage/lv_animimage.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/misc/lv_fs.h \
+  /lved/resources/lvgl/src/draw/lv_draw.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/arc/lv_arc.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/arclabel/lv_arclabel.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/bar/lv_bar.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/misc/lv_anim.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/font/lv_symbol_def.h \
+  /lved/resources/lvgl/src/misc/lv_text.h \
+  /lved/resources/lvgl/src/draw/lv_draw.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/button/lv_button.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar.h \
+  /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar_header_arrow.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar_chinese.h \
+  /lved/resources/lvgl/src/widgets/canvas/lv_canvas.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/draw/lv_draw_image.h \
+  /lved/resources/lvgl/src/widgets/chart/lv_chart.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/checkbox/lv_checkbox.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/dropdown/lv_dropdown.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/widgets/imagebutton/lv_imagebutton.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/keyboard/lv_keyboard.h \
+  /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/led/lv_led.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/line/lv_line.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/list/lv_list.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/lottie/lv_lottie.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/menu/lv_menu.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/msgbox/lv_msgbox.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/roller/lv_roller.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/scale/lv_scale.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/line/lv_line.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/slider/lv_slider.h \
+  /lved/resources/lvgl/src/widgets/bar/lv_bar.h \
+  /lved/resources/lvgl/src/widgets/span/lv_span.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/spinbox/lv_spinbox.h \
+  /lved/resources/lvgl/src/widgets/textarea/lv_textarea.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/spinner/lv_spinner.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/switch/lv_switch.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/table/lv_table.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/tabview/lv_tabview.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/textarea/lv_textarea.h \
+  /lved/resources/lvgl/src/widgets/tileview/lv_tileview.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/win/lv_win.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/3dtexture/lv_3dtexture.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/others/snapshot/lv_snapshot.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/sysmon/lv_sysmon.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/monkey/lv_monkey.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/others/gridnav/lv_gridnav.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/fragment/lv_fragment.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/imgfont/lv_imgfont.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/ime/lv_ime_pinyin.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/file_explorer/lv_file_explorer.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/font_manager/lv_font_manager.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/others/translation/lv_translation.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_test.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_translation.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_component.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_widget.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_utils.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_load.h \
+  /lved/resources/lvgl/src/others/test/lv_test.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/others/test/lv_test_indev.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/others/test/lv_test_display.h \
+  /lved/resources/lvgl/src/others/test/lv_test_helpers.h \
+  /lved/resources/lvgl/src/stdlib/lv_mem.h \
+  /lved/resources/lvgl/src/others/test/lv_test_screenshot_compare.h \
+  /lved/resources/lvgl/src/others/test/lv_test_indev_gesture.h \
+  /lved/resources/lvgl/src/libs/barcode/lv_barcode.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/widgets/canvas/lv_canvas.h \
+  /lved/resources/lvgl/src/libs/bin_decoder/lv_bin_decoder.h \
+  /lved/resources/lvgl/src/draw/lv_image_decoder.h \
+  /lved/resources/lvgl/src/libs/bmp/lv_bmp.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/rle/lv_rle.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/fsdrv/lv_fsdrv.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/lodepng/lv_lodepng.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/libpng/lv_libpng.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/gltf/gltf_data/lv_gltf_model.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/gltf/gltf_view/lv_gltf.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/gif/lv_gif.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/libs/gstreamer/lv_gstreamer.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/qrcode/lv_qrcode.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/canvas/lv_canvas.h \
+  /lved/resources/lvgl/src/libs/tjpgd/lv_tjpgd.h \
+  /lved/resources/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/freetype/lv_freetype.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/rlottie/lv_rlottie.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/ffmpeg/lv_ffmpeg.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/svg/lv_svg.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/svg/lv_svg_render.h \
+  /lved/resources/lvgl/src/layouts/lv_layout.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/draw/lv_draw_vector.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/misc/lv_matrix.h \
+  /lved/resources/lvgl/src/draw/lv_draw_image.h \
+  /lved/resources/lvgl/src/draw/sw/lv_draw_sw_utils.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/draw/eve/lv_draw_eve_target.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/themes/default/lv_theme_default.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/themes/mono/lv_theme_mono.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/themes/simple/lv_theme_simple.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/lv_drivers.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_window.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_mouse.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_mousewheel.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_keyboard.h \
+  /lved/resources/lvgl/src/drivers/x11/lv_x11.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/draw/lv_image_dsc.h \
+  /lved/resources/lvgl/src/drivers/display/drm/lv_linux_drm.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/fb/lv_linux_fbdev.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/tft_espi/lv_tft_espi.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/lovyan_gfx/lv_lovyan_gfx.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/ili9341/lv_ili9341.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/st7735/lv_st7735.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/st7789/lv_st7789.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/st7796/lv_st7796.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/st_ltdc/lv_st_ltdc.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/display/ft81x/lv_ft81x.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/draw/eve/lv_draw_eve_display.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/draw/eve/lv_draw_eve_display_defines.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_entry.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_fbdev.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_touchscreen.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_lcd.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_libuv.h \
+  /lved/resources/lvgl/src/drivers/evdev/lv_evdev.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/libinput/lv_libinput.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/windows/lv_windows_input.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/windows/lv_windows_display.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_window.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_texture.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_glfw.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_egl.h \
   /lved/resources/lvgl/src/drivers/qnx/lv_qnx.h \
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/indev/lv_indev.h \
@@ -6945,23 +11798,8 @@ project/CMakeFiles/lib-ui.dir/images/img_charging_data.c.o: /lved/project/images
   /lved/resources/lvgl/src/misc/lv_iter.h \
   /lved/resources/lvgl/src/misc/lv_circle_buf.h \
   /lved/resources/lvgl/src/misc/lv_tree.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache_entry.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_class.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_lru_rb.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache_private.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
   /lved/resources/lvgl/src/osal/lv_os.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/osal/lv_os_none.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_lru_ll.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_sc_da.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_cache_instance.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_image_header_cache.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_image_cache.h \
   /lved/resources/lvgl/src/tick/lv_tick.h \
   /lved/resources/lvgl/src/core/lv_obj.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
@@ -7016,6 +11854,7 @@ project/CMakeFiles/lib-ui.dir/images/img_charging_data.c.o: /lved/project/images
   /lved/resources/lvgl/src/misc/lv_profiler.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_matrix.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
   /lved/resources/lvgl/src/draw/lv_image_decoder.h \
   /lved/resources/lvgl/src/draw/lv_draw_buf.h \
   /lved/resources/lvgl/src/misc/lv_fs.h \
@@ -7195,6 +12034,7 @@ project/CMakeFiles/lib-ui.dir/images/img_charging_data.c.o: /lved/project/images
   /lved/resources/lvgl/src/others/xml/lv_xml_utils.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_load.h \
   /lved/resources/lvgl/src/others/test/lv_test.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/others/test/lv_test_indev.h \
@@ -7229,9 +12069,8 @@ project/CMakeFiles/lib-ui.dir/images/img_charging_data.c.o: /lved/project/images
   /lved/resources/lvgl/src/libs/gif/lv_gif.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
-  /lved/resources/lvgl/src/widgets/image/lv_image.h \
-  /lved/resources/lvgl/src/core/lv_obj_class.h \
+  /lved/resources/lvgl/src/libs/gstreamer/lv_gstreamer.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/libs/qrcode/lv_qrcode.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_color.h \
@@ -7290,6 +12129,9 @@ project/CMakeFiles/lib-ui.dir/images/img_charging_data.c.o: /lved/project/images
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/drivers/display/tft_espi/lv_tft_espi.h \
   /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/lovyan_gfx/lv_lovyan_gfx.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
   /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/drivers/display/ili9341/lv_ili9341.h \
@@ -7325,10 +12167,12 @@ project/CMakeFiles/lib-ui.dir/images/img_charging_data.c.o: /lved/project/images
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/indev/lv_indev.h \
   /lved/resources/lvgl/src/drivers/windows/lv_windows_display.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_glfw_window.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_window.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_opengles_texture.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_texture.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_glfw.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_egl.h \
   /lved/resources/lvgl/src/drivers/qnx/lv_qnx.h \
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/indev/lv_indev.h \
@@ -7487,23 +12331,8 @@ project/CMakeFiles/lib-ui.dir/images/img_charging_no_stroke_data.c.o: /lved/proj
   /lved/resources/lvgl/src/misc/lv_iter.h \
   /lved/resources/lvgl/src/misc/lv_circle_buf.h \
   /lved/resources/lvgl/src/misc/lv_tree.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache_entry.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_class.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_lru_rb.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache_private.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
   /lved/resources/lvgl/src/osal/lv_os.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/osal/lv_os_none.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_lru_ll.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_sc_da.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_cache_instance.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_image_header_cache.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_image_cache.h \
   /lved/resources/lvgl/src/tick/lv_tick.h \
   /lved/resources/lvgl/src/core/lv_obj.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
@@ -7558,6 +12387,7 @@ project/CMakeFiles/lib-ui.dir/images/img_charging_no_stroke_data.c.o: /lved/proj
   /lved/resources/lvgl/src/misc/lv_profiler.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_matrix.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
   /lved/resources/lvgl/src/draw/lv_image_decoder.h \
   /lved/resources/lvgl/src/draw/lv_draw_buf.h \
   /lved/resources/lvgl/src/misc/lv_fs.h \
@@ -7737,6 +12567,7 @@ project/CMakeFiles/lib-ui.dir/images/img_charging_no_stroke_data.c.o: /lved/proj
   /lved/resources/lvgl/src/others/xml/lv_xml_utils.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_load.h \
   /lved/resources/lvgl/src/others/test/lv_test.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/others/test/lv_test_indev.h \
@@ -7771,9 +12602,8 @@ project/CMakeFiles/lib-ui.dir/images/img_charging_no_stroke_data.c.o: /lved/proj
   /lved/resources/lvgl/src/libs/gif/lv_gif.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
-  /lved/resources/lvgl/src/widgets/image/lv_image.h \
-  /lved/resources/lvgl/src/core/lv_obj_class.h \
+  /lved/resources/lvgl/src/libs/gstreamer/lv_gstreamer.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/libs/qrcode/lv_qrcode.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_color.h \
@@ -7832,6 +12662,9 @@ project/CMakeFiles/lib-ui.dir/images/img_charging_no_stroke_data.c.o: /lved/proj
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/drivers/display/tft_espi/lv_tft_espi.h \
   /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/lovyan_gfx/lv_lovyan_gfx.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
   /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/drivers/display/ili9341/lv_ili9341.h \
@@ -7867,10 +12700,12 @@ project/CMakeFiles/lib-ui.dir/images/img_charging_no_stroke_data.c.o: /lved/proj
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/indev/lv_indev.h \
   /lved/resources/lvgl/src/drivers/windows/lv_windows_display.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_glfw_window.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_window.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_opengles_texture.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_texture.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_glfw.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_egl.h \
   /lved/resources/lvgl/src/drivers/qnx/lv_qnx.h \
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/indev/lv_indev.h \
@@ -8029,23 +12864,8 @@ project/CMakeFiles/lib-ui.dir/images/img_charging_small_data.c.o: /lved/project/
   /lved/resources/lvgl/src/misc/lv_iter.h \
   /lved/resources/lvgl/src/misc/lv_circle_buf.h \
   /lved/resources/lvgl/src/misc/lv_tree.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache_entry.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_class.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_lru_rb.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache_private.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
   /lved/resources/lvgl/src/osal/lv_os.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/osal/lv_os_none.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_lru_ll.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_sc_da.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_cache_instance.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_image_header_cache.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_image_cache.h \
   /lved/resources/lvgl/src/tick/lv_tick.h \
   /lved/resources/lvgl/src/core/lv_obj.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
@@ -8100,6 +12920,7 @@ project/CMakeFiles/lib-ui.dir/images/img_charging_small_data.c.o: /lved/project/
   /lved/resources/lvgl/src/misc/lv_profiler.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_matrix.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
   /lved/resources/lvgl/src/draw/lv_image_decoder.h \
   /lved/resources/lvgl/src/draw/lv_draw_buf.h \
   /lved/resources/lvgl/src/misc/lv_fs.h \
@@ -8279,6 +13100,7 @@ project/CMakeFiles/lib-ui.dir/images/img_charging_small_data.c.o: /lved/project/
   /lved/resources/lvgl/src/others/xml/lv_xml_utils.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_load.h \
   /lved/resources/lvgl/src/others/test/lv_test.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/others/test/lv_test_indev.h \
@@ -8313,9 +13135,8 @@ project/CMakeFiles/lib-ui.dir/images/img_charging_small_data.c.o: /lved/project/
   /lved/resources/lvgl/src/libs/gif/lv_gif.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
-  /lved/resources/lvgl/src/widgets/image/lv_image.h \
-  /lved/resources/lvgl/src/core/lv_obj_class.h \
+  /lved/resources/lvgl/src/libs/gstreamer/lv_gstreamer.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/libs/qrcode/lv_qrcode.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_color.h \
@@ -8374,6 +13195,9 @@ project/CMakeFiles/lib-ui.dir/images/img_charging_small_data.c.o: /lved/project/
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/drivers/display/tft_espi/lv_tft_espi.h \
   /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/lovyan_gfx/lv_lovyan_gfx.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
   /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/drivers/display/ili9341/lv_ili9341.h \
@@ -8409,10 +13233,12 @@ project/CMakeFiles/lib-ui.dir/images/img_charging_small_data.c.o: /lved/project/
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/indev/lv_indev.h \
   /lved/resources/lvgl/src/drivers/windows/lv_windows_display.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_glfw_window.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_window.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_opengles_texture.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_texture.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_glfw.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_egl.h \
   /lved/resources/lvgl/src/drivers/qnx/lv_qnx.h \
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/indev/lv_indev.h \
@@ -8430,8 +13256,7 @@ project/CMakeFiles/lib-ui.dir/images/img_charging_small_data.c.o: /lved/project/
   /lved/resources/lvgl/src/lv_api_map_v9_2.h \
   /lved/resources/lvgl/src/lv_api_map_v9_3.h
 
-project/CMakeFiles/lib-ui.dir/screens/smartwatch_gen.c.o: /lved/project/screens/smartwatch_gen.c \
-  /lved/project/screens/smartwatch_gen.h \
+project/CMakeFiles/lib-ui.dir/images/img_thunder_small_v2_data.c.o: /lved/project/images/img_thunder_small_v2_data.c \
   /lved/resources/lvgl/lvgl.h \
   /lved/resources/lvgl/lv_version.h \
   /lved/resources/lvgl/src/lv_init.h \
@@ -8572,23 +13397,8 @@ project/CMakeFiles/lib-ui.dir/screens/smartwatch_gen.c.o: /lved/project/screens/
   /lved/resources/lvgl/src/misc/lv_iter.h \
   /lved/resources/lvgl/src/misc/lv_circle_buf.h \
   /lved/resources/lvgl/src/misc/lv_tree.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache_entry.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_class.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_lru_rb.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache_private.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
   /lved/resources/lvgl/src/osal/lv_os.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/osal/lv_os_none.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_lru_ll.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_sc_da.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_cache_instance.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_image_header_cache.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_image_cache.h \
   /lved/resources/lvgl/src/tick/lv_tick.h \
   /lved/resources/lvgl/src/core/lv_obj.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
@@ -8643,6 +13453,7 @@ project/CMakeFiles/lib-ui.dir/screens/smartwatch_gen.c.o: /lved/project/screens/
   /lved/resources/lvgl/src/misc/lv_profiler.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_matrix.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
   /lved/resources/lvgl/src/draw/lv_image_decoder.h \
   /lved/resources/lvgl/src/draw/lv_draw_buf.h \
   /lved/resources/lvgl/src/misc/lv_fs.h \
@@ -8822,6 +13633,7 @@ project/CMakeFiles/lib-ui.dir/screens/smartwatch_gen.c.o: /lved/project/screens/
   /lved/resources/lvgl/src/others/xml/lv_xml_utils.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_load.h \
   /lved/resources/lvgl/src/others/test/lv_test.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/others/test/lv_test_indev.h \
@@ -8856,9 +13668,8 @@ project/CMakeFiles/lib-ui.dir/screens/smartwatch_gen.c.o: /lved/project/screens/
   /lved/resources/lvgl/src/libs/gif/lv_gif.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
-  /lved/resources/lvgl/src/widgets/image/lv_image.h \
-  /lved/resources/lvgl/src/core/lv_obj_class.h \
+  /lved/resources/lvgl/src/libs/gstreamer/lv_gstreamer.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/libs/qrcode/lv_qrcode.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_color.h \
@@ -8917,6 +13728,9 @@ project/CMakeFiles/lib-ui.dir/screens/smartwatch_gen.c.o: /lved/project/screens/
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/drivers/display/tft_espi/lv_tft_espi.h \
   /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/lovyan_gfx/lv_lovyan_gfx.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
   /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/drivers/display/ili9341/lv_ili9341.h \
@@ -8952,10 +13766,1612 @@ project/CMakeFiles/lib-ui.dir/screens/smartwatch_gen.c.o: /lved/project/screens/
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/indev/lv_indev.h \
   /lved/resources/lvgl/src/drivers/windows/lv_windows_display.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_glfw_window.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_window.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_opengles_texture.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_texture.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_glfw.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_egl.h \
+  /lved/resources/lvgl/src/drivers/qnx/lv_qnx.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/wayland/lv_wayland.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/uefi/lv_uefi_context.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/uefi/lv_uefi_indev.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/uefi/lv_uefi_display.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/lv_api_map_v8.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_0.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_1.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_2.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_3.h
+
+project/CMakeFiles/lib-ui.dir/images/img_thunder_transparent_data.c.o: /lved/project/images/img_thunder_transparent_data.c \
+  /lved/resources/lvgl/lvgl.h \
+  /lved/resources/lvgl/lv_version.h \
+  /lved/resources/lvgl/src/lv_init.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/lv_conf_kconfig.h \
+  /lved/resources/conf/lv_conf.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /emsdk/upstream/lib/clang/21/include/stdint.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdint.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/bits/stdint.h \
+  /emsdk/upstream/lib/clang/21/include/stddef.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stddef.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_header_macro.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_ptrdiff_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_size_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_wchar_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_null.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_max_align_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_offsetof.h \
+  /emsdk/upstream/lib/clang/21/include/stdbool.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdbool.h \
+  /emsdk/upstream/lib/clang/21/include/inttypes.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/inttypes.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/features.h \
+  /emsdk/upstream/lib/clang/21/include/limits.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/limits.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/bits/limits.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/stdarg.h \
+  /emsdk/upstream/lib/clang/21/include/stdarg.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdarg.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_header_macro.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg___gnuc_va_list.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_va_list.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_va_arg.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg___va_copy.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_va_copy.h \
+  /lved/resources/lvgl/src/stdlib/lv_mem.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/stdlib/lv_string.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/stdlib/lv_sprintf.h \
+  /lved/resources/lvgl/src/misc/lv_log.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/tick/lv_tick.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_ll.h \
+  /lved/resources/lvgl/src/misc/lv_math.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/misc/lv_async.h \
+  /lved/resources/lvgl/src/misc/lv_anim_timeline.h \
+  /lved/resources/lvgl/src/misc/lv_anim.h \
+  /lved/resources/lvgl/src/misc/lv_profiler_builtin.h \
+  /lved/resources/lvgl/src/misc/lv_rb.h \
+  /lved/resources/lvgl/src/misc/lv_assert.h \
+  /lved/resources/lvgl/src/stdlib/lv_mem.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_main.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_stdinc.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_config.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_platform.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/begin_code.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/close_code.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_config_emscripten.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/sys/types.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/endian.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/sys/select.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdio.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/wasi/api.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/stdlib.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdlib.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/alloca.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/string.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/string.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/strings.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/wchar.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/ctype.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/math.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/math.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_assert.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_atomic.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_audio.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_error.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_endian.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_mutex.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_thread.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_rwops.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_clipboard.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_cpuinfo.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_events.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_video.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_pixels.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_rect.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_surface.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_blendmode.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_keyboard.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_keycode.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_scancode.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_mouse.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_joystick.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_guid.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_gamecontroller.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_sensor.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_quit.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_gesture.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_touch.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_filesystem.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_haptic.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_hidapi.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_hints.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_loadso.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_log.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_messagebox.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_metal.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_power.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_render.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_shape.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_system.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_timer.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_version.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_locale.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_misc.h \
+  /lved/resources/lvgl/src/misc/lv_utils.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_math.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_assert.h \
+  /lved/resources/lvgl/src/misc/lv_palette.h \
+  /lved/resources/lvgl/src/misc/lv_color_op.h \
+  /lved/resources/lvgl/src/stdlib/lv_string.h \
+  /lved/resources/lvgl/src/draw/lv_image_dsc.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_iter.h \
+  /lved/resources/lvgl/src/misc/lv_circle_buf.h \
+  /lved/resources/lvgl/src/misc/lv_tree.h \
+  /lved/resources/lvgl/src/osal/lv_os.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/tick/lv_tick.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_style.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/font/lv_symbol_def.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_anim.h \
+  /lved/resources/lvgl/src/misc/lv_text.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/stdlib/lv_sprintf.h \
+  /lved/resources/lvgl/src/misc/lv_assert.h \
+  /lved/resources/lvgl/src/misc/lv_bidi.h \
+  /lved/resources/lvgl/src/misc/lv_grad.h \
+  /lved/resources/lvgl/src/layouts/lv_layout.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/layouts/flex/lv_flex.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/layouts/grid/lv_grid.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_style_gen.h \
+  /lved/resources/lvgl/src/core/lv_obj_tree.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/core/lv_obj_pos.h \
+  /lved/resources/lvgl/src/core/lv_obj_scroll.h \
+  /lved/resources/lvgl/src/core/lv_obj_style.h \
+  /lved/resources/lvgl/src/core/lv_obj_style_gen.h \
+  /lved/resources/lvgl/src/core/lv_obj_style.h \
+  /lved/resources/lvgl/src/core/lv_obj_draw.h \
+  /lved/resources/lvgl/src/draw/lv_draw_rect.h \
+  /lved/resources/lvgl/src/draw/lv_draw.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_style.h \
+  /lved/resources/lvgl/src/misc/lv_text.h \
+  /lved/resources/lvgl/src/misc/lv_profiler.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_matrix.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/draw/lv_image_decoder.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/misc/lv_fs.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/draw/lv_draw_label.h \
+  /lved/resources/lvgl/src/misc/lv_bidi.h \
+  /lved/resources/lvgl/src/draw/lv_draw_image.h \
+  /lved/resources/lvgl/src/draw/lv_draw_line.h \
+  /lved/resources/lvgl/src/draw/lv_draw_arc.h \
+  /lved/resources/lvgl/src/draw/lv_draw_triangle.h \
+  /lved/resources/lvgl/src/core/lv_obj_class.h \
+  /lved/resources/lvgl/src/core/lv_obj_property.h \
+  /lved/resources/lvgl/src/core/lv_obj_event.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/core/lv_group.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_ll.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/core/lv_group.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/indev/lv_indev_gesture.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/core/lv_refr.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/font/lv_binfont_loader.h \
+  /lved/resources/lvgl/src/font/lv_font_fmt_txt.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/animimage/lv_animimage.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/misc/lv_fs.h \
+  /lved/resources/lvgl/src/draw/lv_draw.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/arc/lv_arc.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/arclabel/lv_arclabel.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/bar/lv_bar.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/misc/lv_anim.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/font/lv_symbol_def.h \
+  /lved/resources/lvgl/src/misc/lv_text.h \
+  /lved/resources/lvgl/src/draw/lv_draw.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/button/lv_button.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar.h \
+  /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar_header_arrow.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar_chinese.h \
+  /lved/resources/lvgl/src/widgets/canvas/lv_canvas.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/draw/lv_draw_image.h \
+  /lved/resources/lvgl/src/widgets/chart/lv_chart.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/checkbox/lv_checkbox.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/dropdown/lv_dropdown.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/widgets/imagebutton/lv_imagebutton.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/keyboard/lv_keyboard.h \
+  /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/led/lv_led.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/line/lv_line.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/list/lv_list.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/lottie/lv_lottie.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/menu/lv_menu.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/msgbox/lv_msgbox.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/roller/lv_roller.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/scale/lv_scale.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/line/lv_line.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/slider/lv_slider.h \
+  /lved/resources/lvgl/src/widgets/bar/lv_bar.h \
+  /lved/resources/lvgl/src/widgets/span/lv_span.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/spinbox/lv_spinbox.h \
+  /lved/resources/lvgl/src/widgets/textarea/lv_textarea.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/spinner/lv_spinner.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/switch/lv_switch.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/table/lv_table.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/tabview/lv_tabview.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/textarea/lv_textarea.h \
+  /lved/resources/lvgl/src/widgets/tileview/lv_tileview.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/win/lv_win.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/3dtexture/lv_3dtexture.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/others/snapshot/lv_snapshot.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/sysmon/lv_sysmon.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/monkey/lv_monkey.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/others/gridnav/lv_gridnav.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/fragment/lv_fragment.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/imgfont/lv_imgfont.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/ime/lv_ime_pinyin.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/file_explorer/lv_file_explorer.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/font_manager/lv_font_manager.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/others/translation/lv_translation.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_test.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_translation.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_component.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_widget.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_utils.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_load.h \
+  /lved/resources/lvgl/src/others/test/lv_test.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/others/test/lv_test_indev.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/others/test/lv_test_display.h \
+  /lved/resources/lvgl/src/others/test/lv_test_helpers.h \
+  /lved/resources/lvgl/src/stdlib/lv_mem.h \
+  /lved/resources/lvgl/src/others/test/lv_test_screenshot_compare.h \
+  /lved/resources/lvgl/src/others/test/lv_test_indev_gesture.h \
+  /lved/resources/lvgl/src/libs/barcode/lv_barcode.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/widgets/canvas/lv_canvas.h \
+  /lved/resources/lvgl/src/libs/bin_decoder/lv_bin_decoder.h \
+  /lved/resources/lvgl/src/draw/lv_image_decoder.h \
+  /lved/resources/lvgl/src/libs/bmp/lv_bmp.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/rle/lv_rle.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/fsdrv/lv_fsdrv.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/lodepng/lv_lodepng.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/libpng/lv_libpng.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/gltf/gltf_data/lv_gltf_model.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/gltf/gltf_view/lv_gltf.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/gif/lv_gif.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/libs/gstreamer/lv_gstreamer.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/qrcode/lv_qrcode.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/canvas/lv_canvas.h \
+  /lved/resources/lvgl/src/libs/tjpgd/lv_tjpgd.h \
+  /lved/resources/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/freetype/lv_freetype.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/rlottie/lv_rlottie.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/ffmpeg/lv_ffmpeg.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/svg/lv_svg.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/svg/lv_svg_render.h \
+  /lved/resources/lvgl/src/layouts/lv_layout.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/draw/lv_draw_vector.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/misc/lv_matrix.h \
+  /lved/resources/lvgl/src/draw/lv_draw_image.h \
+  /lved/resources/lvgl/src/draw/sw/lv_draw_sw_utils.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/draw/eve/lv_draw_eve_target.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/themes/default/lv_theme_default.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/themes/mono/lv_theme_mono.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/themes/simple/lv_theme_simple.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/lv_drivers.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_window.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_mouse.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_mousewheel.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_keyboard.h \
+  /lved/resources/lvgl/src/drivers/x11/lv_x11.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/draw/lv_image_dsc.h \
+  /lved/resources/lvgl/src/drivers/display/drm/lv_linux_drm.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/fb/lv_linux_fbdev.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/tft_espi/lv_tft_espi.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/lovyan_gfx/lv_lovyan_gfx.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/ili9341/lv_ili9341.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/st7735/lv_st7735.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/st7789/lv_st7789.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/st7796/lv_st7796.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/st_ltdc/lv_st_ltdc.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/display/ft81x/lv_ft81x.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/draw/eve/lv_draw_eve_display.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/draw/eve/lv_draw_eve_display_defines.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_entry.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_fbdev.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_touchscreen.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_lcd.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_libuv.h \
+  /lved/resources/lvgl/src/drivers/evdev/lv_evdev.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/libinput/lv_libinput.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/windows/lv_windows_input.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/windows/lv_windows_display.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_window.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_texture.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_glfw.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_egl.h \
+  /lved/resources/lvgl/src/drivers/qnx/lv_qnx.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/wayland/lv_wayland.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/uefi/lv_uefi_context.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/uefi/lv_uefi_indev.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/uefi/lv_uefi_display.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/lv_api_map_v8.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_0.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_1.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_2.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_3.h
+
+project/CMakeFiles/lib-ui.dir/images/img_thunder_v2_data.c.o: /lved/project/images/img_thunder_v2_data.c \
+  /lved/resources/lvgl/lvgl.h \
+  /lved/resources/lvgl/lv_version.h \
+  /lved/resources/lvgl/src/lv_init.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/lv_conf_kconfig.h \
+  /lved/resources/conf/lv_conf.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /emsdk/upstream/lib/clang/21/include/stdint.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdint.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/bits/stdint.h \
+  /emsdk/upstream/lib/clang/21/include/stddef.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stddef.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_header_macro.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_ptrdiff_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_size_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_wchar_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_null.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_max_align_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_offsetof.h \
+  /emsdk/upstream/lib/clang/21/include/stdbool.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdbool.h \
+  /emsdk/upstream/lib/clang/21/include/inttypes.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/inttypes.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/features.h \
+  /emsdk/upstream/lib/clang/21/include/limits.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/limits.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/bits/limits.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/stdarg.h \
+  /emsdk/upstream/lib/clang/21/include/stdarg.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdarg.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_header_macro.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg___gnuc_va_list.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_va_list.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_va_arg.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg___va_copy.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_va_copy.h \
+  /lved/resources/lvgl/src/stdlib/lv_mem.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/stdlib/lv_string.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/stdlib/lv_sprintf.h \
+  /lved/resources/lvgl/src/misc/lv_log.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/tick/lv_tick.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_ll.h \
+  /lved/resources/lvgl/src/misc/lv_math.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/misc/lv_async.h \
+  /lved/resources/lvgl/src/misc/lv_anim_timeline.h \
+  /lved/resources/lvgl/src/misc/lv_anim.h \
+  /lved/resources/lvgl/src/misc/lv_profiler_builtin.h \
+  /lved/resources/lvgl/src/misc/lv_rb.h \
+  /lved/resources/lvgl/src/misc/lv_assert.h \
+  /lved/resources/lvgl/src/stdlib/lv_mem.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_main.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_stdinc.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_config.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_platform.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/begin_code.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/close_code.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_config_emscripten.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/sys/types.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/endian.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/sys/select.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdio.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/wasi/api.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/stdlib.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdlib.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/alloca.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/string.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/string.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/strings.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/wchar.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/ctype.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/math.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/math.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_assert.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_atomic.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_audio.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_error.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_endian.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_mutex.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_thread.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_rwops.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_clipboard.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_cpuinfo.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_events.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_video.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_pixels.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_rect.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_surface.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_blendmode.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_keyboard.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_keycode.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_scancode.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_mouse.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_joystick.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_guid.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_gamecontroller.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_sensor.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_quit.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_gesture.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_touch.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_filesystem.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_haptic.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_hidapi.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_hints.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_loadso.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_log.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_messagebox.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_metal.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_power.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_render.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_shape.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_system.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_timer.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_version.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_locale.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_misc.h \
+  /lved/resources/lvgl/src/misc/lv_utils.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_math.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_assert.h \
+  /lved/resources/lvgl/src/misc/lv_palette.h \
+  /lved/resources/lvgl/src/misc/lv_color_op.h \
+  /lved/resources/lvgl/src/stdlib/lv_string.h \
+  /lved/resources/lvgl/src/draw/lv_image_dsc.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_iter.h \
+  /lved/resources/lvgl/src/misc/lv_circle_buf.h \
+  /lved/resources/lvgl/src/misc/lv_tree.h \
+  /lved/resources/lvgl/src/osal/lv_os.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/tick/lv_tick.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_style.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/font/lv_symbol_def.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_anim.h \
+  /lved/resources/lvgl/src/misc/lv_text.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/stdlib/lv_sprintf.h \
+  /lved/resources/lvgl/src/misc/lv_assert.h \
+  /lved/resources/lvgl/src/misc/lv_bidi.h \
+  /lved/resources/lvgl/src/misc/lv_grad.h \
+  /lved/resources/lvgl/src/layouts/lv_layout.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/layouts/flex/lv_flex.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/layouts/grid/lv_grid.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_style_gen.h \
+  /lved/resources/lvgl/src/core/lv_obj_tree.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/core/lv_obj_pos.h \
+  /lved/resources/lvgl/src/core/lv_obj_scroll.h \
+  /lved/resources/lvgl/src/core/lv_obj_style.h \
+  /lved/resources/lvgl/src/core/lv_obj_style_gen.h \
+  /lved/resources/lvgl/src/core/lv_obj_style.h \
+  /lved/resources/lvgl/src/core/lv_obj_draw.h \
+  /lved/resources/lvgl/src/draw/lv_draw_rect.h \
+  /lved/resources/lvgl/src/draw/lv_draw.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_style.h \
+  /lved/resources/lvgl/src/misc/lv_text.h \
+  /lved/resources/lvgl/src/misc/lv_profiler.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_matrix.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/draw/lv_image_decoder.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/misc/lv_fs.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/draw/lv_draw_label.h \
+  /lved/resources/lvgl/src/misc/lv_bidi.h \
+  /lved/resources/lvgl/src/draw/lv_draw_image.h \
+  /lved/resources/lvgl/src/draw/lv_draw_line.h \
+  /lved/resources/lvgl/src/draw/lv_draw_arc.h \
+  /lved/resources/lvgl/src/draw/lv_draw_triangle.h \
+  /lved/resources/lvgl/src/core/lv_obj_class.h \
+  /lved/resources/lvgl/src/core/lv_obj_property.h \
+  /lved/resources/lvgl/src/core/lv_obj_event.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/core/lv_group.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_ll.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/core/lv_group.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/indev/lv_indev_gesture.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/core/lv_refr.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/font/lv_binfont_loader.h \
+  /lved/resources/lvgl/src/font/lv_font_fmt_txt.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/animimage/lv_animimage.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/misc/lv_fs.h \
+  /lved/resources/lvgl/src/draw/lv_draw.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/arc/lv_arc.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/arclabel/lv_arclabel.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/bar/lv_bar.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/misc/lv_anim.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/font/lv_symbol_def.h \
+  /lved/resources/lvgl/src/misc/lv_text.h \
+  /lved/resources/lvgl/src/draw/lv_draw.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/button/lv_button.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar.h \
+  /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar_header_arrow.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar_chinese.h \
+  /lved/resources/lvgl/src/widgets/canvas/lv_canvas.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/draw/lv_draw_image.h \
+  /lved/resources/lvgl/src/widgets/chart/lv_chart.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/checkbox/lv_checkbox.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/dropdown/lv_dropdown.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/widgets/imagebutton/lv_imagebutton.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/keyboard/lv_keyboard.h \
+  /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/led/lv_led.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/line/lv_line.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/list/lv_list.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/lottie/lv_lottie.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/menu/lv_menu.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/msgbox/lv_msgbox.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/roller/lv_roller.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/scale/lv_scale.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/line/lv_line.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/slider/lv_slider.h \
+  /lved/resources/lvgl/src/widgets/bar/lv_bar.h \
+  /lved/resources/lvgl/src/widgets/span/lv_span.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/spinbox/lv_spinbox.h \
+  /lved/resources/lvgl/src/widgets/textarea/lv_textarea.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/spinner/lv_spinner.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/switch/lv_switch.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/table/lv_table.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/tabview/lv_tabview.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/textarea/lv_textarea.h \
+  /lved/resources/lvgl/src/widgets/tileview/lv_tileview.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/win/lv_win.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/3dtexture/lv_3dtexture.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/others/snapshot/lv_snapshot.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/sysmon/lv_sysmon.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/monkey/lv_monkey.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/others/gridnav/lv_gridnav.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/fragment/lv_fragment.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/imgfont/lv_imgfont.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/ime/lv_ime_pinyin.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/file_explorer/lv_file_explorer.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/font_manager/lv_font_manager.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/others/translation/lv_translation.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_test.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_translation.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_component.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_widget.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_utils.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_load.h \
+  /lved/resources/lvgl/src/others/test/lv_test.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/others/test/lv_test_indev.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/others/test/lv_test_display.h \
+  /lved/resources/lvgl/src/others/test/lv_test_helpers.h \
+  /lved/resources/lvgl/src/stdlib/lv_mem.h \
+  /lved/resources/lvgl/src/others/test/lv_test_screenshot_compare.h \
+  /lved/resources/lvgl/src/others/test/lv_test_indev_gesture.h \
+  /lved/resources/lvgl/src/libs/barcode/lv_barcode.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/widgets/canvas/lv_canvas.h \
+  /lved/resources/lvgl/src/libs/bin_decoder/lv_bin_decoder.h \
+  /lved/resources/lvgl/src/draw/lv_image_decoder.h \
+  /lved/resources/lvgl/src/libs/bmp/lv_bmp.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/rle/lv_rle.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/fsdrv/lv_fsdrv.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/lodepng/lv_lodepng.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/libpng/lv_libpng.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/gltf/gltf_data/lv_gltf_model.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/gltf/gltf_view/lv_gltf.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/gif/lv_gif.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/libs/gstreamer/lv_gstreamer.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/qrcode/lv_qrcode.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/canvas/lv_canvas.h \
+  /lved/resources/lvgl/src/libs/tjpgd/lv_tjpgd.h \
+  /lved/resources/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/freetype/lv_freetype.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/rlottie/lv_rlottie.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/ffmpeg/lv_ffmpeg.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/svg/lv_svg.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/svg/lv_svg_render.h \
+  /lved/resources/lvgl/src/layouts/lv_layout.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/draw/lv_draw_vector.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/misc/lv_matrix.h \
+  /lved/resources/lvgl/src/draw/lv_draw_image.h \
+  /lved/resources/lvgl/src/draw/sw/lv_draw_sw_utils.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/draw/eve/lv_draw_eve_target.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/themes/default/lv_theme_default.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/themes/mono/lv_theme_mono.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/themes/simple/lv_theme_simple.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/lv_drivers.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_window.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_mouse.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_mousewheel.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_keyboard.h \
+  /lved/resources/lvgl/src/drivers/x11/lv_x11.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/draw/lv_image_dsc.h \
+  /lved/resources/lvgl/src/drivers/display/drm/lv_linux_drm.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/fb/lv_linux_fbdev.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/tft_espi/lv_tft_espi.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/lovyan_gfx/lv_lovyan_gfx.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/ili9341/lv_ili9341.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/st7735/lv_st7735.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/st7789/lv_st7789.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/st7796/lv_st7796.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/st_ltdc/lv_st_ltdc.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/display/ft81x/lv_ft81x.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/draw/eve/lv_draw_eve_display.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/draw/eve/lv_draw_eve_display_defines.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_entry.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_fbdev.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_touchscreen.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_lcd.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_libuv.h \
+  /lved/resources/lvgl/src/drivers/evdev/lv_evdev.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/libinput/lv_libinput.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/windows/lv_windows_input.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/windows/lv_windows_display.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_window.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_texture.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_glfw.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_egl.h \
+  /lved/resources/lvgl/src/drivers/qnx/lv_qnx.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/wayland/lv_wayland.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/uefi/lv_uefi_context.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/uefi/lv_uefi_indev.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/uefi/lv_uefi_display.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/lv_api_map_v8.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_0.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_1.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_2.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_3.h
+
+project/CMakeFiles/lib-ui.dir/screens/smartwatch/smartwatch_gen.c.o: /lved/project/screens/smartwatch/smartwatch_gen.c \
+  /lved/project/screens/smartwatch/smartwatch_gen.h \
+  /lved/resources/lvgl/lvgl.h \
+  /lved/resources/lvgl/lv_version.h \
+  /lved/resources/lvgl/src/lv_init.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/lv_conf_kconfig.h \
+  /lved/resources/conf/lv_conf.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /emsdk/upstream/lib/clang/21/include/stdint.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdint.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/bits/stdint.h \
+  /emsdk/upstream/lib/clang/21/include/stddef.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stddef.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_header_macro.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_ptrdiff_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_size_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_wchar_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_null.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_max_align_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_offsetof.h \
+  /emsdk/upstream/lib/clang/21/include/stdbool.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdbool.h \
+  /emsdk/upstream/lib/clang/21/include/inttypes.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/inttypes.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/features.h \
+  /emsdk/upstream/lib/clang/21/include/limits.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/limits.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/bits/limits.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/stdarg.h \
+  /emsdk/upstream/lib/clang/21/include/stdarg.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdarg.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_header_macro.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg___gnuc_va_list.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_va_list.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_va_arg.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg___va_copy.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_va_copy.h \
+  /lved/resources/lvgl/src/stdlib/lv_mem.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/stdlib/lv_string.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/stdlib/lv_sprintf.h \
+  /lved/resources/lvgl/src/misc/lv_log.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/tick/lv_tick.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_ll.h \
+  /lved/resources/lvgl/src/misc/lv_math.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/misc/lv_async.h \
+  /lved/resources/lvgl/src/misc/lv_anim_timeline.h \
+  /lved/resources/lvgl/src/misc/lv_anim.h \
+  /lved/resources/lvgl/src/misc/lv_profiler_builtin.h \
+  /lved/resources/lvgl/src/misc/lv_rb.h \
+  /lved/resources/lvgl/src/misc/lv_assert.h \
+  /lved/resources/lvgl/src/stdlib/lv_mem.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_main.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_stdinc.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_config.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_platform.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/begin_code.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/close_code.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_config_emscripten.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/sys/types.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/endian.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/sys/select.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdio.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/wasi/api.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/stdlib.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdlib.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/alloca.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/string.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/string.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/strings.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/wchar.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/ctype.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/math.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/math.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_assert.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_atomic.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_audio.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_error.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_endian.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_mutex.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_thread.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_rwops.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_clipboard.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_cpuinfo.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_events.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_video.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_pixels.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_rect.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_surface.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_blendmode.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_keyboard.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_keycode.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_scancode.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_mouse.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_joystick.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_guid.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_gamecontroller.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_sensor.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_quit.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_gesture.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_touch.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_filesystem.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_haptic.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_hidapi.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_hints.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_loadso.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_log.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_messagebox.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_metal.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_power.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_render.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_shape.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_system.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_timer.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_version.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_locale.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_misc.h \
+  /lved/resources/lvgl/src/misc/lv_utils.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_math.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_assert.h \
+  /lved/resources/lvgl/src/misc/lv_palette.h \
+  /lved/resources/lvgl/src/misc/lv_color_op.h \
+  /lved/resources/lvgl/src/stdlib/lv_string.h \
+  /lved/resources/lvgl/src/draw/lv_image_dsc.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_iter.h \
+  /lved/resources/lvgl/src/misc/lv_circle_buf.h \
+  /lved/resources/lvgl/src/misc/lv_tree.h \
+  /lved/resources/lvgl/src/osal/lv_os.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/tick/lv_tick.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_style.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/font/lv_symbol_def.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_anim.h \
+  /lved/resources/lvgl/src/misc/lv_text.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/stdlib/lv_sprintf.h \
+  /lved/resources/lvgl/src/misc/lv_assert.h \
+  /lved/resources/lvgl/src/misc/lv_bidi.h \
+  /lved/resources/lvgl/src/misc/lv_grad.h \
+  /lved/resources/lvgl/src/layouts/lv_layout.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/layouts/flex/lv_flex.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/layouts/grid/lv_grid.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_style_gen.h \
+  /lved/resources/lvgl/src/core/lv_obj_tree.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/core/lv_obj_pos.h \
+  /lved/resources/lvgl/src/core/lv_obj_scroll.h \
+  /lved/resources/lvgl/src/core/lv_obj_style.h \
+  /lved/resources/lvgl/src/core/lv_obj_style_gen.h \
+  /lved/resources/lvgl/src/core/lv_obj_style.h \
+  /lved/resources/lvgl/src/core/lv_obj_draw.h \
+  /lved/resources/lvgl/src/draw/lv_draw_rect.h \
+  /lved/resources/lvgl/src/draw/lv_draw.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_style.h \
+  /lved/resources/lvgl/src/misc/lv_text.h \
+  /lved/resources/lvgl/src/misc/lv_profiler.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_matrix.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/draw/lv_image_decoder.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/misc/lv_fs.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/draw/lv_draw_label.h \
+  /lved/resources/lvgl/src/misc/lv_bidi.h \
+  /lved/resources/lvgl/src/draw/lv_draw_image.h \
+  /lved/resources/lvgl/src/draw/lv_draw_line.h \
+  /lved/resources/lvgl/src/draw/lv_draw_arc.h \
+  /lved/resources/lvgl/src/draw/lv_draw_triangle.h \
+  /lved/resources/lvgl/src/core/lv_obj_class.h \
+  /lved/resources/lvgl/src/core/lv_obj_property.h \
+  /lved/resources/lvgl/src/core/lv_obj_event.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/core/lv_group.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_ll.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/core/lv_group.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/indev/lv_indev_gesture.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/core/lv_refr.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/font/lv_binfont_loader.h \
+  /lved/resources/lvgl/src/font/lv_font_fmt_txt.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/animimage/lv_animimage.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/misc/lv_fs.h \
+  /lved/resources/lvgl/src/draw/lv_draw.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/arc/lv_arc.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/arclabel/lv_arclabel.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/bar/lv_bar.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/misc/lv_anim.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/font/lv_symbol_def.h \
+  /lved/resources/lvgl/src/misc/lv_text.h \
+  /lved/resources/lvgl/src/draw/lv_draw.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/button/lv_button.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar.h \
+  /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar_header_arrow.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar_chinese.h \
+  /lved/resources/lvgl/src/widgets/canvas/lv_canvas.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/draw/lv_draw_image.h \
+  /lved/resources/lvgl/src/widgets/chart/lv_chart.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/checkbox/lv_checkbox.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/dropdown/lv_dropdown.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/widgets/imagebutton/lv_imagebutton.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/keyboard/lv_keyboard.h \
+  /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/led/lv_led.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/line/lv_line.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/list/lv_list.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/lottie/lv_lottie.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/menu/lv_menu.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/msgbox/lv_msgbox.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/roller/lv_roller.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/scale/lv_scale.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/line/lv_line.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/slider/lv_slider.h \
+  /lved/resources/lvgl/src/widgets/bar/lv_bar.h \
+  /lved/resources/lvgl/src/widgets/span/lv_span.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/spinbox/lv_spinbox.h \
+  /lved/resources/lvgl/src/widgets/textarea/lv_textarea.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/spinner/lv_spinner.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/switch/lv_switch.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/table/lv_table.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/tabview/lv_tabview.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/textarea/lv_textarea.h \
+  /lved/resources/lvgl/src/widgets/tileview/lv_tileview.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/win/lv_win.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/3dtexture/lv_3dtexture.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/others/snapshot/lv_snapshot.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/sysmon/lv_sysmon.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/monkey/lv_monkey.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/others/gridnav/lv_gridnav.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/fragment/lv_fragment.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/imgfont/lv_imgfont.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/ime/lv_ime_pinyin.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/file_explorer/lv_file_explorer.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/font_manager/lv_font_manager.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/others/translation/lv_translation.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_test.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_translation.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_component.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_widget.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_utils.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_load.h \
+  /lved/resources/lvgl/src/others/test/lv_test.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/others/test/lv_test_indev.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/others/test/lv_test_display.h \
+  /lved/resources/lvgl/src/others/test/lv_test_helpers.h \
+  /lved/resources/lvgl/src/stdlib/lv_mem.h \
+  /lved/resources/lvgl/src/others/test/lv_test_screenshot_compare.h \
+  /lved/resources/lvgl/src/others/test/lv_test_indev_gesture.h \
+  /lved/resources/lvgl/src/libs/barcode/lv_barcode.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/widgets/canvas/lv_canvas.h \
+  /lved/resources/lvgl/src/libs/bin_decoder/lv_bin_decoder.h \
+  /lved/resources/lvgl/src/draw/lv_image_decoder.h \
+  /lved/resources/lvgl/src/libs/bmp/lv_bmp.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/rle/lv_rle.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/fsdrv/lv_fsdrv.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/lodepng/lv_lodepng.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/libpng/lv_libpng.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/gltf/gltf_data/lv_gltf_model.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/gltf/gltf_view/lv_gltf.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/gif/lv_gif.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/libs/gstreamer/lv_gstreamer.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/qrcode/lv_qrcode.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/canvas/lv_canvas.h \
+  /lved/resources/lvgl/src/libs/tjpgd/lv_tjpgd.h \
+  /lved/resources/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/freetype/lv_freetype.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/rlottie/lv_rlottie.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/ffmpeg/lv_ffmpeg.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/svg/lv_svg.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/svg/lv_svg_render.h \
+  /lved/resources/lvgl/src/layouts/lv_layout.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/draw/lv_draw_vector.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/misc/lv_matrix.h \
+  /lved/resources/lvgl/src/draw/lv_draw_image.h \
+  /lved/resources/lvgl/src/draw/sw/lv_draw_sw_utils.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/draw/eve/lv_draw_eve_target.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/themes/default/lv_theme_default.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/themes/mono/lv_theme_mono.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/themes/simple/lv_theme_simple.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/lv_drivers.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_window.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_mouse.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_mousewheel.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_keyboard.h \
+  /lved/resources/lvgl/src/drivers/x11/lv_x11.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/draw/lv_image_dsc.h \
+  /lved/resources/lvgl/src/drivers/display/drm/lv_linux_drm.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/fb/lv_linux_fbdev.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/tft_espi/lv_tft_espi.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/lovyan_gfx/lv_lovyan_gfx.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/ili9341/lv_ili9341.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/st7735/lv_st7735.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/st7789/lv_st7789.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/st7796/lv_st7796.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/st_ltdc/lv_st_ltdc.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/display/ft81x/lv_ft81x.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/draw/eve/lv_draw_eve_display.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/draw/eve/lv_draw_eve_display_defines.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_entry.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_fbdev.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_touchscreen.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_lcd.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_libuv.h \
+  /lved/resources/lvgl/src/drivers/evdev/lv_evdev.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/libinput/lv_libinput.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/windows/lv_windows_input.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/windows/lv_windows_display.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_window.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_texture.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_glfw.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_egl.h \
   /lved/resources/lvgl/src/drivers/qnx/lv_qnx.h \
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/indev/lv_indev.h \
@@ -8976,12 +15392,570 @@ project/CMakeFiles/lib-ui.dir/screens/smartwatch_gen.c.o: /lved/project/screens/
   /lved/project/battery_indicator.h \
   /lved/project/battery_indicator_gen.h \
   /lved/project/widgets/wd_battery/wd_battery_gen.h \
+  /lved/project/widgets/wd_battery_v2/wd_battery_v2_gen.h \
   /lved/project/components/battery_indicator/battery_gen.h \
   /lved/project/components/battery_indicator_2/battery_indicator_2_gen.h \
+  /lved/project/components/battery_indicator_v2/battery_indicator_v2_gen.h \
   /lved/project/components/button/button_gen.h \
   /lved/project/components/charge_slider/charge_slider_gen.h \
   /lved/project/components/clock/clock_gen.h \
-  /lved/project/components/top_bar/top_bar_gen.h
+  /lved/project/components/settings_item/settings_item_gen.h \
+  /lved/project/components/settings_menu_line/settings_menu_line_gen.h \
+  /lved/project/components/settings_panel/settings_panel_gen.h \
+  /lved/project/components/toggle_switch/toggle_switch_gen.h \
+  /lved/project/components/top_bar/top_bar_gen.h \
+  /lved/project/screens/smartwatch_v2/smartwatch_v2_gen.h
+
+project/CMakeFiles/lib-ui.dir/screens/smartwatch_v2/smartwatch_v2_gen.c.o: /lved/project/screens/smartwatch_v2/smartwatch_v2_gen.c \
+  /lved/project/screens/smartwatch_v2/smartwatch_v2_gen.h \
+  /lved/resources/lvgl/lvgl.h \
+  /lved/resources/lvgl/lv_version.h \
+  /lved/resources/lvgl/src/lv_init.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/lv_conf_kconfig.h \
+  /lved/resources/conf/lv_conf.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /emsdk/upstream/lib/clang/21/include/stdint.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdint.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/bits/stdint.h \
+  /emsdk/upstream/lib/clang/21/include/stddef.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stddef.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_header_macro.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_ptrdiff_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_size_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_wchar_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_null.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_max_align_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_offsetof.h \
+  /emsdk/upstream/lib/clang/21/include/stdbool.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdbool.h \
+  /emsdk/upstream/lib/clang/21/include/inttypes.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/inttypes.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/features.h \
+  /emsdk/upstream/lib/clang/21/include/limits.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/limits.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/bits/limits.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/stdarg.h \
+  /emsdk/upstream/lib/clang/21/include/stdarg.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdarg.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_header_macro.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg___gnuc_va_list.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_va_list.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_va_arg.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg___va_copy.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_va_copy.h \
+  /lved/resources/lvgl/src/stdlib/lv_mem.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/stdlib/lv_string.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/stdlib/lv_sprintf.h \
+  /lved/resources/lvgl/src/misc/lv_log.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/tick/lv_tick.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_ll.h \
+  /lved/resources/lvgl/src/misc/lv_math.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/misc/lv_async.h \
+  /lved/resources/lvgl/src/misc/lv_anim_timeline.h \
+  /lved/resources/lvgl/src/misc/lv_anim.h \
+  /lved/resources/lvgl/src/misc/lv_profiler_builtin.h \
+  /lved/resources/lvgl/src/misc/lv_rb.h \
+  /lved/resources/lvgl/src/misc/lv_assert.h \
+  /lved/resources/lvgl/src/stdlib/lv_mem.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_main.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_stdinc.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_config.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_platform.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/begin_code.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/close_code.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_config_emscripten.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/sys/types.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/endian.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/sys/select.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdio.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/wasi/api.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/stdlib.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdlib.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/alloca.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/string.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/string.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/strings.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/wchar.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/ctype.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/math.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/math.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_assert.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_atomic.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_audio.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_error.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_endian.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_mutex.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_thread.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_rwops.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_clipboard.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_cpuinfo.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_events.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_video.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_pixels.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_rect.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_surface.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_blendmode.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_keyboard.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_keycode.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_scancode.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_mouse.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_joystick.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_guid.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_gamecontroller.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_sensor.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_quit.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_gesture.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_touch.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_filesystem.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_haptic.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_hidapi.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_hints.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_loadso.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_log.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_messagebox.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_metal.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_power.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_render.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_shape.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_system.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_timer.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_version.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_locale.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_misc.h \
+  /lved/resources/lvgl/src/misc/lv_utils.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_math.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_assert.h \
+  /lved/resources/lvgl/src/misc/lv_palette.h \
+  /lved/resources/lvgl/src/misc/lv_color_op.h \
+  /lved/resources/lvgl/src/stdlib/lv_string.h \
+  /lved/resources/lvgl/src/draw/lv_image_dsc.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_iter.h \
+  /lved/resources/lvgl/src/misc/lv_circle_buf.h \
+  /lved/resources/lvgl/src/misc/lv_tree.h \
+  /lved/resources/lvgl/src/osal/lv_os.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/tick/lv_tick.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_style.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/font/lv_symbol_def.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_anim.h \
+  /lved/resources/lvgl/src/misc/lv_text.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/stdlib/lv_sprintf.h \
+  /lved/resources/lvgl/src/misc/lv_assert.h \
+  /lved/resources/lvgl/src/misc/lv_bidi.h \
+  /lved/resources/lvgl/src/misc/lv_grad.h \
+  /lved/resources/lvgl/src/layouts/lv_layout.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/layouts/flex/lv_flex.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/layouts/grid/lv_grid.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_style_gen.h \
+  /lved/resources/lvgl/src/core/lv_obj_tree.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/core/lv_obj_pos.h \
+  /lved/resources/lvgl/src/core/lv_obj_scroll.h \
+  /lved/resources/lvgl/src/core/lv_obj_style.h \
+  /lved/resources/lvgl/src/core/lv_obj_style_gen.h \
+  /lved/resources/lvgl/src/core/lv_obj_style.h \
+  /lved/resources/lvgl/src/core/lv_obj_draw.h \
+  /lved/resources/lvgl/src/draw/lv_draw_rect.h \
+  /lved/resources/lvgl/src/draw/lv_draw.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_style.h \
+  /lved/resources/lvgl/src/misc/lv_text.h \
+  /lved/resources/lvgl/src/misc/lv_profiler.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_matrix.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/draw/lv_image_decoder.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/misc/lv_fs.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/draw/lv_draw_label.h \
+  /lved/resources/lvgl/src/misc/lv_bidi.h \
+  /lved/resources/lvgl/src/draw/lv_draw_image.h \
+  /lved/resources/lvgl/src/draw/lv_draw_line.h \
+  /lved/resources/lvgl/src/draw/lv_draw_arc.h \
+  /lved/resources/lvgl/src/draw/lv_draw_triangle.h \
+  /lved/resources/lvgl/src/core/lv_obj_class.h \
+  /lved/resources/lvgl/src/core/lv_obj_property.h \
+  /lved/resources/lvgl/src/core/lv_obj_event.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/core/lv_group.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_ll.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/core/lv_group.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/indev/lv_indev_gesture.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/core/lv_refr.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/font/lv_binfont_loader.h \
+  /lved/resources/lvgl/src/font/lv_font_fmt_txt.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/animimage/lv_animimage.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/misc/lv_fs.h \
+  /lved/resources/lvgl/src/draw/lv_draw.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/arc/lv_arc.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/arclabel/lv_arclabel.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/bar/lv_bar.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/misc/lv_anim.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/font/lv_symbol_def.h \
+  /lved/resources/lvgl/src/misc/lv_text.h \
+  /lved/resources/lvgl/src/draw/lv_draw.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/button/lv_button.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar.h \
+  /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar_header_arrow.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar_chinese.h \
+  /lved/resources/lvgl/src/widgets/canvas/lv_canvas.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/draw/lv_draw_image.h \
+  /lved/resources/lvgl/src/widgets/chart/lv_chart.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/checkbox/lv_checkbox.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/dropdown/lv_dropdown.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/widgets/imagebutton/lv_imagebutton.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/keyboard/lv_keyboard.h \
+  /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/led/lv_led.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/line/lv_line.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/list/lv_list.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/lottie/lv_lottie.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/menu/lv_menu.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/msgbox/lv_msgbox.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/roller/lv_roller.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/scale/lv_scale.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/line/lv_line.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/slider/lv_slider.h \
+  /lved/resources/lvgl/src/widgets/bar/lv_bar.h \
+  /lved/resources/lvgl/src/widgets/span/lv_span.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/spinbox/lv_spinbox.h \
+  /lved/resources/lvgl/src/widgets/textarea/lv_textarea.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/spinner/lv_spinner.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/switch/lv_switch.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/table/lv_table.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/tabview/lv_tabview.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/textarea/lv_textarea.h \
+  /lved/resources/lvgl/src/widgets/tileview/lv_tileview.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/win/lv_win.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/3dtexture/lv_3dtexture.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/others/snapshot/lv_snapshot.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/sysmon/lv_sysmon.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/monkey/lv_monkey.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/others/gridnav/lv_gridnav.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/fragment/lv_fragment.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/imgfont/lv_imgfont.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/ime/lv_ime_pinyin.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/file_explorer/lv_file_explorer.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/font_manager/lv_font_manager.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/others/translation/lv_translation.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_test.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_translation.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_component.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_widget.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_utils.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_load.h \
+  /lved/resources/lvgl/src/others/test/lv_test.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/others/test/lv_test_indev.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/others/test/lv_test_display.h \
+  /lved/resources/lvgl/src/others/test/lv_test_helpers.h \
+  /lved/resources/lvgl/src/stdlib/lv_mem.h \
+  /lved/resources/lvgl/src/others/test/lv_test_screenshot_compare.h \
+  /lved/resources/lvgl/src/others/test/lv_test_indev_gesture.h \
+  /lved/resources/lvgl/src/libs/barcode/lv_barcode.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/widgets/canvas/lv_canvas.h \
+  /lved/resources/lvgl/src/libs/bin_decoder/lv_bin_decoder.h \
+  /lved/resources/lvgl/src/draw/lv_image_decoder.h \
+  /lved/resources/lvgl/src/libs/bmp/lv_bmp.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/rle/lv_rle.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/fsdrv/lv_fsdrv.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/lodepng/lv_lodepng.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/libpng/lv_libpng.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/gltf/gltf_data/lv_gltf_model.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/gltf/gltf_view/lv_gltf.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/gif/lv_gif.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/libs/gstreamer/lv_gstreamer.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/qrcode/lv_qrcode.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/canvas/lv_canvas.h \
+  /lved/resources/lvgl/src/libs/tjpgd/lv_tjpgd.h \
+  /lved/resources/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/freetype/lv_freetype.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/rlottie/lv_rlottie.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/ffmpeg/lv_ffmpeg.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/svg/lv_svg.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/svg/lv_svg_render.h \
+  /lved/resources/lvgl/src/layouts/lv_layout.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/draw/lv_draw_vector.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/misc/lv_matrix.h \
+  /lved/resources/lvgl/src/draw/lv_draw_image.h \
+  /lved/resources/lvgl/src/draw/sw/lv_draw_sw_utils.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/draw/eve/lv_draw_eve_target.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/themes/default/lv_theme_default.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/themes/mono/lv_theme_mono.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/themes/simple/lv_theme_simple.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/lv_drivers.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_window.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_mouse.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_mousewheel.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_keyboard.h \
+  /lved/resources/lvgl/src/drivers/x11/lv_x11.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/draw/lv_image_dsc.h \
+  /lved/resources/lvgl/src/drivers/display/drm/lv_linux_drm.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/fb/lv_linux_fbdev.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/tft_espi/lv_tft_espi.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/lovyan_gfx/lv_lovyan_gfx.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/ili9341/lv_ili9341.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/st7735/lv_st7735.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/st7789/lv_st7789.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/st7796/lv_st7796.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/st_ltdc/lv_st_ltdc.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/display/ft81x/lv_ft81x.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/draw/eve/lv_draw_eve_display.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/draw/eve/lv_draw_eve_display_defines.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_entry.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_fbdev.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_touchscreen.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_lcd.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_libuv.h \
+  /lved/resources/lvgl/src/drivers/evdev/lv_evdev.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/libinput/lv_libinput.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/windows/lv_windows_input.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/windows/lv_windows_display.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_window.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_texture.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_glfw.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_egl.h \
+  /lved/resources/lvgl/src/drivers/qnx/lv_qnx.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/wayland/lv_wayland.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/uefi/lv_uefi_context.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/uefi/lv_uefi_indev.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/uefi/lv_uefi_display.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/lv_api_map_v8.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_0.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_1.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_2.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_3.h \
+  /lved/project/ui.h \
+  /lved/project/battery_indicator.h \
+  /lved/project/battery_indicator_gen.h \
+  /lved/project/widgets/wd_battery/wd_battery_gen.h \
+  /lved/project/widgets/wd_battery_v2/wd_battery_v2_gen.h \
+  /lved/project/components/battery_indicator/battery_gen.h \
+  /lved/project/components/battery_indicator_2/battery_indicator_2_gen.h \
+  /lved/project/components/battery_indicator_v2/battery_indicator_v2_gen.h \
+  /lved/project/components/button/button_gen.h \
+  /lved/project/components/charge_slider/charge_slider_gen.h \
+  /lved/project/components/clock/clock_gen.h \
+  /lved/project/components/settings_item/settings_item_gen.h \
+  /lved/project/components/settings_menu_line/settings_menu_line_gen.h \
+  /lved/project/components/settings_panel/settings_panel_gen.h \
+  /lved/project/components/toggle_switch/toggle_switch_gen.h \
+  /lved/project/components/top_bar/top_bar_gen.h \
+  /lved/project/screens/smartwatch/smartwatch_gen.h
 
 project/CMakeFiles/lib-ui.dir/ui.c.o: /lved/project/ui.c \
   /lved/project/ui.h \
@@ -9127,23 +16101,8 @@ project/CMakeFiles/lib-ui.dir/ui.c.o: /lved/project/ui.c \
   /lved/resources/lvgl/src/misc/lv_iter.h \
   /lved/resources/lvgl/src/misc/lv_circle_buf.h \
   /lved/resources/lvgl/src/misc/lv_tree.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache_entry.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_class.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_lru_rb.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache_private.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
   /lved/resources/lvgl/src/osal/lv_os.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/osal/lv_os_none.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_lru_ll.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_sc_da.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_cache_instance.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_image_header_cache.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_image_cache.h \
   /lved/resources/lvgl/src/tick/lv_tick.h \
   /lved/resources/lvgl/src/core/lv_obj.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
@@ -9198,6 +16157,7 @@ project/CMakeFiles/lib-ui.dir/ui.c.o: /lved/project/ui.c \
   /lved/resources/lvgl/src/misc/lv_profiler.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_matrix.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
   /lved/resources/lvgl/src/draw/lv_image_decoder.h \
   /lved/resources/lvgl/src/draw/lv_draw_buf.h \
   /lved/resources/lvgl/src/misc/lv_fs.h \
@@ -9377,6 +16337,7 @@ project/CMakeFiles/lib-ui.dir/ui.c.o: /lved/project/ui.c \
   /lved/resources/lvgl/src/others/xml/lv_xml_utils.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_load.h \
   /lved/resources/lvgl/src/others/test/lv_test.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/others/test/lv_test_indev.h \
@@ -9411,9 +16372,8 @@ project/CMakeFiles/lib-ui.dir/ui.c.o: /lved/project/ui.c \
   /lved/resources/lvgl/src/libs/gif/lv_gif.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
-  /lved/resources/lvgl/src/widgets/image/lv_image.h \
-  /lved/resources/lvgl/src/core/lv_obj_class.h \
+  /lved/resources/lvgl/src/libs/gstreamer/lv_gstreamer.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/libs/qrcode/lv_qrcode.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_color.h \
@@ -9472,6 +16432,9 @@ project/CMakeFiles/lib-ui.dir/ui.c.o: /lved/project/ui.c \
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/drivers/display/tft_espi/lv_tft_espi.h \
   /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/lovyan_gfx/lv_lovyan_gfx.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
   /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/drivers/display/ili9341/lv_ili9341.h \
@@ -9507,10 +16470,12 @@ project/CMakeFiles/lib-ui.dir/ui.c.o: /lved/project/ui.c \
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/indev/lv_indev.h \
   /lved/resources/lvgl/src/drivers/windows/lv_windows_display.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_glfw_window.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_window.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_opengles_texture.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_texture.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_glfw.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_egl.h \
   /lved/resources/lvgl/src/drivers/qnx/lv_qnx.h \
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/indev/lv_indev.h \
@@ -9528,13 +16493,20 @@ project/CMakeFiles/lib-ui.dir/ui.c.o: /lved/project/ui.c \
   /lved/resources/lvgl/src/lv_api_map_v9_2.h \
   /lved/resources/lvgl/src/lv_api_map_v9_3.h \
   /lved/project/widgets/wd_battery/wd_battery_gen.h \
+  /lved/project/widgets/wd_battery_v2/wd_battery_v2_gen.h \
   /lved/project/components/battery_indicator/battery_gen.h \
   /lved/project/components/battery_indicator_2/battery_indicator_2_gen.h \
+  /lved/project/components/battery_indicator_v2/battery_indicator_v2_gen.h \
   /lved/project/components/button/button_gen.h \
   /lved/project/components/charge_slider/charge_slider_gen.h \
   /lved/project/components/clock/clock_gen.h \
+  /lved/project/components/settings_item/settings_item_gen.h \
+  /lved/project/components/settings_menu_line/settings_menu_line_gen.h \
+  /lved/project/components/settings_panel/settings_panel_gen.h \
+  /lved/project/components/toggle_switch/toggle_switch_gen.h \
   /lved/project/components/top_bar/top_bar_gen.h \
-  /lved/project/screens/smartwatch_gen.h
+  /lved/project/screens/smartwatch/smartwatch_gen.h \
+  /lved/project/screens/smartwatch_v2/smartwatch_v2_gen.h
 
 project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery.c.o: /lved/project/widgets/wd_battery/wd_battery.c \
   /lved/project/widgets/wd_battery/wd_battery_private_gen.h \
@@ -9695,6 +16667,8 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery.c.o: /lved/project/w
   /lved/resources/lvgl/src/misc/lv_style_gen.h \
   /lved/resources/lvgl/src/misc/lv_profiler.h \
   /lved/resources/lvgl/src/misc/lv_matrix.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
   /lved/resources/lvgl/src/draw/lv_image_decoder.h \
   /lved/resources/lvgl/src/draw/lv_draw_buf.h \
   /lved/resources/lvgl/src/misc/lv_fs.h \
@@ -9706,14 +16680,8 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery.c.o: /lved/project/w
   /lved/resources/lvgl/src/misc/lv_types.h \
   /lved/resources/lvgl/src/misc/lv_timer.h \
   /lved/resources/lvgl/src/misc/lv_event.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/misc/lv_array.h \
   /lved/resources/lvgl/src/misc/lv_color.h \
   /lved/resources/lvgl/src/misc/lv_area.h \
-  /lved/resources/lvgl/src/osal/lv_os.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/osal/lv_os_none.h \
   /lved/resources/lvgl/src/draw/lv_draw_vector.h \
   /lved/resources/lvgl/src/misc/lv_array.h \
   /lved/resources/lvgl/src/misc/lv_matrix.h \
@@ -9744,7 +16712,11 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery.c.o: /lved/project/w
   /lved/resources/lvgl/src/misc/lv_log.h \
   /lved/resources/lvgl/src/misc/lv_style.h \
   /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/osal/lv_os_private.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/osal/lv_os.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/osal/lv_os_none.h \
   /lved/resources/lvgl/src/others/sysmon/lv_sysmon.h \
   /lved/resources/lvgl/src/misc/lv_timer.h \
   /lved/resources/lvgl/src/others/observer/lv_observer.h \
@@ -9797,7 +16769,7 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery.c.o: /lved/project/w
   /lved/resources/lvgl/src/tick/lv_tick_private.h \
   /lved/resources/lvgl/src/draw/lv_draw_buf_private.h \
   /lved/resources/lvgl/src/draw/lv_draw_private.h \
-  /lved/resources/lvgl/src/osal/lv_os.h \
+  /lved/resources/lvgl/src/osal/lv_os_private.h \
   /lved/resources/lvgl/src/misc/cache/lv_cache.h \
   /lved/resources/lvgl/src/misc/lv_types.h \
   /lved/resources/lvgl/src/misc/cache/lv_cache_entry.h \
@@ -9805,7 +16777,7 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery.c.o: /lved/project/w
   /lved/resources/lvgl/src/misc/cache/class/lv_cache_lru_rb.h \
   /lved/resources/lvgl/src/misc/cache/lv_cache_private.h \
   /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/osal/lv_os.h \
+  /lved/resources/lvgl/src/osal/lv_os_private.h \
   /lved/resources/lvgl/src/misc/cache/class/lv_cache_lru_ll.h \
   /lved/resources/lvgl/src/misc/cache/class/lv_cache_sc_da.h \
   /lved/resources/lvgl/src/misc/cache/instance/lv_cache_instance.h \
@@ -9837,6 +16809,7 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery.c.o: /lved/project/w
   /lved/resources/lvgl/src/indev/lv_indev_gesture.h \
   /lved/resources/lvgl/src/misc/lv_text_private.h \
   /lved/resources/lvgl/src/misc/lv_text.h \
+  /lved/resources/lvgl/src/misc/cache/lv_cache.h \
   /lved/resources/lvgl/src/misc/cache/lv_cache_entry_private.h \
   /lved/resources/lvgl/src/misc/lv_types.h \
   /lved/resources/lvgl/src/misc/cache/lv_cache_private.h \
@@ -9875,6 +16848,7 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery.c.o: /lved/project/w
   /lved/resources/lvgl/src/others/xml/lv_xml_utils.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_load.h \
   /lved/resources/lvgl/src/others/xml/parsers/lv_xml_obj_parser.h \
   /lved/resources/lvgl/src/others/xml/lv_xml.h \
   /lved/resources/lvgl/src/others/xml/lv_xml_parser.h \
@@ -9908,14 +16882,6 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery.c.o: /lved/project/w
   /lved/resources/lvgl/src/misc/lv_types.h \
   /lved/resources/lvgl/src/misc/lv_color.h \
   /lved/resources/lvgl/src/widgets/canvas/lv_canvas.h \
-  /lved/resources/lvgl/src/libs/gif/lv_gif_private.h \
-  /lved/resources/lvgl/src/widgets/image/lv_image_private.h \
-  /lved/resources/lvgl/src/libs/gif/lv_gif.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
-  /lved/resources/lvgl/src/widgets/image/lv_image.h \
-  /lved/resources/lvgl/src/core/lv_obj_class.h \
   /lved/resources/lvgl/src/draw/lv_draw_triangle_private.h \
   /lved/resources/lvgl/src/draw/lv_draw_triangle.h \
   /lved/resources/lvgl/src/draw/lv_draw_private.h \
@@ -10177,7 +17143,7 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery.c.o: /lved/project/w
   /lved/resources/lvgl/src/misc/lv_iter.h \
   /lved/resources/lvgl/src/misc/lv_circle_buf.h \
   /lved/resources/lvgl/src/misc/lv_tree.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache.h \
+  /lved/resources/lvgl/src/osal/lv_os.h \
   /lved/resources/lvgl/src/tick/lv_tick.h \
   /lved/resources/lvgl/src/font/lv_font.h \
   /lved/resources/lvgl/src/font/lv_binfont_loader.h \
@@ -10232,6 +17198,11 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery.c.o: /lved/project/w
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/libs/gltf/gltf_view/lv_gltf.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/gif/lv_gif.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/libs/gstreamer/lv_gstreamer.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/libs/tjpgd/lv_tjpgd.h \
   /lved/resources/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
@@ -10264,6 +17235,9 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery.c.o: /lved/project/w
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/drivers/display/tft_espi/lv_tft_espi.h \
   /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/lovyan_gfx/lv_lovyan_gfx.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
   /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/drivers/display/ili9341/lv_ili9341.h \
@@ -10295,10 +17269,12 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery.c.o: /lved/project/w
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/indev/lv_indev.h \
   /lved/resources/lvgl/src/drivers/windows/lv_windows_display.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_glfw_window.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_window.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_opengles_texture.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_texture.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_glfw.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_egl.h \
   /lved/resources/lvgl/src/drivers/qnx/lv_qnx.h \
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/indev/lv_indev.h \
@@ -10316,13 +17292,20 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery.c.o: /lved/project/w
   /lved/resources/lvgl/src/lv_api_map_v9_2.h \
   /lved/resources/lvgl/src/lv_api_map_v9_3.h \
   /lved/project/battery_indicator_gen.h \
+  /lved/project/widgets/wd_battery_v2/wd_battery_v2_gen.h \
   /lved/project/components/battery_indicator/battery_gen.h \
   /lved/project/components/battery_indicator_2/battery_indicator_2_gen.h \
+  /lved/project/components/battery_indicator_v2/battery_indicator_v2_gen.h \
   /lved/project/components/button/button_gen.h \
   /lved/project/components/charge_slider/charge_slider_gen.h \
   /lved/project/components/clock/clock_gen.h \
+  /lved/project/components/settings_item/settings_item_gen.h \
+  /lved/project/components/settings_menu_line/settings_menu_line_gen.h \
+  /lved/project/components/settings_panel/settings_panel_gen.h \
+  /lved/project/components/toggle_switch/toggle_switch_gen.h \
   /lved/project/components/top_bar/top_bar_gen.h \
-  /lved/project/screens/smartwatch_gen.h \
+  /lved/project/screens/smartwatch/smartwatch_gen.h \
+  /lved/project/screens/smartwatch_v2/smartwatch_v2_gen.h \
   /lved/project/ui.h \
   /lved/project/battery_indicator.h
 
@@ -10485,6 +17468,8 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_gen.c.o: /lved/proje
   /lved/resources/lvgl/src/misc/lv_style_gen.h \
   /lved/resources/lvgl/src/misc/lv_profiler.h \
   /lved/resources/lvgl/src/misc/lv_matrix.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
   /lved/resources/lvgl/src/draw/lv_image_decoder.h \
   /lved/resources/lvgl/src/draw/lv_draw_buf.h \
   /lved/resources/lvgl/src/misc/lv_fs.h \
@@ -10496,14 +17481,8 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_gen.c.o: /lved/proje
   /lved/resources/lvgl/src/misc/lv_types.h \
   /lved/resources/lvgl/src/misc/lv_timer.h \
   /lved/resources/lvgl/src/misc/lv_event.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/misc/lv_array.h \
   /lved/resources/lvgl/src/misc/lv_color.h \
   /lved/resources/lvgl/src/misc/lv_area.h \
-  /lved/resources/lvgl/src/osal/lv_os.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/osal/lv_os_none.h \
   /lved/resources/lvgl/src/draw/lv_draw_vector.h \
   /lved/resources/lvgl/src/misc/lv_array.h \
   /lved/resources/lvgl/src/misc/lv_matrix.h \
@@ -10534,7 +17513,11 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_gen.c.o: /lved/proje
   /lved/resources/lvgl/src/misc/lv_log.h \
   /lved/resources/lvgl/src/misc/lv_style.h \
   /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/osal/lv_os_private.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/osal/lv_os.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/osal/lv_os_none.h \
   /lved/resources/lvgl/src/others/sysmon/lv_sysmon.h \
   /lved/resources/lvgl/src/misc/lv_timer.h \
   /lved/resources/lvgl/src/others/observer/lv_observer.h \
@@ -10587,7 +17570,7 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_gen.c.o: /lved/proje
   /lved/resources/lvgl/src/tick/lv_tick_private.h \
   /lved/resources/lvgl/src/draw/lv_draw_buf_private.h \
   /lved/resources/lvgl/src/draw/lv_draw_private.h \
-  /lved/resources/lvgl/src/osal/lv_os.h \
+  /lved/resources/lvgl/src/osal/lv_os_private.h \
   /lved/resources/lvgl/src/misc/cache/lv_cache.h \
   /lved/resources/lvgl/src/misc/lv_types.h \
   /lved/resources/lvgl/src/misc/cache/lv_cache_entry.h \
@@ -10595,7 +17578,7 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_gen.c.o: /lved/proje
   /lved/resources/lvgl/src/misc/cache/class/lv_cache_lru_rb.h \
   /lved/resources/lvgl/src/misc/cache/lv_cache_private.h \
   /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/osal/lv_os.h \
+  /lved/resources/lvgl/src/osal/lv_os_private.h \
   /lved/resources/lvgl/src/misc/cache/class/lv_cache_lru_ll.h \
   /lved/resources/lvgl/src/misc/cache/class/lv_cache_sc_da.h \
   /lved/resources/lvgl/src/misc/cache/instance/lv_cache_instance.h \
@@ -10627,6 +17610,7 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_gen.c.o: /lved/proje
   /lved/resources/lvgl/src/indev/lv_indev_gesture.h \
   /lved/resources/lvgl/src/misc/lv_text_private.h \
   /lved/resources/lvgl/src/misc/lv_text.h \
+  /lved/resources/lvgl/src/misc/cache/lv_cache.h \
   /lved/resources/lvgl/src/misc/cache/lv_cache_entry_private.h \
   /lved/resources/lvgl/src/misc/lv_types.h \
   /lved/resources/lvgl/src/misc/cache/lv_cache_private.h \
@@ -10665,6 +17649,7 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_gen.c.o: /lved/proje
   /lved/resources/lvgl/src/others/xml/lv_xml_utils.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_load.h \
   /lved/resources/lvgl/src/others/xml/parsers/lv_xml_obj_parser.h \
   /lved/resources/lvgl/src/others/xml/lv_xml.h \
   /lved/resources/lvgl/src/others/xml/lv_xml_parser.h \
@@ -10698,14 +17683,6 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_gen.c.o: /lved/proje
   /lved/resources/lvgl/src/misc/lv_types.h \
   /lved/resources/lvgl/src/misc/lv_color.h \
   /lved/resources/lvgl/src/widgets/canvas/lv_canvas.h \
-  /lved/resources/lvgl/src/libs/gif/lv_gif_private.h \
-  /lved/resources/lvgl/src/widgets/image/lv_image_private.h \
-  /lved/resources/lvgl/src/libs/gif/lv_gif.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
-  /lved/resources/lvgl/src/widgets/image/lv_image.h \
-  /lved/resources/lvgl/src/core/lv_obj_class.h \
   /lved/resources/lvgl/src/draw/lv_draw_triangle_private.h \
   /lved/resources/lvgl/src/draw/lv_draw_triangle.h \
   /lved/resources/lvgl/src/draw/lv_draw_private.h \
@@ -10967,7 +17944,7 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_gen.c.o: /lved/proje
   /lved/resources/lvgl/src/misc/lv_iter.h \
   /lved/resources/lvgl/src/misc/lv_circle_buf.h \
   /lved/resources/lvgl/src/misc/lv_tree.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache.h \
+  /lved/resources/lvgl/src/osal/lv_os.h \
   /lved/resources/lvgl/src/tick/lv_tick.h \
   /lved/resources/lvgl/src/font/lv_font.h \
   /lved/resources/lvgl/src/font/lv_binfont_loader.h \
@@ -11022,6 +17999,11 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_gen.c.o: /lved/proje
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/libs/gltf/gltf_view/lv_gltf.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/gif/lv_gif.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/libs/gstreamer/lv_gstreamer.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/libs/tjpgd/lv_tjpgd.h \
   /lved/resources/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
@@ -11054,6 +18036,9 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_gen.c.o: /lved/proje
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/drivers/display/tft_espi/lv_tft_espi.h \
   /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/lovyan_gfx/lv_lovyan_gfx.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
   /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/drivers/display/ili9341/lv_ili9341.h \
@@ -11085,10 +18070,12 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_gen.c.o: /lved/proje
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/indev/lv_indev.h \
   /lved/resources/lvgl/src/drivers/windows/lv_windows_display.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_glfw_window.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_window.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_opengles_texture.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_texture.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_glfw.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_egl.h \
   /lved/resources/lvgl/src/drivers/qnx/lv_qnx.h \
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/indev/lv_indev.h \
@@ -11106,13 +18093,20 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_gen.c.o: /lved/proje
   /lved/resources/lvgl/src/lv_api_map_v9_2.h \
   /lved/resources/lvgl/src/lv_api_map_v9_3.h \
   /lved/project/battery_indicator_gen.h \
+  /lved/project/widgets/wd_battery_v2/wd_battery_v2_gen.h \
   /lved/project/components/battery_indicator/battery_gen.h \
   /lved/project/components/battery_indicator_2/battery_indicator_2_gen.h \
+  /lved/project/components/battery_indicator_v2/battery_indicator_v2_gen.h \
   /lved/project/components/button/button_gen.h \
   /lved/project/components/charge_slider/charge_slider_gen.h \
   /lved/project/components/clock/clock_gen.h \
+  /lved/project/components/settings_item/settings_item_gen.h \
+  /lved/project/components/settings_menu_line/settings_menu_line_gen.h \
+  /lved/project/components/settings_panel/settings_panel_gen.h \
+  /lved/project/components/toggle_switch/toggle_switch_gen.h \
   /lved/project/components/top_bar/top_bar_gen.h \
-  /lved/project/screens/smartwatch_gen.h \
+  /lved/project/screens/smartwatch/smartwatch_gen.h \
+  /lved/project/screens/smartwatch_v2/smartwatch_v2_gen.h \
   /lved/project/ui.h \
   /lved/project/battery_indicator.h
 
@@ -11258,23 +18252,8 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_xml_parser.c.o: /lve
   /lved/resources/lvgl/src/misc/lv_iter.h \
   /lved/resources/lvgl/src/misc/lv_circle_buf.h \
   /lved/resources/lvgl/src/misc/lv_tree.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache_entry.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_class.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_lru_rb.h \
-  /lved/resources/lvgl/src/misc/cache/lv_cache_private.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
   /lved/resources/lvgl/src/osal/lv_os.h \
-  /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/osal/lv_os_none.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_lru_ll.h \
-  /lved/resources/lvgl/src/misc/cache/class/lv_cache_sc_da.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_cache_instance.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_image_header_cache.h \
-  /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/misc/cache/instance/lv_image_cache.h \
   /lved/resources/lvgl/src/tick/lv_tick.h \
   /lved/resources/lvgl/src/core/lv_obj.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
@@ -11329,6 +18308,7 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_xml_parser.c.o: /lve
   /lved/resources/lvgl/src/misc/lv_profiler.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_matrix.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
   /lved/resources/lvgl/src/draw/lv_image_decoder.h \
   /lved/resources/lvgl/src/draw/lv_draw_buf.h \
   /lved/resources/lvgl/src/misc/lv_fs.h \
@@ -11508,6 +18488,7 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_xml_parser.c.o: /lve
   /lved/resources/lvgl/src/others/xml/lv_xml_utils.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_load.h \
   /lved/resources/lvgl/src/others/test/lv_test.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/others/test/lv_test_indev.h \
@@ -11542,9 +18523,8 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_xml_parser.c.o: /lve
   /lved/resources/lvgl/src/libs/gif/lv_gif.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_types.h \
-  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
-  /lved/resources/lvgl/src/widgets/image/lv_image.h \
-  /lved/resources/lvgl/src/core/lv_obj_class.h \
+  /lved/resources/lvgl/src/libs/gstreamer/lv_gstreamer.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/libs/qrcode/lv_qrcode.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
   /lved/resources/lvgl/src/misc/lv_color.h \
@@ -11603,6 +18583,9 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_xml_parser.c.o: /lve
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/drivers/display/tft_espi/lv_tft_espi.h \
   /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/lovyan_gfx/lv_lovyan_gfx.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
   /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/drivers/display/ili9341/lv_ili9341.h \
@@ -11638,10 +18621,12 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_xml_parser.c.o: /lve
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/indev/lv_indev.h \
   /lved/resources/lvgl/src/drivers/windows/lv_windows_display.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_glfw_window.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_window.h \
   /lved/resources/lvgl/src/lv_conf_internal.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_opengles_texture.h \
-  /lved/resources/lvgl/src/drivers/glfw/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_texture.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_glfw.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_egl.h \
   /lved/resources/lvgl/src/drivers/qnx/lv_qnx.h \
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/indev/lv_indev.h \
@@ -11659,13 +18644,20 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_xml_parser.c.o: /lve
   /lved/resources/lvgl/src/lv_api_map_v9_2.h \
   /lved/resources/lvgl/src/lv_api_map_v9_3.h \
   /lved/project/battery_indicator_gen.h \
+  /lved/project/widgets/wd_battery_v2/wd_battery_v2_gen.h \
   /lved/project/components/battery_indicator/battery_gen.h \
   /lved/project/components/battery_indicator_2/battery_indicator_2_gen.h \
+  /lved/project/components/battery_indicator_v2/battery_indicator_v2_gen.h \
   /lved/project/components/button/button_gen.h \
   /lved/project/components/charge_slider/charge_slider_gen.h \
   /lved/project/components/clock/clock_gen.h \
+  /lved/project/components/settings_item/settings_item_gen.h \
+  /lved/project/components/settings_menu_line/settings_menu_line_gen.h \
+  /lved/project/components/settings_panel/settings_panel_gen.h \
+  /lved/project/components/toggle_switch/toggle_switch_gen.h \
   /lved/project/components/top_bar/top_bar_gen.h \
-  /lved/project/screens/smartwatch_gen.h \
+  /lved/project/screens/smartwatch/smartwatch_gen.h \
+  /lved/project/screens/smartwatch_v2/smartwatch_v2_gen.h \
   /lved/resources/lvgl/src/others/xml/parsers/lv_xml_obj_parser.h \
   /lved/resources/lvgl/src/others/xml/lv_xml.h \
   /lved/resources/lvgl/src/others/xml/lv_xml_parser.h \
@@ -11674,8 +18666,2171 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_xml_parser.c.o: /lve
   /lved/resources/lvgl/src/misc/lv_ll.h \
   /lved/project/widgets/wd_battery/wd_battery.h
 
+project/CMakeFiles/lib-ui.dir/widgets/wd_battery_v2/wd_battery_v2.c.o: /lved/project/widgets/wd_battery_v2/wd_battery_v2.c \
+  /lved/project/widgets/wd_battery_v2/wd_battery_v2_private_gen.h \
+  /lved/resources/lvgl/lvgl_private.h \
+  /lved/resources/lvgl/src/core/lv_global.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/lv_conf_kconfig.h \
+  /lved/resources/conf/lv_conf.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /emsdk/upstream/lib/clang/21/include/stdint.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdint.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/bits/stdint.h \
+  /emsdk/upstream/lib/clang/21/include/stddef.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stddef.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_header_macro.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_ptrdiff_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_size_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_wchar_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_null.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_max_align_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_offsetof.h \
+  /emsdk/upstream/lib/clang/21/include/stdbool.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdbool.h \
+  /emsdk/upstream/lib/clang/21/include/inttypes.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/inttypes.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/features.h \
+  /emsdk/upstream/lib/clang/21/include/limits.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/limits.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/bits/limits.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/stdarg.h \
+  /emsdk/upstream/lib/clang/21/include/stdarg.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdarg.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_header_macro.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg___gnuc_va_list.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_va_list.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_va_arg.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg___va_copy.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_va_copy.h \
+  /lved/resources/lvgl/src/draw/lv_draw.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_style.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/font/lv_symbol_def.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_math.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_assert.h \
+  /lved/resources/lvgl/src/misc/lv_log.h \
+  /lved/resources/lvgl/src/stdlib/lv_mem.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/stdlib/lv_string.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_main.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_stdinc.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_config.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_platform.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/begin_code.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/close_code.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_config_emscripten.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/sys/types.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/endian.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/sys/select.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdio.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/wasi/api.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/stdlib.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdlib.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/alloca.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/string.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/string.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/strings.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/wchar.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/ctype.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/math.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/math.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_assert.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_atomic.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_audio.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_error.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_endian.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_mutex.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_thread.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_rwops.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_clipboard.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_cpuinfo.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_events.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_video.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_pixels.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_rect.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_surface.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_blendmode.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_keyboard.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_keycode.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_scancode.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_mouse.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_joystick.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_guid.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_gamecontroller.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_sensor.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_quit.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_gesture.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_touch.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_filesystem.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_haptic.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_hidapi.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_hints.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_loadso.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_log.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_messagebox.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_metal.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_power.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_render.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_shape.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_system.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_timer.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_version.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_locale.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_misc.h \
+  /lved/resources/lvgl/src/misc/lv_palette.h \
+  /lved/resources/lvgl/src/misc/lv_color_op.h \
+  /lved/resources/lvgl/src/stdlib/lv_string.h \
+  /lved/resources/lvgl/src/draw/lv_image_dsc.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_anim.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_math.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/tick/lv_tick.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_ll.h \
+  /lved/resources/lvgl/src/misc/lv_text.h \
+  /lved/resources/lvgl/src/stdlib/lv_sprintf.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_assert.h \
+  /lved/resources/lvgl/src/misc/lv_bidi.h \
+  /lved/resources/lvgl/src/misc/lv_grad.h \
+  /lved/resources/lvgl/src/layouts/lv_layout.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/layouts/flex/lv_flex.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/layouts/grid/lv_grid.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_style_gen.h \
+  /lved/resources/lvgl/src/misc/lv_profiler.h \
+  /lved/resources/lvgl/src/misc/lv_matrix.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/draw/lv_image_decoder.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/misc/lv_fs.h \
+  /lved/resources/lvgl/src/draw/sw/lv_draw_sw.h \
+  /lved/resources/lvgl/src/draw/lv_draw.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/draw/lv_draw_vector.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/misc/lv_matrix.h \
+  /lved/resources/lvgl/src/draw/lv_draw_image.h \
+  /lved/resources/lvgl/src/draw/lv_image_decoder.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/misc/lv_style.h \
+  /lved/resources/lvgl/src/draw/lv_draw_triangle.h \
+  /lved/resources/lvgl/src/draw/lv_draw_rect.h \
+  /lved/resources/lvgl/src/draw/lv_draw_label.h \
+  /lved/resources/lvgl/src/misc/lv_bidi.h \
+  /lved/resources/lvgl/src/misc/lv_text.h \
+  /lved/resources/lvgl/src/draw/lv_draw_line.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/draw/lv_draw_arc.h \
+  /lved/resources/lvgl/src/draw/sw/lv_draw_sw_utils.h \
+  /lved/resources/lvgl/src/draw/sw/blend/lv_draw_sw_blend.h \
+  /lved/resources/lvgl/src/draw/sw/lv_draw_sw_mask.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_math.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_style.h \
+  /lved/resources/lvgl/src/misc/lv_anim.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_color_op.h \
+  /lved/resources/lvgl/src/misc/lv_ll.h \
+  /lved/resources/lvgl/src/misc/lv_log.h \
+  /lved/resources/lvgl/src/misc/lv_style.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/osal/lv_os_private.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/osal/lv_os.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/osal/lv_os_none.h \
+  /lved/resources/lvgl/src/others/sysmon/lv_sysmon.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_style.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_assert.h \
+  /lved/resources/lvgl/src/core/lv_obj_tree.h \
+  /lved/resources/lvgl/src/misc/lv_anim.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/core/lv_obj_pos.h \
+  /lved/resources/lvgl/src/core/lv_obj_scroll.h \
+  /lved/resources/lvgl/src/core/lv_obj_style.h \
+  /lved/resources/lvgl/src/misc/lv_bidi.h \
+  /lved/resources/lvgl/src/core/lv_obj_style_gen.h \
+  /lved/resources/lvgl/src/core/lv_obj_style.h \
+  /lved/resources/lvgl/src/core/lv_obj_draw.h \
+  /lved/resources/lvgl/src/draw/lv_draw_rect.h \
+  /lved/resources/lvgl/src/draw/lv_draw_label.h \
+  /lved/resources/lvgl/src/draw/lv_draw_image.h \
+  /lved/resources/lvgl/src/draw/lv_draw_line.h \
+  /lved/resources/lvgl/src/draw/lv_draw_arc.h \
+  /lved/resources/lvgl/src/draw/lv_draw_triangle.h \
+  /lved/resources/lvgl/src/core/lv_obj_class.h \
+  /lved/resources/lvgl/src/core/lv_obj_property.h \
+  /lved/resources/lvgl/src/core/lv_obj_event.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/core/lv_group.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_ll.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/core/lv_group.h \
+  /lved/resources/lvgl/src/stdlib/builtin/lv_tlsf.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/font/lv_font_fmt_txt_private.h \
+  /lved/resources/lvgl/src/font/lv_font_fmt_txt.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/tick/lv_tick.h \
+  /lved/resources/lvgl/src/layouts/lv_layout.h \
+  /lved/resources/lvgl/src/misc/lv_timer_private.h \
+  /lved/resources/lvgl/src/misc/lv_anim_private.h \
+  /lved/resources/lvgl/src/tick/lv_tick_private.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf_private.h \
+  /lved/resources/lvgl/src/draw/lv_draw_private.h \
+  /lved/resources/lvgl/src/osal/lv_os_private.h \
+  /lved/resources/lvgl/src/misc/cache/lv_cache.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/cache/lv_cache_entry.h \
+  /lved/resources/lvgl/src/misc/cache/class/lv_cache_class.h \
+  /lved/resources/lvgl/src/misc/cache/class/lv_cache_lru_rb.h \
+  /lved/resources/lvgl/src/misc/cache/lv_cache_private.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/osal/lv_os_private.h \
+  /lved/resources/lvgl/src/misc/cache/class/lv_cache_lru_ll.h \
+  /lved/resources/lvgl/src/misc/cache/class/lv_cache_sc_da.h \
+  /lved/resources/lvgl/src/misc/cache/instance/lv_cache_instance.h \
+  /lved/resources/lvgl/src/misc/cache/instance/lv_image_header_cache.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/cache/instance/lv_image_cache.h \
+  /lved/resources/lvgl/src/draw/sw/lv_draw_sw_private.h \
+  /lved/resources/lvgl/src/draw/lv_draw_private.h \
+  /lved/resources/lvgl/src/draw/sw/lv_draw_sw_mask_private.h \
+  /lved/resources/lvgl/src/draw/sw/lv_draw_sw_mask.h \
+  /lved/resources/lvgl/src/stdlib/builtin/lv_tlsf_private.h \
+  /lved/resources/lvgl/src/others/sysmon/lv_sysmon_private.h \
+  /lved/resources/lvgl/src/others/test/lv_test_private.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/indev/lv_indev_gesture.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/layouts/lv_layout_private.h \
+  /lved/resources/lvgl/src/display/lv_display_private.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/draw/lv_draw.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev_private.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/misc/lv_anim.h \
+  /lved/resources/lvgl/src/indev/lv_indev_scroll.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/indev/lv_indev_gesture.h \
+  /lved/resources/lvgl/src/misc/lv_text_private.h \
+  /lved/resources/lvgl/src/misc/lv_text.h \
+  /lved/resources/lvgl/src/misc/cache/lv_cache.h \
+  /lved/resources/lvgl/src/misc/cache/lv_cache_entry_private.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/cache/lv_cache_private.h \
+  /lved/resources/lvgl/src/layouts/lv_layout_private.h \
+  /lved/resources/lvgl/src/stdlib/lv_mem_private.h \
+  /lved/resources/lvgl/src/stdlib/lv_mem.h \
+  /lved/resources/lvgl/src/others/file_explorer/lv_file_explorer_private.h \
+  /lved/resources/lvgl/src/core/lv_obj_private.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/file_explorer/lv_file_explorer.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/others/sysmon/lv_sysmon_private.h \
+  /lved/resources/lvgl/src/others/monkey/lv_monkey_private.h \
+  /lved/resources/lvgl/src/others/monkey/lv_monkey.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/others/ime/lv_ime_pinyin_private.h \
+  /lved/resources/lvgl/src/core/lv_obj_private.h \
+  /lved/resources/lvgl/src/others/ime/lv_ime_pinyin.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/fragment/lv_fragment_private.h \
+  /lved/resources/lvgl/src/others/fragment/lv_fragment.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer_private.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_private.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_test.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_translation.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_component.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_widget.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_utils.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_load.h \
+  /lved/resources/lvgl/src/others/xml/parsers/lv_xml_obj_parser.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_parser.h \
+  /lved/resources/lvgl/src/misc/lv_style.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_component_private.h \
+  /lved/resources/lvgl/src/misc/lv_ll.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_base_types.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_style.h \
+  /lved/resources/lvgl/src/core/lv_obj_style.h \
+  /lved/resources/lvgl/src/libs/qrcode/lv_qrcode_private.h \
+  /lved/resources/lvgl/src/widgets/canvas/lv_canvas_private.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image_private.h \
+  /lved/resources/lvgl/src/core/lv_obj_private.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/misc/lv_fs.h \
+  /lved/resources/lvgl/src/draw/lv_draw.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/canvas/lv_canvas.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/draw/lv_draw_image.h \
+  /lved/resources/lvgl/src/libs/qrcode/lv_qrcode.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/libs/barcode/lv_barcode_private.h \
+  /lved/resources/lvgl/src/widgets/canvas/lv_canvas_private.h \
+  /lved/resources/lvgl/src/libs/barcode/lv_barcode.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/widgets/canvas/lv_canvas.h \
+  /lved/resources/lvgl/src/draw/lv_draw_triangle_private.h \
+  /lved/resources/lvgl/src/draw/lv_draw_triangle.h \
+  /lved/resources/lvgl/src/draw/lv_draw_private.h \
+  /lved/resources/lvgl/src/draw/lv_draw_rect_private.h \
+  /lved/resources/lvgl/src/draw/lv_draw_rect.h \
+  /lved/resources/lvgl/src/draw/lv_draw_image_private.h \
+  /lved/resources/lvgl/src/draw/lv_draw_image.h \
+  /lved/resources/lvgl/src/draw/lv_image_decoder_private.h \
+  /lved/resources/lvgl/src/draw/lv_image_decoder.h \
+  /lved/resources/lvgl/src/misc/cache/lv_cache.h \
+  /lved/resources/lvgl/src/draw/lv_draw_label_private.h \
+  /lved/resources/lvgl/src/draw/lv_draw_label.h \
+  /lved/resources/lvgl/src/draw/lv_draw_vector_private.h \
+  /lved/resources/lvgl/src/draw/lv_draw_vector.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf_private.h \
+  /lved/resources/lvgl/src/draw/lv_draw_mask_private.h \
+  /lved/resources/lvgl/src/draw/lv_draw_mask.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_style.h \
+  /lved/resources/lvgl/src/draw/lv_draw.h \
+  /lved/resources/lvgl/src/draw/sw/lv_draw_sw_private.h \
+  /lved/resources/lvgl/src/draw/sw/lv_draw_sw_mask_private.h \
+  /lved/resources/lvgl/src/draw/sw/blend/lv_draw_sw_blend_private.h \
+  /lved/resources/lvgl/src/draw/sw/blend/lv_draw_sw_blend.h \
+  /lved/resources/lvgl/src/drivers/libinput/lv_xkb_private.h \
+  /lved/resources/lvgl/src/drivers/libinput/lv_xkb.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/libinput/lv_libinput_private.h \
+  /lved/resources/lvgl/src/drivers/libinput/lv_libinput.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/evdev/lv_evdev_private.h \
+  /lved/resources/lvgl/src/drivers/evdev/lv_evdev.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/font/lv_font_fmt_txt_private.h \
+  /lved/resources/lvgl/src/themes/lv_theme_private.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/themes/default/lv_theme_default.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/themes/mono/lv_theme_mono.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/themes/simple/lv_theme_simple.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/core/lv_refr_private.h \
+  /lved/resources/lvgl/src/core/lv_refr.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/core/lv_obj_style_private.h \
+  /lved/resources/lvgl/src/core/lv_obj_style.h \
+  /lved/resources/lvgl/src/core/lv_obj_private.h \
+  /lved/resources/lvgl/src/core/lv_obj_scroll_private.h \
+  /lved/resources/lvgl/src/core/lv_obj_scroll.h \
+  /lved/resources/lvgl/src/core/lv_obj_draw_private.h \
+  /lved/resources/lvgl/src/core/lv_obj_draw.h \
+  /lved/resources/lvgl/src/core/lv_obj_class_private.h \
+  /lved/resources/lvgl/src/core/lv_obj_class.h \
+  /lved/resources/lvgl/src/core/lv_group_private.h \
+  /lved/resources/lvgl/src/core/lv_group.h \
+  /lved/resources/lvgl/src/core/lv_obj_event_private.h \
+  /lved/resources/lvgl/src/core/lv_obj_event.h \
+  /lved/resources/lvgl/src/misc/lv_timer_private.h \
+  /lved/resources/lvgl/src/misc/lv_area_private.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_fs_private.h \
+  /lved/resources/lvgl/src/misc/lv_fs.h \
+  /lved/resources/lvgl/src/misc/lv_profiler_builtin_private.h \
+  /lved/resources/lvgl/src/misc/lv_profiler_builtin.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_event_private.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/misc/lv_bidi_private.h \
+  /lved/resources/lvgl/src/misc/lv_bidi.h \
+  /lved/resources/lvgl/src/misc/lv_rb_private.h \
+  /lved/resources/lvgl/src/misc/lv_rb.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_assert.h \
+  /lved/resources/lvgl/src/misc/lv_style_private.h \
+  /lved/resources/lvgl/src/misc/lv_style.h \
+  /lved/resources/lvgl/src/misc/lv_color_op_private.h \
+  /lved/resources/lvgl/src/misc/lv_color_op.h \
+  /lved/resources/lvgl/src/misc/lv_anim_private.h \
+  /lved/resources/lvgl/src/widgets/msgbox/lv_msgbox_private.h \
+  /lved/resources/lvgl/src/widgets/msgbox/lv_msgbox.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/core/lv_obj_private.h \
+  /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix_private.h \
+  /lved/resources/lvgl/src/core/lv_obj_private.h \
+  /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/slider/lv_slider_private.h \
+  /lved/resources/lvgl/src/widgets/bar/lv_bar_private.h \
+  /lved/resources/lvgl/src/core/lv_obj_private.h \
+  /lved/resources/lvgl/src/widgets/bar/lv_bar.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/misc/lv_anim.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/font/lv_symbol_def.h \
+  /lved/resources/lvgl/src/misc/lv_text.h \
+  /lved/resources/lvgl/src/draw/lv_draw.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/slider/lv_slider.h \
+  /lved/resources/lvgl/src/widgets/switch/lv_switch_private.h \
+  /lved/resources/lvgl/src/widgets/switch/lv_switch.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/core/lv_obj_private.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar_private.h \
+  /lved/resources/lvgl/src/core/lv_obj_private.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar.h \
+  /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar_header_arrow.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar_chinese.h \
+  /lved/resources/lvgl/src/widgets/imagebutton/lv_imagebutton_private.h \
+  /lved/resources/lvgl/src/widgets/imagebutton/lv_imagebutton.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/core/lv_obj_private.h \
+  /lved/resources/lvgl/src/widgets/bar/lv_bar_private.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image_private.h \
+  /lved/resources/lvgl/src/widgets/textarea/lv_textarea_private.h \
+  /lved/resources/lvgl/src/core/lv_obj_private.h \
+  /lved/resources/lvgl/src/widgets/textarea/lv_textarea.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/table/lv_table_private.h \
+  /lved/resources/lvgl/src/widgets/table/lv_table.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/core/lv_obj_private.h \
+  /lved/resources/lvgl/src/widgets/checkbox/lv_checkbox_private.h \
+  /lved/resources/lvgl/src/widgets/checkbox/lv_checkbox.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/core/lv_obj_private.h \
+  /lved/resources/lvgl/src/widgets/roller/lv_roller_private.h \
+  /lved/resources/lvgl/src/widgets/roller/lv_roller.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/core/lv_obj_private.h \
+  /lved/resources/lvgl/src/widgets/win/lv_win_private.h \
+  /lved/resources/lvgl/src/core/lv_obj_private.h \
+  /lved/resources/lvgl/src/widgets/win/lv_win.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/keyboard/lv_keyboard_private.h \
+  /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix_private.h \
+  /lved/resources/lvgl/src/widgets/keyboard/lv_keyboard.h \
+  /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
+  /lved/resources/lvgl/src/widgets/line/lv_line_private.h \
+  /lved/resources/lvgl/src/core/lv_obj_private.h \
+  /lved/resources/lvgl/src/widgets/line/lv_line.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/animimage/lv_animimage_private.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image_private.h \
+  /lved/resources/lvgl/src/misc/lv_anim_private.h \
+  /lved/resources/lvgl/src/widgets/animimage/lv_animimage.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/dropdown/lv_dropdown_private.h \
+  /lved/resources/lvgl/src/core/lv_obj_private.h \
+  /lved/resources/lvgl/src/widgets/dropdown/lv_dropdown.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/menu/lv_menu_private.h \
+  /lved/resources/lvgl/src/core/lv_obj_private.h \
+  /lved/resources/lvgl/src/widgets/menu/lv_menu.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/chart/lv_chart_private.h \
+  /lved/resources/lvgl/src/core/lv_obj_private.h \
+  /lved/resources/lvgl/src/widgets/chart/lv_chart.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/button/lv_button_private.h \
+  /lved/resources/lvgl/src/core/lv_obj_private.h \
+  /lved/resources/lvgl/src/widgets/button/lv_button.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/scale/lv_scale_private.h \
+  /lved/resources/lvgl/src/widgets/scale/lv_scale.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/line/lv_line.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/core/lv_obj_private.h \
+  /lved/resources/lvgl/src/widgets/led/lv_led_private.h \
+  /lved/resources/lvgl/src/widgets/led/lv_led.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/core/lv_obj_private.h \
+  /lved/resources/lvgl/src/widgets/arc/lv_arc_private.h \
+  /lved/resources/lvgl/src/core/lv_obj_private.h \
+  /lved/resources/lvgl/src/widgets/arc/lv_arc.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/tileview/lv_tileview_private.h \
+  /lved/resources/lvgl/src/core/lv_obj_private.h \
+  /lved/resources/lvgl/src/widgets/tileview/lv_tileview.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/spinbox/lv_spinbox_private.h \
+  /lved/resources/lvgl/src/widgets/textarea/lv_textarea_private.h \
+  /lved/resources/lvgl/src/widgets/spinbox/lv_spinbox.h \
+  /lved/resources/lvgl/src/widgets/textarea/lv_textarea.h \
+  /lved/resources/lvgl/src/widgets/span/lv_span_private.h \
+  /lved/resources/lvgl/src/core/lv_obj_private.h \
+  /lved/resources/lvgl/src/widgets/span/lv_span.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label_private.h \
+  /lved/resources/lvgl/src/draw/lv_draw_label_private.h \
+  /lved/resources/lvgl/src/core/lv_obj_private.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/canvas/lv_canvas_private.h \
+  /lved/resources/lvgl/src/widgets/tabview/lv_tabview_private.h \
+  /lved/resources/lvgl/src/core/lv_obj_private.h \
+  /lved/resources/lvgl/src/widgets/tabview/lv_tabview.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/3dtexture/lv_3dtexture_private.h \
+  /lved/resources/lvgl/src/widgets/3dtexture/lv_3dtexture.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/tick/lv_tick_private.h \
+  /lved/resources/lvgl/src/stdlib/builtin/lv_tlsf_private.h \
+  /lved/resources/lvgl/src/libs/rlottie/lv_rlottie_private.h \
+  /lved/resources/lvgl/src/libs/rlottie/lv_rlottie.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/ffmpeg/lv_ffmpeg_private.h \
+  /lved/resources/lvgl/src/libs/ffmpeg/lv_ffmpeg.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/lottie/lv_lottie_private.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/osal/lv_os_private.h \
+  /lved/project/widgets/wd_battery_v2/wd_battery_v2.h \
+  /lved/project/widgets/wd_battery_v2/wd_battery_v2_gen.h \
+  /lved/resources/lvgl/lvgl.h \
+  /lved/resources/lvgl/lv_version.h \
+  /lved/resources/lvgl/src/lv_init.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/stdlib/lv_string.h \
+  /lved/resources/lvgl/src/stdlib/lv_sprintf.h \
+  /lved/resources/lvgl/src/misc/lv_log.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/misc/lv_math.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/misc/lv_async.h \
+  /lved/resources/lvgl/src/misc/lv_anim_timeline.h \
+  /lved/resources/lvgl/src/misc/lv_anim.h \
+  /lved/resources/lvgl/src/misc/lv_utils.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/misc/lv_iter.h \
+  /lved/resources/lvgl/src/misc/lv_circle_buf.h \
+  /lved/resources/lvgl/src/misc/lv_tree.h \
+  /lved/resources/lvgl/src/osal/lv_os.h \
+  /lved/resources/lvgl/src/tick/lv_tick.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/font/lv_binfont_loader.h \
+  /lved/resources/lvgl/src/font/lv_font_fmt_txt.h \
+  /lved/resources/lvgl/src/widgets/arclabel/lv_arclabel.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/bar/lv_bar.h \
+  /lved/resources/lvgl/src/widgets/canvas/lv_canvas.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/widgets/list/lv_list.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/lottie/lv_lottie.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/spinner/lv_spinner.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/others/snapshot/lv_snapshot.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/sysmon/lv_sysmon.h \
+  /lved/resources/lvgl/src/others/gridnav/lv_gridnav.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/imgfont/lv_imgfont.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/others/font_manager/lv_font_manager.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/others/translation/lv_translation.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/others/test/lv_test.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/others/test/lv_test_indev.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/others/test/lv_test_display.h \
+  /lved/resources/lvgl/src/others/test/lv_test_helpers.h \
+  /lved/resources/lvgl/src/stdlib/lv_mem.h \
+  /lved/resources/lvgl/src/others/test/lv_test_screenshot_compare.h \
+  /lved/resources/lvgl/src/others/test/lv_test_indev_gesture.h \
+  /lved/resources/lvgl/src/libs/bin_decoder/lv_bin_decoder.h \
+  /lved/resources/lvgl/src/draw/lv_image_decoder.h \
+  /lved/resources/lvgl/src/libs/bmp/lv_bmp.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/rle/lv_rle.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/fsdrv/lv_fsdrv.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/lodepng/lv_lodepng.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/libpng/lv_libpng.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/gltf/gltf_data/lv_gltf_model.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/gltf/gltf_view/lv_gltf.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/gif/lv_gif.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/libs/gstreamer/lv_gstreamer.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/tjpgd/lv_tjpgd.h \
+  /lved/resources/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/freetype/lv_freetype.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/svg/lv_svg.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/svg/lv_svg_render.h \
+  /lved/resources/lvgl/src/layouts/lv_layout.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/draw/sw/lv_draw_sw_utils.h \
+  /lved/resources/lvgl/src/draw/eve/lv_draw_eve_target.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/lv_drivers.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_window.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_mouse.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_mousewheel.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_keyboard.h \
+  /lved/resources/lvgl/src/drivers/x11/lv_x11.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/draw/lv_image_dsc.h \
+  /lved/resources/lvgl/src/drivers/display/drm/lv_linux_drm.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/fb/lv_linux_fbdev.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/tft_espi/lv_tft_espi.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/lovyan_gfx/lv_lovyan_gfx.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/ili9341/lv_ili9341.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/st7735/lv_st7735.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/st7789/lv_st7789.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/st7796/lv_st7796.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/st_ltdc/lv_st_ltdc.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/display/ft81x/lv_ft81x.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/draw/eve/lv_draw_eve_display.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/draw/eve/lv_draw_eve_display_defines.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_entry.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_fbdev.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_touchscreen.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_lcd.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_libuv.h \
+  /lved/resources/lvgl/src/drivers/windows/lv_windows_input.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/windows/lv_windows_display.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_window.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_texture.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_glfw.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_egl.h \
+  /lved/resources/lvgl/src/drivers/qnx/lv_qnx.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/wayland/lv_wayland.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/uefi/lv_uefi_context.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/uefi/lv_uefi_indev.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/uefi/lv_uefi_display.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/lv_api_map_v8.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_0.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_1.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_2.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_3.h \
+  /lved/project/battery_indicator_gen.h \
+  /lved/project/widgets/wd_battery/wd_battery_gen.h \
+  /lved/project/components/battery_indicator/battery_gen.h \
+  /lved/project/components/battery_indicator_2/battery_indicator_2_gen.h \
+  /lved/project/components/battery_indicator_v2/battery_indicator_v2_gen.h \
+  /lved/project/components/button/button_gen.h \
+  /lved/project/components/charge_slider/charge_slider_gen.h \
+  /lved/project/components/clock/clock_gen.h \
+  /lved/project/components/settings_item/settings_item_gen.h \
+  /lved/project/components/settings_menu_line/settings_menu_line_gen.h \
+  /lved/project/components/settings_panel/settings_panel_gen.h \
+  /lved/project/components/toggle_switch/toggle_switch_gen.h \
+  /lved/project/components/top_bar/top_bar_gen.h \
+  /lved/project/screens/smartwatch/smartwatch_gen.h \
+  /lved/project/screens/smartwatch_v2/smartwatch_v2_gen.h \
+  /lved/project/ui.h \
+  /lved/project/battery_indicator.h
 
-/lved/project/screens/smartwatch_gen.c:
+project/CMakeFiles/lib-ui.dir/widgets/wd_battery_v2/wd_battery_v2_gen.c.o: /lved/project/widgets/wd_battery_v2/wd_battery_v2_gen.c \
+  /lved/project/widgets/wd_battery_v2/wd_battery_v2_private_gen.h \
+  /lved/resources/lvgl/lvgl_private.h \
+  /lved/resources/lvgl/src/core/lv_global.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/lv_conf_kconfig.h \
+  /lved/resources/conf/lv_conf.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /emsdk/upstream/lib/clang/21/include/stdint.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdint.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/bits/stdint.h \
+  /emsdk/upstream/lib/clang/21/include/stddef.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stddef.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_header_macro.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_ptrdiff_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_size_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_wchar_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_null.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_max_align_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_offsetof.h \
+  /emsdk/upstream/lib/clang/21/include/stdbool.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdbool.h \
+  /emsdk/upstream/lib/clang/21/include/inttypes.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/inttypes.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/features.h \
+  /emsdk/upstream/lib/clang/21/include/limits.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/limits.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/bits/limits.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/stdarg.h \
+  /emsdk/upstream/lib/clang/21/include/stdarg.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdarg.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_header_macro.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg___gnuc_va_list.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_va_list.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_va_arg.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg___va_copy.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_va_copy.h \
+  /lved/resources/lvgl/src/draw/lv_draw.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_style.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/font/lv_symbol_def.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_math.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_assert.h \
+  /lved/resources/lvgl/src/misc/lv_log.h \
+  /lved/resources/lvgl/src/stdlib/lv_mem.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/stdlib/lv_string.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_main.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_stdinc.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_config.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_platform.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/begin_code.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/close_code.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_config_emscripten.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/sys/types.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/endian.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/sys/select.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdio.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/wasi/api.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/stdlib.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdlib.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/alloca.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/string.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/string.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/strings.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/wchar.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/ctype.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/math.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/math.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_assert.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_atomic.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_audio.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_error.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_endian.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_mutex.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_thread.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_rwops.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_clipboard.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_cpuinfo.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_events.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_video.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_pixels.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_rect.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_surface.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_blendmode.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_keyboard.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_keycode.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_scancode.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_mouse.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_joystick.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_guid.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_gamecontroller.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_sensor.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_quit.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_gesture.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_touch.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_filesystem.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_haptic.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_hidapi.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_hints.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_loadso.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_log.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_messagebox.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_metal.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_power.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_render.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_shape.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_system.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_timer.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_version.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_locale.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_misc.h \
+  /lved/resources/lvgl/src/misc/lv_palette.h \
+  /lved/resources/lvgl/src/misc/lv_color_op.h \
+  /lved/resources/lvgl/src/stdlib/lv_string.h \
+  /lved/resources/lvgl/src/draw/lv_image_dsc.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_anim.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_math.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/tick/lv_tick.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_ll.h \
+  /lved/resources/lvgl/src/misc/lv_text.h \
+  /lved/resources/lvgl/src/stdlib/lv_sprintf.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_assert.h \
+  /lved/resources/lvgl/src/misc/lv_bidi.h \
+  /lved/resources/lvgl/src/misc/lv_grad.h \
+  /lved/resources/lvgl/src/layouts/lv_layout.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/layouts/flex/lv_flex.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/layouts/grid/lv_grid.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_style_gen.h \
+  /lved/resources/lvgl/src/misc/lv_profiler.h \
+  /lved/resources/lvgl/src/misc/lv_matrix.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/draw/lv_image_decoder.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/misc/lv_fs.h \
+  /lved/resources/lvgl/src/draw/sw/lv_draw_sw.h \
+  /lved/resources/lvgl/src/draw/lv_draw.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/draw/lv_draw_vector.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/misc/lv_matrix.h \
+  /lved/resources/lvgl/src/draw/lv_draw_image.h \
+  /lved/resources/lvgl/src/draw/lv_image_decoder.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/misc/lv_style.h \
+  /lved/resources/lvgl/src/draw/lv_draw_triangle.h \
+  /lved/resources/lvgl/src/draw/lv_draw_rect.h \
+  /lved/resources/lvgl/src/draw/lv_draw_label.h \
+  /lved/resources/lvgl/src/misc/lv_bidi.h \
+  /lved/resources/lvgl/src/misc/lv_text.h \
+  /lved/resources/lvgl/src/draw/lv_draw_line.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/draw/lv_draw_arc.h \
+  /lved/resources/lvgl/src/draw/sw/lv_draw_sw_utils.h \
+  /lved/resources/lvgl/src/draw/sw/blend/lv_draw_sw_blend.h \
+  /lved/resources/lvgl/src/draw/sw/lv_draw_sw_mask.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_math.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_style.h \
+  /lved/resources/lvgl/src/misc/lv_anim.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_color_op.h \
+  /lved/resources/lvgl/src/misc/lv_ll.h \
+  /lved/resources/lvgl/src/misc/lv_log.h \
+  /lved/resources/lvgl/src/misc/lv_style.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/osal/lv_os_private.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/osal/lv_os.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/osal/lv_os_none.h \
+  /lved/resources/lvgl/src/others/sysmon/lv_sysmon.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_style.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_assert.h \
+  /lved/resources/lvgl/src/core/lv_obj_tree.h \
+  /lved/resources/lvgl/src/misc/lv_anim.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/core/lv_obj_pos.h \
+  /lved/resources/lvgl/src/core/lv_obj_scroll.h \
+  /lved/resources/lvgl/src/core/lv_obj_style.h \
+  /lved/resources/lvgl/src/misc/lv_bidi.h \
+  /lved/resources/lvgl/src/core/lv_obj_style_gen.h \
+  /lved/resources/lvgl/src/core/lv_obj_style.h \
+  /lved/resources/lvgl/src/core/lv_obj_draw.h \
+  /lved/resources/lvgl/src/draw/lv_draw_rect.h \
+  /lved/resources/lvgl/src/draw/lv_draw_label.h \
+  /lved/resources/lvgl/src/draw/lv_draw_image.h \
+  /lved/resources/lvgl/src/draw/lv_draw_line.h \
+  /lved/resources/lvgl/src/draw/lv_draw_arc.h \
+  /lved/resources/lvgl/src/draw/lv_draw_triangle.h \
+  /lved/resources/lvgl/src/core/lv_obj_class.h \
+  /lved/resources/lvgl/src/core/lv_obj_property.h \
+  /lved/resources/lvgl/src/core/lv_obj_event.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/core/lv_group.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_ll.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/core/lv_group.h \
+  /lved/resources/lvgl/src/stdlib/builtin/lv_tlsf.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/font/lv_font_fmt_txt_private.h \
+  /lved/resources/lvgl/src/font/lv_font_fmt_txt.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/tick/lv_tick.h \
+  /lved/resources/lvgl/src/layouts/lv_layout.h \
+  /lved/resources/lvgl/src/misc/lv_timer_private.h \
+  /lved/resources/lvgl/src/misc/lv_anim_private.h \
+  /lved/resources/lvgl/src/tick/lv_tick_private.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf_private.h \
+  /lved/resources/lvgl/src/draw/lv_draw_private.h \
+  /lved/resources/lvgl/src/osal/lv_os_private.h \
+  /lved/resources/lvgl/src/misc/cache/lv_cache.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/cache/lv_cache_entry.h \
+  /lved/resources/lvgl/src/misc/cache/class/lv_cache_class.h \
+  /lved/resources/lvgl/src/misc/cache/class/lv_cache_lru_rb.h \
+  /lved/resources/lvgl/src/misc/cache/lv_cache_private.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/osal/lv_os_private.h \
+  /lved/resources/lvgl/src/misc/cache/class/lv_cache_lru_ll.h \
+  /lved/resources/lvgl/src/misc/cache/class/lv_cache_sc_da.h \
+  /lved/resources/lvgl/src/misc/cache/instance/lv_cache_instance.h \
+  /lved/resources/lvgl/src/misc/cache/instance/lv_image_header_cache.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/cache/instance/lv_image_cache.h \
+  /lved/resources/lvgl/src/draw/sw/lv_draw_sw_private.h \
+  /lved/resources/lvgl/src/draw/lv_draw_private.h \
+  /lved/resources/lvgl/src/draw/sw/lv_draw_sw_mask_private.h \
+  /lved/resources/lvgl/src/draw/sw/lv_draw_sw_mask.h \
+  /lved/resources/lvgl/src/stdlib/builtin/lv_tlsf_private.h \
+  /lved/resources/lvgl/src/others/sysmon/lv_sysmon_private.h \
+  /lved/resources/lvgl/src/others/test/lv_test_private.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/indev/lv_indev_gesture.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/layouts/lv_layout_private.h \
+  /lved/resources/lvgl/src/display/lv_display_private.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/draw/lv_draw.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev_private.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/misc/lv_anim.h \
+  /lved/resources/lvgl/src/indev/lv_indev_scroll.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/indev/lv_indev_gesture.h \
+  /lved/resources/lvgl/src/misc/lv_text_private.h \
+  /lved/resources/lvgl/src/misc/lv_text.h \
+  /lved/resources/lvgl/src/misc/cache/lv_cache.h \
+  /lved/resources/lvgl/src/misc/cache/lv_cache_entry_private.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/cache/lv_cache_private.h \
+  /lved/resources/lvgl/src/layouts/lv_layout_private.h \
+  /lved/resources/lvgl/src/stdlib/lv_mem_private.h \
+  /lved/resources/lvgl/src/stdlib/lv_mem.h \
+  /lved/resources/lvgl/src/others/file_explorer/lv_file_explorer_private.h \
+  /lved/resources/lvgl/src/core/lv_obj_private.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/file_explorer/lv_file_explorer.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/others/sysmon/lv_sysmon_private.h \
+  /lved/resources/lvgl/src/others/monkey/lv_monkey_private.h \
+  /lved/resources/lvgl/src/others/monkey/lv_monkey.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/others/ime/lv_ime_pinyin_private.h \
+  /lved/resources/lvgl/src/core/lv_obj_private.h \
+  /lved/resources/lvgl/src/others/ime/lv_ime_pinyin.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/fragment/lv_fragment_private.h \
+  /lved/resources/lvgl/src/others/fragment/lv_fragment.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer_private.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_private.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_test.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_translation.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_component.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_widget.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_utils.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_load.h \
+  /lved/resources/lvgl/src/others/xml/parsers/lv_xml_obj_parser.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_parser.h \
+  /lved/resources/lvgl/src/misc/lv_style.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_component_private.h \
+  /lved/resources/lvgl/src/misc/lv_ll.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_base_types.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_style.h \
+  /lved/resources/lvgl/src/core/lv_obj_style.h \
+  /lved/resources/lvgl/src/libs/qrcode/lv_qrcode_private.h \
+  /lved/resources/lvgl/src/widgets/canvas/lv_canvas_private.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image_private.h \
+  /lved/resources/lvgl/src/core/lv_obj_private.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/misc/lv_fs.h \
+  /lved/resources/lvgl/src/draw/lv_draw.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/canvas/lv_canvas.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/draw/lv_draw_image.h \
+  /lved/resources/lvgl/src/libs/qrcode/lv_qrcode.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/libs/barcode/lv_barcode_private.h \
+  /lved/resources/lvgl/src/widgets/canvas/lv_canvas_private.h \
+  /lved/resources/lvgl/src/libs/barcode/lv_barcode.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/widgets/canvas/lv_canvas.h \
+  /lved/resources/lvgl/src/draw/lv_draw_triangle_private.h \
+  /lved/resources/lvgl/src/draw/lv_draw_triangle.h \
+  /lved/resources/lvgl/src/draw/lv_draw_private.h \
+  /lved/resources/lvgl/src/draw/lv_draw_rect_private.h \
+  /lved/resources/lvgl/src/draw/lv_draw_rect.h \
+  /lved/resources/lvgl/src/draw/lv_draw_image_private.h \
+  /lved/resources/lvgl/src/draw/lv_draw_image.h \
+  /lved/resources/lvgl/src/draw/lv_image_decoder_private.h \
+  /lved/resources/lvgl/src/draw/lv_image_decoder.h \
+  /lved/resources/lvgl/src/misc/cache/lv_cache.h \
+  /lved/resources/lvgl/src/draw/lv_draw_label_private.h \
+  /lved/resources/lvgl/src/draw/lv_draw_label.h \
+  /lved/resources/lvgl/src/draw/lv_draw_vector_private.h \
+  /lved/resources/lvgl/src/draw/lv_draw_vector.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf_private.h \
+  /lved/resources/lvgl/src/draw/lv_draw_mask_private.h \
+  /lved/resources/lvgl/src/draw/lv_draw_mask.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_style.h \
+  /lved/resources/lvgl/src/draw/lv_draw.h \
+  /lved/resources/lvgl/src/draw/sw/lv_draw_sw_private.h \
+  /lved/resources/lvgl/src/draw/sw/lv_draw_sw_mask_private.h \
+  /lved/resources/lvgl/src/draw/sw/blend/lv_draw_sw_blend_private.h \
+  /lved/resources/lvgl/src/draw/sw/blend/lv_draw_sw_blend.h \
+  /lved/resources/lvgl/src/drivers/libinput/lv_xkb_private.h \
+  /lved/resources/lvgl/src/drivers/libinput/lv_xkb.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/libinput/lv_libinput_private.h \
+  /lved/resources/lvgl/src/drivers/libinput/lv_libinput.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/evdev/lv_evdev_private.h \
+  /lved/resources/lvgl/src/drivers/evdev/lv_evdev.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/font/lv_font_fmt_txt_private.h \
+  /lved/resources/lvgl/src/themes/lv_theme_private.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/themes/default/lv_theme_default.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/themes/mono/lv_theme_mono.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/themes/simple/lv_theme_simple.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/core/lv_refr_private.h \
+  /lved/resources/lvgl/src/core/lv_refr.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/core/lv_obj_style_private.h \
+  /lved/resources/lvgl/src/core/lv_obj_style.h \
+  /lved/resources/lvgl/src/core/lv_obj_private.h \
+  /lved/resources/lvgl/src/core/lv_obj_scroll_private.h \
+  /lved/resources/lvgl/src/core/lv_obj_scroll.h \
+  /lved/resources/lvgl/src/core/lv_obj_draw_private.h \
+  /lved/resources/lvgl/src/core/lv_obj_draw.h \
+  /lved/resources/lvgl/src/core/lv_obj_class_private.h \
+  /lved/resources/lvgl/src/core/lv_obj_class.h \
+  /lved/resources/lvgl/src/core/lv_group_private.h \
+  /lved/resources/lvgl/src/core/lv_group.h \
+  /lved/resources/lvgl/src/core/lv_obj_event_private.h \
+  /lved/resources/lvgl/src/core/lv_obj_event.h \
+  /lved/resources/lvgl/src/misc/lv_timer_private.h \
+  /lved/resources/lvgl/src/misc/lv_area_private.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_fs_private.h \
+  /lved/resources/lvgl/src/misc/lv_fs.h \
+  /lved/resources/lvgl/src/misc/lv_profiler_builtin_private.h \
+  /lved/resources/lvgl/src/misc/lv_profiler_builtin.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_event_private.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/misc/lv_bidi_private.h \
+  /lved/resources/lvgl/src/misc/lv_bidi.h \
+  /lved/resources/lvgl/src/misc/lv_rb_private.h \
+  /lved/resources/lvgl/src/misc/lv_rb.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_assert.h \
+  /lved/resources/lvgl/src/misc/lv_style_private.h \
+  /lved/resources/lvgl/src/misc/lv_style.h \
+  /lved/resources/lvgl/src/misc/lv_color_op_private.h \
+  /lved/resources/lvgl/src/misc/lv_color_op.h \
+  /lved/resources/lvgl/src/misc/lv_anim_private.h \
+  /lved/resources/lvgl/src/widgets/msgbox/lv_msgbox_private.h \
+  /lved/resources/lvgl/src/widgets/msgbox/lv_msgbox.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/core/lv_obj_private.h \
+  /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix_private.h \
+  /lved/resources/lvgl/src/core/lv_obj_private.h \
+  /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/slider/lv_slider_private.h \
+  /lved/resources/lvgl/src/widgets/bar/lv_bar_private.h \
+  /lved/resources/lvgl/src/core/lv_obj_private.h \
+  /lved/resources/lvgl/src/widgets/bar/lv_bar.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/misc/lv_anim.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/font/lv_symbol_def.h \
+  /lved/resources/lvgl/src/misc/lv_text.h \
+  /lved/resources/lvgl/src/draw/lv_draw.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/slider/lv_slider.h \
+  /lved/resources/lvgl/src/widgets/switch/lv_switch_private.h \
+  /lved/resources/lvgl/src/widgets/switch/lv_switch.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/core/lv_obj_private.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar_private.h \
+  /lved/resources/lvgl/src/core/lv_obj_private.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar.h \
+  /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar_header_arrow.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar_chinese.h \
+  /lved/resources/lvgl/src/widgets/imagebutton/lv_imagebutton_private.h \
+  /lved/resources/lvgl/src/widgets/imagebutton/lv_imagebutton.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/core/lv_obj_private.h \
+  /lved/resources/lvgl/src/widgets/bar/lv_bar_private.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image_private.h \
+  /lved/resources/lvgl/src/widgets/textarea/lv_textarea_private.h \
+  /lved/resources/lvgl/src/core/lv_obj_private.h \
+  /lved/resources/lvgl/src/widgets/textarea/lv_textarea.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/table/lv_table_private.h \
+  /lved/resources/lvgl/src/widgets/table/lv_table.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/core/lv_obj_private.h \
+  /lved/resources/lvgl/src/widgets/checkbox/lv_checkbox_private.h \
+  /lved/resources/lvgl/src/widgets/checkbox/lv_checkbox.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/core/lv_obj_private.h \
+  /lved/resources/lvgl/src/widgets/roller/lv_roller_private.h \
+  /lved/resources/lvgl/src/widgets/roller/lv_roller.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/core/lv_obj_private.h \
+  /lved/resources/lvgl/src/widgets/win/lv_win_private.h \
+  /lved/resources/lvgl/src/core/lv_obj_private.h \
+  /lved/resources/lvgl/src/widgets/win/lv_win.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/keyboard/lv_keyboard_private.h \
+  /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix_private.h \
+  /lved/resources/lvgl/src/widgets/keyboard/lv_keyboard.h \
+  /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
+  /lved/resources/lvgl/src/widgets/line/lv_line_private.h \
+  /lved/resources/lvgl/src/core/lv_obj_private.h \
+  /lved/resources/lvgl/src/widgets/line/lv_line.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/animimage/lv_animimage_private.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image_private.h \
+  /lved/resources/lvgl/src/misc/lv_anim_private.h \
+  /lved/resources/lvgl/src/widgets/animimage/lv_animimage.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/dropdown/lv_dropdown_private.h \
+  /lved/resources/lvgl/src/core/lv_obj_private.h \
+  /lved/resources/lvgl/src/widgets/dropdown/lv_dropdown.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/menu/lv_menu_private.h \
+  /lved/resources/lvgl/src/core/lv_obj_private.h \
+  /lved/resources/lvgl/src/widgets/menu/lv_menu.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/chart/lv_chart_private.h \
+  /lved/resources/lvgl/src/core/lv_obj_private.h \
+  /lved/resources/lvgl/src/widgets/chart/lv_chart.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/button/lv_button_private.h \
+  /lved/resources/lvgl/src/core/lv_obj_private.h \
+  /lved/resources/lvgl/src/widgets/button/lv_button.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/scale/lv_scale_private.h \
+  /lved/resources/lvgl/src/widgets/scale/lv_scale.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/line/lv_line.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/core/lv_obj_private.h \
+  /lved/resources/lvgl/src/widgets/led/lv_led_private.h \
+  /lved/resources/lvgl/src/widgets/led/lv_led.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/core/lv_obj_private.h \
+  /lved/resources/lvgl/src/widgets/arc/lv_arc_private.h \
+  /lved/resources/lvgl/src/core/lv_obj_private.h \
+  /lved/resources/lvgl/src/widgets/arc/lv_arc.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/tileview/lv_tileview_private.h \
+  /lved/resources/lvgl/src/core/lv_obj_private.h \
+  /lved/resources/lvgl/src/widgets/tileview/lv_tileview.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/spinbox/lv_spinbox_private.h \
+  /lved/resources/lvgl/src/widgets/textarea/lv_textarea_private.h \
+  /lved/resources/lvgl/src/widgets/spinbox/lv_spinbox.h \
+  /lved/resources/lvgl/src/widgets/textarea/lv_textarea.h \
+  /lved/resources/lvgl/src/widgets/span/lv_span_private.h \
+  /lved/resources/lvgl/src/core/lv_obj_private.h \
+  /lved/resources/lvgl/src/widgets/span/lv_span.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label_private.h \
+  /lved/resources/lvgl/src/draw/lv_draw_label_private.h \
+  /lved/resources/lvgl/src/core/lv_obj_private.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/canvas/lv_canvas_private.h \
+  /lved/resources/lvgl/src/widgets/tabview/lv_tabview_private.h \
+  /lved/resources/lvgl/src/core/lv_obj_private.h \
+  /lved/resources/lvgl/src/widgets/tabview/lv_tabview.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/3dtexture/lv_3dtexture_private.h \
+  /lved/resources/lvgl/src/widgets/3dtexture/lv_3dtexture.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/tick/lv_tick_private.h \
+  /lved/resources/lvgl/src/stdlib/builtin/lv_tlsf_private.h \
+  /lved/resources/lvgl/src/libs/rlottie/lv_rlottie_private.h \
+  /lved/resources/lvgl/src/libs/rlottie/lv_rlottie.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/ffmpeg/lv_ffmpeg_private.h \
+  /lved/resources/lvgl/src/libs/ffmpeg/lv_ffmpeg.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/lottie/lv_lottie_private.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/osal/lv_os_private.h \
+  /lved/project/widgets/wd_battery_v2/wd_battery_v2.h \
+  /lved/project/widgets/wd_battery_v2/wd_battery_v2_gen.h \
+  /lved/resources/lvgl/lvgl.h \
+  /lved/resources/lvgl/lv_version.h \
+  /lved/resources/lvgl/src/lv_init.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/stdlib/lv_string.h \
+  /lved/resources/lvgl/src/stdlib/lv_sprintf.h \
+  /lved/resources/lvgl/src/misc/lv_log.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/misc/lv_math.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/misc/lv_async.h \
+  /lved/resources/lvgl/src/misc/lv_anim_timeline.h \
+  /lved/resources/lvgl/src/misc/lv_anim.h \
+  /lved/resources/lvgl/src/misc/lv_utils.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/misc/lv_iter.h \
+  /lved/resources/lvgl/src/misc/lv_circle_buf.h \
+  /lved/resources/lvgl/src/misc/lv_tree.h \
+  /lved/resources/lvgl/src/osal/lv_os.h \
+  /lved/resources/lvgl/src/tick/lv_tick.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/font/lv_binfont_loader.h \
+  /lved/resources/lvgl/src/font/lv_font_fmt_txt.h \
+  /lved/resources/lvgl/src/widgets/arclabel/lv_arclabel.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/bar/lv_bar.h \
+  /lved/resources/lvgl/src/widgets/canvas/lv_canvas.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/widgets/list/lv_list.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/lottie/lv_lottie.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/spinner/lv_spinner.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/others/snapshot/lv_snapshot.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/sysmon/lv_sysmon.h \
+  /lved/resources/lvgl/src/others/gridnav/lv_gridnav.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/imgfont/lv_imgfont.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/others/font_manager/lv_font_manager.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/others/translation/lv_translation.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/others/test/lv_test.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/others/test/lv_test_indev.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/others/test/lv_test_display.h \
+  /lved/resources/lvgl/src/others/test/lv_test_helpers.h \
+  /lved/resources/lvgl/src/stdlib/lv_mem.h \
+  /lved/resources/lvgl/src/others/test/lv_test_screenshot_compare.h \
+  /lved/resources/lvgl/src/others/test/lv_test_indev_gesture.h \
+  /lved/resources/lvgl/src/libs/bin_decoder/lv_bin_decoder.h \
+  /lved/resources/lvgl/src/draw/lv_image_decoder.h \
+  /lved/resources/lvgl/src/libs/bmp/lv_bmp.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/rle/lv_rle.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/fsdrv/lv_fsdrv.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/lodepng/lv_lodepng.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/libpng/lv_libpng.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/gltf/gltf_data/lv_gltf_model.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/gltf/gltf_view/lv_gltf.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/gif/lv_gif.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/libs/gstreamer/lv_gstreamer.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/tjpgd/lv_tjpgd.h \
+  /lved/resources/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/freetype/lv_freetype.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/svg/lv_svg.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/svg/lv_svg_render.h \
+  /lved/resources/lvgl/src/layouts/lv_layout.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/draw/sw/lv_draw_sw_utils.h \
+  /lved/resources/lvgl/src/draw/eve/lv_draw_eve_target.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/lv_drivers.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_window.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_mouse.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_mousewheel.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_keyboard.h \
+  /lved/resources/lvgl/src/drivers/x11/lv_x11.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/draw/lv_image_dsc.h \
+  /lved/resources/lvgl/src/drivers/display/drm/lv_linux_drm.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/fb/lv_linux_fbdev.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/tft_espi/lv_tft_espi.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/lovyan_gfx/lv_lovyan_gfx.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/ili9341/lv_ili9341.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/st7735/lv_st7735.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/st7789/lv_st7789.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/st7796/lv_st7796.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/st_ltdc/lv_st_ltdc.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/display/ft81x/lv_ft81x.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/draw/eve/lv_draw_eve_display.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/draw/eve/lv_draw_eve_display_defines.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_entry.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_fbdev.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_touchscreen.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_lcd.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_libuv.h \
+  /lved/resources/lvgl/src/drivers/windows/lv_windows_input.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/windows/lv_windows_display.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_window.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_texture.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_glfw.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_egl.h \
+  /lved/resources/lvgl/src/drivers/qnx/lv_qnx.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/wayland/lv_wayland.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/uefi/lv_uefi_context.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/uefi/lv_uefi_indev.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/uefi/lv_uefi_display.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/lv_api_map_v8.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_0.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_1.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_2.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_3.h \
+  /lved/project/battery_indicator_gen.h \
+  /lved/project/widgets/wd_battery/wd_battery_gen.h \
+  /lved/project/components/battery_indicator/battery_gen.h \
+  /lved/project/components/battery_indicator_2/battery_indicator_2_gen.h \
+  /lved/project/components/battery_indicator_v2/battery_indicator_v2_gen.h \
+  /lved/project/components/button/button_gen.h \
+  /lved/project/components/charge_slider/charge_slider_gen.h \
+  /lved/project/components/clock/clock_gen.h \
+  /lved/project/components/settings_item/settings_item_gen.h \
+  /lved/project/components/settings_menu_line/settings_menu_line_gen.h \
+  /lved/project/components/settings_panel/settings_panel_gen.h \
+  /lved/project/components/toggle_switch/toggle_switch_gen.h \
+  /lved/project/components/top_bar/top_bar_gen.h \
+  /lved/project/screens/smartwatch/smartwatch_gen.h \
+  /lved/project/screens/smartwatch_v2/smartwatch_v2_gen.h \
+  /lved/project/ui.h \
+  /lved/project/battery_indicator.h
+
+project/CMakeFiles/lib-ui.dir/widgets/wd_battery_v2/wd_battery_v2_xml_parser.c.o: /lved/project/widgets/wd_battery_v2/wd_battery_v2_xml_parser.c \
+  /lved/project/widgets/wd_battery_v2/wd_battery_v2_gen.h \
+  /lved/resources/lvgl/lvgl.h \
+  /lved/resources/lvgl/lv_version.h \
+  /lved/resources/lvgl/src/lv_init.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/lv_conf_kconfig.h \
+  /lved/resources/conf/lv_conf.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /emsdk/upstream/lib/clang/21/include/stdint.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdint.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/bits/stdint.h \
+  /emsdk/upstream/lib/clang/21/include/stddef.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stddef.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_header_macro.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_ptrdiff_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_size_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_wchar_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_null.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_max_align_t.h \
+  /emsdk/upstream/lib/clang/21/include/__stddef_offsetof.h \
+  /emsdk/upstream/lib/clang/21/include/stdbool.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdbool.h \
+  /emsdk/upstream/lib/clang/21/include/inttypes.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/inttypes.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/features.h \
+  /emsdk/upstream/lib/clang/21/include/limits.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/limits.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/bits/limits.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/stdarg.h \
+  /emsdk/upstream/lib/clang/21/include/stdarg.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdarg.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_header_macro.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg___gnuc_va_list.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_va_list.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_va_arg.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg___va_copy.h \
+  /emsdk/upstream/lib/clang/21/include/__stdarg_va_copy.h \
+  /lved/resources/lvgl/src/stdlib/lv_mem.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/stdlib/lv_string.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/stdlib/lv_sprintf.h \
+  /lved/resources/lvgl/src/misc/lv_log.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/tick/lv_tick.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_ll.h \
+  /lved/resources/lvgl/src/misc/lv_math.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/misc/lv_async.h \
+  /lved/resources/lvgl/src/misc/lv_anim_timeline.h \
+  /lved/resources/lvgl/src/misc/lv_anim.h \
+  /lved/resources/lvgl/src/misc/lv_profiler_builtin.h \
+  /lved/resources/lvgl/src/misc/lv_rb.h \
+  /lved/resources/lvgl/src/misc/lv_assert.h \
+  /lved/resources/lvgl/src/stdlib/lv_mem.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_main.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_stdinc.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_config.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_platform.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/begin_code.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/close_code.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_config_emscripten.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/sys/types.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/endian.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/sys/select.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdio.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/wasi/api.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/stdlib.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/stdlib.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/alloca.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/string.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/string.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/strings.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/wchar.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/ctype.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/compat/math.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/math.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_assert.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_atomic.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_audio.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_error.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_endian.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_mutex.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_thread.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_rwops.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_clipboard.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_cpuinfo.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_events.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_video.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_pixels.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_rect.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_surface.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_blendmode.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_keyboard.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_keycode.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_scancode.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_mouse.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_joystick.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_guid.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_gamecontroller.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_sensor.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_quit.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_gesture.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_touch.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_filesystem.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_haptic.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_hidapi.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_hints.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_loadso.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_log.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_messagebox.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_metal.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_power.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_render.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_shape.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_system.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_timer.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_version.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_locale.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_misc.h \
+  /lved/resources/lvgl/src/misc/lv_utils.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_math.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_assert.h \
+  /lved/resources/lvgl/src/misc/lv_palette.h \
+  /lved/resources/lvgl/src/misc/lv_color_op.h \
+  /lved/resources/lvgl/src/stdlib/lv_string.h \
+  /lved/resources/lvgl/src/draw/lv_image_dsc.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_iter.h \
+  /lved/resources/lvgl/src/misc/lv_circle_buf.h \
+  /lved/resources/lvgl/src/misc/lv_tree.h \
+  /lved/resources/lvgl/src/osal/lv_os.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/tick/lv_tick.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_style.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/font/lv_symbol_def.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_anim.h \
+  /lved/resources/lvgl/src/misc/lv_text.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/stdlib/lv_sprintf.h \
+  /lved/resources/lvgl/src/misc/lv_assert.h \
+  /lved/resources/lvgl/src/misc/lv_bidi.h \
+  /lved/resources/lvgl/src/misc/lv_grad.h \
+  /lved/resources/lvgl/src/layouts/lv_layout.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/layouts/flex/lv_flex.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/layouts/grid/lv_grid.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_style_gen.h \
+  /lved/resources/lvgl/src/core/lv_obj_tree.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/core/lv_obj_pos.h \
+  /lved/resources/lvgl/src/core/lv_obj_scroll.h \
+  /lved/resources/lvgl/src/core/lv_obj_style.h \
+  /lved/resources/lvgl/src/core/lv_obj_style_gen.h \
+  /lved/resources/lvgl/src/core/lv_obj_style.h \
+  /lved/resources/lvgl/src/core/lv_obj_draw.h \
+  /lved/resources/lvgl/src/draw/lv_draw_rect.h \
+  /lved/resources/lvgl/src/draw/lv_draw.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_style.h \
+  /lved/resources/lvgl/src/misc/lv_text.h \
+  /lved/resources/lvgl/src/misc/lv_profiler.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_matrix.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/draw/lv_image_decoder.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/misc/lv_fs.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/draw/lv_draw_label.h \
+  /lved/resources/lvgl/src/misc/lv_bidi.h \
+  /lved/resources/lvgl/src/draw/lv_draw_image.h \
+  /lved/resources/lvgl/src/draw/lv_draw_line.h \
+  /lved/resources/lvgl/src/draw/lv_draw_arc.h \
+  /lved/resources/lvgl/src/draw/lv_draw_triangle.h \
+  /lved/resources/lvgl/src/core/lv_obj_class.h \
+  /lved/resources/lvgl/src/core/lv_obj_property.h \
+  /lved/resources/lvgl/src/core/lv_obj_event.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/core/lv_group.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_ll.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/core/lv_group.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/indev/lv_indev_gesture.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/core/lv_refr.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/font/lv_binfont_loader.h \
+  /lved/resources/lvgl/src/font/lv_font_fmt_txt.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/animimage/lv_animimage.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/misc/lv_fs.h \
+  /lved/resources/lvgl/src/draw/lv_draw.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/arc/lv_arc.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/arclabel/lv_arclabel.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/bar/lv_bar.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/misc/lv_anim.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/font/lv_symbol_def.h \
+  /lved/resources/lvgl/src/misc/lv_text.h \
+  /lved/resources/lvgl/src/draw/lv_draw.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/button/lv_button.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar.h \
+  /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar_header_arrow.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.h \
+  /lved/resources/lvgl/src/widgets/calendar/lv_calendar_chinese.h \
+  /lved/resources/lvgl/src/widgets/canvas/lv_canvas.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/draw/lv_draw_image.h \
+  /lved/resources/lvgl/src/widgets/chart/lv_chart.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/checkbox/lv_checkbox.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/dropdown/lv_dropdown.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/widgets/imagebutton/lv_imagebutton.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/keyboard/lv_keyboard.h \
+  /lved/resources/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/led/lv_led.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/line/lv_line.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/list/lv_list.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/lottie/lv_lottie.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/menu/lv_menu.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/msgbox/lv_msgbox.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/roller/lv_roller.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/scale/lv_scale.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/line/lv_line.h \
+  /lved/resources/lvgl/src/widgets/image/lv_image.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/slider/lv_slider.h \
+  /lved/resources/lvgl/src/widgets/bar/lv_bar.h \
+  /lved/resources/lvgl/src/widgets/span/lv_span.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/widgets/spinbox/lv_spinbox.h \
+  /lved/resources/lvgl/src/widgets/textarea/lv_textarea.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/spinner/lv_spinner.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/widgets/switch/lv_switch.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/table/lv_table.h \
+  /lved/resources/lvgl/src/widgets/label/lv_label.h \
+  /lved/resources/lvgl/src/widgets/tabview/lv_tabview.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/textarea/lv_textarea.h \
+  /lved/resources/lvgl/src/widgets/tileview/lv_tileview.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/win/lv_win.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/widgets/3dtexture/lv_3dtexture.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/others/snapshot/lv_snapshot.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/sysmon/lv_sysmon.h \
+  /lved/resources/lvgl/src/misc/lv_timer.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/monkey/lv_monkey.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/others/gridnav/lv_gridnav.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/fragment/lv_fragment.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/imgfont/lv_imgfont.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/ime/lv_ime_pinyin.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/file_explorer/lv_file_explorer.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/others/font_manager/lv_font_manager.h \
+  /lved/resources/lvgl/src/font/lv_font.h \
+  /lved/resources/lvgl/src/others/translation/lv_translation.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_event.h \
+  /lved/resources/lvgl/src/others/observer/lv_observer.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_test.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_translation.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_component.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_widget.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_utils.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_load.h \
+  /lved/resources/lvgl/src/others/test/lv_test.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/others/test/lv_test_indev.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/others/test/lv_test_display.h \
+  /lved/resources/lvgl/src/others/test/lv_test_helpers.h \
+  /lved/resources/lvgl/src/stdlib/lv_mem.h \
+  /lved/resources/lvgl/src/others/test/lv_test_screenshot_compare.h \
+  /lved/resources/lvgl/src/others/test/lv_test_indev_gesture.h \
+  /lved/resources/lvgl/src/libs/barcode/lv_barcode.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/widgets/canvas/lv_canvas.h \
+  /lved/resources/lvgl/src/libs/bin_decoder/lv_bin_decoder.h \
+  /lved/resources/lvgl/src/draw/lv_image_decoder.h \
+  /lved/resources/lvgl/src/libs/bmp/lv_bmp.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/rle/lv_rle.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/fsdrv/lv_fsdrv.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/lodepng/lv_lodepng.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/libpng/lv_libpng.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/gltf/gltf_data/lv_gltf_model.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/gltf/gltf_view/lv_gltf.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/gif/lv_gif.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/libs/gstreamer/lv_gstreamer.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/qrcode/lv_qrcode.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/misc/lv_types.h \
+  /lved/resources/lvgl/src/widgets/canvas/lv_canvas.h \
+  /lved/resources/lvgl/src/libs/tjpgd/lv_tjpgd.h \
+  /lved/resources/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/freetype/lv_freetype.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/rlottie/lv_rlottie.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/ffmpeg/lv_ffmpeg.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/svg/lv_svg.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/libs/svg/lv_svg_render.h \
+  /lved/resources/lvgl/src/layouts/lv_layout.h \
+  /lved/resources/lvgl/src/draw/lv_draw_buf.h \
+  /lved/resources/lvgl/src/draw/lv_draw_vector.h \
+  /lved/resources/lvgl/src/misc/lv_array.h \
+  /lved/resources/lvgl/src/misc/lv_matrix.h \
+  /lved/resources/lvgl/src/draw/lv_draw_image.h \
+  /lved/resources/lvgl/src/draw/sw/lv_draw_sw_utils.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/misc/lv_area.h \
+  /lved/resources/lvgl/src/misc/lv_color.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/draw/eve/lv_draw_eve_target.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/core/lv_obj.h \
+  /lved/resources/lvgl/src/themes/default/lv_theme_default.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/themes/mono/lv_theme_mono.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/themes/simple/lv_theme_simple.h \
+  /lved/resources/lvgl/src/themes/lv_theme.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/lv_drivers.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_window.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_mouse.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_mousewheel.h \
+  /lved/resources/lvgl/src/drivers/sdl/lv_sdl_keyboard.h \
+  /lved/resources/lvgl/src/drivers/x11/lv_x11.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/draw/lv_image_dsc.h \
+  /lved/resources/lvgl/src/drivers/display/drm/lv_linux_drm.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/fb/lv_linux_fbdev.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/tft_espi/lv_tft_espi.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/lovyan_gfx/lv_lovyan_gfx.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/ili9341/lv_ili9341.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/st7735/lv_st7735.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/st7789/lv_st7789.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/st7796/lv_st7796.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/drivers/display/st_ltdc/lv_st_ltdc.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/display/ft81x/lv_ft81x.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/draw/eve/lv_draw_eve_display.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/draw/eve/lv_draw_eve_display_defines.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_entry.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_fbdev.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_touchscreen.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_lcd.h \
+  /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_libuv.h \
+  /lved/resources/lvgl/src/drivers/evdev/lv_evdev.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/libinput/lv_libinput.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/windows/lv_windows_input.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/windows/lv_windows_display.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_window.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_texture.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_driver.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_glfw.h \
+  /lved/resources/lvgl/src/drivers/opengles/lv_opengles_egl.h \
+  /lved/resources/lvgl/src/drivers/qnx/lv_qnx.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/wayland/lv_wayland.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/uefi/lv_uefi_context.h \
+  /lved/resources/lvgl/src/lv_conf_internal.h \
+  /lved/resources/lvgl/src/drivers/uefi/lv_uefi_indev.h \
+  /lved/resources/lvgl/src/indev/lv_indev.h \
+  /lved/resources/lvgl/src/drivers/uefi/lv_uefi_display.h \
+  /lved/resources/lvgl/src/display/lv_display.h \
+  /lved/resources/lvgl/src/lv_api_map_v8.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_0.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_1.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_2.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_3.h \
+  /lved/project/battery_indicator_gen.h \
+  /lved/project/widgets/wd_battery/wd_battery_gen.h \
+  /lved/project/components/battery_indicator/battery_gen.h \
+  /lved/project/components/battery_indicator_2/battery_indicator_2_gen.h \
+  /lved/project/components/battery_indicator_v2/battery_indicator_v2_gen.h \
+  /lved/project/components/button/button_gen.h \
+  /lved/project/components/charge_slider/charge_slider_gen.h \
+  /lved/project/components/clock/clock_gen.h \
+  /lved/project/components/settings_item/settings_item_gen.h \
+  /lved/project/components/settings_menu_line/settings_menu_line_gen.h \
+  /lved/project/components/settings_panel/settings_panel_gen.h \
+  /lved/project/components/toggle_switch/toggle_switch_gen.h \
+  /lved/project/components/top_bar/top_bar_gen.h \
+  /lved/project/screens/smartwatch/smartwatch_gen.h \
+  /lved/project/screens/smartwatch_v2/smartwatch_v2_gen.h \
+  /lved/resources/lvgl/src/others/xml/parsers/lv_xml_obj_parser.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_parser.h \
+  /lved/resources/lvgl/src/misc/lv_style.h \
+  /lved/resources/lvgl/src/others/xml/lv_xml_component_private.h \
+  /lved/resources/lvgl/src/misc/lv_ll.h
+
+
+/lved/project/widgets/wd_battery_v2/wd_battery_v2_gen.c:
+
+/lved/project/screens/smartwatch_v2/smartwatch_v2_gen.c:
+
+/lved/project/screens/smartwatch/smartwatch_gen.c:
+
+/lved/project/images/img_thunder_transparent_data.c:
 
 /lved/project/images/img_charging_no_stroke_data.c:
 
@@ -11683,13 +20838,11 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_xml_parser.c.o: /lve
 
 /lved/project/fonts/inter_28_data.c:
 
-/lved/project/fonts/font_hour_32_data.c:
-
 /lved/project/fonts/font_hour_25_data.c:
 
 /lved/project/components/charge_slider/charge_slider_gen.c:
 
-/lved/resources/lvgl/src/osal/lv_os_private.h:
+/lved/project/widgets/wd_battery_v2/wd_battery_v2.h:
 
 /lved/resources/lvgl/src/widgets/lottie/lv_lottie_private.h:
 
@@ -11739,10 +20892,6 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_xml_parser.c.o: /lve
 
 /lved/resources/lvgl/src/misc/lv_area_private.h:
 
-/lved/resources/lvgl/src/core/lv_obj_event_private.h:
-
-/lved/resources/lvgl/src/core/lv_obj_class_private.h:
-
 /lved/resources/lvgl/src/core/lv_obj_draw_private.h:
 
 /lved/resources/lvgl/src/core/lv_refr_private.h:
@@ -11756,8 +20905,6 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_xml_parser.c.o: /lve
 /lved/resources/lvgl/src/draw/lv_draw_mask_private.h:
 
 /lved/resources/lvgl/src/draw/lv_draw_rect_private.h:
-
-/lved/resources/lvgl/src/draw/lv_draw_triangle_private.h:
 
 /lved/resources/lvgl/src/libs/qrcode/lv_qrcode_private.h:
 
@@ -11783,9 +20930,19 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_xml_parser.c.o: /lve
 
 /lved/resources/lvgl/src/layouts/lv_layout_private.h:
 
+/lved/project/components/settings_panel/settings_panel_gen.c:
+
 /lved/resources/lvgl/src/others/test/lv_test_private.h:
 
 /lved/resources/lvgl/src/others/sysmon/lv_sysmon_private.h:
+
+/lved/resources/lvgl/src/misc/cache/instance/lv_image_header_cache.h:
+
+/lved/resources/lvgl/src/misc/cache/lv_cache_private.h:
+
+/lved/resources/lvgl/src/misc/cache/class/lv_cache_class.h:
+
+/lved/resources/lvgl/src/misc/cache/lv_cache.h:
 
 /lved/resources/lvgl/src/draw/lv_draw_buf_private.h:
 
@@ -11801,6 +20958,10 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_xml_parser.c.o: /lve
 
 /lved/resources/lvgl/src/stdlib/builtin/lv_tlsf.h:
 
+/lved/resources/lvgl/src/osal/lv_os_none.h:
+
+/lved/resources/lvgl/src/osal/lv_os_private.h:
+
 /lved/project/widgets/wd_battery/wd_battery.h:
 
 /lved/resources/lvgl/src/draw/sw/blend/lv_draw_sw_blend.h:
@@ -11809,15 +20970,27 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_xml_parser.c.o: /lve
 
 /lved/resources/lvgl/lvgl_private.h:
 
-/lved/project/fonts/font_hour_30_data.c:
-
 /lved/project/widgets/wd_battery/wd_battery_private_gen.h:
 
 /lved/project/battery_indicator_gen.c:
 
+/lved/project/components/toggle_switch/toggle_switch_gen.h:
+
+/lved/resources/lvgl/src/core/lv_obj_event_private.h:
+
+/lved/project/components/settings_panel/settings_panel_gen.h:
+
+/lved/project/components/settings_menu_line/settings_menu_line_gen.h:
+
+/lved/project/components/settings_item/settings_item_gen.h:
+
 /lved/resources/lvgl/src/stdlib/lv_mem_private.h:
 
 /lved/project/components/button/button_gen.h:
+
+/lved/project/components/battery_indicator_v2/battery_indicator_v2_gen.h:
+
+/lved/project/widgets/wd_battery_v2/wd_battery_v2_gen.h:
 
 /lved/project/widgets/wd_battery/wd_battery_gen.h:
 
@@ -11833,9 +21006,17 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_xml_parser.c.o: /lve
 
 /lved/resources/lvgl/src/drivers/wayland/lv_wayland.h:
 
-/lved/resources/lvgl/src/drivers/glfw/lv_opengles_texture.h:
+/lved/resources/lvgl/src/drivers/opengles/lv_opengles_egl.h:
 
-/lved/resources/lvgl/src/drivers/glfw/lv_glfw_window.h:
+/lved/resources/lvgl/src/core/lv_obj_class_private.h:
+
+/lved/resources/lvgl/src/drivers/opengles/lv_opengles_glfw.h:
+
+/lved/resources/lvgl/src/drivers/opengles/lv_opengles_driver.h:
+
+/lved/project/screens/smartwatch_v2/smartwatch_v2_gen.h:
+
+/lved/resources/lvgl/src/drivers/opengles/lv_opengles_window.h:
 
 /lved/resources/lvgl/src/drivers/evdev/lv_evdev.h:
 
@@ -11849,6 +21030,8 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_xml_parser.c.o: /lve
 
 /lved/resources/lvgl/src/drivers/draw/eve/lv_draw_eve_display.h:
 
+/lved/project/images/img_thunder_v2_data.c:
+
 /lved/resources/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.h:
 
 /lved/resources/lvgl/src/draw/sw/lv_draw_sw_private.h:
@@ -11858,6 +21041,8 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_xml_parser.c.o: /lve
 /lved/resources/lvgl/src/drivers/display/st7789/lv_st7789.h:
 
 /lved/resources/lvgl/src/drivers/display/st7735/lv_st7735.h:
+
+/lved/project/screens/smartwatch/smartwatch_gen.h:
 
 /lved/resources/lvgl/src/drivers/display/ili9341/lv_ili9341.h:
 
@@ -11881,21 +21066,15 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_xml_parser.c.o: /lve
 
 /lved/resources/lvgl/src/drivers/sdl/lv_sdl_window.h:
 
+/lved/resources/lvgl/src/misc/cache/lv_cache_entry.h:
+
+/lved/resources/lvgl/src/drivers/lv_drivers.h:
+
 /lved/resources/lvgl/src/themes/simple/lv_theme_simple.h:
 
 /lved/resources/lvgl/src/widgets/keyboard/lv_keyboard_private.h:
 
 /lved/resources/lvgl/src/themes/mono/lv_theme_mono.h:
-
-/lved/resources/lvgl/src/draw/eve/lv_draw_eve_target.h:
-
-/lved/resources/lvgl/src/widgets/image/lv_image_private.h:
-
-/lved/resources/lvgl/src/draw/lv_draw_vector.h:
-
-/lved/resources/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.h:
-
-/lved/resources/lvgl/src/libs/ffmpeg/lv_ffmpeg.h:
 
 /lved/project/components/charge_slider/charge_slider_gen.h:
 
@@ -11908,6 +21087,8 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_xml_parser.c.o: /lve
 /emsdk/upstream/lib/clang/21/include/stddef.h:
 
 /lved/resources/lvgl/src/display/lv_display.h:
+
+/lved/project/images/img_background_light_data.c:
 
 /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_misc.h:
 
@@ -11977,6 +21158,8 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_xml_parser.c.o: /lve
 
 /lved/project/components/clock/clock_gen.h:
 
+/lved/resources/lvgl/src/drivers/opengles/lv_opengles_texture.h:
+
 /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_cpuinfo.h:
 
 /lved/resources/lvgl/src/drivers/draw/eve/lv_draw_eve_display_defines.h:
@@ -11991,13 +21174,15 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_xml_parser.c.o: /lve
 
 /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_assert.h:
 
-/lved/resources/lvgl/src/drivers/lv_drivers.h:
+/lved/resources/lvgl/src/misc/cache/instance/lv_image_cache.h:
 
-/lved/resources/lvgl/src/misc/cache/lv_cache_entry.h:
+/emsdk/upstream/emscripten/cache/sysroot/include/ctype.h:
 
 /lved/resources/lvgl/src/draw/sw/lv_draw_sw_mask.h:
 
 /emsdk/upstream/emscripten/cache/sysroot/include/wchar.h:
+
+/lved/project/fonts/font_inter_semibold_30_data.c:
 
 /emsdk/upstream/emscripten/cache/sysroot/include/strings.h:
 
@@ -12008,8 +21193,6 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_xml_parser.c.o: /lve
 /emsdk/upstream/emscripten/cache/sysroot/include/string.h:
 
 /lved/project/components/clock/clock_gen.c:
-
-/lved/resources/lvgl/src/libs/gif/lv_gif_private.h:
 
 /lved/resources/lvgl/src/libs/barcode/lv_barcode_private.h:
 
@@ -12067,6 +21250,8 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_xml_parser.c.o: /lve
 
 /emsdk/upstream/emscripten/cache/sysroot/include/features.h:
 
+/lved/project/images/img_background_data.c:
+
 /lved/resources/lvgl/src/draw/lv_draw_label.h:
 
 /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_joystick.h:
@@ -12075,9 +21260,13 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_xml_parser.c.o: /lve
 
 /emsdk/upstream/lib/clang/21/include/inttypes.h:
 
+/lved/project/fonts/font_inter_semibold_25_data.c:
+
 /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_blendmode.h:
 
 /emsdk/upstream/emscripten/cache/sysroot/include/sys/types.h:
+
+/lved/project/components/battery_indicator_v2/battery_indicator_v2_gen.c:
 
 /lved/resources/lvgl/src/misc/lv_profiler.h:
 
@@ -12096,6 +21285,10 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_xml_parser.c.o: /lve
 /emsdk/upstream/emscripten/cache/sysroot/include/stddef.h:
 
 /lved/resources/lvgl/src/draw/lv_draw_triangle.h:
+
+/lved/resources/lvgl/src/misc/cache/class/lv_cache_lru_rb.h:
+
+/emsdk/upstream/lib/clang/21/include/__stdarg_va_list.h:
 
 /lved/resources/lvgl/src/widgets/label/lv_label_private.h:
 
@@ -12127,6 +21320,8 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_xml_parser.c.o: /lve
 
 /lved/resources/lvgl/src/widgets/spinbox/lv_spinbox.h:
 
+/lved/resources/lvgl/src/drivers/display/lovyan_gfx/lv_lovyan_gfx.h:
+
 /lved/resources/lvgl/src/misc/lv_utils.h:
 
 /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_log.h:
@@ -12147,8 +21342,6 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_xml_parser.c.o: /lve
 
 /lved/resources/lvgl/lvgl.h:
 
-/lved/project/screens/smartwatch_gen.h:
-
 /emsdk/upstream/emscripten/cache/sysroot/include/stdio.h:
 
 /lved/resources/lvgl/src/stdlib/lv_sprintf.h:
@@ -12167,6 +21360,8 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_xml_parser.c.o: /lve
 
 /emsdk/upstream/lib/clang/21/include/__stddef_null.h:
 
+/lved/project/images/img_thunder_small_v2_data.c:
+
 /lved/resources/lvgl/src/layouts/flex/lv_flex.h:
 
 /lved/resources/lvgl/src/misc/lv_text_private.h:
@@ -12177,6 +21372,8 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_xml_parser.c.o: /lve
 
 /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_error.h:
 
+/lved/project/widgets/wd_battery_v2/wd_battery_v2_private_gen.h:
+
 /lved/resources/lvgl/src/others/observer/lv_observer.h:
 
 /lved/resources/lvgl/src/misc/lv_area.h:
@@ -12184,10 +21381,6 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_xml_parser.c.o: /lve
 /lved/resources/lvgl/src/widgets/win/lv_win.h:
 
 /emsdk/upstream/emscripten/cache/sysroot/include/compat/stdarg.h:
-
-/emsdk/upstream/emscripten/cache/sysroot/include/ctype.h:
-
-/lved/resources/lvgl/src/misc/cache/instance/lv_image_cache.h:
 
 /emsdk/upstream/lib/clang/21/include/stdint.h:
 
@@ -12231,10 +21424,6 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_xml_parser.c.o: /lve
 
 /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_events.h:
 
-/lved/resources/lvgl/src/libs/svg/lv_svg.h:
-
-/lved/resources/lvgl/src/widgets/arclabel/lv_arclabel.h:
-
 /lved/resources/lvgl/src/misc/lv_async.h:
 
 /lved/resources/lvgl/src/draw/lv_draw_vector_private.h:
@@ -12244,6 +21433,8 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_xml_parser.c.o: /lve
 /lved/resources/lvgl/src/misc/lv_color_op.h:
 
 /lved/project/widgets/wd_battery/wd_battery_xml_parser.c:
+
+/lved/project/images/img_battery_mask_v2_data.c:
 
 /lved/resources/lvgl/src/widgets/dropdown/lv_dropdown_private.h:
 
@@ -12258,6 +21449,12 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_xml_parser.c.o: /lve
 /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_main.h:
 
 /lved/resources/lvgl/src/misc/lv_color.h:
+
+/lved/resources/lvgl/src/misc/cache/class/lv_cache_sc_da.h:
+
+/emsdk/upstream/emscripten/cache/sysroot/include/compat/stdlib.h:
+
+/lved/project/components/toggle_switch/toggle_switch_gen.c:
 
 /lved/resources/lvgl/src/drivers/nuttx/lv_nuttx_libuv.h:
 
@@ -12277,37 +21474,9 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_xml_parser.c.o: /lve
 
 /lved/resources/lvgl/src/misc/lv_tree.h:
 
-/lved/resources/lvgl/src/misc/cache/lv_cache.h:
-
-/lved/project/battery_indicator.h:
-
-/lved/resources/lvgl/src/widgets/textarea/lv_textarea.h:
-
-/lved/resources/lvgl/src/misc/cache/class/lv_cache_class.h:
-
 /lved/resources/lvgl/src/lv_api_map_v8.h:
 
 /lved/resources/lvgl/src/misc/lv_style.h:
-
-/emsdk/upstream/lib/clang/21/include/__stdarg_va_list.h:
-
-/lved/resources/lvgl/src/misc/cache/class/lv_cache_lru_rb.h:
-
-/lved/resources/lvgl/src/misc/cache/lv_cache_private.h:
-
-/lved/resources/lvgl/src/misc/lv_anim_timeline.h:
-
-/lved/resources/lvgl/src/draw/lv_draw.h:
-
-/lved/resources/lvgl/src/osal/lv_os_none.h:
-
-/emsdk/upstream/emscripten/cache/sysroot/include/compat/stdlib.h:
-
-/lved/resources/lvgl/src/misc/cache/class/lv_cache_sc_da.h:
-
-/lved/resources/lvgl/src/libs/gltf/gltf_view/lv_gltf.h:
-
-/lved/resources/lvgl/src/misc/cache/instance/lv_cache_instance.h:
 
 /lved/project/components/battery_indicator/battery_gen.c:
 
@@ -12321,15 +21490,7 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_xml_parser.c.o: /lve
 
 /lved/resources/lvgl/src/misc/lv_grad.h:
 
-/lved/resources/lvgl/src/misc/cache/instance/lv_image_header_cache.h:
-
 /lved/resources/lvgl/src/font/lv_symbol_def.h:
-
-/lved/project/widgets/wd_battery/wd_battery.c:
-
-/lved/resources/lvgl/src/themes/lv_theme.h:
-
-/lved/resources/lvgl/src/misc/lv_text.h:
 
 /lved/project/components/battery_indicator_2/battery_indicator_2_gen.c:
 
@@ -12369,8 +21530,6 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_xml_parser.c.o: /lve
 
 /lved/resources/lvgl/src/widgets/bar/lv_bar_private.h:
 
-/lved/resources/lvgl/src/drivers/glfw/lv_opengles_driver.h:
-
 /lved/resources/lvgl/src/core/lv_obj_style_gen.h:
 
 /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_system.h:
@@ -12382,6 +21541,14 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_xml_parser.c.o: /lve
 /lved/resources/lvgl/src/draw/lv_draw_rect.h:
 
 /lved/resources/lvgl/src/widgets/bar/lv_bar.h:
+
+/lved/resources/lvgl/src/misc/lv_anim_timeline.h:
+
+/lved/resources/lvgl/src/draw/lv_draw.h:
+
+/lved/resources/lvgl/src/misc/cache/instance/lv_cache_instance.h:
+
+/lved/resources/lvgl/src/libs/gltf/gltf_view/lv_gltf.h:
 
 /lved/resources/lvgl/src/widgets/scale/lv_scale_private.h:
 
@@ -12423,12 +21590,6 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_xml_parser.c.o: /lve
 
 /lved/resources/lvgl/src/indev/lv_indev_gesture.h:
 
-/lved/resources/lvgl/src/drivers/windows/lv_windows_input.h:
-
-/lved/resources/lvgl/src/draw/sw/lv_draw_sw_utils.h:
-
-/lved/resources/lvgl/src/core/lv_refr.h:
-
 /lved/resources/lvgl/src/widgets/animimage/lv_animimage.h:
 
 /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL.h:
@@ -12459,6 +21620,8 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_xml_parser.c.o: /lve
 
 /lved/resources/lvgl/src/widgets/line/lv_line.h:
 
+/lved/project/widgets/wd_battery_v2/wd_battery_v2.c:
+
 /lved/resources/lvgl/src/widgets/list/lv_list.h:
 
 /lved/resources/lvgl/src/widgets/table/lv_table.h:
@@ -12468,6 +21631,10 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_xml_parser.c.o: /lve
 /emsdk/upstream/emscripten/cache/sysroot/include/wasi/api.h:
 
 /lved/resources/lvgl/src/widgets/slider/lv_slider.h:
+
+/lved/project/battery_indicator.h:
+
+/lved/resources/lvgl/src/widgets/textarea/lv_textarea.h:
 
 /lved/resources/lvgl/src/widgets/spinner/lv_spinner.h:
 
@@ -12489,6 +21656,12 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_xml_parser.c.o: /lve
 
 /lved/resources/lvgl/src/widgets/3dtexture/lv_3dtexture.h:
 
+/lved/resources/lvgl/src/libs/ffmpeg/lv_ffmpeg.h:
+
+/lved/resources/lvgl/src/widgets/image/lv_image_private.h:
+
+/lved/resources/lvgl/src/draw/lv_draw_vector.h:
+
 /lved/resources/conf/lv_conf.h:
 
 /lved/resources/lvgl/src/others/sysmon/lv_sysmon.h:
@@ -12502,6 +21675,8 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_xml_parser.c.o: /lve
 /lved/resources/lvgl/src/others/font_manager/lv_font_manager.h:
 
 /lved/resources/lvgl/src/others/xml/lv_xml.h:
+
+/lved/project/widgets/wd_battery_v2/wd_battery_v2_xml_parser.c:
 
 /lved/resources/lvgl/src/libs/rlottie/lv_rlottie.h:
 
@@ -12517,7 +21692,13 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_xml_parser.c.o: /lve
 
 /lved/resources/lvgl/src/others/xml/lv_xml_translation.h:
 
+/lved/resources/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.h:
+
 /lved/resources/lvgl/src/others/xml/lv_xml_component.h:
+
+/lved/resources/lvgl/src/draw/lv_draw_triangle_private.h:
+
+/lved/resources/lvgl/src/others/xml/lv_xml_load.h:
 
 /emsdk/upstream/emscripten/cache/sysroot/include/math.h:
 
@@ -12549,6 +21730,10 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_xml_parser.c.o: /lve
 
 /lved/resources/lvgl/src/libs/gif/lv_gif.h:
 
+/lved/project/fonts/font_hour_32_data.c:
+
+/lved/resources/lvgl/src/libs/gstreamer/lv_gstreamer.h:
+
 /lved/resources/lvgl/src/libs/qrcode/lv_qrcode.h:
 
 /emsdk/upstream/emscripten/cache/sysroot/include/limits.h:
@@ -12556,3 +21741,25 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_xml_parser.c.o: /lve
 /lved/resources/lvgl/src/libs/barcode/lv_barcode.h:
 
 /lved/resources/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.h:
+
+/lved/project/components/settings_item/settings_item_gen.c:
+
+/lved/resources/lvgl/src/widgets/arclabel/lv_arclabel.h:
+
+/lved/resources/lvgl/src/libs/svg/lv_svg.h:
+
+/lved/project/components/settings_menu_line/settings_menu_line_gen.c:
+
+/lved/resources/lvgl/src/drivers/windows/lv_windows_input.h:
+
+/lved/resources/lvgl/src/core/lv_refr.h:
+
+/lved/resources/lvgl/src/draw/sw/lv_draw_sw_utils.h:
+
+/lved/resources/lvgl/src/draw/eve/lv_draw_eve_target.h:
+
+/lved/project/widgets/wd_battery/wd_battery.c:
+
+/lved/resources/lvgl/src/misc/lv_text.h:
+
+/lved/resources/lvgl/src/themes/lv_theme.h:

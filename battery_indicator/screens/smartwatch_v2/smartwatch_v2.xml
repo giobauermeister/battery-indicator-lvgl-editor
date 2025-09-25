@@ -1,0 +1,28 @@
+<screen>
+	<styles>
+		<style name="slider_knob" bg_color="0x37c557" pad_all="10" />
+		<style name="slider_indicator" bg_color="0x505050" />
+		<style name="slider_bg" bg_color="0x929292" />
+
+		<style name="style_bg_light" bg_image_src="img_background_light" />
+		<style name="style_bg_dark" bg_image_src="img_background" />
+	</styles>
+	<!-- <view style_bg_color="0xE9E9E9" scrollable="false">
+		<top_bar />
+
+		<charge_slider bind_value="battery_value" x="55" y="85" />
+
+		<settings_panel x="30" y="180" />
+	</view> -->
+
+	<view scrollable="false">
+		<bind_style name="style_bg_light" subject="battery_theme" ref_value="1" />
+		<bind_style name="style_bg_dark" subject="battery_theme" ref_value="0" />
+
+		<top_bar style_bg_opa="0" />
+
+		<charge_slider bind_value="battery_value" height="55" x="55" y="65" />
+
+		<settings_panel align="center" y="50" />
+	</view>
+</screen>

@@ -1,0 +1,33 @@
+<component>
+	<previews>
+		<preview width="450" height="350" style_bg_color="0xE9E9E9" />
+	</previews>
+
+	<styles>
+		<style name="style_main" radius="25" border_width="0" bg_color="0xFDFDFD" pad_all="15" />
+		<style
+			name="style_settings_container"
+			border_width="0"
+			bg_opa="0"
+			layout="flex"
+			flex_flow="column"
+			pad_row="11"
+			flex_cross_place="center"
+		/>
+	</styles>
+
+	<view extends="lv_obj" width="340" height="335" scrollable="false">
+		<style name="style_main" />
+
+		<lv_obj width="content" height="content" align="center" scrollable="false">
+			<style name="style_settings_container" />
+			<settings_item item_label="Charging" subject="charging" />
+			<settings_menu_line />
+			<settings_item item_label="Battery Percentage" subject="show_percentage" />
+			<settings_menu_line />
+			<settings_item item_label="Low Power Mode" subject="low_power_mode" />
+			<settings_menu_line />
+			<settings_item item_label="Battery Theme" subject="battery_theme" />
+		</lv_obj>
+	</view>
+</component>

@@ -4,20 +4,36 @@ list(
   ${CMAKE_CURRENT_LIST_DIR}/widgets/wd_battery/wd_battery.c
   ${CMAKE_CURRENT_LIST_DIR}/widgets/wd_battery/wd_battery_xml_parser.c
   ${CMAKE_CURRENT_LIST_DIR}/widgets/wd_battery/wd_battery_gen.c
+  ${CMAKE_CURRENT_LIST_DIR}/widgets/wd_battery_v2/wd_battery_v2.c
+  ${CMAKE_CURRENT_LIST_DIR}/widgets/wd_battery_v2/wd_battery_v2_xml_parser.c
+  ${CMAKE_CURRENT_LIST_DIR}/widgets/wd_battery_v2/wd_battery_v2_gen.c
   ${CMAKE_CURRENT_LIST_DIR}/components/battery_indicator/battery_gen.c
   ${CMAKE_CURRENT_LIST_DIR}/components/battery_indicator_2/battery_indicator_2_gen.c
+  ${CMAKE_CURRENT_LIST_DIR}/components/battery_indicator_v2/battery_indicator_v2_gen.c
   ${CMAKE_CURRENT_LIST_DIR}/components/button/button_gen.c
   ${CMAKE_CURRENT_LIST_DIR}/components/charge_slider/charge_slider_gen.c
   ${CMAKE_CURRENT_LIST_DIR}/components/clock/clock_gen.c
+  ${CMAKE_CURRENT_LIST_DIR}/components/settings_item/settings_item_gen.c
+  ${CMAKE_CURRENT_LIST_DIR}/components/settings_menu_line/settings_menu_line_gen.c
+  ${CMAKE_CURRENT_LIST_DIR}/components/settings_panel/settings_panel_gen.c
+  ${CMAKE_CURRENT_LIST_DIR}/components/toggle_switch/toggle_switch_gen.c
   ${CMAKE_CURRENT_LIST_DIR}/components/top_bar/top_bar_gen.c
-  ${CMAKE_CURRENT_LIST_DIR}/screens/smartwatch_gen.c
+  ${CMAKE_CURRENT_LIST_DIR}/screens/smartwatch/smartwatch_gen.c
+  ${CMAKE_CURRENT_LIST_DIR}/screens/smartwatch_v2/smartwatch_v2_gen.c
   ${CMAKE_CURRENT_LIST_DIR}/battery_indicator_gen.c
   ${CMAKE_CURRENT_LIST_DIR}/ui.c
   ${CMAKE_CURRENT_LIST_DIR}/battery_indicator.c
   ${CMAKE_CURRENT_LIST_DIR}/fonts/font_hour_32_data.c
   ${CMAKE_CURRENT_LIST_DIR}/fonts/inter_28_data.c
   ${CMAKE_CURRENT_LIST_DIR}/fonts/font_hour_25_data.c
-  ${CMAKE_CURRENT_LIST_DIR}/fonts/font_hour_30_data.c
+  ${CMAKE_CURRENT_LIST_DIR}/fonts/font_inter_semibold_30_data.c
+  ${CMAKE_CURRENT_LIST_DIR}/fonts/font_inter_semibold_25_data.c
   ${CMAKE_CURRENT_LIST_DIR}/images/img_charging_data.c
   ${CMAKE_CURRENT_LIST_DIR}/images/img_charging_no_stroke_data.c
-  ${CMAKE_CURRENT_LIST_DIR}/images/img_charging_small_data.c)
+  ${CMAKE_CURRENT_LIST_DIR}/images/img_charging_small_data.c
+  ${CMAKE_CURRENT_LIST_DIR}/images/img_thunder_transparent_data.c
+  ${CMAKE_CURRENT_LIST_DIR}/images/img_thunder_v2_data.c
+  ${CMAKE_CURRENT_LIST_DIR}/images/img_thunder_small_v2_data.c
+  ${CMAKE_CURRENT_LIST_DIR}/images/img_battery_mask_v2_data.c
+  ${CMAKE_CURRENT_LIST_DIR}/images/img_background_data.c
+  ${CMAKE_CURRENT_LIST_DIR}/images/img_background_light_data.c)

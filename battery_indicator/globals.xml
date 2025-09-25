@@ -1,32 +1,83 @@
 <globals>
-    <api>
-        <!-- Add <enumdefs> here -->
-    </api>
+	<api>
+		<!-- Add <enumdefs> here -->
+	</api>
 
-    <consts>
-        <!-- Add <px>, <int>, <color> etc here -->
-    </consts>
+	<consts>
+		<!-- Add <px>, <int>, <color> etc here -->
+	</consts>
 
-    <styles>
-        <!-- Add <style> tags here -->
-    </styles>
+	<styles>
+		<!-- Add <style> tags here -->
+	</styles>
 
-    <subjects>
-        <int name="battery_value" value="50"/>
-        <int name="low_power_mode" value="0"/>
-        <int name="charging" value="0"/>
-    </subjects>
+	<subjects>
+		<int name="battery_value" value="50" />
+		<int name="low_power_mode" value="0" />
+		<int name="show_percentage" value="0" />
+		<int name="charging" value="0" />
+		<int name="battery_theme" value="0" help="subject to set battery theme. values: 0 (light), (1) dark" />
+	</subjects>
 
-    <images>
-        <data name="img_charging" src_path="images/img_charging.png" color_format="rgb565a8"/>
-        <data name="img_charging_no_stroke" src_path="images/img_charging_no_stroke.png" color_format="rgb565a8"/>
-        <data name="img_charging_small" src_path="images/img_charging_small.png" color_format="rgb565a8"/>
-    </images>
+	<images>
+		<data name="img_charging" src_path="images/img_charging.png" color_format="rgb565a8" />
+		<data name="img_charging_no_stroke" src_path="images/img_charging_no_stroke.png" color_format="rgb565a8" />
+		<data name="img_charging_small" src_path="images/img_charging_small.png" color_format="rgb565a8" />
+		<data name="img_thunder_transparent" src_path="images/img_thunder_transparent.png" color_format="a8" />
 
-    <fonts>
-        <bin name="font_hour_32" size="32" bpp="4" as_file="false" range="0x20-0x7F" symbols="" src_path="fonts/Inter_28_Bold.ttf"/>
-        <bin name="inter_28" size="28" bpp="4" as_file="false" range="0x20-0x7F" symbols="" src_path="fonts/Inter_28_Bold.ttf"/>
-        <bin name="font_hour_25" size="25" bpp="4" as_file="false" range="0x20-0x7F" symbols="" src_path="fonts/Inter_28_Bold.ttf"/>
-        <bin name="font_hour_30" size="30" bpp="4" as_file="false" range="0x20-0x7F" symbols="" src_path="fonts/Inter_28_SemiBold.ttf"/>
-    </fonts>
+		<!-- Battery v2 images -->
+		<data name="img_thunder_v2" src_path="images/img_thunder_v2.png" color_format="rgb565a8" />
+		<data name="img_thunder_small_v2" src_path="images/img_thunder_small_v2.png" color_format="rgb565a8" />
+		<data name="img_battery_mask_v2" src_path="images/img_battery_mask_v2.png" color_format="a8" />
+		<data name="img_background" src_path="images/img_background.png" color_format="rgb565" />
+		<data name="img_background_light" src_path="images/img_background_light.png" color_format="rgb565" />
+	</images>
+
+	<fonts>
+		<bin
+			name="font_hour_32"
+			size="32"
+			bpp="4"
+			as_file="false"
+			range="0x20-0x7F"
+			symbols=""
+			src_path="fonts/Inter_28_Bold.ttf"
+		/>
+		<bin
+			name="inter_28"
+			size="28"
+			bpp="4"
+			as_file="false"
+			range="0x20-0x7F"
+			symbols=""
+			src_path="fonts/Inter_28_Bold.ttf"
+		/>
+		<bin
+			name="font_hour_25"
+			size="25"
+			bpp="4"
+			as_file="false"
+			range="0x20-0x7F"
+			symbols=""
+			src_path="fonts/Inter_28_Bold.ttf"
+		/>
+		<bin
+			name="font_inter_semibold_30"
+			size="30"
+			bpp="4"
+			as_file="false"
+			range="0x20-0x7F"
+			symbols=""
+			src_path="fonts/Inter_28_SemiBold.ttf"
+		/>
+		<bin
+			name="font_inter_semibold_25"
+			size="25"
+			bpp="4"
+			as_file="false"
+			range="0x20-0x7F"
+			symbols=""
+			src_path="fonts/Inter_28_SemiBold.ttf"
+		/>
+	</fonts>
 </globals>

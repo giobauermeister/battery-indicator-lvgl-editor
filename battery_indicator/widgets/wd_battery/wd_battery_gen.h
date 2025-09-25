@@ -13,6 +13,7 @@ extern "C" {
 /*********************
  *      INCLUDES
  *********************/
+
 #ifdef LV_LVGL_H_INCLUDE_SIMPLE
     #include "lvgl.h"
 #else
@@ -29,9 +30,6 @@ extern "C" {
  *      TYPEDEFS
  **********************/
 
-
-
-
 /**********************
  * GLOBAL PROTOTYPES
  **********************/
@@ -42,8 +40,6 @@ extern "C" {
  * @return pointer to the created wd_battery
  */
 lv_obj_t * wd_battery_create(lv_obj_t * parent);
-
-
 /**
  * The value of the battery
  * @param obj   pointer to a wd_battery

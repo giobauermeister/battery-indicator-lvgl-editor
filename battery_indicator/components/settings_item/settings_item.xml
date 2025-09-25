@@ -1,0 +1,36 @@
+<component>
+	<previews>
+		<preview width="450" height="350" style_bg_color="0xFDFDFD" />
+	</previews>
+
+	<styles>
+		<style
+			name="style_main"
+			border_width="0"
+			bg_opa="0"
+			layout="flex"
+			flex_flow="row"
+			pad_column="43"
+			flex_cross_place="center"
+			text_font="font_inter_semibold_25"
+			pad_all="0"
+		/>
+		<style name="style_label_container" border_width="0" bg_opa="0" pad_all="0" />
+	</styles>
+
+	<api>
+		<prop name="item_label" type="string" default="Low Power Mode" />
+		<prop name="subject" type="subject" />
+	</api>
+
+	<view extends="lv_obj" width="300" height="60">
+		<style name="style_main" />
+
+		<lv_obj width="140" height="60" scrollable="false">
+			<style name="style_label_container" />
+			<lv_label text="$item_label" align="center" width="140" />
+		</lv_obj>
+
+		<toggle_switch bind_checked="$subject" />
+	</view>
+</component>
