@@ -55,10 +55,10 @@ jobs:
             git checkout "${{ inputs.branch }}"
           fi
 
-      - name: Download the LVGL CLI (v0.3.0)
+      - name: Download the LVGL CLI (v1.0.0-rc2)
         run: |
-          curl -sSLO https://github.com/lvgl/lvgl_editor/releases/download/v.0.3.0/LVGL_CLI-0.3.0-linux-mac.zip
-          unzip -q LVGL_CLI-0.3.0-linux-mac.zip
+          curl -sSLO https://github.com/lvgl/lvgl_editor/releases/download/v1.0.0-rc2/LVGL_Pro_CLI-1.0.0-rc2-linux-mac.zip
+          unzip -q LVGL_Pro_CLI-1.0.0-rc2-linux-mac.zip
           ./lved-cli.js -V
 
       - name: Compile the preview runtime
