@@ -796,4 +796,4 @@ project/CMakeFiles/lib-ui.dir/widgets/wd_battery_v2/wd_battery_v2_gen.c.o: \
   /lved/project/components/top_bar/top_bar_gen.h \
   /lved/project/screens/smartwatch/smartwatch_gen.h \
   /lved/project/screens/smartwatch_v2/smartwatch_v2_gen.h \
-  /lved/project/ui.h /lved/project/battery_indicator.h
+  /lved/project/battery_indicator.h

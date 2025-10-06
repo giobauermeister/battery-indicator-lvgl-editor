@@ -4,8 +4,9 @@
 ![alt text](repo_assets/battery_indicator_widget.gif) -->
 
 <p align="center">
-  <img src="repo_assets/battery_indicator.gif" width="40%"/>
-  <img src="repo_assets/battery_indicator_widget.gif" width="40%"/>
+  <img src="repo_assets/battery_indicator.gif" width="30%"/>
+  <img src="repo_assets/battery_indicator_widget.gif" width="30%"/>
+  <img src="repo_assets/battery_indicator_widget_v2.gif" width="30%"/>
 </p>
 
 This project is a battery indicator component example to be used in LVGL's UI Editor.

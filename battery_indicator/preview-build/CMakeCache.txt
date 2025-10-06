@@ -169,6 +169,9 @@ CMAKE_TOOLCHAIN_FILE:UNINITIALIZED=/emsdk/upstream/emscripten/cmake/Modules/Plat
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//No help, variable specified on the command line.
+CODE_PROJECT_NAME:UNINITIALIZED=battery_indicator
+
 //Force C/C++ compiler
 EMSCRIPTEN_FORCE_COMPILERS:BOOL=OFF
 

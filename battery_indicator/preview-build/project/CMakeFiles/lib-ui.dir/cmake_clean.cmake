@@ -57,8 +57,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/lib-ui.dir/screens/smartwatch/smartwatch_gen.c.o.d"
   "CMakeFiles/lib-ui.dir/screens/smartwatch_v2/smartwatch_v2_gen.c.o"
   "CMakeFiles/lib-ui.dir/screens/smartwatch_v2/smartwatch_v2_gen.c.o.d"
-  "CMakeFiles/lib-ui.dir/ui.c.o"
-  "CMakeFiles/lib-ui.dir/ui.c.o.d"
   "CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery.c.o"
   "CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery.c.o.d"
   "CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_gen.c.o"

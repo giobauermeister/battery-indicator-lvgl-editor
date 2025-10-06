@@ -829,30 +829,6 @@ screens/smartwatch_v2/smartwatch_v2_gen.c.s:
 	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/screens/smartwatch_v2/smartwatch_v2_gen.c.s
 .PHONY : screens/smartwatch_v2/smartwatch_v2_gen.c.s
 
-ui.o: ui.c.o
-.PHONY : ui.o
-
-# target to build an object file
-ui.c.o:
-	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui.c.o
-.PHONY : ui.c.o
-
-ui.i: ui.c.i
-.PHONY : ui.i
-
-# target to preprocess a source file
-ui.c.i:
-	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui.c.i
-.PHONY : ui.c.i
-
-ui.s: ui.c.s
-.PHONY : ui.s
-
-# target to generate assembly for a file
-ui.c.s:
-	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui.c.s
-.PHONY : ui.c.s
-
 widgets/wd_battery/wd_battery.o: widgets/wd_battery/wd_battery.c.o
 .PHONY : widgets/wd_battery/wd_battery.o
 
@@ -1093,9 +1069,6 @@ help:
 	@echo "... screens/smartwatch_v2/smartwatch_v2_gen.o"
 	@echo "... screens/smartwatch_v2/smartwatch_v2_gen.i"
 	@echo "... screens/smartwatch_v2/smartwatch_v2_gen.s"
-	@echo "... ui.o"
-	@echo "... ui.i"
-	@echo "... ui.s"
 	@echo "... widgets/wd_battery/wd_battery.o"
 	@echo "... widgets/wd_battery/wd_battery.i"
 	@echo "... widgets/wd_battery/wd_battery.s"

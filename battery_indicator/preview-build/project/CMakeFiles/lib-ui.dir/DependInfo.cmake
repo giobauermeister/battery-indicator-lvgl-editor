@@ -37,7 +37,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/lved/project/images/img_thunder_v2_data.c" "project/CMakeFiles/lib-ui.dir/images/img_thunder_v2_data.c.o" "gcc" "project/CMakeFiles/lib-ui.dir/images/img_thunder_v2_data.c.o.d"
   "/lved/project/screens/smartwatch/smartwatch_gen.c" "project/CMakeFiles/lib-ui.dir/screens/smartwatch/smartwatch_gen.c.o" "gcc" "project/CMakeFiles/lib-ui.dir/screens/smartwatch/smartwatch_gen.c.o.d"
   "/lved/project/screens/smartwatch_v2/smartwatch_v2_gen.c" "project/CMakeFiles/lib-ui.dir/screens/smartwatch_v2/smartwatch_v2_gen.c.o" "gcc" "project/CMakeFiles/lib-ui.dir/screens/smartwatch_v2/smartwatch_v2_gen.c.o.d"
-  "/lved/project/ui.c" "project/CMakeFiles/lib-ui.dir/ui.c.o" "gcc" "project/CMakeFiles/lib-ui.dir/ui.c.o.d"
   "/lved/project/widgets/wd_battery/wd_battery.c" "project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery.c.o" "gcc" "project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery.c.o.d"
   "/lved/project/widgets/wd_battery/wd_battery_gen.c" "project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_gen.c.o" "gcc" "project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_gen.c.o.d"
   "/lved/project/widgets/wd_battery/wd_battery_xml_parser.c" "project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_xml_parser.c.o" "gcc" "project/CMakeFiles/lib-ui.dir/widgets/wd_battery/wd_battery_xml_parser.c.o.d"

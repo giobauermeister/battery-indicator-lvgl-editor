@@ -592,24 +592,6 @@ CMakeFiles/lved-runtime.dir/src/runtime.c.o: /lved/resources/src/runtime.c \
   /lved/resources/lvgl/src/lv_api_map_v9_1.h \
   /lved/resources/lvgl/src/lv_api_map_v9_2.h \
   /lved/resources/lvgl/src/lv_api_map_v9_3.h \
-  /lved/project/ui.h \
-  /lved/project/battery_indicator.h \
-  /lved/project/battery_indicator_gen.h \
-  /lved/project/widgets/wd_battery/wd_battery_gen.h \
-  /lved/project/widgets/wd_battery_v2/wd_battery_v2_gen.h \
-  /lved/project/components/battery_indicator/battery_gen.h \
-  /lved/project/components/battery_indicator_2/battery_indicator_2_gen.h \
-  /lved/project/components/battery_indicator_v2/battery_indicator_v2_gen.h \
-  /lved/project/components/button/button_gen.h \
-  /lved/project/components/charge_slider/charge_slider_gen.h \
-  /lved/project/components/clock/clock_gen.h \
-  /lved/project/components/settings_item/settings_item_gen.h \
-  /lved/project/components/settings_menu_line/settings_menu_line_gen.h \
-  /lved/project/components/settings_panel/settings_panel_gen.h \
-  /lved/project/components/toggle_switch/toggle_switch_gen.h \
-  /lved/project/components/top_bar/top_bar_gen.h \
-  /lved/project/screens/smartwatch/smartwatch_gen.h \
-  /lved/project/screens/smartwatch_v2/smartwatch_v2_gen.h \
   /emsdk/upstream/emscripten/cache/sysroot/include/dirent.h \
   /emsdk/upstream/emscripten/cache/sysroot/include/bits/dirent.h \
   /emsdk/upstream/emscripten/cache/sysroot/include/emscripten/html5.h \
@@ -965,6 +947,8 @@ CMakeFiles/lved-runtime.dir/src/runtime.c.o: /lved/resources/src/runtime.c \
 
 /lved/resources/lvgl/src/misc/lv_area_private.h:
 
+/lved/resources/lvgl/src/core/lv_obj_event_private.h:
+
 /lved/resources/lvgl/src/core/lv_obj_draw_private.h:
 
 /lved/resources/lvgl/src/core/lv_refr_private.h:
@@ -990,6 +974,8 @@ CMakeFiles/lved-runtime.dir/src/runtime.c.o: /lved/resources/src/runtime.c \
 /lved/resources/lvgl/src/core/lv_obj_private.h:
 
 /lved/resources/lvgl/src/others/file_explorer/lv_file_explorer_private.h:
+
+/lved/resources/lvgl/src/stdlib/lv_mem_private.h:
 
 /lved/resources/lvgl/src/indev/lv_indev_scroll.h:
 
@@ -1045,28 +1031,6 @@ CMakeFiles/lved-runtime.dir/src/runtime.c.o: /lved/resources/src/runtime.c \
 
 /emsdk/upstream/emscripten/cache/sysroot/include/dirent.h:
 
-/lved/project/components/toggle_switch/toggle_switch_gen.h:
-
-/lved/resources/lvgl/src/core/lv_obj_event_private.h:
-
-/lved/project/components/settings_panel/settings_panel_gen.h:
-
-/lved/project/components/settings_menu_line/settings_menu_line_gen.h:
-
-/lved/project/components/settings_item/settings_item_gen.h:
-
-/lved/resources/lvgl/src/stdlib/lv_mem_private.h:
-
-/lved/project/components/button/button_gen.h:
-
-/lved/project/components/battery_indicator_v2/battery_indicator_v2_gen.h:
-
-/lved/project/widgets/wd_battery_v2/wd_battery_v2_gen.h:
-
-/lved/project/widgets/wd_battery/wd_battery_gen.h:
-
-/lved/project/battery_indicator_gen.h:
-
 /lved/resources/lvgl/src/lv_api_map_v9_3.h:
 
 /lved/resources/lvgl/src/lv_api_map_v9_2.h:
@@ -1086,8 +1050,6 @@ CMakeFiles/lved-runtime.dir/src/runtime.c.o: /lved/resources/src/runtime.c \
 /lved/resources/lvgl/src/drivers/opengles/lv_opengles_glfw.h:
 
 /lved/resources/lvgl/src/drivers/opengles/lv_opengles_driver.h:
-
-/lved/project/screens/smartwatch_v2/smartwatch_v2_gen.h:
 
 /lved/resources/lvgl/src/drivers/opengles/lv_opengles_window.h:
 
@@ -1112,8 +1074,6 @@ CMakeFiles/lved-runtime.dir/src/runtime.c.o: /lved/resources/src/runtime.c \
 /lved/resources/lvgl/src/drivers/display/st7789/lv_st7789.h:
 
 /lved/resources/lvgl/src/drivers/display/st7735/lv_st7735.h:
-
-/lved/project/screens/smartwatch/smartwatch_gen.h:
 
 /lved/resources/lvgl/src/drivers/display/ili9341/lv_ili9341.h:
 
@@ -1216,8 +1176,6 @@ CMakeFiles/lved-runtime.dir/src/runtime.c.o: /lved/resources/src/runtime.c \
 /lved/resources/lvgl/src/libs/svg/lv_svg.h:
 
 /lved/resources/lvgl/src/widgets/arclabel/lv_arclabel.h:
-
-/lved/project/components/clock/clock_gen.h:
 
 /lved/resources/lvgl/src/drivers/opengles/lv_opengles_texture.h:
 
@@ -1429,8 +1387,6 @@ CMakeFiles/lved-runtime.dir/src/runtime.c.o: /lved/resources/src/runtime.c \
 
 /lved/resources/lvgl/src/draw/lv_image_decoder_private.h:
 
-/lved/project/ui.h:
-
 /emsdk/upstream/emscripten/cache/sysroot/include/stdarg.h:
 
 /emsdk/upstream/emscripten/cache/sysroot/include/endian.h:
@@ -1444,8 +1400,6 @@ CMakeFiles/lved-runtime.dir/src/runtime.c.o: /lved/resources/src/runtime.c \
 /lved/resources/lvgl/src/core/lv_group_private.h:
 
 /emsdk/upstream/lib/clang/21/include/stddef.h:
-
-/lved/project/components/charge_slider/charge_slider_gen.h:
 
 /lved/resources/lvgl/src/drivers/qnx/lv_qnx.h:
 
@@ -1527,11 +1481,7 @@ CMakeFiles/lved-runtime.dir/src/runtime.c.o: /lved/resources/src/runtime.c \
 
 /lved/resources/lvgl/src/lv_conf_internal.h:
 
-/lved/project/components/battery_indicator/battery_gen.h:
-
 /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_platform.h:
-
-/lved/project/components/battery_indicator_2/battery_indicator_2_gen.h:
 
 /emsdk/upstream/lib/clang/21/include/limits.h:
 
@@ -1759,8 +1709,6 @@ CMakeFiles/lved-runtime.dir/src/runtime.c.o: /lved/resources/src/runtime.c \
 
 /lved/resources/lvgl/src/widgets/checkbox/lv_checkbox.h:
 
-/lved/project/components/top_bar/top_bar_gen.h:
-
 /lved/resources/lvgl/src/widgets/dropdown/lv_dropdown.h:
 
 /lved/resources/lvgl/src/widgets/line/lv_line.h:
@@ -1778,8 +1726,6 @@ CMakeFiles/lved-runtime.dir/src/runtime.c.o: /lved/resources/src/runtime.c \
 /lved/resources/lvgl/src/tick/lv_tick_private.h:
 
 /lved/resources/lvgl/src/widgets/spinbox/lv_spinbox.h:
-
-/lved/project/battery_indicator.h:
 
 /lved/resources/lvgl/src/widgets/textarea/lv_textarea.h:
 

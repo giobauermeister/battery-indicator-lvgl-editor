@@ -21,7 +21,6 @@ list(
   ${CMAKE_CURRENT_LIST_DIR}/screens/smartwatch/smartwatch_gen.c
   ${CMAKE_CURRENT_LIST_DIR}/screens/smartwatch_v2/smartwatch_v2_gen.c
   ${CMAKE_CURRENT_LIST_DIR}/battery_indicator_gen.c
-  ${CMAKE_CURRENT_LIST_DIR}/ui.c
   ${CMAKE_CURRENT_LIST_DIR}/battery_indicator.c
   ${CMAKE_CURRENT_LIST_DIR}/fonts/font_hour_32_data.c
   ${CMAKE_CURRENT_LIST_DIR}/fonts/inter_28_data.c

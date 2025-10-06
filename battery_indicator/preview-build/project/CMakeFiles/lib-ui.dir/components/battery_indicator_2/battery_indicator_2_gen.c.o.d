@@ -530,7 +530,7 @@ project/CMakeFiles/lib-ui.dir/components/battery_indicator_2/battery_indicator_2
   /lved/resources/lvgl/src/lv_api_map_v9_0.h \
   /lved/resources/lvgl/src/lv_api_map_v9_1.h \
   /lved/resources/lvgl/src/lv_api_map_v9_2.h \
-  /lved/resources/lvgl/src/lv_api_map_v9_3.h /lved/project/ui.h \
+  /lved/resources/lvgl/src/lv_api_map_v9_3.h \
   /lved/project/battery_indicator.h \
   /lved/project/battery_indicator_gen.h \
   /lved/project/widgets/wd_battery/wd_battery_gen.h \

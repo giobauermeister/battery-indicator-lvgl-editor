@@ -9,7 +9,7 @@
 
 #include "wd_battery_v2_private_gen.h"
 #include "lvgl/src/core/lv_obj_class_private.h"
-#include "ui.h"
+#include "battery_indicator.h"
 
 /*********************
  *      DEFINES
@@ -122,7 +122,7 @@ lv_obj_t * wd_battery_v2_create(lv_obj_t * parent)
     LV_LOG_INFO("begin");
     lv_obj_t * obj = lv_obj_class_create_obj(&wd_battery_v2_class, parent);
     lv_obj_class_init_obj(obj);
-    
+
     return obj;
 }
 

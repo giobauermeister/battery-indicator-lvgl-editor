@@ -1,6 +1,6 @@
 /**
  * @file battery_indicator_2_gen.c
- * @description Template source file for LVGL objects
+ * @brief Template source file for LVGL objects
  */
 
 /*********************
@@ -8,7 +8,7 @@
  *********************/
 
 #include "battery_indicator_2_gen.h"
-#include "ui.h"
+#include "battery_indicator.h"
 
 /*********************
  *      DEFINES

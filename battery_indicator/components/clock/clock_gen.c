@@ -1,6 +1,6 @@
 /**
  * @file clock_gen.c
- * @description Template source file for LVGL objects
+ * @brief Template source file for LVGL objects
  */
 
 /*********************
@@ -8,7 +8,7 @@
  *********************/
 
 #include "clock_gen.h"
-#include "ui.h"
+#include "battery_indicator.h"
 
 /*********************
  *      DEFINES

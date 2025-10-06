@@ -91,7 +91,7 @@ void wd_battery_xml_apply(lv_xml_parser_state_t * state, const char ** attrs)
 
 void wd_battery_register(void)
 {
-    lv_xml_widget_register("wd_battery", wd_battery_xml_create, wd_battery_xml_apply);
+    lv_xml_register_widget("wd_battery", wd_battery_xml_create, wd_battery_xml_apply);
 }
 
 /**********************
