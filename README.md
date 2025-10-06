@@ -26,6 +26,15 @@ To test each battery design, chose one of them in the `top_bar.xml` file inside 
 <wd_battery bind_charging="charging" bind_low_power="low_power_mode" bind_value="battery_value" align="right_mid"></wd_battery>
 ```
 
+There is a new battery indicator widget `wd_battery_v2` which has all features built in:
+- Percetage mode
+- Charging icon mask
+- Dark/Light themes
+
+All the features can be controlled via subjects.
+
+This new widget can be seen and tested on the `smartwatch_v2.xml` screen.
+
 Download this repo and open the `battery_indicator` folder in the Editor.
 
 ![alt text](repo_assets/battery_indicator_editor.png)
