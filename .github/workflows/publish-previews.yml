@@ -1,4 +1,4 @@
-name: Compile and publish LVGL runtime to GitHub Pages
+name: Compile and publish LVGL runtime for online preview
 
 on:
   workflow_dispatch:
@@ -85,13 +85,7 @@ jobs:
 
           # Copy runtime artifacts
           mkdir -p "$DEST_DIR"
-          cp -a "${SUB%/}/runtime"/lved-runtime.* "$DEST_DIR/"
-
-          # (Optional) copy screenshots if you use UI tests
-          if compgen -G "${SUB%/}/runtime/screenshots/*" > /dev/null; then
-            mkdir -p "$DEST_DIR/screenshots"
-            cp -a "${SUB%/}/runtime/screenshots/." "$DEST_DIR/screenshots/"
-          fi
+          cp -a "${SUB%/}/preview-bin"/lved-runtime.* "$DEST_DIR/"
 
           # Commit & push
           cd "$HOME/previews-worktree"
