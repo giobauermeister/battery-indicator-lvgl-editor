@@ -39,7 +39,7 @@ Download this repo and open the `battery_indicator` folder in the Editor.
 
 ![alt text](repo_assets/battery_indicator_editor.png)
 
-You can also see it live in the online preview: [Battery Indicator Online Live Preview](https://viewer.lvgl.io/?repo=giobauermeister/battery-indicator-lvgl-editor/tree/main/battery_indicator)
+You can also see it live in the online preview: [Battery Indicator Online Live Preview](https://viewer.lvgl.io/?repo=https://github.com/giobauermeister/battery-indicator-lvgl-editor/tree/main/battery_indicator)
 
 Figma design. Access [here](https://www.figma.com/design/HVvM9m0egZy0wYZDLKKPTA/Battery-Indicator).
 
